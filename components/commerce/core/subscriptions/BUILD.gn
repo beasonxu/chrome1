@@ -1,0 +1,43 @@
+# Copyright 2022 The Chromium Authors.All rights reserved.
+# Use of this source code is governed by a BSD - style license that can be
+# found in the LICENSE file.
+
+source_set("subscriptions") {
+  sources = [
+    "commerce_subscription.cc",
+    "commerce_subscription.h",
+    "subscriptions_manager.cc",
+    "subscriptions_manager.h",
+    "subscriptions_server_proxy.cc",
+    "subscriptions_server_proxy.h",
+    "subscriptions_storage.cc",
+    "subscriptions_storage.h",
+  ]
+
+  deps = [
+    "//base",
+    "//components/commerce/core:feature_list",
+    "//components/endpoint_fetcher:endpoint_fetcher",
+    "//components/signin/public/identity_manager:identity_manager",
+    "//net/traffic_annotation:traffic_annotation",
+    "//services/data_decoder/public/cpp",
+    "//services/network/public/cpp:cpp",
+  ]
+}
+
+source_set("subscriptions_unit_tests") {
+  testonly = true
+
+  sources = [ "subscriptions_manager_unittest.cc" ]
+
+  deps = [
+    ":subscriptions",
+    "//base/test:test_support",
+    "//components/commerce/core:feature_list",
+    "//components/signin/public/identity_manager:test_support",
+    "//services/network/public/cpp:cpp",
+    "//testing/gmock",
+    "//testing/gtest",
+    "//url:url",
+  ]
+}
