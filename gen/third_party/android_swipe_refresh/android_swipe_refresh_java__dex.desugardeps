@@ -1,0 +1,52 @@
+org/chromium/third_party/android/swiperefresh/CircleImageView$OvalShadow.class
+  <-  org/chromium/third_party/android/swiperefresh/CircleImageView.class
+org/chromium/third_party/android/swiperefresh/CircleImageView.class
+  <-  org/chromium/third_party/android/swiperefresh/CircleImageView$OvalShadow.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$1.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$2.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$3.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$ProgressDrawableSize.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$Ring.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$1.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$2.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$3.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$ProgressDrawableSize.class
+  <-  org/chromium/third_party/android/swiperefresh/MaterialProgressDrawable$Ring.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$1.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$2.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$3.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$4.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$5.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$6.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$7.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$8.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$OnRefreshListener.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$OnResetListener.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$1.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$2.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$3.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$4.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$5.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$6.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$7.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$8.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$OnRefreshListener.class
+  <-  org/chromium/third_party/android/swiperefresh/SwipeRefreshLayout$OnResetListener.class
+

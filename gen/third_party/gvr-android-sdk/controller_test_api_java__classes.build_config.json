@@ -1,0 +1,121 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "aar_path": "../../third_party/gvr-android-sdk/test-libraries/controller_test_api.aar",
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": false,
+    "dependency_r_txt_files": [
+      "gen/third_party/gvr-android-sdk/gvr_common_java__resources_R.txt"
+    ],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [
+      "obj/third_party/gvr-android-sdk/gvr_common_java__resources.resources.zip"
+    ],
+    "deps_configs": [
+      "gen/third_party/gvr-android-sdk/gvr_common_java__classes.build_config.json",
+      "gen/third_party/gvr-android-sdk/gvr_common_java__resources.build_config.json",
+      "gen/third_party/gvr-android-sdk/gvr_common_java.build_config.json",
+      "gen/third_party/android_deps/com_google_guava_guava_android_java.build_config.json",
+      "gen/third_party/android_deps/guava_android_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/third_party/gvr-android-sdk/controller_test_api_java.processed.jar",
+    "dex_path": "obj/third_party/gvr-android-sdk/controller_test_api_java__classes.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [
+      "com.google.vr.cardboard"
+    ],
+    "gn_target": "controller_test_api_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/gvr-android-sdk/controller_test_api_java.jar",
+    "interface_jar_path": "obj/third_party/gvr-android-sdk/controller_test_api_java.ijar.jar",
+    "is_prebuilt": true,
+    "javac_full_classpath": [
+      "../../third_party/android_deps/libs/com_google_guava_guava_android/guava-31.0-android.jar",
+      "obj/third_party/android_deps/local_modifications/preconditions/guava_stub_preconditions_java.javac.jar",
+      "../../third_party/android_deps/libs/org_checkerframework_checker_qual/checker-qual-3.12.0.jar",
+      "../../third_party/android_deps/libs/org_checkerframework_checker_compat_qual/checker-compat-qual-2.5.5.jar",
+      "../../third_party/android_deps/libs/com_google_j2objc_j2objc_annotations/j2objc-annotations-1.3.jar",
+      "../../third_party/android_deps/libs/com_google_guava_listenablefuture/listenablefuture-1.0.jar",
+      "../../third_party/android_deps/libs/com_google_guava_failureaccess/failureaccess-1.0.1.jar",
+      "../../third_party/android_deps/libs/com_google_errorprone_error_prone_annotations/error_prone_annotations-2.11.0.jar",
+      "../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar",
+      "obj/third_party/gvr-android-sdk/gvr_common_java/classes.jar",
+      "obj/third_party/android_protobuf/protobuf_nano_javalib.javac.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/android_deps:com_google_guava_guava_android_java",
+      "//third_party/android_deps/local_modifications/preconditions:guava_stub_preconditions_java",
+      "//third_party/android_deps:org_checkerframework_checker_qual_java",
+      "//third_party/android_deps:org_checkerframework_checker_compat_qual_java",
+      "//third_party/android_deps:com_google_j2objc_j2objc_annotations_java",
+      "//third_party/android_deps:com_google_guava_listenablefuture_java",
+      "//third_party/android_deps:com_google_guava_failureaccess_java",
+      "//third_party/android_deps:com_google_errorprone_error_prone_annotations_java",
+      "//third_party/android_deps:com_google_code_findbugs_jsr305_java",
+      "gvr_common_java",
+      "//third_party/android_protobuf:protobuf_nano_javalib"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/android_deps/com_google_guava_guava_android.ijar.jar",
+      "obj/third_party/android_deps/local_modifications/preconditions/guava_stub_preconditions_java.turbine.jar",
+      "obj/third_party/android_deps/org_checkerframework_checker_qual.ijar.jar",
+      "obj/third_party/android_deps/org_checkerframework_checker_compat_qual.ijar.jar",
+      "obj/third_party/android_deps/com_google_j2objc_j2objc_annotations.ijar.jar",
+      "obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar",
+      "obj/third_party/android_deps/com_google_guava_failureaccess.ijar.jar",
+      "obj/third_party/android_deps/com_google_errorprone_error_prone_annotations.ijar.jar",
+      "obj/third_party/android_deps/com_google_code_findbugs_jsr305.ijar.jar",
+      "obj/third_party/gvr-android-sdk/gvr_common_java.ijar.jar",
+      "obj/third_party/android_protobuf/protobuf_nano_javalib.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/third_party/android_deps/local_modifications/preconditions/guava_stub_preconditions_java.sources",
+        "gen/third_party/android_protobuf/protobuf_nano_javalib.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "controller_test_api_java__classes.build_config.json",
+    "path": "gen/third_party/gvr-android-sdk/controller_test_api_java__classes.build_config.json",
+    "proguard_configs": [
+      "../../third_party/gvr-android-sdk/test-libraries/proguard.txt"
+    ],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/third_party/gvr-android-sdk/controller_test_api_java/classes.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/android_deps/libs/com_google_guava_guava_android/guava-31.0-android.jar",
+      "obj/third_party/gvr-android-sdk/gvr_common_java/classes.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/com_google_guava_guava_android/guava-31.0-android.jar",
+      "obj/third_party/gvr-android-sdk/gvr_common_java/classes.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/android_deps/com_google_guava_guava_android.ijar.jar",
+      "obj/third_party/gvr-android-sdk/gvr_common_java.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

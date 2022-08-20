@@ -1,0 +1,174 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+org/chromium/device/mojom/ReportingMode$EnumType.class
+  <-  org/chromium/device/mojom/ReportingMode.class
+org/chromium/device/mojom/ReportingMode.class
+  <-  org/chromium/device/mojom/ReportingMode$EnumType.class
+org/chromium/device/mojom/Sensor$AddConfiguration_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/Sensor.class
+org/chromium/device/mojom/Sensor$GetDefaultConfiguration_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/Sensor.class
+org/chromium/device/mojom/Sensor$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/Sensor.class
+org/chromium/device/mojom/Sensor.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/Sensor$AddConfiguration_Response.class
+  <-  org/chromium/device/mojom/Sensor$GetDefaultConfiguration_Response.class
+  <-  org/chromium/device/mojom/Sensor$Proxy.class
+org/chromium/device/mojom/SensorClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/SensorClient.class
+org/chromium/device/mojom/SensorClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/SensorClient$Proxy.class
+org/chromium/device/mojom/SensorClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/SensorClient_Internal.class
+org/chromium/device/mojom/SensorClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/SensorClient$Proxy.class
+  <-  org/chromium/device/mojom/SensorClient_Internal.class
+org/chromium/device/mojom/SensorClient_Internal$SensorClientRaiseErrorParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/SensorClient_Internal.class
+org/chromium/device/mojom/SensorClient_Internal$SensorClientSensorReadingChangedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/SensorClient_Internal.class
+org/chromium/device/mojom/SensorClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/SensorClient_Internal.class
+org/chromium/device/mojom/SensorClient_Internal.class
+  <-  org/chromium/device/mojom/SensorClient_Internal$1.class
+  <-  org/chromium/device/mojom/SensorClient_Internal$Proxy.class
+  <-  org/chromium/device/mojom/SensorClient_Internal$SensorClientRaiseErrorParams.class
+  <-  org/chromium/device/mojom/SensorClient_Internal$SensorClientSensorReadingChangedParams.class
+  <-  org/chromium/device/mojom/SensorClient_Internal$Stub.class
+org/chromium/device/mojom/SensorConfiguration.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/SensorCreationResult$EnumType.class
+  <-  org/chromium/device/mojom/SensorCreationResult.class
+org/chromium/device/mojom/SensorCreationResult.class
+  <-  org/chromium/device/mojom/SensorCreationResult$EnumType.class
+org/chromium/device/mojom/SensorInitParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/SensorProvider$GetSensor_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback2.class
+  <-  org/chromium/device/mojom/SensorProvider.class
+org/chromium/device/mojom/SensorProvider$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/SensorProvider.class
+org/chromium/device/mojom/SensorProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/SensorProvider$GetSensor_Response.class
+  <-  org/chromium/device/mojom/SensorProvider$Proxy.class
+org/chromium/device/mojom/SensorProvider_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/SensorProvider$Proxy.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/SensorProvider$GetSensor_Response.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal.class
+org/chromium/device/mojom/SensorProvider_Internal.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$1.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$Proxy.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorParams.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParams.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$SensorProviderGetSensorResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/SensorProvider_Internal$Stub.class
+org/chromium/device/mojom/SensorType$EnumType.class
+  <-  org/chromium/device/mojom/SensorType.class
+org/chromium/device/mojom/SensorType.class
+  <-  org/chromium/device/mojom/SensorType$EnumType.class
+org/chromium/device/mojom/Sensor_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/Sensor$Proxy.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/Sensor$AddConfiguration_Response.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorConfigureReadingChangeNotificationsParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/Sensor$GetDefaultConfiguration_Response.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorRemoveConfigurationParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorResumeParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$SensorSuspendParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/Sensor_Internal.class
+org/chromium/device/mojom/Sensor_Internal.class
+  <-  org/chromium/device/mojom/Sensor_Internal$1.class
+  <-  org/chromium/device/mojom/Sensor_Internal$Proxy.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorAddConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorConfigureReadingChangeNotificationsParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorGetDefaultConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorRemoveConfigurationParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorResumeParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$SensorSuspendParams.class
+  <-  org/chromium/device/mojom/Sensor_Internal$Stub.class
+

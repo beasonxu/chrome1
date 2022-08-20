@@ -1,0 +1,3 @@
+obj/third_party/androidx/androidx_appcompat_appcompat_resources_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_appcompat_appcompat_resources_java/res/values/values.xml \
+ obj/third_party/androidx/androidx_appcompat_appcompat_resources_java/res/drawable/abc_vector_test.xml

@@ -1,0 +1,147 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+org/chromium/mojo_base/mojom/ApplicationState$EnumType.class
+  <-  org/chromium/mojo_base/mojom/ApplicationState.class
+org/chromium/mojo_base/mojom/ApplicationState.class
+  <-  org/chromium/mojo_base/mojom/ApplicationState$EnumType.class
+org/chromium/mojo_base/mojom/BigBuffer$Tag.class
+  <-  org/chromium/mojo_base/mojom/BigBuffer.class
+org/chromium/mojo_base/mojom/BigBuffer.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
+  <-  org/chromium/mojo_base/mojom/BigBuffer$Tag.class
+org/chromium/mojo_base/mojom/BigBufferSharedMemoryRegion.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/BigString.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/BigString16.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/Binder$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/mojo_base/mojom/Binder.class
+org/chromium/mojo_base/mojom/Binder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/mojo_base/mojom/Binder$Proxy.class
+org/chromium/mojo_base/mojom/Binder_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal.class
+org/chromium/mojo_base/mojom/Binder_Internal$BinderBindParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal.class
+org/chromium/mojo_base/mojom/Binder_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/mojo_base/mojom/Binder$Proxy.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal.class
+org/chromium/mojo_base/mojom/Binder_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal.class
+org/chromium/mojo_base/mojom/Binder_Internal.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal$1.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal$BinderBindParams.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal$Proxy.class
+  <-  org/chromium/mojo_base/mojom/Binder_Internal$Stub.class
+org/chromium/mojo_base/mojom/ByteString.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/DeprecatedDictionaryValue.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/DictionaryValue.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/File.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/FileError$EnumType.class
+  <-  org/chromium/mojo_base/mojom/FileError.class
+org/chromium/mojo_base/mojom/FileError.class
+  <-  org/chromium/mojo_base/mojom/FileError$EnumType.class
+org/chromium/mojo_base/mojom/FileInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/FilePath.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface$Proxy.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface$Proxy.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal.class
+org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$1.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$Proxy.class
+  <-  org/chromium/mojo_base/mojom/GenericAssociatedInterface_Internal$Stub.class
+org/chromium/mojo_base/mojom/GenericPendingAssociatedReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/GenericPendingReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/Int128.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/ListValue.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/MemoryAllocatorDumpCrossProcessUid.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/MemoryPressureLevel$EnumType.class
+  <-  org/chromium/mojo_base/mojom/MemoryPressureLevel.class
+org/chromium/mojo_base/mojom/MemoryPressureLevel.class
+  <-  org/chromium/mojo_base/mojom/MemoryPressureLevel$EnumType.class
+org/chromium/mojo_base/mojom/MessagePumpType$EnumType.class
+  <-  org/chromium/mojo_base/mojom/MessagePumpType.class
+org/chromium/mojo_base/mojom/MessagePumpType.class
+  <-  org/chromium/mojo_base/mojom/MessagePumpType$EnumType.class
+org/chromium/mojo_base/mojom/ProcessId.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/ReadOnlyBuffer.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/ReadOnlyFile.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/ReadOnlySharedMemoryRegion.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/RefCountedMemory.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/SafeBaseName.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/String16.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/TextDirection$EnumType.class
+  <-  org/chromium/mojo_base/mojom/TextDirection.class
+org/chromium/mojo_base/mojom/TextDirection.class
+  <-  org/chromium/mojo_base/mojom/TextDirection$EnumType.class
+org/chromium/mojo_base/mojom/ThreadType$EnumType.class
+  <-  org/chromium/mojo_base/mojom/ThreadType.class
+org/chromium/mojo_base/mojom/ThreadType.class
+  <-  org/chromium/mojo_base/mojom/ThreadType$EnumType.class
+org/chromium/mojo_base/mojom/Time.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/TimeDelta.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/TimeTicks.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/Token.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/Uint128.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/UnguessableToken.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/UnsafeSharedMemoryRegion.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/mojo_base/mojom/Value$Tag.class
+  <-  org/chromium/mojo_base/mojom/Value.class
+org/chromium/mojo_base/mojom/Value.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
+  <-  org/chromium/mojo_base/mojom/Value$Tag.class
+org/chromium/mojo_base/mojom/WritableSharedMemoryRegion.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

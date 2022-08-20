@@ -1,0 +1,350 @@
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/contextaware/ContextAware.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnMultiWindowModeChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnNewIntentProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnPictureInPictureModeChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/OnConfigurationChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/OnTrimMemoryProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/MenuHost.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentDialog.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$FrameworkActionBarDelegate.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$Delegate.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$ToolbarCompatDelegate.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$Delegate.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle.class
+  <-  obj/third_party/androidx/androidx_drawerlayout_drawerlayout_java.ijar.jar:androidx/drawerlayout/widget/DrawerLayout$DrawerListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AlertController$2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/NestedScrollView$OnScrollChangeListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AlertDialog.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDialog.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatActivity$1.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistry$SavedStateProvider.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatActivity$2.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/contextaware/OnContextAvailableListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatActivity.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$DelegateProvider.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatCallback.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/TaskStackBuilder$SupportParentable.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentActivity.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/OnApplyWindowInsetsListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$4.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/FitWindowsViewGroup$OnFitSystemWindowsListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$5.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ContentFrameLayout$OnAttachListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$6$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$7.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ActionBarDrawableToggleImpl.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBarDrawerToggle$Delegate.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ActionMenuPresenterCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ActionModeCallbackWrapperV9$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ActionModeCallbackWrapperV9.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/ActionMode$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$AppCompatWindowCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/WindowCallbackWrapper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$AutoBatteryNightModeManager.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$AutoTimeNightModeManager.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$AutoNightModeManager.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ListMenuDecorView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ContentFrameLayout.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$PanelMenuPresenterCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegate.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDialog.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentDialog.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatCallback.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/KeyEventDispatcher$Component.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ToolbarActionBar$2.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar$OnMenuItemClickListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ToolbarActionBar$ActionMenuPresenterCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ToolbarActionBar$MenuBuilderCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ToolbarActionBar$ToolbarMenuCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/AppCompatDelegateImpl$ActionBarMenuCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ToolbarActionBar.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBar.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar$2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar$3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorUpdateListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar$ActionModeImpl.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/ActionMode.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar$TabImpl.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBar$Tab.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/WindowDecorActionBar.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBar.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionBarOverlayLayout$ActionBarVisibilityCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/StandaloneActionMode.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/ActionMode.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/SupportActionModeWrapper$CallbackWrapper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/ActionMode$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/ViewPropertyAnimatorCompatSet$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ActionMenuItem.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/internal/view/SupportMenuItem.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ActionMenuItemView$ActionMenuItemForwardingListener.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ActionMenuItemView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuView$ItemView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$ActionMenuChildView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/BaseMenuPresenter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/CascadingMenuPopup$3.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/MenuItemHoverListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/CascadingMenuPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ExpandedMenuView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$ItemInvoker.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ListMenuItemView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuView$ItemView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ListMenuPresenter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/internal/view/SupportMenu.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuDialogHelper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemImpl$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ActionProvider$VisibilityListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemImpl.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/internal/view/SupportMenuItem.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ActionProvider.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapperJB.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemWrapperICS$ActionProviderWrapper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemWrapperICS$CollapsibleActionViewWrapper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/CollapsibleActionView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuItemWrapperICS.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/BaseMenuWrapper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ShowableListMenu.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopupHelper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuHelper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuWrapperICS.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/BaseMenuWrapper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/StandardMenuPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/SubMenuBuilder.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/SubMenuWrapperICS.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuWrapperICS.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AbsActionBarView$VisibilityAnimListener.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionBarContextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AbsActionBarView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionBarOverlayLayout.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/DecorContentParent.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent3.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$ActionButtonSubmenu.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopupHelper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$ActionMenuPopupCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ActionMenuItemView$PopupCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$OverflowMenuButton$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$OverflowMenuButton.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$ActionMenuChildView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatImageView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$OverflowPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPopupHelper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter$PopupPresenterCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuPresenter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/BaseMenuPresenter.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ActionProvider$SubUiVisibilityListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$ActionMenuPresenterCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$LayoutParams.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/LinearLayoutCompat$LayoutParams.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$MenuBuilderCallback.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$ItemInvoker.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/LinearLayoutCompat.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserModel$DefaultSorter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserModel$ActivitySorter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserView$4.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserModel$ActivityChooserModelClient.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AlertDialogLayout.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/LinearLayoutCompat.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatAutoCompleteTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatButton.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/AutoSizeableTextView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatCheckBox.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundButton.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatCheckedTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCheckedTextView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatDrawableManager$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_resources_java.ijar.jar:androidx/appcompat/widget/ResourceManagerInternal$ResourceManagerHooks.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatEditText.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/OnReceiveContentViewBehavior.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatImageButton.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableImageSourceView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatImageView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableImageSourceView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatMultiAutoCompleteTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatRadioButton.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundButton.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSeekBarHelper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatProgressBarHelper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner$DialogPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner$SpinnerPopup.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner$DropdownPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner$SpinnerPopup.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ListPopupWindow.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatSpinner.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextHelper$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/res/ResourcesCompat$FontCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/AutoSizeableTextView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl23.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl29.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper$Impl23.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatToggleButton.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/DialogTitle.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatTextView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/DropDownListView$GateKeeperDrawable.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_resources_java.ijar.jar:androidx/appcompat/graphics/drawable/DrawableWrapper.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/FitWindowsFrameLayout.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/FitWindowsViewGroup.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/FitWindowsLinearLayout.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/FitWindowsViewGroup.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ListPopupWindow$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ListPopupWindow.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/ShowableListMenu.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/MenuPopupWindow$MenuDropDownListView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/DropDownListView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/MenuPopupWindow.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ListPopupWindow.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/MenuItemHoverListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/PopupMenu$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuBuilder$Callback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/PopupMenu$3.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ForwardingListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SearchView$SavedState.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java.ijar.jar:androidx/customview/view/AbsSavedState.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SearchView$SearchAutoComplete.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/AppCompatAutoCompleteTextView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SearchView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/CollapsibleActionView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/LinearLayoutCompat.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ShareActionProvider$ShareActivityChooserModelPolicy.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActivityChooserModel$OnChooseActivityListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ShareActionProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ActionProvider.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SuggestionsAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java.ijar.jar:androidx/cursoradapter/widget/ResourceCursorAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SwitchCompat$EmojiCompatInitCallback.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java.ijar.jar:androidx/emoji2/text/EmojiCompat$InitCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/SwitchCompat.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ActionMenuView$OnMenuItemClickListener.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar$ExpandedActionViewMenuPresenter.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/view/menu/MenuPresenter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar$LayoutParams.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/app/ActionBar$LayoutParams.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar$SavedState.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java.ijar.jar:androidx/customview/view/AbsSavedState.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/Toolbar.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/MenuHost.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ToolbarWidgetWrapper$2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/ToolbarWidgetWrapper.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java/classes.jar:androidx/appcompat/widget/DecorToolbar.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/KeyEventDispatcher$Component.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingParent2.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListenerAdapter.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ViewPropertyAnimatorListener.class
+obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java.ijar.jar:androidx/cursoradapter/widget/CursorAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java.ijar.jar:androidx/cursoradapter/widget/CursorFilter$CursorFilterClient.class
+obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java.ijar.jar:androidx/cursoradapter/widget/ResourceCursorAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java.ijar.jar:androidx/cursoradapter/widget/CursorAdapter.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentActivity.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ActivityCompat$RequestPermissionsRequestCodeValidator.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+

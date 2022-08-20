@@ -1,0 +1,19 @@
+org/chromium/gpu/mojom/DawnBackendValidationLevel$EnumType.class
+  <-  org/chromium/gpu/mojom/DawnBackendValidationLevel.class
+org/chromium/gpu/mojom/DawnBackendValidationLevel.class
+  <-  org/chromium/gpu/mojom/DawnBackendValidationLevel$EnumType.class
+org/chromium/gpu/mojom/GpuPreferences.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/GrContextType$EnumType.class
+  <-  org/chromium/gpu/mojom/GrContextType.class
+org/chromium/gpu/mojom/GrContextType.class
+  <-  org/chromium/gpu/mojom/GrContextType$EnumType.class
+org/chromium/gpu/mojom/VulkanImplementationName$EnumType.class
+  <-  org/chromium/gpu/mojom/VulkanImplementationName.class
+org/chromium/gpu/mojom/VulkanImplementationName.class
+  <-  org/chromium/gpu/mojom/VulkanImplementationName$EnumType.class
+org/chromium/gpu/mojom/WebGpuAdapterName$EnumType.class
+  <-  org/chromium/gpu/mojom/WebGpuAdapterName.class
+org/chromium/gpu/mojom/WebGpuAdapterName.class
+  <-  org/chromium/gpu/mojom/WebGpuAdapterName$EnumType.class
+

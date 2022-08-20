@@ -1,0 +1,9 @@
+{
+  "deps": [
+    "../../../services/network/public/mojom/mojom.build_metadata",
+    "../../../services/network/public/mojom/url_loader_base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../content/public/common/trust_tokens.mojom"
+  ]
+}

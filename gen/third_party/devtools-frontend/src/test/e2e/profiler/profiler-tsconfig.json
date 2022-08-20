@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "composite": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir": ".",
+    "rootDir": "../../../../../../../../../third_party/devtools-frontend/src/test/e2e/profiler",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "tsBuildInfoFile": "profiler-tsconfig.json.tsbuildinfo",
+    "typeRoots": [
+      "../../../../../../../../../third_party/devtools-frontend/src/node_modules/@types"
+    ],
+    "types": [
+      "mocha",
+      "chai",
+      "sinon",
+      "karma-chai-sinon",
+      "node"
+    ],
+    "useUnknownInCatchVariables": false
+  },
+  "files": [
+    "../../../../../../../../../third_party/devtools-frontend/src/test/e2e/profiler/profiler_test.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/legacy/legacy-defs.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/global_defs.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/request_idle_callback.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/node_modules/@types/filesystem/index.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../shared/shared-tsconfig.json"
+    },
+    {
+      "path": "../helpers/helpers-tsconfig.json"
+    }
+  ]
+}

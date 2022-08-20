@@ -1,0 +1,8 @@
+{
+  "deps": [
+
+  ],
+  "sources": [
+    "../../../../../../../../../../../mojo/public/tools/bindings/generators/js_templates/lite/test/test.test-mojom"
+  ]
+}

@@ -1,0 +1,255 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+org/chromium/shape_detection/mojom/BarcodeDetection$Detect_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection.class
+org/chromium/shape_detection/mojom/BarcodeDetection$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection.class
+org/chromium/shape_detection/mojom/BarcodeDetection.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection$Proxy.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider$EnumerateSupportedFormats_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider$EnumerateSupportedFormats_Response.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider$Proxy.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderCreateBarcodeDetectionParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider$EnumerateSupportedFormats_Response.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderCreateBarcodeDetectionParams.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsParams.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParams.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsForwardToCallback.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$BarcodeDetectionProviderEnumerateSupportedFormatsResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetectionProvider_Internal$Stub.class
+org/chromium/shape_detection/mojom/BarcodeDetectionResult.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+org/chromium/shape_detection/mojom/BarcodeDetection_Internal.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectParams.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParams.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsForwardToCallback.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$BarcodeDetectionDetectResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/BarcodeDetection_Internal$Stub.class
+org/chromium/shape_detection/mojom/BarcodeDetectorOptions.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/BarcodeFormat$EnumType.class
+  <-  org/chromium/shape_detection/mojom/BarcodeFormat.class
+org/chromium/shape_detection/mojom/BarcodeFormat.class
+  <-  org/chromium/shape_detection/mojom/BarcodeFormat$EnumType.class
+org/chromium/shape_detection/mojom/FaceDetection$Detect_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection.class
+org/chromium/shape_detection/mojom/FaceDetection$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection.class
+org/chromium/shape_detection/mojom/FaceDetection.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection$Proxy.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider$Proxy.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$FaceDetectionProviderCreateFaceDetectionParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class
+org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$FaceDetectionProviderCreateFaceDetectionParams.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetectionProvider_Internal$Stub.class
+org/chromium/shape_detection/mojom/FaceDetectionResult.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+org/chromium/shape_detection/mojom/FaceDetection_Internal.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectParams.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParams.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsForwardToCallback.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$FaceDetectionDetectResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/FaceDetection_Internal$Stub.class
+org/chromium/shape_detection/mojom/FaceDetectorOptions.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/Landmark.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/LandmarkType$EnumType.class
+  <-  org/chromium/shape_detection/mojom/LandmarkType.class
+org/chromium/shape_detection/mojom/LandmarkType.class
+  <-  org/chromium/shape_detection/mojom/LandmarkType$EnumType.class
+org/chromium/shape_detection/mojom/ShapeDetectionService$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService.class
+org/chromium/shape_detection/mojom/ShapeDetectionService.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService$Proxy.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService$Proxy.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindBarcodeDetectionProviderParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindFaceDetectionProviderParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindTextDetectionParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+org/chromium/shape_detection/mojom/ShapeDetectionService_Internal.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindBarcodeDetectionProviderParams.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindFaceDetectionProviderParams.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$ShapeDetectionServiceBindTextDetectionParams.class
+  <-  org/chromium/shape_detection/mojom/ShapeDetectionService_Internal$Stub.class
+org/chromium/shape_detection/mojom/TextDetection$Detect_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/shape_detection/mojom/TextDetection.class
+org/chromium/shape_detection/mojom/TextDetection$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/shape_detection/mojom/TextDetection.class
+org/chromium/shape_detection/mojom/TextDetection.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/shape_detection/mojom/TextDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/TextDetection$Proxy.class
+org/chromium/shape_detection/mojom/TextDetectionResult.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/shape_detection/mojom/TextDetection$Proxy.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsProxyToResponder.class
+  <-  org/chromium/shape_detection/mojom/TextDetection$Detect_Response.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal.class
+org/chromium/shape_detection/mojom/TextDetection_Internal.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$1.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$Proxy.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$Stub.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectParams.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParams.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsForwardToCallback.class
+  <-  org/chromium/shape_detection/mojom/TextDetection_Internal$TextDetectionDetectResponseParamsProxyToResponder.class
+

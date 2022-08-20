@@ -1,0 +1,11 @@
+obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal19.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiEditTextHelper$HelperInternal.class
+obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiInputFilter$InitCallbackImpl.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java.ijar.jar:androidx/emoji2/text/EmojiCompat$InitCallback.class
+obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal19.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal.class
+obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiTextViewHelper$SkippingHelper19.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiTextViewHelper$HelperInternal.class
+obj/third_party/androidx/androidx_emoji2_emoji2_views_helper_java/classes.jar:androidx/emoji2/viewsintegration/EmojiTextWatcher$InitCallbackImpl.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java.ijar.jar:androidx/emoji2/text/EmojiCompat$InitCallback.class
+

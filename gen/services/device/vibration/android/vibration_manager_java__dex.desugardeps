@@ -1,0 +1,11 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/services/device/public/mojom/mojom_java.turbine.jar:org/chromium/device/mojom/VibrationManager.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+org/chromium/device/vibration/VibrationManagerImpl$Factory.class
+  <-  obj/services/service_manager/public/java/service_manager_java.turbine.jar:org/chromium/services/service_manager/InterfaceFactory.class
+  <-  org/chromium/device/vibration/VibrationManagerImpl.class
+org/chromium/device/vibration/VibrationManagerImpl.class
+  <-  obj/services/device/public/mojom/mojom_java.turbine.jar:org/chromium/device/mojom/VibrationManager.class
+  <-  org/chromium/device/vibration/VibrationManagerImpl$Factory.class
+

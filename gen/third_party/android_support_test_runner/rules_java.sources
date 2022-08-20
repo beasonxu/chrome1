@@ -1,0 +1,6 @@
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/annotation/UiThreadTest.java
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/internal/statement/UiThreadStatement.java
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/rule/ActivityTestRule.java
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/rule/DisableOnAndroidDebug.java
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/rule/ServiceTestRule.java
+../../third_party/android_support_test_runner/rules/src/main/java/android/support/test/rule/UiThreadTestRule.java

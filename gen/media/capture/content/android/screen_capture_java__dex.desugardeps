@@ -1,0 +1,23 @@
+org/chromium/media/ScreenCapture$CaptureState.class
+  <-  org/chromium/media/ScreenCapture.class
+org/chromium/media/ScreenCapture$CrImageReaderListener.class
+  <-  org/chromium/media/ScreenCapture.class
+org/chromium/media/ScreenCapture$DeviceOrientation.class
+  <-  org/chromium/media/ScreenCapture.class
+org/chromium/media/ScreenCapture$MediaProjectionCallback.class
+  <-  org/chromium/media/ScreenCapture.class
+org/chromium/media/ScreenCapture$Natives.class
+  <-  org/chromium/media/ScreenCapture.class
+org/chromium/media/ScreenCapture.class
+  <-  org/chromium/media/ScreenCapture$CaptureState.class
+  <-  org/chromium/media/ScreenCapture$CrImageReaderListener.class
+  <-  org/chromium/media/ScreenCapture$DeviceOrientation.class
+  <-  org/chromium/media/ScreenCapture$MediaProjectionCallback.class
+  <-  org/chromium/media/ScreenCapture$Natives.class
+org/chromium/media/ScreenCaptureJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/media/ScreenCaptureJni.class
+org/chromium/media/ScreenCaptureJni.class
+  <-  org/chromium/media/ScreenCapture$Natives.class
+  <-  org/chromium/media/ScreenCaptureJni$1.class
+

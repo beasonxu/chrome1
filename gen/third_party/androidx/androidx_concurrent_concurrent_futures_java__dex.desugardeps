@@ -1,0 +1,13 @@
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture$SafeAtomicHelper.class
+  <-  ../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture$AtomicHelper.class
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture$SynchronizedHelper.class
+  <-  ../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture$AtomicHelper.class
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture.class
+  <-  obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar:com/google/common/util/concurrent/ListenableFuture.class
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture$1.class
+  <-  ../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture.class
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/CallbackToFutureAdapter$SafeFuture.class
+  <-  obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar:com/google/common/util/concurrent/ListenableFuture.class
+../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/ResolvableFuture.class
+  <-  ../../third_party/androidx/libs/androidx_concurrent_concurrent_futures/concurrent-futures-1.2.0-SNAPSHOT.jar:androidx/concurrent/futures/AbstractResolvableFuture.class
+

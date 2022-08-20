@@ -1,0 +1,26 @@
+{
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "chromium_code": true,
+    "deps_configs": [
+      "gen/third_party/androidx/androidx_activity_activity_ktx_java__classes.build_config.json",
+      "gen/third_party/androidx/androidx_activity_activity_ktx_java__resources.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "gn_target": "//third_party/androidx:androidx_activity_activity_ktx_java",
+    "jni": {
+      "all_source": [
+        "gen/third_party/android_deps/local_modifications/preconditions/androidx_stub_preconditions_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "androidx_activity_activity_ktx_java.build_config.json",
+    "path": "gen/third_party/androidx/androidx_activity_activity_ktx_java.build_config.json",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "group",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {}
+}

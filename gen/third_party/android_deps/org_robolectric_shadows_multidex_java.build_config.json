@@ -1,0 +1,68 @@
+{
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": false,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_deps/org_robolectric_annotations_java.build_config.json",
+      "gen/third_party/android_deps/com_android_support_multidex_java__classes.build_config.json",
+      "gen/third_party/android_deps/com_android_support_multidex_java.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//third_party/android_deps:org_robolectric_shadows_multidex_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/android_deps/org_robolectric_shadows_multidex.jar",
+    "interface_jar_path": "obj/third_party/android_deps/org_robolectric_shadows_multidex.ijar.jar",
+    "is_prebuilt": true,
+    "javac_full_classpath": [
+      "obj/third_party/android_deps/com_android_support_multidex_java/classes.jar",
+      "../../third_party/android_deps/libs/org_robolectric_annotations/annotations-4.8.1.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "com_android_support_multidex_java",
+      "//third_party/android_deps:org_robolectric_annotations_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/android_deps/com_android_support_multidex_java.ijar.jar",
+      "obj/third_party/android_deps/org_robolectric_annotations.ijar.jar"
+    ],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "org_robolectric_shadows_multidex_java.build_config.json",
+    "path": "gen/third_party/android_deps/org_robolectric_shadows_multidex_java.build_config.json",
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/android_deps/libs/org_robolectric_shadows_multidex/shadows-multidex-4.8.1.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/android_deps/libs/org_robolectric_annotations/annotations-4.8.1.jar",
+      "obj/third_party/android_deps/com_android_support_multidex_java/classes.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/org_robolectric_annotations/annotations-4.8.1.jar",
+      "obj/third_party/android_deps/com_android_support_multidex_java/classes.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/android_deps/com_android_support_multidex_java.ijar.jar",
+      "obj/third_party/android_deps/org_robolectric_annotations.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

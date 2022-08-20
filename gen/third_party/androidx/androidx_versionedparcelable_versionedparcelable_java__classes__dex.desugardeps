@@ -1,0 +1,7 @@
+obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/CustomVersionedParcelable.class
+  <-  obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/VersionedParcelable.class
+obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/VersionedParcelParcel.class
+  <-  obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/VersionedParcel.class
+obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/VersionedParcelStream.class
+  <-  obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/classes.jar:androidx/versionedparcelable/VersionedParcel.class
+

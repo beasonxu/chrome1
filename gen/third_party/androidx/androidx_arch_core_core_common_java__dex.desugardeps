@@ -1,0 +1,11 @@
+../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/FastSafeIterableMap.class
+  <-  ../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap.class
+../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$AscendingIterator.class
+  <-  ../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$ListIterator.class
+../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$DescendingIterator.class
+  <-  ../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$ListIterator.class
+../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$IteratorWithAdditions.class
+  <-  ../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$SupportRemove.class
+../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$ListIterator.class
+  <-  ../../third_party/androidx/libs/androidx_arch_core_core_common/core-common-2.2.0-SNAPSHOT.jar:androidx/arch/core/internal/SafeIterableMap$SupportRemove.class
+

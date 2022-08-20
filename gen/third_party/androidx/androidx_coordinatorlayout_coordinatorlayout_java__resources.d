@@ -1,0 +1,2 @@
+obj/third_party/androidx/androidx_coordinatorlayout_coordinatorlayout_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_coordinatorlayout_coordinatorlayout_java/res/values/values.xml

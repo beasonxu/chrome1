@@ -1,0 +1,7 @@
+obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/RawDocumentFile.class
+  <-  obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/DocumentFile.class
+obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/SingleDocumentFile.class
+  <-  obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/DocumentFile.class
+obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/TreeDocumentFile.class
+  <-  obj/third_party/androidx/androidx_documentfile_documentfile_java/classes.jar:androidx/documentfile/provider/DocumentFile.class
+

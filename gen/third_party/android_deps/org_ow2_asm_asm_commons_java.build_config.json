@@ -1,0 +1,74 @@
+{
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": false,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_deps/org_ow2_asm_asm_analysis_java.build_config.json",
+      "gen/third_party/android_deps/org_ow2_asm_asm_java.build_config.json",
+      "gen/third_party/android_deps/org_ow2_asm_asm_tree_java.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//third_party/android_deps:org_ow2_asm_asm_commons_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/android_deps/org_ow2_asm_asm_commons.jar",
+    "interface_jar_path": "obj/third_party/android_deps/org_ow2_asm_asm_commons.ijar.jar",
+    "is_prebuilt": true,
+    "javac_full_classpath": [
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_analysis/asm-analysis-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_tree/asm-tree-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm/asm-9.2.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/android_deps:org_ow2_asm_asm_analysis_java",
+      "//third_party/android_deps:org_ow2_asm_asm_tree_java",
+      "//third_party/android_deps:org_ow2_asm_asm_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/android_deps/org_ow2_asm_asm_analysis.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_tree.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm.ijar.jar"
+    ],
+    "jni": {
+      "all_source": []
+    },
+    "module_pathmap_path": "",
+    "name": "org_ow2_asm_asm_commons_java.build_config.json",
+    "path": "gen/third_party/android_deps/org_ow2_asm_asm_commons_java.build_config.json",
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "../../third_party/android_deps/libs/org_ow2_asm_asm_commons/asm-commons-9.2.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/android_deps/libs/org_ow2_asm_asm/asm-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_analysis/asm-analysis-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_tree/asm-tree-9.2.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_deps/libs/org_ow2_asm_asm/asm-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_analysis/asm-analysis-9.2.jar",
+      "../../third_party/android_deps/libs/org_ow2_asm_asm_tree/asm-tree-9.2.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/android_deps/org_ow2_asm_asm.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_analysis.ijar.jar",
+      "obj/third_party/android_deps/org_ow2_asm_asm_tree.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

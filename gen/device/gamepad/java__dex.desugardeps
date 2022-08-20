@@ -1,0 +1,51 @@
+org/chromium/device/gamepad/GamepadList$1.class
+  <-  org/chromium/device/gamepad/GamepadList.class
+org/chromium/device/gamepad/GamepadList$LazyHolder.class
+  <-  org/chromium/device/gamepad/GamepadList.class
+org/chromium/device/gamepad/GamepadList$Natives.class
+  <-  org/chromium/device/gamepad/GamepadList.class
+org/chromium/device/gamepad/GamepadList.class
+  <-  org/chromium/device/gamepad/GamepadList$1.class
+  <-  org/chromium/device/gamepad/GamepadList$LazyHolder.class
+  <-  org/chromium/device/gamepad/GamepadList$Natives.class
+org/chromium/device/gamepad/GamepadListJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/device/gamepad/GamepadListJni.class
+org/chromium/device/gamepad/GamepadListJni.class
+  <-  org/chromium/device/gamepad/GamepadList$Natives.class
+  <-  org/chromium/device/gamepad/GamepadListJni$1.class
+org/chromium/device/gamepad/GamepadMappings$AmazonFireGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappingsPreP.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$Ps4Ps5GamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$SamsungEIGP20GamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$SnakebyteIDroidConMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$StadiaControllerMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$UnknownGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$XboxCompatibleGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$XboxOneS2016FirmwareMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings$XboxSeriesXBluetoothMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings.class
+org/chromium/device/gamepad/GamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$AmazonFireGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$Dualshock3SixAxisGamepadMappingsPreP.class
+  <-  org/chromium/device/gamepad/GamepadMappings$Ps4Ps5GamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$SamsungEIGP20GamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$SnakebyteIDroidConMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$StadiaControllerMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$UnknownGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$XboxCompatibleGamepadMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$XboxOneS2016FirmwareMappings.class
+  <-  org/chromium/device/gamepad/GamepadMappings$XboxSeriesXBluetoothMappings.class
+

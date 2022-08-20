@@ -1,0 +1,3 @@
+org/chromium/url/mojom/SchemeHostPort.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

@@ -1,0 +1,2 @@
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/res/values/values.xml

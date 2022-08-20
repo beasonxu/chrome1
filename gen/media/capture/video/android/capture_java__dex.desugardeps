@@ -1,0 +1,77 @@
+org/chromium/media/PhotoCapabilities$Builder.class
+  <-  org/chromium/media/PhotoCapabilities.class
+org/chromium/media/PhotoCapabilities.class
+  <-  org/chromium/media/PhotoCapabilities$Builder.class
+org/chromium/media/VideoCapture$1.class
+  <-  org/chromium/media/VideoCapture.class
+org/chromium/media/VideoCapture$FramerateRange.class
+  <-  org/chromium/media/VideoCapture.class
+org/chromium/media/VideoCapture$Natives.class
+  <-  org/chromium/media/VideoCapture.class
+org/chromium/media/VideoCapture.class
+  <-  org/chromium/media/VideoCapture$1.class
+  <-  org/chromium/media/VideoCapture$FramerateRange.class
+  <-  org/chromium/media/VideoCapture$Natives.class
+org/chromium/media/VideoCaptureCamera$1.class
+  <-  org/chromium/media/VideoCaptureCamera.class
+org/chromium/media/VideoCaptureCamera$BuggyDeviceHack.class
+  <-  org/chromium/media/VideoCaptureCamera.class
+org/chromium/media/VideoCaptureCamera$CrErrorCallback.class
+  <-  org/chromium/media/VideoCaptureCamera.class
+org/chromium/media/VideoCaptureCamera$CrPictureCallback.class
+  <-  org/chromium/media/VideoCaptureCamera.class
+org/chromium/media/VideoCaptureCamera.class
+  <-  org/chromium/media/VideoCapture.class
+  <-  org/chromium/media/VideoCaptureCamera$1.class
+  <-  org/chromium/media/VideoCaptureCamera$BuggyDeviceHack.class
+  <-  org/chromium/media/VideoCaptureCamera$CrErrorCallback.class
+  <-  org/chromium/media/VideoCaptureCamera$CrPictureCallback.class
+org/chromium/media/VideoCaptureCamera2$CameraState.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrPhotoReaderListener.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrPhotoSessionListener.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrPreviewReaderListener.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrPreviewSessionListener$1.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrPreviewSessionListener.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$CrStateListener.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$GetPhotoCapabilitiesTask.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$PhotoOptions.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$SetPhotoOptionsTask.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$StopCaptureTask.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2$TakePhotoTask.class
+  <-  org/chromium/media/VideoCaptureCamera2.class
+org/chromium/media/VideoCaptureCamera2.class
+  <-  org/chromium/media/VideoCapture.class
+  <-  org/chromium/media/VideoCaptureCamera2$CameraState.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrPhotoReaderListener.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrPhotoSessionListener.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrPreviewReaderListener.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrPreviewSessionListener$1.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrPreviewSessionListener.class
+  <-  org/chromium/media/VideoCaptureCamera2$CrStateListener.class
+  <-  org/chromium/media/VideoCaptureCamera2$GetPhotoCapabilitiesTask.class
+  <-  org/chromium/media/VideoCaptureCamera2$PhotoOptions.class
+  <-  org/chromium/media/VideoCaptureCamera2$SetPhotoOptionsTask.class
+  <-  org/chromium/media/VideoCaptureCamera2$StopCaptureTask.class
+  <-  org/chromium/media/VideoCaptureCamera2$TakePhotoTask.class
+org/chromium/media/VideoCaptureFactory$ChromiumCameraInfo.class
+  <-  org/chromium/media/VideoCaptureFactory.class
+org/chromium/media/VideoCaptureFactory.class
+  <-  org/chromium/media/VideoCaptureFactory$ChromiumCameraInfo.class
+org/chromium/media/VideoCaptureJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/media/VideoCaptureJni.class
+org/chromium/media/VideoCaptureJni.class
+  <-  org/chromium/media/VideoCapture$Natives.class
+  <-  org/chromium/media/VideoCaptureJni$1.class
+

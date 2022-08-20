@@ -1,0 +1,17 @@
+org/chromium/services/data_decoder/JsonSanitizer$1.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer.class
+org/chromium/services/data_decoder/JsonSanitizer$Natives.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer.class
+org/chromium/services/data_decoder/JsonSanitizer$StackChecker.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer.class
+org/chromium/services/data_decoder/JsonSanitizer.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer$1.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer$Natives.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer$StackChecker.class
+org/chromium/services/data_decoder/JsonSanitizerJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/services/data_decoder/JsonSanitizerJni.class
+org/chromium/services/data_decoder/JsonSanitizerJni.class
+  <-  org/chromium/services/data_decoder/JsonSanitizer$Natives.class
+  <-  org/chromium/services/data_decoder/JsonSanitizerJni$1.class
+

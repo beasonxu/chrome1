@@ -1,0 +1,11 @@
+obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/view/AbsSavedState$1.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/view/AbsSavedState.class
+obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/ExploreByTouchHelper$1.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/FocusStrategy$BoundsAdapter.class
+obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/ExploreByTouchHelper$2.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/FocusStrategy$CollectionAdapter.class
+obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/ExploreByTouchHelper$MyNodeProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/accessibility/AccessibilityNodeProviderCompat.class
+obj/third_party/androidx/androidx_customview_customview_java/classes.jar:androidx/customview/widget/ExploreByTouchHelper.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+

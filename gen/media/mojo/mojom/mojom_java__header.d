@@ -1,0 +1,22 @@
+obj/media/mojo/mojom/mojom_java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/gpu/ipc/common/interfaces_java.turbine.jar \
+ obj/media/learning/mojo/public/mojom/mojom_java.turbine.jar \
+ obj/media/mojo/mojom/audio_data_java.turbine.jar \
+ obj/media/mojo/mojom/encryption_pattern_java.turbine.jar \
+ obj/media/mojo/mojom/stable/stable_video_decoder_java.turbine.jar \
+ obj/mojo/public/java/bindings_java.turbine.jar \
+ obj/mojo/public/java/system_java.turbine.jar \
+ obj/mojo/public/mojom/base/base_java.turbine.jar \
+ obj/sandbox/policy/mojom/mojom_java.turbine.jar \
+ obj/services/media_session/public/mojom/mojom_java.turbine.jar \
+ obj/services/network/public/mojom/cookies_mojom_java.turbine.jar \
+ obj/services/network/public/mojom/mojom_java.turbine.jar \
+ obj/services/service_manager/public/mojom/mojom_java.turbine.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/ui/gfx/geometry/mojom/mojom_java.turbine.jar \
+ obj/ui/gfx/mojom/mojom_java.turbine.jar \
+ obj/ui/gl/mojom/mojom_java.turbine.jar \
+ obj/url/mojom/url_mojom_gurl_java.turbine.jar \
+ obj/url/mojom/url_mojom_origin_java.turbine.jar \
+ gen/media/mojo/mojom/mojom_java_sources.srcjar

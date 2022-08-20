@@ -1,0 +1,30 @@
+gen/third_party/metrics_proto/metrics_proto_java__protoc_java.srcjar: \
+ ../../third_party/metrics_proto/call_stack_profile.proto \
+ ../../third_party/metrics_proto/cast_assistant_logs.proto \
+ ../../third_party/metrics_proto/cast_logs.proto \
+ ../../third_party/metrics_proto/chrome_os_app_list_launch_event.proto \
+ ../../third_party/metrics_proto/chrome_searchbox_stats.proto \
+ ../../third_party/metrics_proto/chrome_user_metrics_extension.proto \
+ ../../third_party/metrics_proto/custom_tab_session.proto \
+ ../../third_party/metrics_proto/execution_context.proto \
+ ../../third_party/metrics_proto/extension_install.proto \
+ ../../third_party/metrics_proto/histogram_event.proto \
+ ../../third_party/metrics_proto/memory_leak_report.proto \
+ ../../third_party/metrics_proto/omnibox_event.proto \
+ ../../third_party/metrics_proto/omnibox_input_type.proto \
+ ../../third_party/metrics_proto/perf_data.proto \
+ ../../third_party/metrics_proto/perf_stat.proto \
+ ../../third_party/metrics_proto/printer_event.proto \
+ ../../third_party/metrics_proto/reporting_info.proto \
+ ../../third_party/metrics_proto/sampled_profile.proto \
+ ../../third_party/metrics_proto/structured_data.proto \
+ ../../third_party/metrics_proto/system_profile.proto \
+ ../../third_party/metrics_proto/trace_log.proto \
+ ../../third_party/metrics_proto/translate_event.proto \
+ ../../third_party/metrics_proto/ukm/aggregate.proto \
+ ../../third_party/metrics_proto/ukm/entry.proto \
+ ../../third_party/metrics_proto/ukm/report.proto \
+ ../../third_party/metrics_proto/ukm/source.proto \
+ ../../third_party/metrics_proto/user_action_event.proto \
+ ../../third_party/metrics_proto/user_demographics.proto \
+ ../../third_party/android_protoc/protoc

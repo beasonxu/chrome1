@@ -1,0 +1,113 @@
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/CheckBoxPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/TwoStatePreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DropDownPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/EditTextPreference$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/EditTextPreference$SimpleSummaryProvider.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$SummaryProvider.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/EditTextPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/EditTextPreferenceDialogFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragment.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/EditTextPreferenceDialogFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragmentCompat.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ExpandButton.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreference$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreference$SimpleSummaryProvider.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$SummaryProvider.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreferenceDialogFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragment.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/ListPreferenceDialogFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragmentCompat.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/MultiSelectListPreference$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/MultiSelectListPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/MultiSelectListPreferenceDialogFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragment.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/MultiSelectListPreferenceDialogFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragmentCompat.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceCategory.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroup.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceDialogFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragment$DividerDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragment$ScrollToPreferenceObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference$TargetFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnNavigateToScreenListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnPreferenceTreeClickListener.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragmentCompat$DividerDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragmentCompat$ScrollToPreferenceObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/DialogPreference$TargetFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnNavigateToScreenListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$OnPreferenceTreeClickListener.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroup$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroup.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroupAdapter$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/DiffUtil$Callback.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroupAdapter$3.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$OnPreferenceClickListener.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroupAdapter.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$OnPreferenceChangeInternalListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroup$PreferencePositionCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceHeaderFragmentCompat$InnerOnBackPressedCallback.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedCallback.class
+  <-  obj/third_party/androidx/androidx_slidingpanelayout_slidingpanelayout_java.ijar.jar:androidx/slidingpanelayout/widget/SlidingPaneLayout$PanelSlideListener.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceHeaderFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentManager$OnBackStackChangedListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceFragmentCompat$OnPreferenceStartFragmentCallback.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$SimplePreferenceComparisonCallback.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceManager$PreferenceComparisonCallback.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceRecyclerViewAccessibilityDelegate$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceRecyclerViewAccessibilityDelegate.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerViewAccessibilityDelegate.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceScreen.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceGroup.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/PreferenceViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/SeekBarPreference$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/SeekBarPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/SwitchPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/TwoStatePreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/SwitchPreferenceCompat.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/TwoStatePreference.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/TwoStatePreference$SavedState.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference$BaseSavedState.class
+obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/TwoStatePreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.processed.jar:androidx/preference/Preference.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerViewAccessibilityDelegate.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+
