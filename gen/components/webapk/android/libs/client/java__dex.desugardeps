@@ -1,0 +1,15 @@
+org/chromium/components/webapk/lib/client/WebApkValidator$ValidationResult.class
+  <-  org/chromium/components/webapk/lib/client/WebApkValidator.class
+org/chromium/components/webapk/lib/client/WebApkValidator.class
+  <-  org/chromium/components/webapk/lib/client/WebApkValidator$ValidationResult.class
+org/chromium/components/webapk/lib/client/WebApkVerifySignature$Block$1.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature.class
+org/chromium/components/webapk/lib/client/WebApkVerifySignature$Block.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature.class
+org/chromium/components/webapk/lib/client/WebApkVerifySignature$Error.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature.class
+org/chromium/components/webapk/lib/client/WebApkVerifySignature.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature$Block$1.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature$Block.class
+  <-  org/chromium/components/webapk/lib/client/WebApkVerifySignature$Error.class
+

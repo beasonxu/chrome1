@@ -1,0 +1,30 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "chromium_code": true,
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//chrome/android/webapk/shell_apk:unbound_webapk_app_icon_resources",
+    "name": "unbound_webapk_app_icon_resources.build_config.json",
+    "path": "gen/chrome/android/webapk/shell_apk/unbound_webapk_app_icon_resources.build_config.json",
+    "r_text_path": "gen/chrome/android/webapk/shell_apk/unbound_webapk_app_icon_resources_R.txt",
+    "res_sources_path": "gen/chrome/android/webapk/shell_apk/unbound_webapk_app_icon_resources.res.sources",
+    "resources_zip": "obj/chrome/android/webapk/shell_apk/unbound_webapk_app_icon_resources.resources.zip",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

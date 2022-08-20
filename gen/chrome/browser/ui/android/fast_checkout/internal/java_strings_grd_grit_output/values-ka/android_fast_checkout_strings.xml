@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"იმ მისამართებისა და გადახდის ვარიანტების სია, რომელიც უნდა შეივსოს შეკვეთის გაფორმებისას."</string>
+<string name="fast_checkout_sheet_half_height">"იმ მისამართებისა და გადახდის ვარიანტების სია, რომელიც უნდა შეივსოს შეკვეთის გაფორმებისას, გახსნილია ნახევარ სიმაღლეზე."</string>
+<string name="fast_checkout_sheet_full_height">"იმ მისამართებისა და გადახდის ვარიანტების სია, რომელიც უნდა შეივსოს შეკვეთის გაფორმებისას, გახსნილია სრულ სიმაღლეზე."</string>
+<string name="fast_checkout_sheet_closed">"იმ მისამართებისა და გადახდის ვარიანტების სია, რომელიც უნდა შეივსოს შეკვეთის გაფორმებისას, დახურულია."</string>
+</resources>

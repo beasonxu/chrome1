@@ -1,0 +1,51 @@
+{
+  "extends": "../../../../../../../components/sync/driver/resources/tsconfig_base.json",
+  "compilerOptions": {
+    "rootDir": "preprocess",
+    "outDir": "tsc",
+    "paths": {
+      "chrome://resources/*": [
+        "./../../../../ui/webui/resources/preprocessed/*"
+      ],
+      "//resources/*": [
+        "./../../../../ui/webui/resources/preprocessed/*"
+      ],
+      "chrome://resources/polymer/v3_0/*": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "//resources/polymer/v3_0/*": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "//resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "/tools/typescript/definitions/*": [
+        "./../../../../../../../tools/typescript/definitions/*"
+      ]
+    }
+  },
+  "files": [
+    "preprocess/about.ts",
+    "preprocess/chrome_sync.ts",
+    "preprocess/data.ts",
+    "preprocess/invalidations.ts",
+    "preprocess/search.ts",
+    "preprocess/sync_log.ts",
+    "preprocess/sync_node_browser.ts",
+    "preprocess/sync_search.ts",
+    "preprocess/traffic_log.ts",
+    "preprocess/user_events.ts",
+    "preprocess/sync_index.ts",
+    "../../../../../../../tools/typescript/definitions/chrome_send.d.ts",
+    "../../../../../../../tools/typescript/definitions/pending.d.ts",
+    "../../../../../../../components/sync/driver/resources/jstemplate.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../../../ui/webui/resources/tsconfig_library.json"
+    }
+  ]
+}

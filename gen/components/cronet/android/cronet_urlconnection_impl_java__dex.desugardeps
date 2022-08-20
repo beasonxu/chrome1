@@ -1,0 +1,24 @@
+org/chromium/net/urlconnection/CronetBufferedOutputStream$UploadDataProviderImpl.class
+  <-  obj/components/cronet/android/cronet_api_java.turbine.jar:org/chromium/net/UploadDataProvider.class
+  <-  org/chromium/net/urlconnection/CronetBufferedOutputStream.class
+org/chromium/net/urlconnection/CronetBufferedOutputStream.class
+  <-  org/chromium/net/urlconnection/CronetBufferedOutputStream$UploadDataProviderImpl.class
+  <-  org/chromium/net/urlconnection/CronetOutputStream.class
+org/chromium/net/urlconnection/CronetChunkedOutputStream$UploadDataProviderImpl.class
+  <-  obj/components/cronet/android/cronet_api_java.turbine.jar:org/chromium/net/UploadDataProvider.class
+  <-  org/chromium/net/urlconnection/CronetChunkedOutputStream.class
+org/chromium/net/urlconnection/CronetChunkedOutputStream.class
+  <-  org/chromium/net/urlconnection/CronetChunkedOutputStream$UploadDataProviderImpl.class
+  <-  org/chromium/net/urlconnection/CronetOutputStream.class
+org/chromium/net/urlconnection/CronetFixedModeOutputStream$UploadDataProviderImpl.class
+  <-  obj/components/cronet/android/cronet_api_java.turbine.jar:org/chromium/net/UploadDataProvider.class
+  <-  org/chromium/net/urlconnection/CronetFixedModeOutputStream.class
+org/chromium/net/urlconnection/CronetFixedModeOutputStream.class
+  <-  org/chromium/net/urlconnection/CronetFixedModeOutputStream$UploadDataProviderImpl.class
+  <-  org/chromium/net/urlconnection/CronetOutputStream.class
+org/chromium/net/urlconnection/CronetHttpURLConnection$CronetUrlRequestCallback.class
+  <-  obj/components/cronet/android/cronet_api_java.turbine.jar:org/chromium/net/UrlRequest$Callback.class
+  <-  org/chromium/net/urlconnection/CronetHttpURLConnection.class
+org/chromium/net/urlconnection/CronetHttpURLConnection.class
+  <-  org/chromium/net/urlconnection/CronetHttpURLConnection$CronetUrlRequestCallback.class
+

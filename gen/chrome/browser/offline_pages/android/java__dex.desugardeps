@@ -1,0 +1,11 @@
+org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfiguration$Natives.class
+  <-  org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfiguration.class
+org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfiguration.class
+  <-  org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfiguration$Natives.class
+org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfigurationJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfigurationJni.class
+org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfigurationJni.class
+  <-  org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfiguration$Natives.class
+  <-  org/chromium/chrome/browser/offlinepages/prefetch/PrefetchConfigurationJni$1.class
+

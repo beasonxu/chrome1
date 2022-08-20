@@ -1,0 +1,23 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/installedapp/mojom/InstalledAppProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+org/chromium/components/installedapp/InstalledAppProviderImpl$InstantAppProvider.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl.class
+org/chromium/components/installedapp/InstalledAppProviderImpl$Natives.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl.class
+org/chromium/components/installedapp/InstalledAppProviderImpl$ResultHolder.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl.class
+org/chromium/components/installedapp/InstalledAppProviderImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/installedapp/mojom/InstalledAppProvider.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl$InstantAppProvider.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl$Natives.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl$ResultHolder.class
+org/chromium/components/installedapp/InstalledAppProviderImplJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImplJni.class
+org/chromium/components/installedapp/InstalledAppProviderImplJni.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImpl$Natives.class
+  <-  org/chromium/components/installedapp/InstalledAppProviderImplJni$1.class
+

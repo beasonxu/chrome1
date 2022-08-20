@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2015 The Chromium Authors. All rights reserved.
+     Use of this source code is governed by a BSD-style license that can be
+     found in the LICENSE file.
+-->
+
+<!-- AndroidManifest.xml is generated in two mustache generation passes.
+     Pass #1 with square bracket delimiter to generate AndroidManifest.xml to
+             be uploaded to the WebAPK Minting Server. Fields which cannot be
+             customized by the WebAPK server on a per-site basis are filled in.
+     Pass #2 with curly bracket delimiter fills in the remaining fields. The
+             generated AndroidManifest.xml is for the test APK (WebApk.apk,
+             UnboundWebApk.apk ...). These APKs are for local testing and are
+             not uploaded to the WebAPK server.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.chromium.test.maps_go_webapk"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+
+    <uses-sdk
+        android:minSdkVersion="23"
+        android:targetSdkVersion="33" />
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <data android:scheme="https" />
+        </intent>
+        <intent>
+            <action android:name="android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/short_name"
+        android:allowBackup="false"
+        android:supportsRtl="true">
+        <activity android:name="org.chromium.webapk.shell_apk.h2o.H2OTransparentLauncherActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:excludeFromRecents="true"
+                  android:exported="true"
+                  android:relinquishTaskIdentity="true">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <category android:name="android.intent.category.BROWSABLE"></category>
+                <data android:scheme="https" android:host="www.google.com" android:pathPrefix="/maps"></data>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <data android:scheme="https" android:host="www.google.com" android:pathPrefix="/maps"></data>
+            </intent-filter>
+            
+         </activity>
+
+        <activity android:name="org.chromium.webapk.shell_apk.ManageDataLauncherActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+
+        <activity android:name="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity"
+                  android:theme="@style/SplashTheme"
+                  android:relinquishTaskIdentity="true"
+                  android:screenOrientation="unspecified"
+                  android:exported="true"
+                  android:enabled="@bool/opaque_main_activity_enabled_default">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name="org.chromium.webapk.shell_apk.h2o.SplashActivity"
+                  android:theme="@style/SplashTheme"
+                  android:screenOrientation="unspecified"
+                  android:launchMode="singleTask">
+        </activity>
+        <provider android:name="org.chromium.webapk.shell_apk.h2o.SplashContentProvider"
+                  android:authorities="org.chromium.test.maps_go_webapk.SplashContentProvider"
+                  android:exported="true" />
+        <activity android:name="org.chromium.webapk.shell_apk.h2o.H2OMainActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:exported="true"
+                  android:enabled="@bool/transparent_main_activity_enabled_default"
+                  android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+        </activity>
+        <activity android:name="org.chromium.webapk.shell_apk.NotificationPermissionRequestActivity"
+                  android:theme="@style/PermissionRequestTheme">
+        </activity>
+
+        <meta-data android:name="org.chromium.webapk.shell_apk.shellApkVersion" android:value="155" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.runtimeHost" android:value="org.chromium.chrome" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.runtimeHostApplicationName" android:value="" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.startUrl" android:value="https://www.google.com/maps/@37.7890183,-122.3915063,15z?force=pwa" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.scope" android:value="https://www.google.com/maps" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.displayMode" android:value="standalone" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.orientation" android:value="portrait" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.themeColor" android:value="2147483648L" />
+
+        <!-- Empty if the Web Manifest does not provide a background color. -->
+        <meta-data android:name="org.chromium.webapk.shell_apk.backgroundColor" android:value="2147483648L" />
+
+        <meta-data android:name="org.chromium.webapk.shell_apk.defaultBackgroundColorId" android:resource="@color/webapp_default_bg" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.iconId" android:resource="@mipmap/app_icon" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.splashId" android:resource="@drawable/splash_icon" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.isSplashIconMaskableBooleanId" android:resource="@bool/is_splash_icon_maskable"/>
+        <meta-data android:name="org.chromium.webapk.shell_apk.distributor" android:value="other" />
+
+        <meta-data android:name="org.chromium.webapk.shell_apk.iconUrlsAndIconMurmur2Hashes" android:value="https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps_pwa_icon_v0920_48x48.png 0 https://maps.gstatic.com/mapfiles/maps_lite/pwa/icons/maps_pwa_icon_v0920_72x72 0" />
+
+        <meta-data android:name="org.chromium.webapk.shell_apk.webManifestUrl" android:value="https://maps.gstatic.com/tactile/worker/ml.json" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.webManifestId" android:value="" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.appKey" android:value="" />
+
+        <meta-data android:name="org.chromium.webapk.shell_apk.isNewStyleWebApk" android:value="true" />
+        <meta-data android:name="org.chromium.webapk.shell_apk.enableSiteSettingsShortcut" android:value="True" />
+        <service
+            android:name="org.chromium.webapk.shell_apk.WebApkServiceFactory"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+              <action android:name="android.intent.action.MAIN" />
+              <category android:name="android.intent.category.WEBAPK_API" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="org.chromium.webapk.shell_apk.IdentityService"
+            android:exported="true"
+            tools:ignore="ExportedService">
+            <intent-filter>
+              <action android:name="org.webapk.IDENTITY_SERVICE_API" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

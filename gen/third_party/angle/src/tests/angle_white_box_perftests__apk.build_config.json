@@ -1,0 +1,145 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "assets": [],
+  "deps_info": {
+    "android_manifest": "gen/third_party/angle/src/tests/angle_white_box_perftests__apk/AndroidManifest.xml",
+    "apk_path": "angle_white_box_perftests_apk/angle_white_box_perftests-debug.apk",
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__compile_resources.srcjar",
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__native_libraries.srcjar",
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__build_config_srcjar.srcjar"
+    ],
+    "chromium_code": false,
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/angle/src/tests/native_test_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_classpath": [
+      "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.processed.jar",
+      "obj/build/android/build_java.processed.jar",
+      "obj/build/android/gtest_apk/native_test_instrumentation_test_runner_java.processed.jar",
+      "obj/third_party/angle/src/tests/native_test_java.processed.jar"
+    ],
+    "device_jar_path": "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.processed.jar",
+    "dex_path": "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//third_party/angle/src/tests:angle_white_box_perftests__apk__java",
+    "incremental_apk_path": null,
+    "incremental_install_json_path": null,
+    "interface_jar_path": "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.turbine.jar",
+    "javac_full_classpath": [
+      "obj/third_party/angle/src/tests/native_test_java.javac.jar",
+      "obj/build/android/gtest_apk/native_test_instrumentation_test_runner_java.javac.jar",
+      "obj/build/android/build_java.javac.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/angle/src/tests:native_test_java",
+      "//build/android/gtest_apk:native_test_instrumentation_test_runner_java",
+      "//build/android:build_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/angle/src/tests/native_test_java.turbine.jar",
+      "obj/build/android/gtest_apk/native_test_instrumentation_test_runner_java.turbine.jar",
+      "obj/build/android/build_java.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/build_java.sources",
+        "gen/build/android/gtest_apk/native_test_instrumentation_test_runner_java.sources",
+        "gen/third_party/angle/src/tests/native_test_java.sources"
+      ]
+    },
+    "lint_aars": [],
+    "lint_android_manifest": "gen/third_party/angle/src/tests/angle_white_box_perftests__apk/AndroidManifest.xml",
+    "lint_extra_android_manifests": [],
+    "lint_java_sources": [
+      "gen/build/android/gtest_apk/native_test_instrumentation_test_runner_java.sources"
+    ],
+    "lint_resource_sources": [],
+    "lint_resource_zips": [],
+    "lint_srcjars": [
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__build_config_srcjar.srcjar",
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__compile_resources.srcjar",
+      "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__native_libraries.srcjar"
+    ],
+    "locales_java_list": "{}",
+    "merged_android_manifest": "gen/third_party/angle/src/tests/angle_white_box_perftests__apk/AndroidManifest.merged.xml",
+    "module_pathmap_path": "",
+    "name": "angle_white_box_perftests__apk.build_config.json",
+    "package_name": "com.android.angle.test",
+    "path": "gen/third_party/angle/src/tests/angle_white_box_perftests__apk.build_config.json",
+    "proguard_all_configs": [],
+    "proguard_classpath_jars": [],
+    "proguard_enabled": false,
+    "r_text_path": "gen/third_party/angle/src/tests/angle_white_box_perftests__apk__compile_resources_R.txt",
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "android_apk",
+    "unprocessed_jar_path": "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.processed.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "dist_jar": {
+    "all_interface_jars": [
+      "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.turbine.jar",
+      "obj/build/android/build_java.turbine.jar",
+      "obj/build/android/gtest_apk/native_test_instrumentation_test_runner_java.turbine.jar",
+      "obj/third_party/angle/src/tests/native_test_java.turbine.jar"
+    ]
+  },
+  "extra_android_manifests": [],
+  "final_dex": {
+    "all_dex_files": [
+      "obj/build/android/build_java.dex.jar",
+      "obj/build/android/gtest_apk/native_test_instrumentation_test_runner_java.dex.jar",
+      "obj/third_party/angle/src/tests/native_test_java.dex.jar",
+      "obj/third_party/angle/src/tests/angle_white_box_perftests__apk.dex.jar"
+    ],
+    "path": "obj/third_party/angle/src/tests/angle_white_box_perftests__apk/angle_white_box_perftests__apk.mergeddex.jar"
+  },
+  "gradle": {
+    "dependent_android_projects": [
+      "gen/third_party/angle/src/tests/native_test_java.build_config.json"
+    ],
+    "dependent_java_projects": []
+  },
+  "java_resources_jars": [],
+  "javac": {
+    "classpath": [
+      "obj/third_party/angle/src/tests/native_test_java.javac.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/angle/src/tests/native_test_java.turbine.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  },
+  "native": {
+    "java_libraries_list": "{\"angle_white_box_perftests__library\"}",
+    "libraries": [
+      "libangle_white_box_perftests__library.so"
+    ],
+    "library_always_compress": null,
+    "library_renames": [],
+    "loadable_modules": [],
+    "native_library_placeholders": [],
+    "secondary_abi_libraries": [],
+    "secondary_abi_loadable_modules": [],
+    "secondary_native_library_placeholders": [],
+    "uncompress_shared_libraries": false
+  },
+  "uncompressed_assets": []
+}

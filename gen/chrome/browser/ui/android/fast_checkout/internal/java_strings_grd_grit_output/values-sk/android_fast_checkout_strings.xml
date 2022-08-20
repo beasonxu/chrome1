@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Zoznam adries a možností platby na vyplnenie počas procesu platby."</string>
+<string name="fast_checkout_sheet_half_height">"Zoznam adries a možností platby na vyplnenie počas procesu platby je otvorený na polovičnú výšku."</string>
+<string name="fast_checkout_sheet_full_height">"Zoznam adries a možností platby na vyplnenie počas procesu platby je otvorený na celú výšku."</string>
+<string name="fast_checkout_sheet_closed">"Zoznam adries a možností platby na vyplnenie počas procesu platby je zatvorený."</string>
+</resources>

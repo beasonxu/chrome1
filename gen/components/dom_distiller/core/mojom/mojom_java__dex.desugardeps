@@ -1,0 +1,9 @@
+org/chromium/dom_distiller/mojom/FontFamily$EnumType.class
+  <-  org/chromium/dom_distiller/mojom/FontFamily.class
+org/chromium/dom_distiller/mojom/FontFamily.class
+  <-  org/chromium/dom_distiller/mojom/FontFamily$EnumType.class
+org/chromium/dom_distiller/mojom/Theme$EnumType.class
+  <-  org/chromium/dom_distiller/mojom/Theme.class
+org/chromium/dom_distiller/mojom/Theme.class
+  <-  org/chromium/dom_distiller/mojom/Theme$EnumType.class
+

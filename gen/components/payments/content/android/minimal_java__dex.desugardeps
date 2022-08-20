@@ -1,0 +1,40 @@
+obj/components/autofill/android/payments_autofill_java.turbine.jar:org/chromium/components/autofill/EditableOption.class
+  <-  obj/components/autofill/android/payments_autofill_java.turbine.jar:org/chromium/components/autofill/Completable.class
+org/chromium/components/payments/PaymentApp$1.class
+  <-  org/chromium/components/payments/PaymentApp.class
+org/chromium/components/payments/PaymentApp$AbortCallback.class
+  <-  org/chromium/components/payments/PaymentApp.class
+org/chromium/components/payments/PaymentApp$InstrumentDetailsCallback.class
+  <-  org/chromium/components/payments/PaymentApp.class
+org/chromium/components/payments/PaymentApp.class
+  <-  obj/components/autofill/android/payments_autofill_java.turbine.jar:org/chromium/components/autofill/EditableOption.class
+  <-  org/chromium/components/payments/PaymentApp$1.class
+  <-  org/chromium/components/payments/PaymentApp$AbortCallback.class
+  <-  org/chromium/components/payments/PaymentApp$InstrumentDetailsCallback.class
+org/chromium/components/payments/PaymentAppService$Collector.class
+  <-  org/chromium/components/payments/PaymentAppFactoryDelegate.class
+  <-  org/chromium/components/payments/PaymentAppService.class
+org/chromium/components/payments/PaymentAppService.class
+  <-  org/chromium/components/payments/PaymentAppFactoryInterface.class
+  <-  org/chromium/components/payments/PaymentAppService$Collector.class
+org/chromium/components/payments/PaymentHandlerHost$Natives.class
+  <-  org/chromium/components/payments/PaymentHandlerHost.class
+org/chromium/components/payments/PaymentHandlerHost.class
+  <-  org/chromium/components/payments/PaymentHandlerHost$Natives.class
+org/chromium/components/payments/PaymentHandlerHostJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/payments/PaymentHandlerHostJni.class
+org/chromium/components/payments/PaymentHandlerHostJni.class
+  <-  org/chromium/components/payments/PaymentHandlerHost$Natives.class
+  <-  org/chromium/components/payments/PaymentHandlerHostJni$1.class
+org/chromium/components/payments/PaymentRequestSpec$Natives.class
+  <-  org/chromium/components/payments/PaymentRequestSpec.class
+org/chromium/components/payments/PaymentRequestSpec.class
+  <-  org/chromium/components/payments/PaymentRequestSpec$Natives.class
+org/chromium/components/payments/PaymentRequestSpecJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/payments/PaymentRequestSpecJni.class
+org/chromium/components/payments/PaymentRequestSpecJni.class
+  <-  org/chromium/components/payments/PaymentRequestSpec$Natives.class
+  <-  org/chromium/components/payments/PaymentRequestSpecJni$1.class
+

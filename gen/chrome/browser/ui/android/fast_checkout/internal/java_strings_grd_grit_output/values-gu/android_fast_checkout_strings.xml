@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"ચેકઆઉટ ફ્લો દરમિયાન ભરવાની સરનામા અને ચુકવણીના વિકલ્પોની સૂચિ."</string>
+<string name="fast_checkout_sheet_half_height">"ચેકઆઉટ ફ્લો દરમિયાન સરનામા અને ચુકવણીના વિકલ્પોની સૂચિ ભરવાની સુવિધા અડધી ખુલ્લી છે."</string>
+<string name="fast_checkout_sheet_full_height">"ચેકઆઉટ ફ્લો દરમિયાન સરનામા અને ચુકવણીના વિકલ્પોની સૂચિ ભરવાની સુવિધા સંપૂર્ણ રીતે ખુલ્લી છે."</string>
+<string name="fast_checkout_sheet_closed">"ચેકઆઉટ ફ્લો દરમિયાન સરનામા અને ચુકવણીના વિકલ્પોની સૂચિ ભરવાની સુવિધા બંધ છે."</string>
+</resources>

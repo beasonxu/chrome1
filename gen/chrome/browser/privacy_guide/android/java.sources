@@ -1,0 +1,5 @@
+../../chrome/browser/privacy_guide/android/java/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuideBottomSheetView.java
+../../chrome/browser/privacy_guide/android/java/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuideExplanationHeading.java
+../../chrome/browser/privacy_guide/android/java/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuideExplanationItem.java
+../../chrome/browser/privacy_guide/android/java/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuideFragment.java
+../../chrome/browser/privacy_guide/android/java/src/org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.java

@@ -1,0 +1,9 @@
+org/chromium/components/embedder_support/application/ClassLoaderContextWrapperFactory$ClassLoaderContextWrapper.class
+  <-  org/chromium/components/embedder_support/application/ClassLoaderContextWrapperFactory.class
+org/chromium/components/embedder_support/application/ClassLoaderContextWrapperFactory.class
+  <-  org/chromium/components/embedder_support/application/ClassLoaderContextWrapperFactory$ClassLoaderContextWrapper.class
+org/chromium/components/embedder_support/application/FontPreloadingWorkaround$PackageManagerWrapper.class
+  <-  org/chromium/components/embedder_support/application/FontPreloadingWorkaround.class
+org/chromium/components/embedder_support/application/FontPreloadingWorkaround.class
+  <-  org/chromium/components/embedder_support/application/FontPreloadingWorkaround$PackageManagerWrapper.class
+

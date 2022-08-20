@@ -1,0 +1,17 @@
+org/chromium/content_settings/mojom/ContentSetting$EnumType.class
+  <-  org/chromium/content_settings/mojom/ContentSetting.class
+org/chromium/content_settings/mojom/ContentSetting.class
+  <-  org/chromium/content_settings/mojom/ContentSetting$EnumType.class
+org/chromium/content_settings/mojom/ContentSettingPatternSource.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/content_settings/mojom/ContentSettingsPattern.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/content_settings/mojom/ContentSettingsType$EnumType.class
+  <-  org/chromium/content_settings/mojom/ContentSettingsType.class
+org/chromium/content_settings/mojom/ContentSettingsType.class
+  <-  org/chromium/content_settings/mojom/ContentSettingsType$EnumType.class
+org/chromium/content_settings/mojom/PatternParts.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/content_settings/mojom/RendererContentSettingRules.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

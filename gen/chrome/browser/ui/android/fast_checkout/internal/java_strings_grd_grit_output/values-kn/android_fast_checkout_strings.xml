@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"ಚೆಕ್ ಔಟ್ ಪ್ರಕ್ರಿಯೆಗಳ ಸಮಯದಲ್ಲಿ ಭರ್ತಿ ಮಾಡಬೇಕಾದ ವಿಳಾಸಗಳು ಮತ್ತು ಪಾವತಿ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿ."</string>
+<string name="fast_checkout_sheet_half_height">"ಚೆಕ್ ಔಟ್ ಪ್ರಕ್ರಿಯೆಗಳ ಸಮಯದಲ್ಲಿ ಭರ್ತಿ ಮಾಡಬೇಕಾದ ವಿಳಾಸಗಳು ಮತ್ತು ಪಾವತಿ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ಕೆಳಭಾಗದ ಅರ್ಧ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆವರಿಸಿಕೊಳ್ಳುವ ರೀತಿಯಲ್ಲಿ ತೆರೆಯಲಾಗಿದೆ."</string>
+<string name="fast_checkout_sheet_full_height">"ಚೆಕ್ ಔಟ್ ಪ್ರಕ್ರಿಯೆಗಳ ಸಮಯದಲ್ಲಿ ಭರ್ತಿ ಮಾಡಬೇಕಾದ ವಿಳಾಸಗಳು ಮತ್ತು ಪಾವತಿ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ಸಂಪೂರ್ಣ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆವರಿಸಿಕೊಳ್ಳುವ ರೀತಿಯಲ್ಲಿ ತೆರೆಯಲಾಗಿದೆ."</string>
+<string name="fast_checkout_sheet_closed">"ಚೆಕ್ ಔಟ್ ಪ್ರಕ್ರಿಯೆಗಳ ಸಮಯದಲ್ಲಿ ಭರ್ತಿ ಮಾಡಬೇಕಾದ ವಿಳಾಸಗಳು ಮತ್ತು ಪಾವತಿ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ಮುಚ್ಚಲಾಗಿದೆ."</string>
+</resources>

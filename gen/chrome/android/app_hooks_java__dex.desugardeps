@@ -1,0 +1,3 @@
+org/chromium/chrome/browser/AppHooksImpl.class
+  <-  obj/chrome/android/chrome_java.turbine.jar:org/chromium/chrome/browser/AppHooks.class
+

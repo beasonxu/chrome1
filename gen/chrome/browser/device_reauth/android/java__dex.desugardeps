@@ -1,0 +1,24 @@
+org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge$1.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge.class
+org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge$Natives.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge.class
+org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge$1.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge$Natives.class
+org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridgeJni.class
+org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridgeJni.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge$Natives.class
+  <-  org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridgeJni$1.class
+org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge$Natives.class
+  <-  org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge.class
+org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge.class
+  <-  org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge$Natives.class
+org/chromium/chrome/browser/device_reauth/ReauthenticatorBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/device_reauth/ReauthenticatorBridgeJni.class
+org/chromium/chrome/browser/device_reauth/ReauthenticatorBridgeJni.class
+  <-  org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge$Natives.class
+  <-  org/chromium/chrome/browser/device_reauth/ReauthenticatorBridgeJni$1.class
+

@@ -1,0 +1,20 @@
+obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/TabObserver.class
+org/chromium/chrome/browser/feature_engagement/ScreenshotMonitor$ScreenshotMonitorContentObserver.class
+  <-  org/chromium/chrome/browser/feature_engagement/ScreenshotMonitor.class
+org/chromium/chrome/browser/feature_engagement/ScreenshotMonitor.class
+  <-  org/chromium/chrome/browser/feature_engagement/ScreenshotMonitor$ScreenshotMonitorContentObserver.class
+org/chromium/chrome/browser/feature_engagement/ScreenshotTabObserver.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+org/chromium/chrome/browser/feature_engagement/TrackerFactory$Natives.class
+  <-  org/chromium/chrome/browser/feature_engagement/TrackerFactory.class
+org/chromium/chrome/browser/feature_engagement/TrackerFactory.class
+  <-  org/chromium/chrome/browser/feature_engagement/TrackerFactory$Natives.class
+org/chromium/chrome/browser/feature_engagement/TrackerFactoryJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/feature_engagement/TrackerFactoryJni.class
+org/chromium/chrome/browser/feature_engagement/TrackerFactoryJni.class
+  <-  org/chromium/chrome/browser/feature_engagement/TrackerFactory$Natives.class
+  <-  org/chromium/chrome/browser/feature_engagement/TrackerFactoryJni$1.class
+

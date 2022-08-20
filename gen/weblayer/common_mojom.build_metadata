@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "../components/content_settings/common/mojom.build_metadata",
+    "../components/content_settings/core/common/mojo_bindings.build_metadata"
+  ],
+  "sources": [
+    "../../../../weblayer/common/error_page_helper.mojom",
+    "../../../../weblayer/common/renderer_configuration.mojom"
+  ]
+}

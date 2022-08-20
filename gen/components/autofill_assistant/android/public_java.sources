@@ -1,0 +1,14 @@
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AssistantAddressEditorGms.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AssistantFeatures.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AssistantModuleInstallUi.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AssistantOnboardingHelper.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AssistantPaymentInstrumentEditorGms.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantActionHandler.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantDirectAction.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantMetrics.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantModuleEntry.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantModuleEntryProvider.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantPreferencesUtil.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/AutofillAssistantPublicTags.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/Starter.java
+../../components/autofill_assistant/android/public/java/src/org/chromium/components/autofill_assistant/TriggerContext.java

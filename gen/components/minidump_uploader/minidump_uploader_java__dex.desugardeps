@@ -1,0 +1,45 @@
+org/chromium/components/minidump_uploader/CrashFileManager$1.class
+  <-  org/chromium/components/minidump_uploader/CrashFileManager.class
+org/chromium/components/minidump_uploader/CrashFileManager$2.class
+  <-  org/chromium/components/minidump_uploader/CrashFileManager.class
+org/chromium/components/minidump_uploader/CrashFileManager.class
+  <-  org/chromium/components/minidump_uploader/CrashFileManager$1.class
+  <-  org/chromium/components/minidump_uploader/CrashFileManager$2.class
+org/chromium/components/minidump_uploader/CrashReportMimeWriter$Natives.class
+  <-  org/chromium/components/minidump_uploader/CrashReportMimeWriter.class
+org/chromium/components/minidump_uploader/CrashReportMimeWriter.class
+  <-  org/chromium/components/minidump_uploader/CrashReportMimeWriter$Natives.class
+org/chromium/components/minidump_uploader/CrashReportMimeWriterJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/minidump_uploader/CrashReportMimeWriterJni.class
+org/chromium/components/minidump_uploader/CrashReportMimeWriterJni.class
+  <-  org/chromium/components/minidump_uploader/CrashReportMimeWriter$Natives.class
+  <-  org/chromium/components/minidump_uploader/CrashReportMimeWriterJni$1.class
+org/chromium/components/minidump_uploader/MinidumpUploadCallable$MinidumpUploadStatus.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadCallable.class
+org/chromium/components/minidump_uploader/MinidumpUploadCallable.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadCallable$MinidumpUploadStatus.class
+org/chromium/components/minidump_uploader/MinidumpUploadJob$UploadsFinishedCallback.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJob.class
+org/chromium/components/minidump_uploader/MinidumpUploadJob.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJob$UploadsFinishedCallback.class
+org/chromium/components/minidump_uploader/MinidumpUploadJobImpl$1.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobImpl.class
+org/chromium/components/minidump_uploader/MinidumpUploadJobImpl$UploadRunnable.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobImpl.class
+org/chromium/components/minidump_uploader/MinidumpUploadJobImpl.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJob.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobImpl$1.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobImpl$UploadRunnable.class
+org/chromium/components/minidump_uploader/MinidumpUploadJobService$1.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJob$UploadsFinishedCallback.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobService.class
+org/chromium/components/minidump_uploader/MinidumpUploadJobService.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploadJobService$1.class
+org/chromium/components/minidump_uploader/MinidumpUploader$Result.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploader.class
+org/chromium/components/minidump_uploader/MinidumpUploader.class
+  <-  org/chromium/components/minidump_uploader/MinidumpUploader$Result.class
+org/chromium/components/minidump_uploader/util/HttpURLConnectionFactoryImpl.class
+  <-  org/chromium/components/minidump_uploader/util/HttpURLConnectionFactory.class
+

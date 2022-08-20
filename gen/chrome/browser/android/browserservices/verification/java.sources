@@ -1,0 +1,5 @@
+../../chrome/browser/android/browserservices/verification/java/src/org/chromium/chrome/browser/browserservices/verification/OriginVerifier.java
+../../chrome/browser/android/browserservices/verification/java/src/org/chromium/chrome/browser/browserservices/verification/OriginVerifierFactory.java
+../../chrome/browser/android/browserservices/verification/java/src/org/chromium/chrome/browser/browserservices/verification/OriginVerifierFactoryImpl.java
+../../chrome/browser/android/browserservices/verification/java/src/org/chromium/chrome/browser/browserservices/verification/Relationship.java
+../../chrome/browser/android/browserservices/verification/java/src/org/chromium/chrome/browser/browserservices/verification/VerificationResultStore.java

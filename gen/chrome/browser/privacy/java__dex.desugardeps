@@ -1,0 +1,39 @@
+obj/chrome/browser/settings/java.turbine.jar:org/chromium/chrome/browser/settings/ChromeManagedPreferenceDelegate.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/ManagedPreferenceDelegate.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/DialogPreference$TargetFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnNavigateToScreenListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnPreferenceTreeClickListener.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge$Entry.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge$Natives.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge$Entry.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge$Natives.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridgeJni.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridgeJni.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridge$Natives.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsBridgeJni$1.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsProviderPreference$State.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsProviderPreference.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsProviderPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference.class
+  <-  org/chromium/chrome/browser/privacy/secure_dns/SecureDnsProviderPreference$State.class
+org/chromium/chrome/browser/privacy/secure_dns/SecureDnsSettings.class
+  <-  obj/chrome/browser/settings/java.turbine.jar:org/chromium/chrome/browser/settings/ChromeManagedPreferenceDelegate.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceChangeListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+

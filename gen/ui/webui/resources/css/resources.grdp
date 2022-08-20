@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grit-part>
+      <include name="IDR_WEBUI_CSS_ACTION_LINK_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/action_link.css" resource_path="css/action_link.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_BUTTER_BAR_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/butter_bar.css" resource_path="css/butter_bar.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_CHROME_SHARED_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/chrome_shared.css" resource_path="css/chrome_shared.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_I18N_PROCESS_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/i18n_process.css" resource_path="css/i18n_process.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_LIST_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/list.css" resource_path="css/list.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_MENU_BUTTON_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/menu_button.css" resource_path="css/menu_button.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_MENU_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/menu.css" resource_path="css/menu.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_ROBOTO_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/roboto.css" resource_path="css/roboto.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_SPINNER_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/spinner.css" resource_path="css/spinner.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_TEXT_DEFAULTS_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/text_defaults.css" resource_path="css/text_defaults.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_TEXT_DEFAULTS_MD_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/text_defaults_md.css" resource_path="css/text_defaults_md.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_THROBBER_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/throbber.css" resource_path="css/throbber.css" use_base_dir="false" type="BINDATA" />
+      <include name="IDR_WEBUI_CSS_WIDGETS_CSS" file="${root_gen_dir}/ui/webui/resources/preprocessed/css/widgets.css" resource_path="css/widgets.css" use_base_dir="false" type="BINDATA" />
+</grit-part>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"చెక్ అవుట్ ఫ్లోల సమయంలో పూరించాల్సిన అడ్రస్‌లు, పేమెంట్ ఆప్షన్‌ల లిస్ట్ మూసివేయబడింది."</string>
+<string name="fast_checkout_sheet_half_height">"చెక్ అవుట్ ఫ్లోల సమయంలో పూరించాల్సిన అడ్రస్‌లు, పేమెంట్ ఆప్షన్‌ల లిస్ట్ సగం మేరకు తెరవబడింది."</string>
+<string name="fast_checkout_sheet_full_height">"చెక్ అవుట్ ఫ్లోల సమయంలో పూరించాల్సిన అడ్రస్‌లు, పేమెంట్ ఆప్షన్‌ల లిస్ట్ పూర్తి స్థాయిలో తెరవబడింది."</string>
+<string name="fast_checkout_sheet_closed">"చెక్ అవుట్ ఫ్లోల సమయంలో పూరించాల్సిన అడ్రస్‌లు, పేమెంట్ ఆప్షన్‌ల లిస్ట్ మూసివేయబడింది."</string>
+</resources>

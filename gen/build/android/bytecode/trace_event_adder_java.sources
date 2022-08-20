@@ -1,0 +1,8 @@
+../../build/android/bytecode/java/org/chromium/bytecode/ByteCodeRewriter.java
+../../build/android/bytecode/java/org/chromium/bytecode/EmptyOverrideGeneratorClassAdapter.java
+../../build/android/bytecode/java/org/chromium/bytecode/MethodCheckerClassAdapter.java
+../../build/android/bytecode/java/org/chromium/bytecode/MethodDescription.java
+../../build/android/bytecode/java/org/chromium/bytecode/ParentMethodCheckerClassAdapter.java
+../../build/android/bytecode/java/org/chromium/bytecode/TraceEventAdder.java
+../../build/android/bytecode/java/org/chromium/bytecode/TraceEventAdderClassAdapter.java
+../../build/android/bytecode/java/org/chromium/bytecode/TraceEventAdderMethodAdapter.java

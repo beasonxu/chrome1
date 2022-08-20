@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Saraksts ar adresēm un norēķinu iespējām, kas jāaizpilda norēķinu plūsmās."</string>
+<string name="fast_checkout_sheet_half_height">"Saraksts ar adresēm un norēķinu iespējām, kas jāaizpilda norēķinu plūsmās, ir atvērts pusekrāna augstumā."</string>
+<string name="fast_checkout_sheet_full_height">"Saraksts ar adresēm un norēķinu iespējām, kas jāaizpilda norēķinu plūsmās, ir atvērts pilna ekrāna augstumā."</string>
+<string name="fast_checkout_sheet_closed">"Saraksts ar adresēm un norēķinu iespējām, kas jāaizpilda norēķinu plūsmās, ir aizvērts."</string>
+</resources>

@@ -1,0 +1,29 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/BlobReaderClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/webshare/mojom/ShareService.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+org/chromium/components/browser_ui/webshare/BlobReceiver$1.class
+  <-  obj/mojo/public/java/system_java.turbine.jar:org/chromium/mojo/system/Watcher$Callback.class
+  <-  org/chromium/components/browser_ui/webshare/BlobReceiver.class
+org/chromium/components/browser_ui/webshare/BlobReceiver.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/BlobReaderClient.class
+  <-  org/chromium/components/browser_ui/webshare/BlobReceiver$1.class
+org/chromium/components/browser_ui/webshare/ShareServiceImpl$1.class
+  <-  obj/components/browser_ui/share/android/java.turbine.jar:org/chromium/components/browser_ui/share/ShareParams$TargetChosenCallback.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl.class
+org/chromium/components/browser_ui/webshare/ShareServiceImpl$2.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl.class
+org/chromium/components/browser_ui/webshare/ShareServiceImpl$WebShareDelegate.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl.class
+org/chromium/components/browser_ui/webshare/ShareServiceImpl.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/webshare/mojom/ShareService.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl$1.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl$2.class
+  <-  org/chromium/components/browser_ui/webshare/ShareServiceImpl$WebShareDelegate.class
+org/chromium/components/browser_ui/webshare/SharedFileCollator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+

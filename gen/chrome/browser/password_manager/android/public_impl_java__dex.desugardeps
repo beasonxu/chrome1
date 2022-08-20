@@ -1,0 +1,15 @@
+org/chromium/chrome/browser/password_manager/CredentialManagerLauncherFactoryImpl.class
+  <-  obj/chrome/browser/password_manager/android/settings_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/CredentialManagerLauncherFactory.class
+org/chromium/chrome/browser/password_manager/PasswordCheckupClientHelperFactoryImpl.class
+  <-  obj/chrome/browser/password_manager/android/settings_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordCheckupClientHelperFactory.class
+org/chromium/chrome/browser/password_manager/PasswordManagerBackendSupportHelperImpl.class
+  <-  obj/chrome/browser/password_manager/android/settings_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordManagerBackendSupportHelper.class
+org/chromium/chrome/browser/password_manager/PasswordManagerResourceProviderImpl.class
+  <-  obj/chrome/browser/password_manager/android/password_manager_resource_provider_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordManagerResourceProvider.class
+org/chromium/chrome/browser/password_manager/PasswordSettingsAccessorFactoryImpl.class
+  <-  obj/chrome/browser/password_manager/android/settings_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordSettingsAccessorFactory.class
+org/chromium/chrome/browser/password_manager/PasswordStoreAndroidBackendFactoryImpl.class
+  <-  obj/chrome/browser/password_manager/android/backend_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordStoreAndroidBackendFactory.class
+org/chromium/chrome/browser/password_manager/PasswordSyncControllerDelegateFactoryImpl.class
+  <-  obj/chrome/browser/password_manager/android/backend_interface_java.turbine.jar:org/chromium/chrome/browser/password_manager/PasswordSyncControllerDelegateFactory.class
+

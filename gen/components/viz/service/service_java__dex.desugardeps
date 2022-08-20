@@ -1,0 +1,15 @@
+org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroid$Natives.class
+  <-  org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroid.class
+org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroid.class
+  <-  org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroid$Natives.class
+org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroidJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroidJni.class
+org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroidJni.class
+  <-  org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroid$Natives.class
+  <-  org/chromium/components/viz/service/frame_sinks/ExternalBeginFrameSourceAndroidJni$1.class
+org/chromium/components/viz/service/gl/ThrowUncaughtException$1.class
+  <-  org/chromium/components/viz/service/gl/ThrowUncaughtException.class
+org/chromium/components/viz/service/gl/ThrowUncaughtException.class
+  <-  org/chromium/components/viz/service/gl/ThrowUncaughtException$1.class
+

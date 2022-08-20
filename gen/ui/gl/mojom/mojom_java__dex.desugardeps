@@ -1,0 +1,5 @@
+org/chromium/gl/mojom/GpuPreference$EnumType.class
+  <-  org/chromium/gl/mojom/GpuPreference.class
+org/chromium/gl/mojom/GpuPreference.class
+  <-  org/chromium/gl/mojom/GpuPreference$EnumType.class
+

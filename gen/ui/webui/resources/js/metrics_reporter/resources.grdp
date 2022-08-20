@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grit-part>
+      <include name="IDR_WEBUI_JS_METRICS_REPORTER_METRICS_REPORTER_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/metrics_reporter/metrics_reporter.js" resource_path="js/metrics_reporter/metrics_reporter.js" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_JS_METRICS_REPORTER_BROWSER_PROXY_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/metrics_reporter/browser_proxy.js" resource_path="js/metrics_reporter/browser_proxy.js" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_JS_METRICS_REPORTER_METRICS_REPORTER_MOJOM_WEBUI_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/metrics_reporter/metrics_reporter.mojom-webui.js" resource_path="js/metrics_reporter/metrics_reporter.mojom-webui.js" use_base_dir="false" type="chrome_html" />
+</grit-part>

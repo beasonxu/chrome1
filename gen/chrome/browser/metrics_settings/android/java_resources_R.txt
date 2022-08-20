@@ -1,0 +1,5 @@
+int id basic_metrics 0x7f010001
+int id extended_metrics 0x7f010001
+int id no_metrics 0x7f010001
+int layout radio_button_group_metrics_preference 0x7f010001
+int xml metrics_preferences 0x7f010001

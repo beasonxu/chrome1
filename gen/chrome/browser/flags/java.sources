@@ -1,0 +1,17 @@
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/AllCachedFieldTrialParameters.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/BooleanCachedFieldTrialParameter.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/CachedFeatureFlags.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/CachedFieldTrialParameter.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/CachedFlag.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/CachedFlagsSafeMode.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/ChromeFeatureList.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/ChromeSessionState.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/DoubleCachedFieldTrialParameter.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/FeatureParamUtils.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/Flag.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/IntCachedFieldTrialParameter.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/MutableFlagWithSafeDefault.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/PostNativeFlag.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/StringCachedFieldTrialParameter.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/ValuesOverridden.java
+../../chrome/browser/flags/android/java/src/org/chromium/chrome/browser/flags/ValuesReturned.java

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Lista de moradas e opções de pagamento a preencher durante os fluxos de pagamento."</string>
+<string name="fast_checkout_sheet_half_height">"A lista de moradas e opções de pagamento a preencher durante os fluxos de pagamento está aberta a meia altura."</string>
+<string name="fast_checkout_sheet_full_height">"A lista de moradas e opções de pagamento a preencher durante os fluxos de pagamento está aberta à altura total."</string>
+<string name="fast_checkout_sheet_closed">"A lista de moradas e opções de pagamento a preencher durante os fluxos de pagamento está fechada."</string>
+</resources>

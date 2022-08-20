@@ -1,0 +1,20 @@
+org/chromium/chrome/browser/page_annotations/BuyableProductPageAnnotation.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotation.class
+org/chromium/chrome/browser/page_annotations/PageAnnotation$PageAnnotationType.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotation.class
+org/chromium/chrome/browser/page_annotations/PageAnnotation.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotation$PageAnnotationType.class
+org/chromium/chrome/browser/page_annotations/PageAnnotationUtils$1.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotationUtils.class
+org/chromium/chrome/browser/page_annotations/PageAnnotationUtils.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotationUtils$1.class
+org/chromium/chrome/browser/page_annotations/PageAnnotationsService.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceFactory$1.class
+  <-  obj/chrome/browser/profiles/android/java.turbine.jar:org/chromium/chrome/browser/profiles/ProfileManager$Observer.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceFactory.class
+org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceFactory.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceFactory$1.class
+org/chromium/chrome/browser/page_annotations/ProductPriceUpdatePageAnnotation.class
+  <-  org/chromium/chrome/browser/page_annotations/PageAnnotation.class
+

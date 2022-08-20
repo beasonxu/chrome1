@@ -1,0 +1,4 @@
+int drawable ic_vpn_key_blue 0x7f010001
+int id confirmation_dialog_message 0x7f010001
+int id confirmation_dialog_title 0x7f010001
+int layout confirmation_dialog_view 0x7f010001

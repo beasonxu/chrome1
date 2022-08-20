@@ -1,0 +1,24 @@
+org/chromium/components/favicon/LargeIconBridge$1.class
+  <-  org/chromium/components/favicon/LargeIconBridge.class
+org/chromium/components/favicon/LargeIconBridge$2.class
+  <-  org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+  <-  org/chromium/components/favicon/LargeIconBridge.class
+org/chromium/components/favicon/LargeIconBridge$CachedFavicon.class
+  <-  org/chromium/components/favicon/LargeIconBridge.class
+org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+  <-  org/chromium/components/favicon/LargeIconBridge.class
+org/chromium/components/favicon/LargeIconBridge$Natives.class
+  <-  org/chromium/components/favicon/LargeIconBridge.class
+org/chromium/components/favicon/LargeIconBridge.class
+  <-  org/chromium/components/favicon/LargeIconBridge$1.class
+  <-  org/chromium/components/favicon/LargeIconBridge$2.class
+  <-  org/chromium/components/favicon/LargeIconBridge$CachedFavicon.class
+  <-  org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+  <-  org/chromium/components/favicon/LargeIconBridge$Natives.class
+org/chromium/components/favicon/LargeIconBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/favicon/LargeIconBridgeJni.class
+org/chromium/components/favicon/LargeIconBridgeJni.class
+  <-  org/chromium/components/favicon/LargeIconBridge$Natives.class
+  <-  org/chromium/components/favicon/LargeIconBridgeJni$1.class
+

@@ -1,0 +1,20 @@
+{
+  "deps_info": {
+    "assets": {
+      "disable_compression": true,
+      "sources": [
+        "obj/chrome/android/webapk/shell_apk/javatests/canary_lib/canary.dex"
+      ]
+    },
+    "chromium_code": true,
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "gn_target": "//chrome/android/webapk/shell_apk/javatests/canary_lib:canary_dex_assets",
+    "name": "canary_dex_assets.build_config.json",
+    "path": "gen/chrome/android/webapk/shell_apk/javatests/canary_lib/canary_dex_assets.build_config.json",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_assets"
+  },
+  "gradle": {}
+}

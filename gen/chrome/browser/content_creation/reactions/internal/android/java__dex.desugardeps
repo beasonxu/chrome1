@@ -1,0 +1,95 @@
+obj/chrome/android/chrome_java.turbine.jar:org/chromium/chrome/browser/share/BaseScreenshotCoordinator.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+obj/chrome/browser/content_creation/reactions/android/public_java.turbine.jar:org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinator.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$GifGeneratorHost.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl$2.class
+  <-  obj/components/browser_ui/share/android/java.turbine.jar:org/chromium/components/browser_ui/share/ShareParams$TargetChosenCallback.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/android/chrome_java.turbine.jar:org/chromium/chrome/browser/share/BaseScreenshotCoordinator.class
+  <-  obj/chrome/browser/content_creation/reactions/android/public_java.turbine.jar:org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinator.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl$2.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog$ReactionsDialogObserver.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/toolbar/ToolbarControlsDelegate.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog$ReactionsDialogObserver.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog$ReactionsDialogObserver.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$Counter.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$GifGeneratorHost.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/share/android/java.turbine.jar:org/chromium/components/browser_ui/share/ShareImageFileUtils$FileOutputStreamWriter.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$Counter.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator$GifGeneratorHost.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$DeviceOrientation.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$LightweightReactionsFunnel.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$ShareDestination.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$DeviceOrientation.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$LightweightReactionsFunnel.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics$ShareDestination.class
+org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsProgressDialog.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+org/chromium/chrome/browser/content_creation/reactions/ReactionGifDrawable.class
+  <-  obj/third_party/gif_player/gif_player_java.turbine.jar:jp/tomorrowkey/android/gifplayer/BaseGifDrawable.class
+org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory.class
+org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory$Natives.class
+org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactoryJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactoryJni.class
+org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactoryJni.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactoryJni$1.class
+org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout.class
+org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$2.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout.class
+org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$3.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout.class
+org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$2.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout$3.class
+org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator.class
+org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$2.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator.class
+org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$3.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator.class
+org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$1.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$2.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator$3.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/scene/SceneEditorDelegate.class
+  <-  org/chromium/chrome/browser/content_creation/reactions/toolbar/ToolbarReactionsDelegate.class
+

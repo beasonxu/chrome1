@@ -1,0 +1,7 @@
+../../build/android/java/src/org/chromium/base/annotations/CheckDiscard.java
+../../build/android/java/src/org/chromium/base/annotations/DoNotClassMerge.java
+../../build/android/java/src/org/chromium/base/annotations/DoNotInline.java
+../../build/android/java/src/org/chromium/base/annotations/IdentifierNameString.java
+../../build/android/java/src/org/chromium/base/annotations/MainDex.java
+../../build/android/java/src/org/chromium/base/annotations/MockedInTests.java
+../../build/android/java/src/org/chromium/base/annotations/UsedByReflection.java

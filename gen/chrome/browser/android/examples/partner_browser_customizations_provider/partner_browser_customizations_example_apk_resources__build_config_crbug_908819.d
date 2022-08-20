@@ -1,0 +1,2 @@
+gen/chrome/browser/android/examples/partner_browser_customizations_provider/partner_browser_customizations_example_apk_resources.build_config.json: \
+ gen/third_party/android_sdk/android_sdk_java.build_config.json

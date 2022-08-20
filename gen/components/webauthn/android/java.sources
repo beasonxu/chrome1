@@ -1,0 +1,13 @@
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/AuthenticatorFactory.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/AuthenticatorImpl.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/Fido2Api.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/Fido2ApiCall.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/Fido2ApiCallHelper.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/Fido2CredentialRequest.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/FidoErrorResponseCallback.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/GetAssertionResponseCallback.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/InternalAuthenticator.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/IsUvpaaResponseCallback.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/MakeCredentialResponseCallback.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/WebAuthnBrowserBridge.java
+../../components/webauthn/android/java/src/org/chromium/components/webauthn/WebAuthnCredentialDetails.java

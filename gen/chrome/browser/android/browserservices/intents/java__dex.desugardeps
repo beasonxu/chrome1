@@ -1,0 +1,17 @@
+org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$CloseButtonPosition.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider.class
+org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$CustomTabsUiType.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider.class
+org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$TwaDisclosureUi.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider.class
+org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$CloseButtonPosition.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$CustomTabsUiType.class
+  <-  org/chromium/chrome/browser/browserservices/intents/BrowserServicesIntentDataProvider$TwaDisclosureUi.class
+org/chromium/chrome/browser/browserservices/intents/MergedWebappInfo.class
+  <-  org/chromium/chrome/browser/browserservices/intents/WebappInfo.class
+org/chromium/chrome/browser/browserservices/intents/WebApkExtras$ShortcutItem.class
+  <-  org/chromium/chrome/browser/browserservices/intents/WebApkExtras.class
+org/chromium/chrome/browser/browserservices/intents/WebApkExtras.class
+  <-  org/chromium/chrome/browser/browserservices/intents/WebApkExtras$ShortcutItem.class
+

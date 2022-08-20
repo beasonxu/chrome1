@@ -1,0 +1,105 @@
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableItemView.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableItemViewBase.class
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableItemViewBase.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectionDelegate$SelectionObserver.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/ViewLookupCachingFrameLayout.class
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableListToolbar.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/displaystyle/DisplayStyleObserver.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectionDelegate$SelectionObserver.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/Toolbar.class
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentDialog.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AlertDialog.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatDialog.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatDialog.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentDialog.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatCallback.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/Toolbar.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/MenuHost.class
+obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/ViewLookupCachingFrameLayout.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/OptimizedFrameLayout.class
+org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask$CompressContactIconsCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask.class
+org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask$CompressContactIconsCallback.class
+org/chromium/components/browser_ui/contacts_picker/ContactDetails$AbbreviatedContactDetails.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactDetails.class
+org/chromium/components/browser_ui/contacts_picker/ContactDetails.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactDetails$AbbreviatedContactDetails.class
+org/chromium/components/browser_ui/contacts_picker/ContactView$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactView.class
+org/chromium/components/browser_ui/contacts_picker/ContactView.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableItemView.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactView$1.class
+org/chromium/components/browser_ui/contacts_picker/ContactViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask$IconRetrievedCallback.class
+org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask$ContactsRetrievedCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask.class
+org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask$ContactsRetrievedCallback.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerDialog.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AlertDialog.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar$ContactsToolbarDelegate.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList$Natives.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList$Natives.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureListJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureListJni.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureListJni.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureList$Natives.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerFeatureListJni$1.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar$ContactsToolbarDelegate.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar.class
+org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableListToolbar.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsPickerToolbar$ContactsToolbarDelegate.class
+org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask$IconRetrievedCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask.class
+org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/components/browser_ui/contacts_picker/FetchIconWorkerTask$IconRetrievedCallback.class
+org/chromium/components/browser_ui/contacts_picker/PickerAdapter$FilterType.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter.class
+org/chromium/components/browser_ui/contacts_picker/PickerAdapter$TopViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter.class
+org/chromium/components/browser_ui/contacts_picker/PickerAdapter$ViewType.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter.class
+org/chromium/components/browser_ui/contacts_picker/PickerAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  org/chromium/components/browser_ui/contacts_picker/ContactsFetcherWorkerTask$ContactsRetrievedCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter$FilterType.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter$TopViewHolder.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerAdapter$ViewType.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView$ChipToggledCallback.class
+org/chromium/components/browser_ui/contacts_picker/PickerCategoryView$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerCategoryView.class
+org/chromium/components/browser_ui/contacts_picker/PickerCategoryView$ContactsBitmapCache.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerCategoryView.class
+org/chromium/components/browser_ui/contacts_picker/PickerCategoryView.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectableListToolbar$SearchDelegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/selectable_list/SelectionDelegate$SelectionObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$RecyclerListener.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/OptimizedFrameLayout.class
+  <-  org/chromium/components/browser_ui/contacts_picker/CompressContactIconsWorkerTask$CompressContactIconsCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerCategoryView$1.class
+  <-  org/chromium/components/browser_ui/contacts_picker/PickerCategoryView$ContactsBitmapCache.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView$SelectAllToggleCallback.class
+org/chromium/components/browser_ui/contacts_picker/TopView$ChipToggledCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView.class
+org/chromium/components/browser_ui/contacts_picker/TopView$SelectAllToggleCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView.class
+org/chromium/components/browser_ui/contacts_picker/TopView.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView$ChipToggledCallback.class
+  <-  org/chromium/components/browser_ui/contacts_picker/TopView$SelectAllToggleCallback.class
+

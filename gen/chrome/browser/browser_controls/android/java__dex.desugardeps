@@ -1,0 +1,22 @@
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/DestroyableObservableSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/lifetime/Destroyable.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+obj/components/browser_ui/util/android/java.turbine.jar:org/chromium/components/browser_ui/util/BrowserControlsVisibilityDelegate.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+org/chromium/chrome/browser/browser_controls/BrowserControlsMarginSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/DestroyableObservableSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+  <-  org/chromium/chrome/browser/browser_controls/BrowserControlsStateProvider$Observer.class
+org/chromium/chrome/browser/browser_controls/BrowserControlsStateProvider$Observer.class
+  <-  org/chromium/chrome/browser/browser_controls/BrowserControlsStateProvider.class
+org/chromium/chrome/browser/browser_controls/BrowserControlsStateProvider.class
+  <-  org/chromium/chrome/browser/browser_controls/BrowserControlsStateProvider$Observer.class
+org/chromium/chrome/browser/browser_controls/BrowserStateBrowserControlsVisibilityDelegate.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/lifetime/Destroyable.class
+  <-  obj/components/browser_ui/util/android/java.turbine.jar:org/chromium/components/browser_ui/util/BrowserControlsVisibilityDelegate.class
+

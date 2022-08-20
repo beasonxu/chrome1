@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Lista cu adrese și opțiuni de plată de completat în timpul fluxurilor de finalizare a achiziției."</string>
+<string name="fast_checkout_sheet_half_height">"Lista de adrese și opțiuni de plată de completat în timpul fluxurilor de finalizare a achiziției, deschisă la jumătate din înălțime."</string>
+<string name="fast_checkout_sheet_full_height">"Lista cu adrese și opțiuni de plată de completat în timpul fluxurilor de finalizare a achiziției, deschisă la înălțimea completă."</string>
+<string name="fast_checkout_sheet_closed">"Lista de adrese și opțiuni de plată de completat în timpul fluxurilor de finalizare a achiziției este închisă."</string>
+</resources>

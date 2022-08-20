@@ -1,0 +1,39 @@
+org/chromium/ui/mojom/ImeTextSpan.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ui/mojom/ImeTextSpanInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ui/mojom/ImeTextSpanThickness$EnumType.class
+  <-  org/chromium/ui/mojom/ImeTextSpanThickness.class
+org/chromium/ui/mojom/ImeTextSpanThickness.class
+  <-  org/chromium/ui/mojom/ImeTextSpanThickness$EnumType.class
+org/chromium/ui/mojom/ImeTextSpanType$EnumType.class
+  <-  org/chromium/ui/mojom/ImeTextSpanType.class
+org/chromium/ui/mojom/ImeTextSpanType.class
+  <-  org/chromium/ui/mojom/ImeTextSpanType$EnumType.class
+org/chromium/ui/mojom/ImeTextSpanUnderlineStyle$EnumType.class
+  <-  org/chromium/ui/mojom/ImeTextSpanUnderlineStyle.class
+org/chromium/ui/mojom/ImeTextSpanUnderlineStyle.class
+  <-  org/chromium/ui/mojom/ImeTextSpanUnderlineStyle$EnumType.class
+org/chromium/ui/mojom/TextInputAction$EnumType.class
+  <-  org/chromium/ui/mojom/TextInputAction.class
+org/chromium/ui/mojom/TextInputAction.class
+  <-  org/chromium/ui/mojom/TextInputAction$EnumType.class
+org/chromium/ui/mojom/TextInputMode$EnumType.class
+  <-  org/chromium/ui/mojom/TextInputMode.class
+org/chromium/ui/mojom/TextInputMode.class
+  <-  org/chromium/ui/mojom/TextInputMode$EnumType.class
+org/chromium/ui/mojom/TextInputState.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ui/mojom/TextInputType$EnumType.class
+  <-  org/chromium/ui/mojom/TextInputType.class
+org/chromium/ui/mojom/TextInputType.class
+  <-  org/chromium/ui/mojom/TextInputType$EnumType.class
+org/chromium/ui/mojom/VirtualKeyboardPolicy$EnumType.class
+  <-  org/chromium/ui/mojom/VirtualKeyboardPolicy.class
+org/chromium/ui/mojom/VirtualKeyboardPolicy.class
+  <-  org/chromium/ui/mojom/VirtualKeyboardPolicy$EnumType.class
+org/chromium/ui/mojom/VirtualKeyboardVisibilityRequest$EnumType.class
+  <-  org/chromium/ui/mojom/VirtualKeyboardVisibilityRequest.class
+org/chromium/ui/mojom/VirtualKeyboardVisibilityRequest.class
+  <-  org/chromium/ui/mojom/VirtualKeyboardVisibilityRequest$EnumType.class
+

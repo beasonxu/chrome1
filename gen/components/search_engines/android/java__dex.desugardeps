@@ -1,0 +1,31 @@
+org/chromium/components/search_engines/TemplateUrl$Natives.class
+  <-  org/chromium/components/search_engines/TemplateUrl.class
+org/chromium/components/search_engines/TemplateUrl.class
+  <-  org/chromium/components/search_engines/TemplateUrl$Natives.class
+org/chromium/components/search_engines/TemplateUrlJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/search_engines/TemplateUrlJni.class
+org/chromium/components/search_engines/TemplateUrlJni.class
+  <-  org/chromium/components/search_engines/TemplateUrl$Natives.class
+  <-  org/chromium/components/search_engines/TemplateUrlJni$1.class
+org/chromium/components/search_engines/TemplateUrlService$1.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$LoadListener.class
+  <-  org/chromium/components/search_engines/TemplateUrlService.class
+org/chromium/components/search_engines/TemplateUrlService$LoadListener.class
+  <-  org/chromium/components/search_engines/TemplateUrlService.class
+org/chromium/components/search_engines/TemplateUrlService$Natives.class
+  <-  org/chromium/components/search_engines/TemplateUrlService.class
+org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+  <-  org/chromium/components/search_engines/TemplateUrlService.class
+org/chromium/components/search_engines/TemplateUrlService.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$1.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$LoadListener.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$Natives.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+org/chromium/components/search_engines/TemplateUrlServiceJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/search_engines/TemplateUrlServiceJni.class
+org/chromium/components/search_engines/TemplateUrlServiceJni.class
+  <-  org/chromium/components/search_engines/TemplateUrlService$Natives.class
+  <-  org/chromium/components/search_engines/TemplateUrlServiceJni$1.class
+

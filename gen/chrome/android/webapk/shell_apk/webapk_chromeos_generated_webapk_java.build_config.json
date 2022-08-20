@@ -1,0 +1,119 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "dependency_r_txt_files": [
+      "gen/chrome/android/webapk/shell_apk/webapk_strings_grd.R.txt",
+      "gen/chrome/android/webapk/shell_apk/webapk_chromeos_resources_R.txt"
+    ],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [
+      "obj/chrome/android/webapk/shell_apk/webapk_chromeos_resources.resources.zip",
+      "obj/chrome/android/webapk/shell_apk/webapk_strings_grd.resources.zip"
+    ],
+    "deps_configs": [
+      "gen/chrome/android/webapk/shell_apk/webapk_strings_grd.build_config.json",
+      "gen/chrome/android/webapk/shell_apk/webapk_chromeos_resources.build_config.json",
+      "gen/chrome/android/webapk/libs/common/common_java.build_config.json",
+      "gen/chrome/android/webapk/libs/common/splash_java.build_config.json",
+      "gen/components/webapk/android/libs/common/java.build_config.json",
+      "gen/third_party/androidx/androidx_annotation_annotation_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.processed.jar",
+    "dex_path": "obj/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [
+      "org.chromium.webapk.shell_apk"
+    ],
+    "gn_target": "//chrome/android/webapk/shell_apk:webapk_chromeos_generated_webapk_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.jar",
+    "interface_jar_path": "obj/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.turbine.jar",
+    "is_prebuilt": false,
+    "java_sources_file": "gen/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.sources",
+    "javac_full_classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib/kotlin-stdlib-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib_common/kotlin-stdlib-common-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_annotations/annotations-13.0.jar",
+      "obj/chrome/android/webapk/libs/common/splash_java.javac.jar",
+      "obj/chrome/android/webapk/libs/common/common_java.javac.jar",
+      "obj/components/webapk/android/libs/common/java.javac.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/androidx:androidx_annotation_annotation_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_common_java",
+      "//third_party/android_deps:org_jetbrains_annotations_java",
+      "//chrome/android/webapk/libs/common:splash_java",
+      "//chrome/android/webapk/libs/common:common_java",
+      "//components/webapk/android/libs/common:java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar",
+      "obj/chrome/android/webapk/libs/common/splash_java.turbine.jar",
+      "obj/chrome/android/webapk/libs/common/common_java.turbine.jar",
+      "obj/components/webapk/android/libs/common/java.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/chrome/android/webapk/libs/common/common_java.sources",
+        "gen/chrome/android/webapk/libs/common/splash_java.sources",
+        "gen/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.sources",
+        "gen/components/webapk/android/libs/common/java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "webapk_chromeos_generated_webapk_java.build_config.json",
+    "package_name": "org.chromium.webapk.shell_apk",
+    "path": "gen/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.build_config.json",
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/chrome/android/webapk/shell_apk/webapk_chromeos_generated_webapk_java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [
+      "gen/chrome/android/webapk/libs/common/common_java.build_config.json",
+      "gen/chrome/android/webapk/libs/common/splash_java.build_config.json",
+      "gen/components/webapk/android/libs/common/java.build_config.json"
+    ],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "obj/chrome/android/webapk/libs/common/common_java.javac.jar",
+      "obj/chrome/android/webapk/libs/common/splash_java.javac.jar",
+      "obj/components/webapk/android/libs/common/java.javac.jar"
+    ],
+    "interface_classpath": [
+      "obj/chrome/android/webapk/libs/common/common_java.turbine.jar",
+      "obj/chrome/android/webapk/libs/common/splash_java.turbine.jar",
+      "obj/components/webapk/android/libs/common/java.turbine.jar",
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

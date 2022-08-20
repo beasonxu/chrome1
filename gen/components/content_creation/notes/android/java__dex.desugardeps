@@ -1,0 +1,26 @@
+org/chromium/components/content_creation/notes/bridges/NoteServiceBridge$Natives.class
+  <-  org/chromium/components/content_creation/notes/bridges/NoteServiceBridge.class
+org/chromium/components/content_creation/notes/bridges/NoteServiceBridge.class
+  <-  org/chromium/components/content_creation/notes/NoteService.class
+  <-  org/chromium/components/content_creation/notes/bridges/NoteServiceBridge$Natives.class
+org/chromium/components/content_creation/notes/bridges/NoteServiceBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/content_creation/notes/bridges/NoteServiceBridgeJni.class
+org/chromium/components/content_creation/notes/bridges/NoteServiceBridgeJni.class
+  <-  org/chromium/components/content_creation/notes/bridges/NoteServiceBridge$Natives.class
+  <-  org/chromium/components/content_creation/notes/bridges/NoteServiceBridgeJni$1.class
+org/chromium/components/content_creation/notes/models/ImageBackground.class
+  <-  org/chromium/components/content_creation/notes/models/Background.class
+org/chromium/components/content_creation/notes/models/LinearGradientBackground.class
+  <-  org/chromium/components/content_creation/notes/models/Background.class
+org/chromium/components/content_creation/notes/models/LinearGradientDirection$1.class
+  <-  org/chromium/components/content_creation/notes/models/LinearGradientDirection.class
+org/chromium/components/content_creation/notes/models/LinearGradientDirection.class
+  <-  org/chromium/components/content_creation/notes/models/LinearGradientDirection$1.class
+org/chromium/components/content_creation/notes/models/SolidBackground.class
+  <-  org/chromium/components/content_creation/notes/models/Background.class
+org/chromium/components/content_creation/notes/models/TextAlignment$1.class
+  <-  org/chromium/components/content_creation/notes/models/TextAlignment.class
+org/chromium/components/content_creation/notes/models/TextAlignment.class
+  <-  org/chromium/components/content_creation/notes/models/TextAlignment$1.class
+

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grit-part>
+      <include name="IDR_WEBUI_HTML_ASSERT_HTML" file="${root_src_dir}/ui/webui/resources/html/assert.html" resource_path="html/assert.html" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_HTML_LOAD_TIME_DATA_HTML" file="${root_src_dir}/ui/webui/resources/html/load_time_data.html" resource_path="html/load_time_data.html" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_HTML_PARSE_HTML_SUBSET_HTML" file="${root_src_dir}/ui/webui/resources/html/parse_html_subset.html" resource_path="html/parse_html_subset.html" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_HTML_TEST_LOADER_HTML" file="${root_src_dir}/ui/webui/resources/html/test_loader.html" resource_path="html/test_loader.html" use_base_dir="false" type="chrome_html" />
+</grit-part>

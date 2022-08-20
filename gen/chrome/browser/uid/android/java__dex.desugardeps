@@ -1,0 +1,5 @@
+org/chromium/chrome/browser/uid/SettingsSecureBasedIdentificationGenerator.class
+  <-  org/chromium/chrome/browser/uid/UniqueIdentificationGenerator.class
+org/chromium/chrome/browser/uid/UuidBasedUniqueIdentificationGenerator.class
+  <-  org/chromium/chrome/browser/uid/UniqueIdentificationGenerator.class
+

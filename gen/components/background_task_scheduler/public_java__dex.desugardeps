@@ -1,0 +1,58 @@
+org/chromium/components/background_task_scheduler/BackgroundTask$TaskFinishedCallback.class
+  <-  org/chromium/components/background_task_scheduler/BackgroundTask.class
+org/chromium/components/background_task_scheduler/BackgroundTask.class
+  <-  org/chromium/components/background_task_scheduler/BackgroundTask$TaskFinishedCallback.class
+org/chromium/components/background_task_scheduler/NativeBackgroundTask$1.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask.class
+org/chromium/components/background_task_scheduler/NativeBackgroundTask$2.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask.class
+org/chromium/components/background_task_scheduler/NativeBackgroundTask$3.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask.class
+org/chromium/components/background_task_scheduler/NativeBackgroundTask$StartBeforeNativeResult.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask.class
+org/chromium/components/background_task_scheduler/NativeBackgroundTask.class
+  <-  org/chromium/components/background_task_scheduler/BackgroundTask$TaskFinishedCallback.class
+  <-  org/chromium/components/background_task_scheduler/BackgroundTask.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask$1.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask$2.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask$3.class
+  <-  org/chromium/components/background_task_scheduler/NativeBackgroundTask$StartBeforeNativeResult.class
+org/chromium/components/background_task_scheduler/TaskInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$ExactInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$ExactInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$TimingInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$NetworkType.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$OneOffInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$OneOffInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$TimingInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$PeriodicInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$PeriodicInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$TimingInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$TimingInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo$TimingInfoVisitor.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo.class
+org/chromium/components/background_task_scheduler/TaskInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$ExactInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$ExactInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$NetworkType.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$OneOffInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$OneOffInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$PeriodicInfo$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$PeriodicInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$TimingInfo.class
+  <-  org/chromium/components/background_task_scheduler/TaskInfo$TimingInfoVisitor.class
+org/chromium/components/background_task_scheduler/TaskParameters$Builder.class
+  <-  org/chromium/components/background_task_scheduler/TaskParameters.class
+org/chromium/components/background_task_scheduler/TaskParameters.class
+  <-  org/chromium/components/background_task_scheduler/TaskParameters$Builder.class
+

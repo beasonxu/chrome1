@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Listi yfir heimilisföng og greiðsluvalmöguleika sem á að fylla út í greiðsluferli."</string>
+<string name="fast_checkout_sheet_half_height">"Listi yfir heimilisföng og greiðsluvalmöguleika sem á að fylla út í greiðsluferli opinn í hálfri hæð."</string>
+<string name="fast_checkout_sheet_full_height">"Listi yfir heimilisföng og greiðsluvalmöguleika sem á að fylla út í greiðsluferli opinn í fullri hæð."</string>
+<string name="fast_checkout_sheet_closed">"Listi yfir heimilisföng og greiðsluvalmöguleika sem á að fylla út í greiðsluferli er lokaður."</string>
+</resources>

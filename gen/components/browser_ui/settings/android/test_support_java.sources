@@ -1,0 +1,2 @@
+../../components/browser_ui/settings/android/java/src/org/chromium/components/browser_ui/settings/BlankUiTestActivitySettingsTestRule.java
+../../components/browser_ui/settings/android/widget/java/src/org/chromium/components/browser_ui/settings/PlaceholderSettingsForTest.java

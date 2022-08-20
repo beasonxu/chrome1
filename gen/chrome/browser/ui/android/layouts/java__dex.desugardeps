@@ -1,0 +1,46 @@
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+org/chromium/chrome/browser/layouts/CompositorModelChangeProcessor$FrameRequestSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+  <-  org/chromium/chrome/browser/layouts/CompositorModelChangeProcessor.class
+org/chromium/chrome/browser/layouts/CompositorModelChangeProcessor.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyObservable$PropertyObserver.class
+  <-  org/chromium/chrome/browser/layouts/CompositorModelChangeProcessor$FrameRequestSupplier.class
+org/chromium/chrome/browser/layouts/FilterLayoutStateObserver.class
+  <-  org/chromium/chrome/browser/layouts/LayoutStateProvider$LayoutStateObserver.class
+org/chromium/chrome/browser/layouts/LayoutManagerProvider$Unowned.class
+  <-  org/chromium/chrome/browser/layouts/LayoutManagerProvider.class
+org/chromium/chrome/browser/layouts/LayoutManagerProvider.class
+  <-  org/chromium/chrome/browser/layouts/LayoutManagerProvider$Unowned.class
+org/chromium/chrome/browser/layouts/LayoutStateProvider$LayoutStateObserver.class
+  <-  org/chromium/chrome/browser/layouts/LayoutStateProvider.class
+org/chromium/chrome/browser/layouts/LayoutStateProvider.class
+  <-  org/chromium/chrome/browser/layouts/LayoutStateProvider$LayoutStateObserver.class
+org/chromium/chrome/browser/layouts/animation/CompositorAnimationHandler$1.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimationHandler.class
+org/chromium/chrome/browser/layouts/animation/CompositorAnimationHandler.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimationHandler$1.class
+org/chromium/chrome/browser/layouts/animation/CompositorAnimator$AnimationState.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimator.class
+org/chromium/chrome/browser/layouts/animation/CompositorAnimator$AnimatorUpdateListener.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimator.class
+org/chromium/chrome/browser/layouts/animation/CompositorAnimator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimator$AnimationState.class
+  <-  org/chromium/chrome/browser/layouts/animation/CompositorAnimator$AnimatorUpdateListener.class
+org/chromium/chrome/browser/layouts/scene_layer/SceneLayer$Natives.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayer.class
+org/chromium/chrome/browser/layouts/scene_layer/SceneLayer.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayer$Natives.class
+org/chromium/chrome/browser/layouts/scene_layer/SceneLayerJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayerJni.class
+org/chromium/chrome/browser/layouts/scene_layer/SceneLayerJni.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayer$Natives.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayerJni$1.class
+org/chromium/chrome/browser/layouts/scene_layer/SceneOverlayLayer.class
+  <-  org/chromium/chrome/browser/layouts/scene_layer/SceneLayer.class
+

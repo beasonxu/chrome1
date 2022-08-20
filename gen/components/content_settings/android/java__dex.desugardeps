@@ -1,0 +1,21 @@
+org/chromium/components/content_settings/ContentSettingsObserver$Natives.class
+  <-  org/chromium/components/content_settings/ContentSettingsObserver.class
+org/chromium/components/content_settings/ContentSettingsObserver.class
+  <-  org/chromium/components/content_settings/ContentSettingsObserver$Natives.class
+org/chromium/components/content_settings/ContentSettingsObserverJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/content_settings/ContentSettingsObserverJni.class
+org/chromium/components/content_settings/ContentSettingsObserverJni.class
+  <-  org/chromium/components/content_settings/ContentSettingsObserver$Natives.class
+  <-  org/chromium/components/content_settings/ContentSettingsObserverJni$1.class
+org/chromium/components/content_settings/CookieControlsBridge$Natives.class
+  <-  org/chromium/components/content_settings/CookieControlsBridge.class
+org/chromium/components/content_settings/CookieControlsBridge.class
+  <-  org/chromium/components/content_settings/CookieControlsBridge$Natives.class
+org/chromium/components/content_settings/CookieControlsBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/content_settings/CookieControlsBridgeJni.class
+org/chromium/components/content_settings/CookieControlsBridgeJni.class
+  <-  org/chromium/components/content_settings/CookieControlsBridge$Natives.class
+  <-  org/chromium/components/content_settings/CookieControlsBridgeJni$1.class
+

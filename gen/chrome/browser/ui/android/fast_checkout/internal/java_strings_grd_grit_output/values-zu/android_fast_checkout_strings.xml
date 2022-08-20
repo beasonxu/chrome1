@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Uhlu lwezinketho zamakheli nenkokhelo okufanele lugcwaliswe phakathi nokugeleza kokuphuma."</string>
+<string name="fast_checkout_sheet_half_height">"Uhlu lwezinketho zamakheli nenkokhelo okufanele lugcwaliswe phakathi nokugeleza kokuphuma kuvulwe ngobude obuyisigamu."</string>
+<string name="fast_checkout_sheet_full_height">"Uhlu lwezinketho zamakheli nenkokhelo okufanele lugcwaliswe phakathi nokugeleza kokuphuma kuvulwe ngobude obugcwele."</string>
+<string name="fast_checkout_sheet_closed">"Uhlu lwezinketho zamakheli nenkokhelo okufanele lugcwalise phakathi nokugeleza kokuphuma luvaliwe."</string>
+</resources>

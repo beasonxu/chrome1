@@ -1,0 +1,30 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "chromium_code": true,
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//weblayer/shell/android:browserfragment_shell_resources",
+    "name": "browserfragment_shell_resources.build_config.json",
+    "path": "gen/weblayer/shell/android/browserfragment_shell_resources.build_config.json",
+    "r_text_path": "gen/weblayer/shell/android/browserfragment_shell_resources_R.txt",
+    "res_sources_path": "gen/weblayer/shell/android/browserfragment_shell_resources.res.sources",
+    "resources_zip": "obj/weblayer/shell/android/browserfragment_shell_resources.resources.zip",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_resources"
+  },
+  "gradle": {}
+}

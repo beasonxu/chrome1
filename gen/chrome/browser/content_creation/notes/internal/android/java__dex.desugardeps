@@ -1,0 +1,85 @@
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationCoordinatorImpl$1.class
+  <-  obj/components/browser_ui/share/android/java.turbine.jar:org/chromium/components/browser_ui/share/ShareParams$TargetChosenCallback.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationCoordinatorImpl.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationCoordinatorImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/content_creation/notes/android/public_java.turbine.jar:org/chromium/chrome/browser/content_creation/notes/NoteCreationCoordinator.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationCoordinatorImpl$1.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$NoteDialogObserver.class
+  <-  org/chromium/chrome/browser/content_creation/notes/top_bar/TopBarDelegate.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$1.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewAdapter.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$3.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$4.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$NoteDialogObserver.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$1.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$2.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$3.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$4.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationDialog$NoteDialogObserver.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator$1.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator.class
+  <-  org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService$GoogleFontRequestCallback.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator$RequestTuple.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator$1.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMediator$RequestTuple.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteCreationFunnel.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteShareDestination.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteTemplateIds.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics.class
+org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteCreationFunnel.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteShareDestination.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteCreationMetrics$NoteTemplateIds.class
+org/chromium/chrome/browser/content_creation/notes/NoteServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteServiceFactory.class
+org/chromium/chrome/browser/content_creation/notes/NoteServiceFactory.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteServiceFactory$Natives.class
+org/chromium/chrome/browser/content_creation/notes/NoteServiceFactoryJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteServiceFactoryJni.class
+org/chromium/chrome/browser/content_creation/notes/NoteServiceFactoryJni.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/content_creation/notes/NoteServiceFactoryJni$1.class
+org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/provider/FontsContractCompat$FontRequestCallback.class
+  <-  org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService.class
+org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService$GoogleFontRequestCallback.class
+  <-  org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService.class
+org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService.class
+  <-  org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService$1.class
+  <-  org/chromium/chrome/browser/content_creation/notes/fonts/GoogleFontService$GoogleFontRequestCallback.class
+org/chromium/chrome/browser/content_creation/notes/images/ImageService$Counter.class
+  <-  org/chromium/chrome/browser/content_creation/notes/images/ImageService.class
+org/chromium/chrome/browser/content_creation/notes/images/ImageService.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/content_creation/notes/images/ImageService$Counter.class
+

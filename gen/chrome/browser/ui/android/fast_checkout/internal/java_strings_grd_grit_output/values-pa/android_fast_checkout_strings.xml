@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"ਚੈੱਕ-ਆਊਟ ਕਰਨ ਵੇਲੇ ਭਰੇ ਜਾਣ ਵਾਲੇ ਪਤਿਆਂ ਅਤੇ ਭੁਗਤਾਨ ਸੰਬੰਧੀ ਵਿਕਲਪਾਂ ਦੀ ਸੂਚੀ।"</string>
+<string name="fast_checkout_sheet_half_height">"ਚੈੱਕ-ਆਊਟ ਕਰਨ ਵੇਲੇ ਭਰੇ ਜਾਣ ਵਾਲੇ ਪਤਿਆਂ ਅਤੇ ਭੁਗਤਾਨ ਸੰਬੰਧੀ ਵਿਕਲਪਾਂ ਦੀ ਸੂਚੀ ਨੂੰ ਅੱਧੀ ਉਚਾਈ ਤੱਕ ਖੋਲ੍ਹਿਆ ਗਿਆ।"</string>
+<string name="fast_checkout_sheet_full_height">"ਚੈੱਕ-ਆਊਟ ਕਰਨ ਵੇਲੇ ਭਰੇ ਜਾਣ ਵਾਲੇ ਪਤਿਆਂ ਅਤੇ ਭੁਗਤਾਨ ਸੰਬੰਧੀ ਵਿਕਲਪਾਂ ਦੀ ਸੂਚੀ ਨੂੰ ਪੂਰੀ ਉਚਾਈ ਤੱਕ ਖੋਲ੍ਹਿਆ ਗਿਆ।"</string>
+<string name="fast_checkout_sheet_closed">"ਚੈੱਕ-ਆਊਟ ਕਰਨ ਵੇਲੇ ਭਰੇ ਜਾਣ ਵਾਲੇ ਪਤਿਆਂ ਅਤੇ ਭੁਗਤਾਨ ਸੰਬੰਧੀ ਵਿਕਲਪਾਂ ਦੀ ਸੂਚੀ ਬੰਦ ਹੈ।"</string>
+</resources>

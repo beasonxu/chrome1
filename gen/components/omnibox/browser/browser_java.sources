@@ -1,0 +1,9 @@
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/AutocompleteMatch.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/AutocompleteResult.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/AutocompleteSchemeClassifier.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/OmniboxUrlEmphasizer.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/SecurityButtonAnimationDelegate.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/SecurityStatusIcon.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/SuggestionAnswer.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/action/HistoryClustersAction.java
+../../components/omnibox/browser/android/java/src/org/chromium/components/omnibox/action/OmniboxPedal.java

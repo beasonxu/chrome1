@@ -1,0 +1,10 @@
+org/chromium/schema_org/mojom/Entity.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/schema_org/mojom/Property.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/schema_org/mojom/Values$Tag.class
+  <-  org/chromium/schema_org/mojom/Values.class
+org/chromium/schema_org/mojom/Values.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
+  <-  org/chromium/schema_org/mojom/Values$Tag.class
+

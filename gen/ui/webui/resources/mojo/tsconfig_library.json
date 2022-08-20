@@ -1,0 +1,53 @@
+{
+  "extends": "../../../../../../../ui/webui/resources/mojo/tsconfig_base.json",
+  "compilerOptions": {
+    "rootDir": "../../../../mojom-webui",
+    "outDir": "../preprocessed/mojo",
+    "composite": true,
+    "declaration": true,
+    "tsBuildInfoFile": "tsconfig_library.tsbuildinfo",
+    "paths": {
+      "chrome://resources/*": [
+        "./../preprocessed/*"
+      ],
+      "//resources/*": [
+        "./../preprocessed/*"
+      ],
+      "chrome://resources/polymer/v3_0/*": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "//resources/polymer/v3_0/*": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "//resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "/tools/typescript/definitions/*": [
+        "./../../../../../../../tools/typescript/definitions/*"
+      ]
+    }
+  },
+  "files": [
+    "../../../../mojom-webui/mojo/public/mojom/base/big_buffer.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/file_path.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/process_id.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/safe_base_name.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/string16.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/text_direction.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/time.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/token.mojom-webui.js",
+    "../../../../mojom-webui/mojo/public/mojom/base/unguessable_token.mojom-webui.js",
+    "../../../../mojom-webui/skia/public/mojom/skcolor.mojom-webui.js",
+    "../../../../mojom-webui/skia/public/mojom/bitmap.mojom-webui.js",
+    "../../../../mojom-webui/skia/public/mojom/image_info.mojom-webui.js",
+    "../../../../mojom-webui/ui/base/mojom/window_open_disposition.mojom-webui.js",
+    "../../../../mojom-webui/ui/gfx/geometry/mojom/geometry.mojom-webui.js",
+    "../../../../mojom-webui/ui/gfx/image/mojom/image.mojom-webui.js",
+    "../../../../mojom-webui/url/mojom/url.mojom-webui.js",
+    "../../../../mojom-webui/url/mojom/origin.mojom-webui.js",
+    "../preprocessed/mojo/mojo/public/js/bindings.d.ts"
+  ]
+}

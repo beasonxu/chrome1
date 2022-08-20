@@ -1,0 +1,57 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "noEmitOnError": true,
+    "allowJs": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "pretty": true,
+    "removeComments": true,
+    "listEmittedFiles": true,
+    "typeRoots": [
+      "../../../../../../third_party/node/node_modules/@types"
+    ],
+    "types": [
+      "trusted-types"
+    ],
+    "rootDir": "preprocessed",
+    "outDir": "preprocessed",
+    "paths": {
+      "chrome://resources/*": [
+        "./preprocessed/*"
+      ],
+      "//resources/*": [
+        "./preprocessed/*"
+      ],
+      "chrome://resources/polymer/v3_0/*": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "//resources/polymer/v3_0/*": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer-element.d.ts"
+      ],
+      "//resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer-element.d.ts"
+      ]
+    }
+  },
+  "files": [
+    "preprocessed/js/action_link.js",
+    "preprocessed/js/assert.m.js",
+    "preprocessed/js/color_utils.js",
+    "preprocessed/js/cr/event_target.m.js",
+    "preprocessed/js/cr.m.js",
+    "preprocessed/js/cr/ui.m.js",
+    "preprocessed/js/cr/ui/focus_outline_manager.m.js",
+    "preprocessed/js/cr/ui/focus_row.m.js",
+    "preprocessed/js/cr/ui/keyboard_shortcut_list.js",
+    "preprocessed/js/event_tracker.m.js",
+    "preprocessed/js/load_time_data.m.js",
+    "preprocessed/js/plural_string_proxy.js",
+    "preprocessed/js/icon.js",
+    "preprocessed/js/util.m.js"
+  ]
+}

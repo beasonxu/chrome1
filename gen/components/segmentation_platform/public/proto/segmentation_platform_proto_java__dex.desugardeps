@@ -1,0 +1,14 @@
+org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId$1.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLiteMap.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto.class
+org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId$SegmentIdVerifier.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumVerifier.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto.class
+org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLite.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto.class
+org/chromium/components/segmentation_platform/proto/SegmentationProto.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId$1.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId$SegmentIdVerifier.class
+  <-  org/chromium/components/segmentation_platform/proto/SegmentationProto$SegmentId.class
+
