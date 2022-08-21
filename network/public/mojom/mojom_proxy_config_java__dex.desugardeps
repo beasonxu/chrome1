@@ -1,0 +1,126 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+org/chromium/network/mojom/MutableNetworkTrafficAnnotationTag.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/MutablePartialNetworkTrafficAnnotationTag.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyBypassRules.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyConfig.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyConfigClient$FlushProxyConfig_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback0.class
+  <-  org/chromium/network/mojom/ProxyConfigClient.class
+org/chromium/network/mojom/ProxyConfigClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigClient.class
+org/chromium/network/mojom/ProxyConfigClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/network/mojom/ProxyConfigClient$FlushProxyConfig_Response.class
+  <-  org/chromium/network/mojom/ProxyConfigClient$Proxy.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/network/mojom/ProxyConfigClient$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParamsProxyToResponder.class
+  <-  org/chromium/network/mojom/ProxyConfigClient$FlushProxyConfig_Response.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientOnProxyConfigUpdatedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal.class
+org/chromium/network/mojom/ProxyConfigClient_Internal.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$1.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigParams.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParams.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParamsForwardToCallback.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientFlushProxyConfigResponseParamsProxyToResponder.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$ProxyConfigClientOnProxyConfigUpdatedParams.class
+  <-  org/chromium/network/mojom/ProxyConfigClient_Internal$Stub.class
+org/chromium/network/mojom/ProxyConfigPollerClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient.class
+org/chromium/network/mojom/ProxyConfigPollerClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient$Proxy.class
+org/chromium/network/mojom/ProxyConfigPollerClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal.class
+org/chromium/network/mojom/ProxyConfigPollerClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal.class
+org/chromium/network/mojom/ProxyConfigPollerClient_Internal$ProxyConfigPollerClientOnLazyProxyConfigPollParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal.class
+org/chromium/network/mojom/ProxyConfigPollerClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal.class
+org/chromium/network/mojom/ProxyConfigPollerClient_Internal.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal$1.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal$Proxy.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal$ProxyConfigPollerClientOnLazyProxyConfigPollParams.class
+  <-  org/chromium/network/mojom/ProxyConfigPollerClient_Internal$Stub.class
+org/chromium/network/mojom/ProxyConfigWithAnnotation.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyErrorClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/network/mojom/ProxyErrorClient.class
+org/chromium/network/mojom/ProxyErrorClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/network/mojom/ProxyErrorClient$Proxy.class
+org/chromium/network/mojom/ProxyErrorClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal.class
+org/chromium/network/mojom/ProxyErrorClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/network/mojom/ProxyErrorClient$Proxy.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal.class
+org/chromium/network/mojom/ProxyErrorClient_Internal$ProxyErrorClientOnPacScriptErrorParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal.class
+org/chromium/network/mojom/ProxyErrorClient_Internal$ProxyErrorClientOnRequestMaybeFailedDueToProxySettingsParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal.class
+org/chromium/network/mojom/ProxyErrorClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal.class
+org/chromium/network/mojom/ProxyErrorClient_Internal.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal$1.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal$Proxy.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal$ProxyErrorClientOnPacScriptErrorParams.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal$ProxyErrorClientOnRequestMaybeFailedDueToProxySettingsParams.class
+  <-  org/chromium/network/mojom/ProxyErrorClient_Internal$Stub.class
+org/chromium/network/mojom/ProxyList.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyRules.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/ProxyRulesType$EnumType.class
+  <-  org/chromium/network/mojom/ProxyRulesType.class
+org/chromium/network/mojom/ProxyRulesType.class
+  <-  org/chromium/network/mojom/ProxyRulesType$EnumType.class
+

@@ -1,0 +1,17 @@
+org/chromium/network/mojom/FirstPartySetEntry.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/FirstPartySetMetadata.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/SamePartyContext.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/SamePartyCookieContextType$EnumType.class
+  <-  org/chromium/network/mojom/SamePartyCookieContextType.class
+org/chromium/network/mojom/SamePartyCookieContextType.class
+  <-  org/chromium/network/mojom/SamePartyCookieContextType$EnumType.class
+org/chromium/network/mojom/SiteIndex.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/network/mojom/SiteType$EnumType.class
+  <-  org/chromium/network/mojom/SiteType.class
+org/chromium/network/mojom/SiteType.class
+  <-  org/chromium/network/mojom/SiteType$EnumType.class
+
