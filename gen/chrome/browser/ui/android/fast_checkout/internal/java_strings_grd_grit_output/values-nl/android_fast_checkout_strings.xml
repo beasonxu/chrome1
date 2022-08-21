@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Lijst met adressen en betalingsopties die kunnen worden ingevuld tijdens het betalingsproces."</string>
-<string name="fast_checkout_sheet_half_height">"De lijst met adressen en betalingsopties die kunnen worden ingevuld tijdens het betalingsproces is geopend op halve hoogte."</string>
-<string name="fast_checkout_sheet_full_height">"De lijst met adressen en betalingsopties die kunnen worden ingevuld tijdens het betalingsproces is geopend op volledige hoogte."</string>
-<string name="fast_checkout_sheet_closed">"De lijst met adressen en betalingsopties die kunnen worden ingevuld tijdens het betalingsproces is gesloten."</string>
-</resources>

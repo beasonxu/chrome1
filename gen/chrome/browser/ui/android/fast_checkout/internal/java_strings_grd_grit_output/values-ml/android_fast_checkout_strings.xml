@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"ചെക്ക്ഔട്ട് പ്രകിയയ്ക്കിടെ നൽകേണ്ട വിലാസങ്ങളുടെയും പേയ്മെന്റ് ഓപ്ഷനുകളുടെയും ലിസ്റ്റ്."</string>
-<string name="fast_checkout_sheet_half_height">"ചെക്ക്ഔട്ട് പ്രകിയയ്ക്കിടെ നൽകേണ്ട വിലാസങ്ങളുടെയും പേയ്മെന്റ് ഓപ്ഷനുകളുടെയും ലിസ്റ്റ്, സ്ക്രീനിൽ ഭാഗികമായി തുറന്നിരിക്കുന്നു."</string>
-<string name="fast_checkout_sheet_full_height">"ചെക്ക്ഔട്ട് പ്രകിയയ്ക്കിടെ നൽകേണ്ട വിലാസങ്ങളുടെയും പേയ്മെന്റ് ഓപ്ഷനുകളുടെയും ലിസ്റ്റ്, സ്ക്രീനിൽ പൂർണ്ണമായി തുറന്നിരിക്കുന്നു."</string>
-<string name="fast_checkout_sheet_closed">"ചെക്ക്ഔട്ട് ചെയ്യൽ പ്രകിയയ്ക്കിടെ നൽകേണ്ട വിലാസങ്ങളുടെയും പേയ്മെന്റ് ഓപ്ഷനുകളുടെയും ലിസ്റ്റ് അടച്ചിരിക്കുന്നു."</string>
-</resources>

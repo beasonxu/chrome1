@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Listen over adresser og betalingsmåter som kan fylles ut i løpet av betalingsflyten."</string>
-<string name="fast_checkout_sheet_half_height">"Listen over adresser og betalingsmåter som kan fylles ut i løpet av betalingsflyten, er åpnet i halv høyde."</string>
-<string name="fast_checkout_sheet_full_height">"Listen over adresser og betalingsmåter som kan fylles ut i løpet av betalingsflyten, er åpnet i full høyde."</string>
-<string name="fast_checkout_sheet_closed">"Listen over adresser og betalingsmåter som kan fylles ut i løpet av betalingsflyten, er lukket."</string>
-</resources>

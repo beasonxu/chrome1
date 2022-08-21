@@ -1,6 +1,0 @@
-gen/components/password_manager/core/common/password_manager_common_java_enums.build_config.json: \
- gen/third_party/android_deps/org_jetbrains_annotations_java.build_config.json \
- gen/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common_java.build_config.json \
- gen/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_java.build_config.json \
- gen/third_party/android_sdk/android_sdk_java.build_config.json \
- gen/third_party/androidx/androidx_annotation_annotation_java.build_config.json

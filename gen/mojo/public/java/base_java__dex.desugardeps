@@ -1,5 +1,0 @@
-org/chromium/mojo_base/BigBufferUtil$Mapping.class
-  <-  org/chromium/mojo_base/BigBufferUtil.class
-org/chromium/mojo_base/BigBufferUtil.class
-  <-  org/chromium/mojo_base/BigBufferUtil$Mapping.class
-

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"በክፍያ ማጠናቀቂያ ፍሰቶች ጊዜ የሚሞላው የአድራሻዎች እና የክፍያ አማራጮች ዝርዝር።"</string>
-<string name="fast_checkout_sheet_half_height">"በክፍያ ማጠናቀቂያ ፍሰቶች ጊዜ የሚሞላው የአድራሻዎች እና የክፍያ አማራጮች ዝርዝር በግማሽ ቁመቱ ተከፍቷል።"</string>
-<string name="fast_checkout_sheet_full_height">"በክፍያ ማጠናቀቂያ ፍሰቶች ጊዜ የሚሞላው የአድራሻዎች እና የክፍያ አማራጮች ዝርዝር በሙሉ ቁመቱ ተከፍቷል።"</string>
-<string name="fast_checkout_sheet_closed">"በክፍያ ማጠናቀቂያ ፍሰቶች ጊዜ የሚሞላው የአድራሻዎች እና የክፍያ አማራጮች ዝርዝር ተዘግቷል።"</string>
-</resources>

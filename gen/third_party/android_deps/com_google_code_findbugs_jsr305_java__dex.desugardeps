@@ -1,9 +1,0 @@
-../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/MatchesPattern$Checker.class
-  <-  ../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/meta/TypeQualifierValidator.class
-../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/Nonnegative$Checker.class
-  <-  ../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/meta/TypeQualifierValidator.class
-../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/Nonnull$Checker.class
-  <-  ../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/meta/TypeQualifierValidator.class
-../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/RegEx$Checker.class
-  <-  ../../third_party/android_deps/libs/com_google_code_findbugs_jsr305/jsr305-3.0.2.jar:javax/annotation/meta/TypeQualifierValidator.class
-

@@ -1,8 +1,0 @@
-org/chromium/gfx/mojom/AHardwareBufferHandle.class
-  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
-org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle$Tag.class
-  <-  org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle.class
-org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle.class
-  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
-  <-  org/chromium/gfx/mojom/GpuMemoryBufferPlatformHandle$Tag.class
-

@@ -1,3 +1,0 @@
-obj/third_party/android_deps/google_android_datatransport_transport_api_java/classes.jar:com/google/android/datatransport/AutoValue_Event.class
-  <-  obj/third_party/android_deps/google_android_datatransport_transport_api_java/classes.jar:com/google/android/datatransport/Event.class
-

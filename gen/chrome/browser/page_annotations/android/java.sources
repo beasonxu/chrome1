@@ -1,9 +1,0 @@
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/BuyableProductPageAnnotation.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotation.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotationUtils.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotationsService.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceConfig.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceFactory.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/PageAnnotationsServiceProxy.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/ProductPriceUpdatePageAnnotation.java
-../../chrome/browser/page_annotations/android/java/src/org/chromium/chrome/browser/page_annotations/SinglePageAnnotationsServiceResponse.java

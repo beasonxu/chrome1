@@ -1,5 +1,0 @@
-org/chromium/chrome/browser/tasks/tab_management/TabSwitcherCustomViewManager$Delegate.class
-  <-  org/chromium/chrome/browser/tasks/tab_management/TabSwitcherCustomViewManager.class
-org/chromium/chrome/browser/tasks/tab_management/TabSwitcherCustomViewManager.class
-  <-  org/chromium/chrome/browser/tasks/tab_management/TabSwitcherCustomViewManager$Delegate.class
-

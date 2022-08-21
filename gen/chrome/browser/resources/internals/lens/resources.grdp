@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<grit-part>
-      <include name="IDR_LENS_INTERNALS_LENS_INTERNALS_BROWSER_PROXY_JS" file="${root_src_dir}/chrome/browser/resources/internals/lens/lens_internals_browser_proxy.js" resource_path="lens_internals_browser_proxy.js" use_base_dir="false" type="chrome_html" />
-      <include name="IDR_LENS_INTERNALS_LENS_INTERNALS_HTML" file="${root_src_dir}/chrome/browser/resources/internals/lens/lens_internals.html" resource_path="lens_internals.html" use_base_dir="false" type="chrome_html" />
-      <include name="IDR_LENS_INTERNALS_LENS_INTERNALS_JS" file="${root_src_dir}/chrome/browser/resources/internals/lens/lens_internals.js" resource_path="lens_internals.js" use_base_dir="false" type="chrome_html" />
-</grit-part>

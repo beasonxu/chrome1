@@ -1,8 +1,0 @@
-org/chromium/components/feature_engagement/CppWrappedTestTracker.class
-  <-  org/chromium/components/feature_engagement/Tracker$DisplayLockHandle.class
-  <-  org/chromium/components/feature_engagement/Tracker.class
-org/chromium/components/feature_engagement/Tracker$DisplayLockHandle.class
-  <-  org/chromium/components/feature_engagement/Tracker.class
-org/chromium/components/feature_engagement/Tracker.class
-  <-  org/chromium/components/feature_engagement/Tracker$DisplayLockHandle.class
-

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Seznam naslovov in možnosti plačila, ki jih je treba izpolniti med postopki dokončanja nakupa."</string>
-<string name="fast_checkout_sheet_half_height">"Seznam naslovov in možnosti plačila, ki jih je treba izpolniti med postopki nakupa, so odprti pri polovični višini."</string>
-<string name="fast_checkout_sheet_full_height">"Seznam naslovov in možnosti plačila, ki jih je treba izpolniti med postopki nakupa, so odprti pri polni višini."</string>
-<string name="fast_checkout_sheet_closed">"Seznam naslovov in možnosti plačila, ki jih je treba izpolniti med postopki dokončanja nakupa, so zaprti."</string>
-</resources>

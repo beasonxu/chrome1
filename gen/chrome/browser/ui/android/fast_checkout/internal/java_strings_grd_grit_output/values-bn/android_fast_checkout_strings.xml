@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"চেক-আউট ফ্লো চলাকালীন পূরণ করার জন্য ঠিকানা ও পেমেন্ট বিকল্পের তালিকা।"</string>
-<string name="fast_checkout_sheet_half_height">"চেক-আউট ফ্লো চলাকালীন পূরণ করার জন্য ঠিকানা ও পেমেন্ট বিকল্পের তালিকা অর্ধেক স্ক্রিন জুড়ে খোলা হয়েছে।"</string>
-<string name="fast_checkout_sheet_full_height">"চেক-আউট ফ্লো চলাকালীন পূরণ করার জন্য ঠিকানা ও পেমেন্ট বিকল্পের তালিকা সম্পূর্ণ স্ক্রিন জুড়ে খোলা হয়েছে।"</string>
-<string name="fast_checkout_sheet_closed">"চেক-আউট ফ্লো চলাকালীন পূরণ করার জন্য ঠিকানা ও পেমেন্ট বিকল্পের তালিকা বন্ধ করা হয়েছে।"</string>
-</resources>

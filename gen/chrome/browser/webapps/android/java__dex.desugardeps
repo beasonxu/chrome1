@@ -1,4 +1,0 @@
-org/chromium/chrome/browser/webapps/AddToHomescreenIPHController.class
-  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
-  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
-

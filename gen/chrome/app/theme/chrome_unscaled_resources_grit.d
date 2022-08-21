@@ -1,1 +1,0 @@
-gen/chrome/app/theme/chrome_unscaled_resources_grit.d.stamp: ./../../chrome/app/theme/chromium/product_logo_128.png ./../../chrome/app/theme/chromium/product_logo_256.png ./../../chrome/app/theme/chromium/product_logo_64.png ./gen/tools/gritsettings/default_resource_ids

@@ -1,3 +1,0 @@
-int color google_pay_icon_color 0x7f010001
-int drawable google_pay 0x7f010001
-int drawable save_card 0x7f010001

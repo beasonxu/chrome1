@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Тооцоо хийх урсгалын үеэр бөглөх хаяг болон төлбөрийн сонголтын жагсаалт."</string>
-<string name="fast_checkout_sheet_half_height">"Тооцоо хийх урсгалын үеэр бөглөх хаяг болон төлбөрийн сонголтын жагсаалтыг хагас өндөртэйгээр нээсэн."</string>
-<string name="fast_checkout_sheet_full_height">"Тооцоо хийх урсгалын үеэр бөглөх хаяг болон төлбөрийн сонголтын жагсаалтыг бүтэн өндөртэйгээр нээсэн."</string>
-<string name="fast_checkout_sheet_closed">"Тооцоо хийх урсгалын үеэр бөглөх хаяг болон төлбөрийн сонголтын жагсаалтыг хаасан."</string>
-</resources>

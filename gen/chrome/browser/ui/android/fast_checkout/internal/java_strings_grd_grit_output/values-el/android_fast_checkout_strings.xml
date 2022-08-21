@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Η λίστα διευθύνσεων και επιλογών πληρωμής που πρέπει να συμπληρωθούν κατά τη διάρκεια των ροών ολοκλήρωσης αγοράς."</string>
-<string name="fast_checkout_sheet_half_height">"Η λίστα διευθύνσεων και επιλογών πληρωμής που πρέπει να συμπληρωθούν κατά τη διάρκεια των ροών ολοκλήρωσης αγοράς έχει ανοίξει σε μισό ύψος."</string>
-<string name="fast_checkout_sheet_full_height">"Η λίστα διευθύνσεων και επιλογών πληρωμής που πρέπει να συμπληρωθούν κατά τη διάρκεια των ροών ολοκλήρωσης αγοράς έχει ανοίξει σε πλήρες ύψος."</string>
-<string name="fast_checkout_sheet_closed">"Η λίστα διευθύνσεων και επιλογών πληρωμής που πρέπει να συμπληρωθούν κατά τη διάρκεια των ροών ολοκλήρωσης αγοράς είναι κλειστή."</string>
-</resources>

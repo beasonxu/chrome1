@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Lista adresa i opcija plaćanja za popunjavanje pri plaćanju."</string>
-<string name="fast_checkout_sheet_half_height">"Lista adresa i opcija plaćanja za popunjavanje pri plaćanju je otvorena do polovine ekrana."</string>
-<string name="fast_checkout_sheet_full_height">"Lista adresa i opcija plaćanja za popunjavanje pri plaćanju je otvorena na celom ekranu."</string>
-<string name="fast_checkout_sheet_closed">"Lista adresa i opcija plaćanja za popunjavanje pri plaćanju je zatvorena."</string>
-</resources>

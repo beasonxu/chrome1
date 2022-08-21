@@ -1,9 +1,0 @@
-sources:
-gen/mojom-webui/components/optimization_guide/optimization_guide_internals/webui/optimization_guide_internals.mojom-webui.js
-deps:
-gen/mojo/public/js/bindings_uncompiled.js_library
-gen/components/optimization_guide/core/interfaces_webui_js.js_library
-gen/mojo/public/mojom/base/base_webui_js.js_library
-externs:
-../../third_party/closure_compiler/externs/mojo_core.js
-../../third_party/closure_compiler/externs/pending.js

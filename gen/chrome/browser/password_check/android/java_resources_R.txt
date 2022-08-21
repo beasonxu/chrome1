@@ -1,5 +1,0 @@
-int drawable ic_autofill_assistant_white_24dp 0x7f010001
-int drawable password_check_header_red 0x7f010001
-int drawable password_check_neutral 0x7f010001
-int drawable password_checkup_change_automatically 0x7f010001
-int drawable password_checkup_warning 0x7f010001

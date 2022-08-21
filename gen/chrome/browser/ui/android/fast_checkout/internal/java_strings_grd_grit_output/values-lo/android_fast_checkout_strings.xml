@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"ລາຍການທີ່ຢູ່ ແລະ ຕົວເລືອກການຈ່າຍເງິນທີ່ຕ້ອງຕື່ມໃນລະຫວ່າງຂັ້ນຕອນການຈ່າຍເງິນ."</string>
-<string name="fast_checkout_sheet_half_height">"ລາຍການທີ່ຢູ່ ແລະ ຕົວເລືອກການຈ່າຍເງິນທີ່ຕ້ອງຕື່ມໃນລະຫວ່າງຂັ້ນຕອນການຈ່າຍເງິນໄດ້ເປີດແບບເຄິ່ງໜ້າ."</string>
-<string name="fast_checkout_sheet_full_height">"ລາຍການທີ່ຢູ່ ແລະ ຕົວເລືອກການຈ່າຍເງິນທີ່ຕ້ອງຕື່ມໃນລະຫວ່າງຂັ້ນຕອນການຈ່າຍເງິນໄດ້ເປີດແບບເຕັມໜ້າ."</string>
-<string name="fast_checkout_sheet_closed">"ລາຍການທີ່ຢູ່ ແລະ ຕົວເລືອກການຈ່າຍເງິນທີ່ຕ້ອງຕື່ມໃນລະຫວ່າງຂັ້ນຕອນການຈ່າຍເງິນແມ່ນຖືກປິດແລ້ວ."</string>
-</resources>

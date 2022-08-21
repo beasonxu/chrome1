@@ -1,3 +1,0 @@
-int color toolbar_hairline_overlay_opaque 0x7f010001
-int color toolbar_text_box_background_incognito 0x7f010001
-int dimen toolbar_hairline_overlay_alpha 0x7f010001

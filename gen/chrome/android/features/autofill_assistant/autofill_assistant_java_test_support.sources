@@ -1,6 +1,0 @@
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantService.java
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantTestEndpointService.java
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantTestScript.java
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantTestService.java
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantTestServiceRequestSender.java
-../../chrome/android/features/autofill_assistant/javatests/src/org/chromium/chrome/browser/autofill_assistant/AutofillAssistantTestTtsController.java

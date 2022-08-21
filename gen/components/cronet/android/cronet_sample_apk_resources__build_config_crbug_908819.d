@@ -1,9 +1,0 @@
-gen/components/cronet/android/cronet_sample_apk_resources.build_config.json: \
- gen/third_party/android_sdk/android_sdk_java.build_config.json \
- gen/third_party/androidx/androidx_appcompat_appcompat_java__resources.build_config.json \
- gen/third_party/androidx/androidx_appcompat_appcompat_resources_java__resources.build_config.json \
- gen/third_party/androidx/androidx_drawerlayout_drawerlayout_java__resources.build_config.json \
- gen/third_party/androidx/androidx_fragment_fragment_java__resources.build_config.json \
- gen/third_party/androidx/androidx_interpolator_interpolator_java__resources.build_config.json \
- gen/third_party/androidx/androidx_vectordrawable_vectordrawable_animated_java__resources.build_config.json \
- gen/third_party/androidx/androidx_vectordrawable_vectordrawable_java__resources.build_config.json

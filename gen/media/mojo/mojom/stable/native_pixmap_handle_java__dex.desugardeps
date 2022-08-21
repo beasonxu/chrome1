@@ -1,5 +1,0 @@
-org/chromium/media/stable/mojom/NativePixmapHandle.class
-  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
-org/chromium/media/stable/mojom/NativePixmapPlane.class
-  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
-

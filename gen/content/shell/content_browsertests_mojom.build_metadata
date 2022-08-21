@@ -1,9 +1,0 @@
-{
-  "deps": [
-    "../../sandbox/policy/mojom/mojom.build_metadata"
-  ],
-  "sources": [
-    "../../../../../content/shell/common/main_frame_counter_test.mojom",
-    "../../../../../content/shell/common/power_monitor_test.mojom"
-  ]
-}

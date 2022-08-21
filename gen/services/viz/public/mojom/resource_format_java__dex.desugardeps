@@ -1,5 +1,0 @@
-org/chromium/viz/mojom/ResourceFormat$EnumType.class
-  <-  org/chromium/viz/mojom/ResourceFormat.class
-org/chromium/viz/mojom/ResourceFormat.class
-  <-  org/chromium/viz/mojom/ResourceFormat$EnumType.class
-

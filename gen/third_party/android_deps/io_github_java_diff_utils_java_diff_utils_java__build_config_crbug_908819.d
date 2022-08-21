@@ -1,2 +1,0 @@
-gen/third_party/android_deps/io_github_java_diff_utils_java_diff_utils_java.build_config.json: \
- gen/third_party/android_deps/org_eclipse_jgit_org_eclipse_jgit_java.build_config.json

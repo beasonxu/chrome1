@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"چیک آؤٹ فلوز کے دوران پُر کیے جانے والے پتوں اور ادائیگی کے اختیارات کی فہرست۔"</string>
-<string name="fast_checkout_sheet_half_height">"آدھی اونچائی پر کھولے گئے چیک آؤٹ فلوز کے دوران پُر کیے جانے والے پتوں اور ادائیگی کے اختیارات کی فہرست۔"</string>
-<string name="fast_checkout_sheet_full_height">"مکمل اونچائی پر کھولے گئے چیک آؤٹ فلوز کے دوران پُر کیے جانے والے پتوں اور ادائیگی کے اختیارات کی فہرست۔"</string>
-<string name="fast_checkout_sheet_closed">"چیک آؤٹ فلوز کے دوران پُر کیے جانے والے پتوں اور ادائیگی کے اختیارات کی فہرست بند ہے۔"</string>
-</resources>

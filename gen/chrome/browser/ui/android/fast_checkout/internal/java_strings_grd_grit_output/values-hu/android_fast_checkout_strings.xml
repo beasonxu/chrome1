@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"A fizetési folyamat során használandó címek és fizetési lehetőségek listája."</string>
-<string name="fast_checkout_sheet_half_height">"A fizetési folyamat során használandó címek és fizetési lehetőségek listája meg van nyitva félmagasságban."</string>
-<string name="fast_checkout_sheet_full_height">"A fizetési folyamat során használandó címek és fizetési lehetőségek listája meg van nyitva teljes magasságban."</string>
-<string name="fast_checkout_sheet_closed">"A fizetési folyamat során használandó címek és fizetési lehetőségek listája be van zárva."</string>
-</resources>

@@ -1,9 +1,0 @@
-org/chromium/ui/mojom/DragEventSource$EnumType.class
-  <-  org/chromium/ui/mojom/DragEventSource.class
-org/chromium/ui/mojom/DragEventSource.class
-  <-  org/chromium/ui/mojom/DragEventSource$EnumType.class
-org/chromium/ui/mojom/DragOperation$EnumType.class
-  <-  org/chromium/ui/mojom/DragOperation.class
-org/chromium/ui/mojom/DragOperation.class
-  <-  org/chromium/ui/mojom/DragOperation$EnumType.class
-
