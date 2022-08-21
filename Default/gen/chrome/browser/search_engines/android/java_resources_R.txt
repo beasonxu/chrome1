@@ -1,0 +1,7 @@
+int drawable search_sogou 0x7f010001
+int id default_search_engine_dialog_options 0x7f010001
+int id name 0x7f010001
+int id radiobutton 0x7f010001
+int id url 0x7f010001
+int layout search_engine 0x7f010001
+int layout search_engine_recent_title 0x7f010001

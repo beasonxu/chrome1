@@ -1,0 +1,51 @@
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ArrayReadWriteBuf.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ReadWriteBuf.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BooleanVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ReadWriteBuf.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ByteVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/DoubleVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlatBufferBuilder$HeapByteBufferFactory.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Blob.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Sized.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Key.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Object.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Map.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Vector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Sized.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Object.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Vector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Vector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FlexBuffers$Sized.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/FloatVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/IntVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/LongVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/MetadataItem$Vector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/MetadataItem.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Table.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/MetadataList$Vector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/MetadataList.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Table.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ReadWriteBuf.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ReadBuf.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/ShortVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/StringVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/UnionVector.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/BaseVector.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Utf8Old.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Utf8.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Utf8Safe.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/libs/repackaged.jar:androidx/emoji2/text/flatbuffer/Utf8.class
+

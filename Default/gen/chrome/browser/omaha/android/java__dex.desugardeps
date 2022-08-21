@@ -1,0 +1,5 @@
+org/chromium/chrome/browser/omaha/XMLParser$Node.class
+  <-  org/chromium/chrome/browser/omaha/XMLParser.class
+org/chromium/chrome/browser/omaha/XMLParser.class
+  <-  org/chromium/chrome/browser/omaha/XMLParser$Node.class
+

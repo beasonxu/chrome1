@@ -1,0 +1,100 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "composite": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "esnext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir": ".",
+    "rootDir": "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "tsBuildInfoFile": "timeline-tsconfig.json.tsbuildinfo",
+    "typeRoots": [],
+    "useUnknownInCatchVariables": false
+  },
+  "files": [
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/CLSLinkifier.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/CountersGraph.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/EventsTimelineTreeView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/ExtensionTracingSession.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/PerformanceModel.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineController.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineDetailsView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineEventOverview.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineFilters.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineFlameChartDataProvider.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineFlameChartNetworkDataProvider.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineFlameChartView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineHistoryManager.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineLayersView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineLoader.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelinePaintProfilerView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelinePanel.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineTreeView.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/TimelineUIUtils.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/UIDevtoolsController.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/UIDevtoolsUtils.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/panels/timeline/WebVitalsTimelineUtils.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/legacy/legacy-defs.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/global_defs.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/request_idle_callback.d.ts",
+    "../../../../../../../../../third_party/devtools-frontend/src/node_modules/@types/filesystem/index.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../core/host/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../core/i18n/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../models/extensions/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../models/timeline_model/bundle-tsconfig.json"
+    },
+    {
+      "path": "../coverage/bundle-tsconfig.json"
+    },
+    {
+      "path": "../layer_viewer/bundle-tsconfig.json"
+    },
+    {
+      "path": "../mobile_throttling/bundle-tsconfig.json"
+    },
+    {
+      "path": "../profiler/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../ui/legacy/components/data_grid/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../ui/legacy/components/perf_ui/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../ui/legacy/components/utils/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../ui/legacy/theme_support/bundle-tsconfig.json"
+    },
+    {
+      "path": "../../ui/lit-html/bundle-tsconfig.json"
+    },
+    {
+      "path": "components/bundle-tsconfig.json"
+    }
+  ]
+}

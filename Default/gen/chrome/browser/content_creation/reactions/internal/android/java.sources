@@ -1,0 +1,14 @@
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorFactory.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsCoordinatorImpl.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsDialog.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMediator.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsMetrics.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/LightweightReactionsProgressDialog.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/ReactionGifDrawable.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/ReactionServiceFactory.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/scene/ReactionLayout.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/scene/SceneCoordinator.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/scene/SceneEditorDelegate.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/toolbar/ToolbarControlsDelegate.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/toolbar/ToolbarCoordinator.java
+../../chrome/browser/content_creation/reactions/internal/android/java/src/org/chromium/chrome/browser/content_creation/reactions/toolbar/ToolbarReactionsDelegate.java

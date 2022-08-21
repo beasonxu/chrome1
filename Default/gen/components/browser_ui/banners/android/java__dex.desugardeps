@@ -1,0 +1,17 @@
+obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/GestureStateListenerWithScroll.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/GestureStateListener.class
+org/chromium/components/browser_ui/banners/SwipableOverlayView$1.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/GestureStateListenerWithScroll.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView.class
+org/chromium/components/browser_ui/banners/SwipableOverlayView$2.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView.class
+org/chromium/components/browser_ui/banners/SwipableOverlayView$3.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView.class
+org/chromium/components/browser_ui/banners/SwipableOverlayView$Gesture.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView.class
+org/chromium/components/browser_ui/banners/SwipableOverlayView.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView$1.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView$2.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView$3.class
+  <-  org/chromium/components/browser_ui/banners/SwipableOverlayView$Gesture.class
+

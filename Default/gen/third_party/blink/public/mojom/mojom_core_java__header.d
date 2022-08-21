@@ -1,0 +1,32 @@
+obj/third_party/blink/public/mojom/mojom_core_java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/cc/mojom/mojom_java.turbine.jar \
+ obj/components/payments/mojom/mojom_java.turbine.jar \
+ obj/mojo/public/java/bindings_java.turbine.jar \
+ obj/mojo/public/java/system_java.turbine.jar \
+ obj/mojo/public/mojom/base/base_java.turbine.jar \
+ obj/services/data_decoder/public/mojom/mojom_resource_snapshot_for_web_bundle_java.turbine.jar \
+ obj/services/network/public/mojom/cookies_mojom_java.turbine.jar \
+ obj/services/network/public/mojom/mojom_java.turbine.jar \
+ obj/services/network/public/mojom/url_loader_base_java.turbine.jar \
+ obj/services/service_manager/public/mojom/mojom_java.turbine.jar \
+ obj/services/viz/public/mojom/mojom_java.turbine.jar \
+ obj/skia/public/mojom/mojom_java.turbine.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar \
+ obj/third_party/blink/public/mojom/color_scheme_mojo_bindings_java.turbine.jar \
+ obj/third_party/blink/public/mojom/mojom_platform_java.turbine.jar \
+ obj/third_party/blink/public/mojom/script_type_mojo_bindings_java.turbine.jar \
+ obj/third_party/blink/public/mojom/service_worker/storage_java.turbine.jar \
+ obj/third_party/blink/public/mojom/tokens/tokens_java.turbine.jar \
+ obj/third_party/blink/public/mojom/web_feature_mojo_bindings_java.turbine.jar \
+ obj/ui/base/dragdrop/mojom/mojom_java.turbine.jar \
+ obj/ui/base/mojom/mojom_java.turbine.jar \
+ obj/ui/display/mojom/mojom_java.turbine.jar \
+ obj/ui/events/mojom/mojom_java.turbine.jar \
+ obj/ui/gfx/geometry/mojom/mojom_java.turbine.jar \
+ obj/ui/gfx/mojom/mojom_java.turbine.jar \
+ obj/ui/gfx/range/mojom/mojom_java.turbine.jar \
+ obj/url/mojom/url_mojom_gurl_java.turbine.jar \
+ obj/url/mojom/url_mojom_origin_java.turbine.jar \
+ gen/third_party/blink/public/mojom/mojom_core_java_sources.srcjar

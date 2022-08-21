@@ -1,0 +1,43 @@
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ArrayReadWriteBuf.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ReadWriteBuf.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BooleanVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ByteBufferReadWriteBuf.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ReadWriteBuf.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ByteVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/DoubleVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlatBufferBuilder$HeapByteBufferFactory.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlatBufferBuilder$ByteBufferFactory.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Blob.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Sized.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Key.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Object.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Map.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Vector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Sized.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Object.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$TypedVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Vector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Vector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FlexBuffers$Sized.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/FloatVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/IntVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/LongVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ReadWriteBuf.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ReadBuf.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/ShortVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/StringVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/UnionVector.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/BaseVector.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/Utf8Old.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/Utf8.class
+../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/Utf8Safe.class
+  <-  ../../third_party/android_deps/libs/com_google_flatbuffers_flatbuffers_java/flatbuffers-java-2.0.3.jar:com/google/flatbuffers/Utf8.class
+

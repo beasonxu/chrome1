@@ -1,0 +1,177 @@
+obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/SiteSettingsPreferenceFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/AutoSizeableTextView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/DialogPreference$TargetFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnNavigateToScreenListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnPreferenceTreeClickListener.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/components/page_info/CertificateChainHelper$Natives.class
+  <-  org/chromium/components/page_info/CertificateChainHelper.class
+org/chromium/components/page_info/CertificateChainHelper.class
+  <-  org/chromium/components/page_info/CertificateChainHelper$Natives.class
+org/chromium/components/page_info/CertificateChainHelperJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/page_info/CertificateChainHelperJni.class
+org/chromium/components/page_info/CertificateChainHelperJni.class
+  <-  org/chromium/components/page_info/CertificateChainHelper$Natives.class
+  <-  org/chromium/components/page_info/CertificateChainHelperJni$1.class
+org/chromium/components/page_info/CertificateViewer$1.class
+  <-  org/chromium/components/page_info/CertificateViewer.class
+org/chromium/components/page_info/CertificateViewer$Natives.class
+  <-  org/chromium/components/page_info/CertificateViewer.class
+org/chromium/components/page_info/CertificateViewer.class
+  <-  org/chromium/components/page_info/CertificateViewer$1.class
+  <-  org/chromium/components/page_info/CertificateViewer$Natives.class
+org/chromium/components/page_info/CertificateViewerJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/page_info/CertificateViewerJni.class
+org/chromium/components/page_info/CertificateViewerJni.class
+  <-  org/chromium/components/page_info/CertificateViewer$Natives.class
+  <-  org/chromium/components/page_info/CertificateViewerJni$1.class
+org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDelegate.class
+  <-  org/chromium/components/page_info/ConnectionInfoView.class
+org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDialogDelegate$1.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/WebContentsObserver.class
+  <-  org/chromium/components/page_info/ConnectionInfoView.class
+org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDialogDelegate.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDelegate.class
+  <-  org/chromium/components/page_info/ConnectionInfoView.class
+org/chromium/components/page_info/ConnectionInfoView$Natives.class
+  <-  org/chromium/components/page_info/ConnectionInfoView.class
+org/chromium/components/page_info/ConnectionInfoView.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDelegate.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDialogDelegate$1.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDialogDelegate.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$Natives.class
+org/chromium/components/page_info/ConnectionInfoViewJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/page_info/ConnectionInfoViewJni.class
+org/chromium/components/page_info/ConnectionInfoViewJni.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$Natives.class
+  <-  org/chromium/components/page_info/ConnectionInfoViewJni$1.class
+org/chromium/components/page_info/ElidedUrlTextView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatTextView.class
+org/chromium/components/page_info/PageInfoAdPersonalizationController.class
+  <-  org/chromium/components/page_info/PageInfoPreferenceSubpageController.class
+org/chromium/components/page_info/PageInfoAdPersonalizationPreference$Params.class
+  <-  org/chromium/components/page_info/PageInfoAdPersonalizationPreference.class
+org/chromium/components/page_info/PageInfoAdPersonalizationPreference.class
+  <-  obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/SiteSettingsPreferenceFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceClickListener.class
+  <-  org/chromium/components/page_info/PageInfoAdPersonalizationPreference$Params.class
+org/chromium/components/page_info/PageInfoConnectionController.class
+  <-  org/chromium/components/page_info/ConnectionInfoView$ConnectionInfoDelegate.class
+  <-  org/chromium/components/page_info/PageInfoSubpageController.class
+org/chromium/components/page_info/PageInfoContainer$Params.class
+  <-  org/chromium/components/page_info/PageInfoContainer.class
+org/chromium/components/page_info/PageInfoContainer.class
+  <-  org/chromium/components/page_info/PageInfoContainer$Params.class
+org/chromium/components/page_info/PageInfoController$1.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/WebContentsObserver.class
+  <-  org/chromium/components/page_info/PageInfoController.class
+org/chromium/components/page_info/PageInfoController$Natives.class
+  <-  org/chromium/components/page_info/PageInfoController.class
+org/chromium/components/page_info/PageInfoController$OpenedFromSource.class
+  <-  org/chromium/components/page_info/PageInfoController.class
+org/chromium/components/page_info/PageInfoController.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Consumer.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/page_info/PageInfoController$1.class
+  <-  org/chromium/components/page_info/PageInfoController$Natives.class
+  <-  org/chromium/components/page_info/PageInfoController$OpenedFromSource.class
+  <-  org/chromium/components/page_info/PageInfoMainController.class
+  <-  org/chromium/components/page_info/SystemSettingsActivityRequiredListener.class
+org/chromium/components/page_info/PageInfoControllerDelegate$OfflinePageState.class
+  <-  org/chromium/components/page_info/PageInfoControllerDelegate.class
+org/chromium/components/page_info/PageInfoControllerDelegate.class
+  <-  org/chromium/components/page_info/PageInfoControllerDelegate$OfflinePageState.class
+org/chromium/components/page_info/PageInfoControllerJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/page_info/PageInfoControllerJni.class
+org/chromium/components/page_info/PageInfoControllerJni.class
+  <-  org/chromium/components/page_info/PageInfoController$Natives.class
+  <-  org/chromium/components/page_info/PageInfoControllerJni$1.class
+org/chromium/components/page_info/PageInfoCookiesController.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/WebsitePermissionsFetcher$WebsitePermissionsCallback.class
+  <-  obj/components/content_settings/android/java.turbine.jar:org/chromium/components/content_settings/CookieControlsObserver.class
+  <-  org/chromium/components/page_info/PageInfoPreferenceSubpageController.class
+org/chromium/components/page_info/PageInfoCookiesPreference$PageInfoCookiesViewParams.class
+  <-  org/chromium/components/page_info/PageInfoCookiesPreference.class
+org/chromium/components/page_info/PageInfoCookiesPreference.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/SiteSettingsPreferenceFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceChangeListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceClickListener.class
+  <-  org/chromium/components/page_info/PageInfoCookiesPreference$PageInfoCookiesViewParams.class
+org/chromium/components/page_info/PageInfoDialog$1.class
+  <-  org/chromium/components/page_info/PageInfoDialog.class
+org/chromium/components/page_info/PageInfoDialog$2.class
+  <-  org/chromium/components/page_info/PageInfoDialog.class
+org/chromium/components/page_info/PageInfoDialog$3.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/FadingEdgeScrollView.class
+  <-  org/chromium/components/page_info/PageInfoDialog.class
+org/chromium/components/page_info/PageInfoDialog$4.class
+  <-  org/chromium/components/page_info/PageInfoDialog.class
+org/chromium/components/page_info/PageInfoDialog.class
+  <-  org/chromium/components/page_info/PageInfoDialog$1.class
+  <-  org/chromium/components/page_info/PageInfoDialog$2.class
+  <-  org/chromium/components/page_info/PageInfoDialog$3.class
+  <-  org/chromium/components/page_info/PageInfoDialog$4.class
+org/chromium/components/page_info/PageInfoDiscoverabilityMetrics$DiscoverabilityAction.class
+  <-  org/chromium/components/page_info/PageInfoDiscoverabilityMetrics.class
+org/chromium/components/page_info/PageInfoDiscoverabilityMetrics.class
+  <-  org/chromium/components/page_info/PageInfoDiscoverabilityMetrics$DiscoverabilityAction.class
+org/chromium/components/page_info/PageInfoFeatures$Natives.class
+  <-  org/chromium/components/page_info/PageInfoFeatures.class
+org/chromium/components/page_info/PageInfoFeatures.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Features.class
+  <-  org/chromium/components/page_info/PageInfoFeatures$Natives.class
+org/chromium/components/page_info/PageInfoFeaturesJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/page_info/PageInfoFeaturesJni.class
+org/chromium/components/page_info/PageInfoFeaturesJni.class
+  <-  org/chromium/components/page_info/PageInfoFeatures$Natives.class
+  <-  org/chromium/components/page_info/PageInfoFeaturesJni$1.class
+org/chromium/components/page_info/PageInfoPermissionsController$PermissionObject.class
+  <-  org/chromium/components/page_info/PageInfoPermissionsController.class
+org/chromium/components/page_info/PageInfoPermissionsController.class
+  <-  obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/SingleWebsiteSettings$Observer.class
+  <-  obj/components/browser_ui/site_settings/android/java.turbine.jar:org/chromium/components/browser_ui/site_settings/WebsitePermissionsFetcher$WebsitePermissionsCallback.class
+  <-  org/chromium/components/page_info/PageInfoPermissionsController$PermissionObject.class
+  <-  org/chromium/components/page_info/PageInfoPreferenceSubpageController.class
+org/chromium/components/page_info/PageInfoPreferenceSubpageController.class
+  <-  org/chromium/components/page_info/PageInfoSubpageController.class
+org/chromium/components/page_info/PageInfoRowView$ViewParams.class
+  <-  org/chromium/components/page_info/PageInfoRowView.class
+org/chromium/components/page_info/PageInfoRowView.class
+  <-  org/chromium/components/page_info/PageInfoRowView$ViewParams.class
+org/chromium/components/page_info/PageInfoView$Params.class
+  <-  org/chromium/components/page_info/PageInfoView.class
+org/chromium/components/page_info/PageInfoView.class
+  <-  org/chromium/components/page_info/PageInfoView$Params.class
+org/chromium/components/page_info/PermissionParamsListBuilder$PageInfoPermissionEntry.class
+  <-  org/chromium/components/page_info/PermissionParamsListBuilder.class
+org/chromium/components/page_info/PermissionParamsListBuilder.class
+  <-  org/chromium/components/page_info/PermissionParamsListBuilder$PageInfoPermissionEntry.class
+org/chromium/components/page_info/VrHandler$UiType.class
+  <-  org/chromium/components/page_info/VrHandler.class
+org/chromium/components/page_info/VrHandler.class
+  <-  org/chromium/components/page_info/VrHandler$UiType.class
+

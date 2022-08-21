@@ -1,0 +1,14 @@
+org/chromium/components/ukm/UkmRecorder$Bridge.class
+  <-  org/chromium/components/ukm/UkmRecorder.class
+org/chromium/components/ukm/UkmRecorder$Natives.class
+  <-  org/chromium/components/ukm/UkmRecorder.class
+org/chromium/components/ukm/UkmRecorder.class
+  <-  org/chromium/components/ukm/UkmRecorder$Bridge.class
+  <-  org/chromium/components/ukm/UkmRecorder$Natives.class
+org/chromium/components/ukm/UkmRecorderJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/ukm/UkmRecorderJni.class
+org/chromium/components/ukm/UkmRecorderJni.class
+  <-  org/chromium/components/ukm/UkmRecorder$Natives.class
+  <-  org/chromium/components/ukm/UkmRecorderJni$1.class
+

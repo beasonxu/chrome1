@@ -1,0 +1,15 @@
+org/chromium/chrome/browser/policy/CloudManagementAndroidConnection$LazyHolder.class
+  <-  org/chromium/chrome/browser/policy/CloudManagementAndroidConnection.class
+org/chromium/chrome/browser/policy/CloudManagementAndroidConnection.class
+  <-  org/chromium/chrome/browser/policy/CloudManagementAndroidConnection$LazyHolder.class
+org/chromium/chrome/browser/policy/PolicyServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/policy/PolicyServiceFactory.class
+org/chromium/chrome/browser/policy/PolicyServiceFactory.class
+  <-  org/chromium/chrome/browser/policy/PolicyServiceFactory$Natives.class
+org/chromium/chrome/browser/policy/PolicyServiceFactoryJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/policy/PolicyServiceFactoryJni.class
+org/chromium/chrome/browser/policy/PolicyServiceFactoryJni.class
+  <-  org/chromium/chrome/browser/policy/PolicyServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/policy/PolicyServiceFactoryJni$1.class
+

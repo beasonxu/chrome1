@@ -1,0 +1,1 @@
+int drawable ic_autofill_assistant_24dp 0x7f010001

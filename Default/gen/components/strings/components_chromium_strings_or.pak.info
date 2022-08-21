@@ -1,0 +1,9 @@
+IDS_ERRORPAGES_SUMMARY_BLOCKED_BY_CLIENT,26042,../../components/components_chromium_strings.grd
+IDS_ERRORPAGES_SUMMARY_BLOCKED_ENROLLMENT_CHECK_PENDING,26043,../../components/components_chromium_strings.grd
+IDS_FLAGS_UI_RELAUNCH_NOTICE,26045,../../components/components_chromium_strings.grd
+IDS_DEPRECATED_FEATURES_RELAUNCH_NOTICE,26046,../../components/components_chromium_strings.grd
+IDS_CRASH_DISABLED_MESSAGE,26047,../../components/components_chromium_strings.grd
+IDS_SHORT_PRODUCT_LOGO_ALT_TEXT,26048,../../components/components_chromium_strings.grd
+IDS_VERSION_UI_LICENSE,26049,../../components/components_chromium_strings.grd
+IDS_PAGE_INFO_INTERNAL_PAGE,26050,../../components/components_chromium_strings.grd
+IDS_SESSION_CRASHED_VIEW_MESSAGE,26051,../../components/components_chromium_strings.grd

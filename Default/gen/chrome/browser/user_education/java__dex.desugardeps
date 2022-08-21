@@ -1,0 +1,3 @@
+org/chromium/chrome/browser/user_education/UserEducationHelper.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+

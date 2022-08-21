@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"系統要在結帳流程填入的地址和付款方式清單。"</string>
+<string name="fast_checkout_sheet_half_height">"當結帳流程顯示在半個螢幕上時，系統要填入的地址和付款方式清單。"</string>
+<string name="fast_checkout_sheet_full_height">"當結帳流程顯示在整個螢幕上時，系統要填入的地址和付款方式清單。"</string>
+<string name="fast_checkout_sheet_closed">"當結帳流程關閉時，系統要填入的地址和付款方式清單。"</string>
+</resources>

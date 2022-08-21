@@ -1,0 +1,13 @@
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/LifecycleDispatcher$DispatcherActivityCallback.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/EmptyActivityLifecycleCallbacks.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/ProcessLifecycleInitializer.class
+  <-  obj/third_party/androidx/androidx_startup_startup_runtime_java.ijar.jar:androidx/startup/Initializer.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/ProcessLifecycleOwner$2.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_runtime_java.ijar.jar:androidx/lifecycle/ReportFragment$ActivityInitializationListener.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/ProcessLifecycleOwner$3$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/EmptyActivityLifecycleCallbacks.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/ProcessLifecycleOwner$3.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/EmptyActivityLifecycleCallbacks.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_process_java/classes.jar:androidx/lifecycle/ProcessLifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+

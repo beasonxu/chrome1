@@ -1,0 +1,4 @@
+../../components/content_creation/reactions/android/java/src/org/chromium/components/content_creation/reactions/ReactionMetadata.java
+../../components/content_creation/reactions/android/java/src/org/chromium/components/content_creation/reactions/ReactionMetadataConversionBridge.java
+../../components/content_creation/reactions/android/java/src/org/chromium/components/content_creation/reactions/ReactionService.java
+../../components/content_creation/reactions/android/java/src/org/chromium/components/content_creation/reactions/ReactionServiceBridge.java

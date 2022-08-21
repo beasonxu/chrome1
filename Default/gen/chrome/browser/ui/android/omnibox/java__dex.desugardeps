@@ -1,0 +1,541 @@
+obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/NativeInitObserver.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/LifecycleObserver.class
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/text/VerticallyFixedEditText.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatEditText.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatEditText.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/EmojiCompatConfigurationView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/OnReceiveContentViewBehavior.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableCompoundDrawablesView.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller$ScrollVectorProvider.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ScrollingView.class
+obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditText$1.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditText.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditText.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/text/VerticallyFixedEditText.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditText$1.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase$Delegate.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel$1.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel$AutocompleteSpan.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel$1.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModel$AutocompleteSpan.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase$Delegate.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase.class
+org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase$Delegate.class
+org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifier$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifier.class
+org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifier.class
+  <-  obj/components/omnibox/browser/browser_java.turbine.jar:org/chromium/components/omnibox/AutocompleteSchemeClassifier.class
+  <-  org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifier$Natives.class
+org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifierJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifierJni.class
+org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifierJni.class
+  <-  org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifier$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/ChromeAutocompleteSchemeClassifierJni$1.class
+org/chromium/chrome/browser/omnibox/KeyboardHideHelper$1.class
+  <-  org/chromium/chrome/browser/omnibox/KeyboardHideHelper.class
+org/chromium/chrome/browser/omnibox/KeyboardHideHelper.class
+  <-  org/chromium/chrome/browser/omnibox/KeyboardHideHelper$1.class
+org/chromium/chrome/browser/omnibox/LocationBarCoordinator$SubCoordinator.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarCoordinator.class
+org/chromium/chrome/browser/omnibox/LocationBarCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/NativeInitObserver.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBar.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarCoordinator$SubCoordinator.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdownEmbedder.class
+org/chromium/chrome/browser/omnibox/LocationBarCoordinatorPhone.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarCoordinator$SubCoordinator.class
+org/chromium/chrome/browser/omnibox/LocationBarCoordinatorTablet.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarCoordinator$SubCoordinator.class
+org/chromium/chrome/browser/omnibox/LocationBarDataProvider$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarDataProvider.class
+org/chromium/chrome/browser/omnibox/LocationBarDataProvider.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarDataProvider$Observer.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$1.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$2.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$3.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/animation/CancelAwareAnimatorListener.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$4.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$5.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$OmniboxUma.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator$SaveOfflineButtonState.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+org/chromium/chrome/browser/omnibox/LocationBarMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/gesture/BackPressHandler.class
+  <-  obj/components/search_engines/android/java.turbine.jar:org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarDataProvider$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$1.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$2.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$3.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$4.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$5.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$OmniboxUma.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarMediator$SaveOfflineButtonState.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxStub.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlBarDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Delegate.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Observer.class
+org/chromium/chrome/browser/omnibox/LocationBarPhone.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarLayout.class
+org/chromium/chrome/browser/omnibox/LocationBarTablet.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarLayout.class
+org/chromium/chrome/browser/omnibox/NewTabPageDelegate$1.class
+  <-  org/chromium/chrome/browser/omnibox/NewTabPageDelegate.class
+org/chromium/chrome/browser/omnibox/NewTabPageDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/NewTabPageDelegate$1.class
+org/chromium/chrome/browser/omnibox/OmniboxPrerender$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxPrerender.class
+org/chromium/chrome/browser/omnibox/OmniboxPrerender.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxPrerender$Natives.class
+org/chromium/chrome/browser/omnibox/OmniboxPrerenderJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxPrerenderJni.class
+org/chromium/chrome/browser/omnibox/OmniboxPrerenderJni.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxPrerender$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxPrerenderJni$1.class
+org/chromium/chrome/browser/omnibox/OmniboxViewUtil$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxViewUtil.class
+org/chromium/chrome/browser/omnibox/OmniboxViewUtil.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxViewUtil$Natives.class
+org/chromium/chrome/browser/omnibox/OmniboxViewUtilJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxViewUtilJni.class
+org/chromium/chrome/browser/omnibox/OmniboxViewUtilJni.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxViewUtil$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/OmniboxViewUtilJni$1.class
+org/chromium/chrome/browser/omnibox/SearchEngineLogoUtils$Events.class
+  <-  org/chromium/chrome/browser/omnibox/SearchEngineLogoUtils.class
+org/chromium/chrome/browser/omnibox/SearchEngineLogoUtils.class
+  <-  obj/chrome/browser/ui/android/favicon/java.turbine.jar:org/chromium/chrome/browser/ui/favicon/FaviconHelper$FaviconImageCallback.class
+  <-  org/chromium/chrome/browser/omnibox/SearchEngineLogoUtils$Events.class
+org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel$AutocompleteInputConnection.class
+  <-  org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel.class
+org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel$SpanCursorController.class
+  <-  org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel.class
+org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditTextModelBase.class
+  <-  org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel$AutocompleteInputConnection.class
+  <-  org/chromium/chrome/browser/omnibox/SpannableAutocompleteEditTextModel$SpanCursorController.class
+org/chromium/chrome/browser/omnibox/UrlBar$1.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$2.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$3.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$EllipsisSpan.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$ScrollType.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$UrlBarDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$UrlBarTextContextMenuDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar$UrlTextChangeListener.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBar.class
+  <-  org/chromium/chrome/browser/omnibox/AutocompleteEditText.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$1.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$2.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$3.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$EllipsisSpan.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$ScrollType.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlBarDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlBarTextContextMenuDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlTextChangeListener.class
+org/chromium/chrome/browser/omnibox/UrlBarApi26.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar.class
+org/chromium/chrome/browser/omnibox/UrlBarCoordinator$SelectionState.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarCoordinator.class
+org/chromium/chrome/browser/omnibox/UrlBarCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarCoordinator$SelectionState.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarEditingTextStateProvider.class
+  <-  org/chromium/chrome/browser/omnibox/UrlFocusChangeListener.class
+org/chromium/chrome/browser/omnibox/UrlBarMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlBarTextContextMenuDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlTextChangeListener.class
+org/chromium/chrome/browser/omnibox/UrlBarProperties$AutocompleteText.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarProperties.class
+org/chromium/chrome/browser/omnibox/UrlBarProperties$UrlBarTextState.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarProperties.class
+org/chromium/chrome/browser/omnibox/UrlBarProperties.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarProperties$AutocompleteText.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBarProperties$UrlBarTextState.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$HeaderState.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$LocationSource.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$Permission.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$UmaPermission.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationHeader.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$HeaderState.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$LocationSource.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$Permission.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationHeader$UmaPermission.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationTracker$SelfCancelingListener$1.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationTracker.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationTracker$SelfCancelingListener.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationTracker.class
+org/chromium/chrome/browser/omnibox/geo/GeolocationTracker.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationTracker$SelfCancelingListener$1.class
+  <-  org/chromium/chrome/browser/omnibox/geo/GeolocationTracker$SelfCancelingListener.class
+org/chromium/chrome/browser/omnibox/geo/PlatformNetworksManager$TimeProvider.class
+  <-  org/chromium/chrome/browser/omnibox/geo/PlatformNetworksManager.class
+org/chromium/chrome/browser/omnibox/geo/PlatformNetworksManager.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/omnibox/geo/PlatformNetworksManager$TimeProvider.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell$Builder.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell$RadioType.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleWifi.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworks.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell$Builder.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell$RadioType.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleCell.class
+  <-  org/chromium/chrome/browser/omnibox/geo/VisibleNetworks$VisibleWifi.class
+org/chromium/chrome/browser/omnibox/geo/VisibleNetworksTracker.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+org/chromium/chrome/browser/omnibox/status/StatusCoordinator$PageInfoAction.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusCoordinator.class
+org/chromium/chrome/browser/omnibox/status/StatusCoordinator.class
+  <-  org/chromium/chrome/browser/omnibox/LocationBarDataProvider$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusCoordinator$PageInfoAction.class
+org/chromium/chrome/browser/omnibox/status/StatusMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/commerce/merchant_viewer/android/java.turbine.jar:org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinator$OmniboxIconController.class
+  <-  obj/components/permissions/android/java.turbine.jar:org/chromium/components/permissions/PermissionDialogController$Observer.class
+  <-  obj/components/search_engines/android/java.turbine.jar:org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+org/chromium/chrome/browser/omnibox/status/StatusProperties$PermissionIconResource.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusProperties$StatusIconResource.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusProperties.class
+org/chromium/chrome/browser/omnibox/status/StatusProperties$StatusIconResource.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusProperties.class
+org/chromium/chrome/browser/omnibox/status/StatusProperties.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusProperties$PermissionIconResource.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusProperties$StatusIconResource.class
+org/chromium/chrome/browser/omnibox/status/StatusView$1.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView.class
+org/chromium/chrome/browser/omnibox/status/StatusView$2.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView.class
+org/chromium/chrome/browser/omnibox/status/StatusView$3.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView.class
+org/chromium/chrome/browser/omnibox/status/StatusView$IconTransitionType.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView.class
+org/chromium/chrome/browser/omnibox/status/StatusView.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView$1.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView$2.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView$3.class
+  <-  org/chromium/chrome/browser/omnibox/status/StatusView$IconTransitionType.class
+org/chromium/chrome/browser/omnibox/status/StatusViewBinder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$OnSuggestionsReceivedListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$OnSuggestionsReceivedListener.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteControllerJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteControllerJni.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteControllerJni.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$Natives.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteControllerJni$1.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteCoordinator$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/ViewProvider.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter$ViewBuilder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteCoordinator.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/UrlBar$UrlTextChangeListener.class
+  <-  org/chromium/chrome/browser/omnibox/UrlFocusChangeListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteCoordinator$1.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteDelegate.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/UrlBarDelegate.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$2.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$EditSessionState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$SuggestionVisibilityState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator.class
+org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteController$OnSuggestionsReceivedListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$2.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$EditSessionState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/AutocompleteMediator$SuggestionVisibilityState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionHost.class
+org/chromium/chrome/browser/omnibox/suggestions/CachedZeroSuggestionsManager.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Function.class
+org/chromium/chrome/browser/omnibox/suggestions/DropdownItemViewInfo.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter$ListItem.class
+org/chromium/chrome/browser/omnibox/suggestions/DropdownItemViewInfoListBuilder.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconFetchCompleteListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher.class
+org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconFetchCompleteListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher.class
+org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconType.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher.class
+org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher.class
+  <-  obj/components/favicon/android/java.turbine.jar:org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconFetchCompleteListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconType.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$2.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$3.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$HistogramRecordingRecycledViewPool.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$RecycledViewPool.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$InitialResizeState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$SuggestionScrollListener.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$2.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$3.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$HistogramRecordingRecycledViewPool.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$InitialResizeState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdown$SuggestionScrollListener.class
+org/chromium/chrome/browser/omnibox/suggestions/OmniboxSuggestionsDropdownAdapter.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewAdapter.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionCommonProperties$FormFactor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionCommonProperties.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionCommonProperties.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionCommonProperties$FormFactor.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/ListObservable$ListObserver.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder$SuggestionListViewHolder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionListViewBinder$SuggestionListViewHolder.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/DropdownItemProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionsMetrics$RefineActionUsage.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionsMetrics.class
+org/chromium/chrome/browser/omnibox/suggestions/SuggestionsMetrics.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionsMetrics$RefineActionUsage.class
+org/chromium/chrome/browser/omnibox/suggestions/answer/AnswerSuggestionProcessor.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/answer/AnswerTextNewLayout.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/answer/AnswerText.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewBinder$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewBinder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewBinder$1.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconFetchCompleteListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties$Action.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties$Density.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties.class
+org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties$Action.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProperties$Density.class
+org/chromium/chrome/browser/omnibox/suggestions/base/DecoratedSuggestionView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView$LayoutParams.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView$LayoutParams.class
+org/chromium/chrome/browser/omnibox/suggestions/base/SuggestionDrawableState$Builder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SuggestionDrawableState.class
+org/chromium/chrome/browser/omnibox/suggestions/base/SuggestionDrawableState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SuggestionDrawableState$Builder.class
+org/chromium/chrome/browser/omnibox/suggestions/basic/BasicSuggestionProcessor$BookmarkState.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/basic/BasicSuggestionProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/basic/BasicSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/basic/BasicSuggestionProcessor$BookmarkState.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionItemViewBuilder$ViewType.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionItemViewBuilder.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionItemViewBuilder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter$ViewBuilder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionItemViewBuilder$ViewType.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/SuggestionProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionSelectionManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionView$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionView.class
+org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionView$1.class
+org/chromium/chrome/browser/omnibox/suggestions/clipboard/ClipboardSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/editurl/EditUrlSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/editurl/EditUrlSuggestionViewBinder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/entity/EntitySuggestionProcessor.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderProcessor$1.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderViewProperties$Delegate.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/DropdownItemProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderProcessor$1.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderView$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderView.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderView$1.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderViewProperties$Delegate.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderViewProperties.class
+org/chromium/chrome/browser/omnibox/suggestions/header/HeaderViewProperties.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/header/HeaderViewProperties$Delegate.class
+org/chromium/chrome/browser/omnibox/suggestions/mostvisited/MostVisitedTilesProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/FaviconFetcher$FaviconFetchCompleteListener.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/carousel/BaseCarouselSuggestionProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/basic/BasicSuggestionProcessor.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleVerticalLayoutView.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionViewBinder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionViewProperties$PedalIcon.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionViewProperties.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionViewProperties.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalSuggestionViewProperties$PedalIcon.class
+org/chromium/chrome/browser/omnibox/suggestions/pedal/PedalView.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/SimpleHorizontalLayoutView.class
+org/chromium/chrome/browser/omnibox/suggestions/tail/TailSuggestionProcessor.class
+  <-  org/chromium/chrome/browser/omnibox/suggestions/base/BaseSuggestionViewProcessor.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentBottomSheet$1.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentBottomSheet.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentBottomSheet.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentBottomSheet$1.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentController$ConsentOutcome.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentController.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentController.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/base/WindowAndroid$ActivityStateObserver.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentController$ConsentOutcome.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi$Observer.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentModal.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchConsentUi$Observer.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$EligibilityFailureReason.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService.class
+org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService.class
+  <-  obj/components/search_engines/android/java.turbine.jar:org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+  <-  obj/components/signin/public/android/java.turbine.jar:org/chromium/components/signin/AccountsChangeObserver.class
+  <-  obj/components/signin/public/android/java.turbine.jar:org/chromium/components/signin/identitymanager/IdentityManager$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$1.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$EligibilityFailureReason.class
+  <-  org/chromium/chrome/browser/omnibox/voice/AssistantVoiceSearchService$Observer.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$AssistantActionPerformed.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$AudioPermissionState.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Delegate.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$TranslateBridgeWrapper.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceIntentTarget.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceInteractionSource.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceRecognitionCompleteCallback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/base/WindowAndroid$IntentCallback.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceResult.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceSearchWebContentsObserver.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/WebContentsObserver.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/ApplicationStatus$ApplicationStateListener.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/permissions/PermissionCallback.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$AssistantActionPerformed.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$AudioPermissionState.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Delegate.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$Observer.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$TranslateBridgeWrapper.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceIntentTarget.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceInteractionSource.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceRecognitionCompleteCallback.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceResult.class
+  <-  org/chromium/chrome/browser/omnibox/voice/VoiceRecognitionHandler$VoiceSearchWebContentsObserver.class
+

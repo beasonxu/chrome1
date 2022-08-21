@@ -1,0 +1,17 @@
+org/chromium/chrome/browser/android/httpclient/AnnotatedSimpleHttpClient.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/android/httpclient/public/java.turbine.jar:org/chromium/chrome/browser/android/httpclient/HttpClient.class
+org/chromium/chrome/browser/android/httpclient/SimpleHttpClient$HttpResponse.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClient.class
+org/chromium/chrome/browser/android/httpclient/SimpleHttpClient$Natives.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClient.class
+org/chromium/chrome/browser/android/httpclient/SimpleHttpClient.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClient$HttpResponse.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClient$Natives.class
+org/chromium/chrome/browser/android/httpclient/SimpleHttpClientJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClientJni.class
+org/chromium/chrome/browser/android/httpclient/SimpleHttpClientJni.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClient$Natives.class
+  <-  org/chromium/chrome/browser/android/httpclient/SimpleHttpClientJni$1.class
+

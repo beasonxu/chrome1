@@ -1,0 +1,2 @@
+gen/chrome/android/webapk/shell_apk/compiled_in_runtime_library_java.build_config.json: \
+ gen/third_party/android_sdk/android_sdk_java.build_config.json

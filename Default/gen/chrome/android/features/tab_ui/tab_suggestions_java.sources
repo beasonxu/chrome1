@@ -1,0 +1,5 @@
+../../chrome/android/features/tab_ui/java/src/org/chromium/chrome/browser/tasks/tab_management/suggestions/TabContext.java
+../../chrome/android/features/tab_ui/java/src/org/chromium/chrome/browser/tasks/tab_management/suggestions/TabSuggestion.java
+../../chrome/android/features/tab_ui/java/src/org/chromium/chrome/browser/tasks/tab_management/suggestions/TabSuggestionFeedback.java
+../../chrome/android/features/tab_ui/java/src/org/chromium/chrome/browser/tasks/tab_management/suggestions/TabSuggestions.java
+../../chrome/android/features/tab_ui/java/src/org/chromium/chrome/browser/tasks/tab_management/suggestions/TabSuggestionsObserver.java

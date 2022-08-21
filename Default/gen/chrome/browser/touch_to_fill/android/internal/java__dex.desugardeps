@@ -1,0 +1,62 @@
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller$ScrollVectorProvider.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillBridge$Natives.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillBridge.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillBridge.class
+  <-  obj/chrome/browser/touch_to_fill/android/public_java.turbine.jar:org/chromium/chrome/browser/touch_to_fill/TouchToFillComponent$Delegate.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillBridge$Natives.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillBridgeJni.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillBridgeJni.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillBridge$Natives.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillBridgeJni$1.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/touch_to_fill/android/public_java.turbine.jar:org/chromium/chrome/browser/touch_to_fill/TouchToFillComponent.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/favicon/android/java.turbine.jar:org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$CredentialProperties$FaviconOrFallback.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$CredentialProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$ItemType.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$WebAuthnCredentialProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$CredentialProperties$FaviconOrFallback.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$CredentialProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$ItemType.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillProperties$WebAuthnCredentialProperties.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillView$1.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillView$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillView$HorizontalDividerItemDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillView.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView$1.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView$2.class
+  <-  org/chromium/chrome/browser/touch_to_fill/TouchToFillView$HorizontalDividerItemDecoration.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillViewBinder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/RecyclerViewAdapter$ViewHolderFactory.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewMcp$ViewBinder.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewMcpBase$ItemViewTypeCallback.class
+org/chromium/chrome/browser/touch_to_fill/TouchToFillViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+

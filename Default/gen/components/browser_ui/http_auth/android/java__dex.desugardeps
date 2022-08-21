@@ -1,0 +1,5 @@
+org/chromium/components/browser_ui/http_auth/LoginPrompt$Observer.class
+  <-  org/chromium/components/browser_ui/http_auth/LoginPrompt.class
+org/chromium/components/browser_ui/http_auth/LoginPrompt.class
+  <-  org/chromium/components/browser_ui/http_auth/LoginPrompt$Observer.class
+

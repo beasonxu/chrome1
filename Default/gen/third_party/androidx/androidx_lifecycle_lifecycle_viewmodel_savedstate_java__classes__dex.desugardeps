@@ -1,0 +1,47 @@
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java.ijar.jar:androidx/lifecycle/MutableLiveData.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java.ijar.jar:androidx/lifecycle/LiveData.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/AbstractSavedStateViewModelFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelProvider$Factory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelProvider$OnRequeryFactory.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/LegacySavedStateHandleController$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/LegacySavedStateHandleController$OnRecreation.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistry$AutoRecreated.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandle$SavingStateLiveData.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java.ijar.jar:androidx/lifecycle/MutableLiveData.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandle.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistry$SavedStateProvider.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleAttacher.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleController.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleSupport$DEFAULT_ARGS_KEY$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/viewmodel/CreationExtras$Key.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleSupport$SAVED_STATE_REGISTRY_OWNER_KEY$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/viewmodel/CreationExtras$Key.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleSupport$VIEW_MODEL_STORE_OWNER_KEY$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/viewmodel/CreationExtras$Key.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandleSupport$savedStateHandlesVM$1$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandlesProvider$viewModel$2.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandlesProvider.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistry$SavedStateProvider.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateHandlesVM.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModel.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_savedstate_java/classes.jar:androidx/lifecycle/SavedStateViewModelFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelProvider$Factory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelProvider$OnRequeryFactory.class
+

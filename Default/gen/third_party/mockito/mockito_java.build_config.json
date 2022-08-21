@@ -1,0 +1,141 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": false,
+    "dependency_r_txt_files": [
+      "gen/third_party/android_sdk/android_test_base_java__resources_R.txt"
+    ],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [
+      "obj/third_party/android_sdk/android_test_base_java__resources.resources.zip"
+    ],
+    "deps_configs": [
+      "gen/third_party/android_sdk/android_test_base_java__resources.build_config.json",
+      "gen/third_party/android_sdk/android_test_base_java.build_config.json",
+      "gen/third_party/byte_buddy/byte_buddy_agent_java.build_config.json",
+      "gen/third_party/byte_buddy/byte_buddy_android_java.build_config.json",
+      "gen/third_party/byte_buddy/byte_buddy_java.build_config.json",
+      "gen/third_party/hamcrest/hamcrest_core_java.build_config.json",
+      "gen/third_party/hamcrest/hamcrest_library_java.build_config.json",
+      "gen/third_party/hamcrest/hamcrest_java.build_config.json",
+      "gen/third_party/junit/junit.build_config.json",
+      "gen/third_party/objenesis/objenesis_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/third_party/mockito/mockito_java.processed.jar",
+    "dex_path": "obj/third_party/mockito/mockito_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [
+      "com.android.test_base"
+    ],
+    "gn_target": "//third_party/mockito:mockito_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/mockito/mockito_java.jar",
+    "interface_jar_path": "obj/third_party/mockito/mockito_java.turbine.jar",
+    "is_prebuilt": false,
+    "java_resources_jar": "obj/third_party/mockito/mockito_java.processed.jar",
+    "java_sources_file": "gen/third_party/mockito/mockito_java.sources",
+    "javac_full_classpath": [
+      "../../third_party/objenesis/lib/objenesis.jar",
+      "obj/third_party/junit/junit.javac.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy-android.jar",
+      "../../third_party/byte_buddy/android_sdk_build_tools_25_0_2/build-tools/25.0.2/lib/dx.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy-agent.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/objenesis:objenesis_java",
+      "//third_party/junit:junit",
+      "//third_party/hamcrest:hamcrest_library_java",
+      "//third_party/hamcrest:hamcrest_core_java",
+      "//third_party/byte_buddy:byte_buddy_java",
+      "//third_party/byte_buddy:byte_buddy_android_java",
+      "//third_party/byte_buddy:dx_25_0_2_java",
+      "//third_party/byte_buddy:byte_buddy_agent_java",
+      "//third_party/android_sdk:android_test_base_java",
+      "//third_party/android_sdk:android_test_runner_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/objenesis/objenesis.ijar.jar",
+      "obj/third_party/junit/junit.turbine.jar",
+      "obj/third_party/hamcrest/hamcrest-library.ijar.jar",
+      "obj/third_party/hamcrest/hamcrest-core.ijar.jar",
+      "obj/third_party/byte_buddy/byte-buddy.ijar.jar",
+      "obj/third_party/byte_buddy/byte-buddy-android.ijar.jar",
+      "obj/third_party/byte_buddy/dx.ijar.jar",
+      "obj/third_party/byte_buddy/byte-buddy-agent.ijar.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/third_party/junit/junit.sources",
+        "gen/third_party/mockito/mockito_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "mockito_java.build_config.json",
+    "path": "gen/third_party/mockito/mockito_java.build_config.json",
+    "proguard_configs": [
+      "../../third_party/mockito/proguard.flags"
+    ],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/third_party/mockito/mockito_java.processed.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/byte_buddy/lib/byte-buddy-agent.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy-android.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "../../third_party/objenesis/lib/objenesis.jar",
+      "obj/third_party/junit/junit.javac.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy-agent.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy-android.jar",
+      "../../third_party/byte_buddy/lib/byte-buddy.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "../../third_party/objenesis/lib/objenesis.jar",
+      "obj/third_party/junit/junit.javac.jar"
+    ],
+    "interface_classpath": [
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "obj/third_party/byte_buddy/byte-buddy-agent.ijar.jar",
+      "obj/third_party/byte_buddy/byte-buddy-android.ijar.jar",
+      "obj/third_party/byte_buddy/byte-buddy.ijar.jar",
+      "obj/third_party/hamcrest/hamcrest-core.ijar.jar",
+      "obj/third_party/hamcrest/hamcrest-library.ijar.jar",
+      "obj/third_party/junit/junit.turbine.jar",
+      "obj/third_party/objenesis/objenesis.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

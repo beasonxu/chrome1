@@ -1,0 +1,36 @@
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/contextaware/ContextAware.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnMultiWindowModeChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnNewIntentProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/OnPictureInPictureModeChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/OnConfigurationChangedProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/OnTrimMemoryProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/MenuHost.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedDispatcherOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatActivity.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/ActionBarDrawerToggle$DelegateProvider.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatCallback.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/TaskStackBuilder$SupportParentable.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentActivity.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/KeyEventDispatcher$Component.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentActivity.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/ComponentActivity.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ActivityCompat$OnRequestPermissionsResultCallback.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/app/ActivityCompat$RequestPermissionsRequestCodeValidator.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/test_dummy/TestDummyActivity.class
+  <-  obj/components/module_installer/android/module_installer_java.turbine.jar:org/chromium/components/module_installer/engine/InstallListener.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/app/AppCompatActivity.class
+

@@ -1,0 +1,61 @@
+{
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [],
+    "extra_classpath_jars": [
+      "../../third_party/r8/lib/r8.jar"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//build/android/stacktrace:java_deobfuscate_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/build/android/stacktrace/java_deobfuscate_java.jar",
+    "interface_jar_path": "obj/build/android/stacktrace/java_deobfuscate_java.turbine.jar",
+    "is_prebuilt": false,
+    "java_sources_file": "gen/build/android/stacktrace/java_deobfuscate_java.sources",
+    "javac_full_classpath": [
+      "../../third_party/r8/lib/r8.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//build/android/stacktrace:java_deobfuscate_java"
+    ],
+    "javac_full_interface_classpath": [
+      "../../third_party/r8/lib/r8.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/build/android/stacktrace/java_deobfuscate_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "java_deobfuscate_java.build_config.json",
+    "path": "gen/build/android/stacktrace/java_deobfuscate_java.build_config.json",
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/build/android/stacktrace/java_deobfuscate_java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": []
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/r8/lib/r8.jar"
+    ],
+    "interface_classpath": [
+      "../../third_party/r8/lib/r8.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

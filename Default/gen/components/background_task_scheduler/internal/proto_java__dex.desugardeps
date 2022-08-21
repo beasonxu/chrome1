@@ -1,0 +1,98 @@
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/AbstractMessageLite$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLite$Builder.class
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/AbstractMessageLite.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLite.class
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/AbstractMessageLite$Builder.class
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/AbstractMessageLite.class
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLite$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLiteOrBuilder.class
+obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLite.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLiteOrBuilder.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$1.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTaskOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItemOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue$Builder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValueOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue$OneofValueCase.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValueOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValueOrBuilder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLiteOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type$1.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLiteMap.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type$TypeVerifier.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItemOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItemOrBuilder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLiteOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType$1.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLiteMap.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType$RequiredNetworkTypeVerifier.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type$1.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLiteMap.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type$TypeVerifier.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/Internal$EnumLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/GeneratedMessageLite.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTaskOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTaskOrBuilder.class
+  <-  obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar:com/google/protobuf/MessageLiteOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$1.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue$Builder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue$OneofValueCase.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValue.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$ExtraValueOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type$1.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type$TypeVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem$Type.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItem.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$ExtraItemOrBuilder.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType$1.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType$RequiredNetworkTypeVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$RequiredNetworkType.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type$1.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type$TypeVerifier.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask$Type.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTask.class
+  <-  org/chromium/components/background_task_scheduler/internal/ScheduledTaskProto$ScheduledTaskOrBuilder.class
+

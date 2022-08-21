@@ -1,0 +1,78 @@
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleObserver.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller$ScrollVectorProvider.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/PagerSnapHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/SnapHelper.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ScrollingView.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/SnapHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnFlingListener.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$2.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$3.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentManager$FragmentLifecycleCallbacks.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$5.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$DataSetChangeObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$FragmentMaxLifecycleEnforcer$1.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$OnPageChangeCallback.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$FragmentMaxLifecycleEnforcer$2.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$DataSetChangeObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$FragmentMaxLifecycleEnforcer$3.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$1.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter$FragmentTransactionCallback$OnPostEventListener.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentStateAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/StatefulAdapter.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/adapter/FragmentViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/CompositeOnPageChangeCallback.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$OnPageChangeCallback.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/CompositePageTransformer.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageTransformer.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/MarginPageTransformer.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageTransformer.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/PageTransformerAdapter.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$OnPageChangeCallback.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ScrollEventAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$1.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$DataSetChangeObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$2.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$OnPageChangeCallback.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$3.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$OnPageChangeCallback.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$4.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$BasicAccessibilityProvider.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$AccessibilityProvider.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$DataSetChangeObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$LinearLayoutManagerImpl.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$1.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/accessibility/AccessibilityViewCommand.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/accessibility/AccessibilityViewCommand.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider$3.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$DataSetChangeObserver.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PageAwareAccessibilityProvider.class
+  <-  obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$AccessibilityProvider.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$PagerSnapHelperImpl.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/PagerSnapHelper.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/ViewPager2$RecyclerViewImpl.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView.class
+obj/third_party/androidx/androidx_viewpager2_viewpager2_java/classes.jar:androidx/viewpager2/widget/WindowInsetsApplier.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/OnApplyWindowInsetsListener.class
+

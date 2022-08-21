@@ -1,0 +1,5 @@
+org/chromium/base/NativeLibraryLoadedStatus$NativeLibraryLoadedStatusProvider.class
+  <-  org/chromium/base/NativeLibraryLoadedStatus.class
+org/chromium/base/NativeLibraryLoadedStatus.class
+  <-  org/chromium/base/NativeLibraryLoadedStatus$NativeLibraryLoadedStatusProvider.class
+

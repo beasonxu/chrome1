@@ -1,0 +1,46 @@
+obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor$AssistantAddressEditor.class
+  <-  obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor.class
+obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor$AssistantPaymentInstrumentEditor.class
+  <-  obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor.class
+org/chromium/components/autofill_assistant/AssistantAddressEditorGms.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor$AssistantAddressEditor.class
+org/chromium/components/autofill_assistant/AssistantFeatures$Natives.class
+  <-  org/chromium/components/autofill_assistant/AssistantFeatures.class
+org/chromium/components/autofill_assistant/AssistantFeatures.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Features.class
+  <-  org/chromium/components/autofill_assistant/AssistantFeatures$Natives.class
+org/chromium/components/autofill_assistant/AssistantFeaturesJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/autofill_assistant/AssistantFeaturesJni.class
+org/chromium/components/autofill_assistant/AssistantFeaturesJni.class
+  <-  org/chromium/components/autofill_assistant/AssistantFeatures$Natives.class
+  <-  org/chromium/components/autofill_assistant/AssistantFeaturesJni$1.class
+org/chromium/components/autofill_assistant/AssistantModuleInstallUi$Provider.class
+  <-  org/chromium/components/autofill_assistant/AssistantModuleInstallUi.class
+org/chromium/components/autofill_assistant/AssistantModuleInstallUi.class
+  <-  org/chromium/components/autofill_assistant/AssistantModuleInstallUi$Provider.class
+org/chromium/components/autofill_assistant/AssistantPaymentInstrumentEditorGms.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantEditor$AssistantPaymentInstrumentEditor.class
+org/chromium/components/autofill_assistant/AutofillAssistantModuleEntryProvider.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Consumer.class
+  <-  obj/components/module_installer/android/module_installer_java.turbine.jar:org/chromium/components/module_installer/engine/InstallListener.class
+org/chromium/components/autofill_assistant/Starter$Natives.class
+  <-  org/chromium/components/autofill_assistant/Starter.class
+org/chromium/components/autofill_assistant/Starter.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+  <-  obj/components/autofill_assistant/android/public_dependencies_java.turbine.jar:org/chromium/components/autofill_assistant/AssistantTabObserver.class
+  <-  org/chromium/components/autofill_assistant/Starter$Natives.class
+org/chromium/components/autofill_assistant/StarterJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/autofill_assistant/StarterJni.class
+org/chromium/components/autofill_assistant/StarterJni.class
+  <-  org/chromium/components/autofill_assistant/Starter$Natives.class
+  <-  org/chromium/components/autofill_assistant/StarterJni$1.class
+org/chromium/components/autofill_assistant/TriggerContext$Builder.class
+  <-  org/chromium/components/autofill_assistant/TriggerContext.class
+org/chromium/components/autofill_assistant/TriggerContext.class
+  <-  org/chromium/components/autofill_assistant/TriggerContext$Builder.class
+

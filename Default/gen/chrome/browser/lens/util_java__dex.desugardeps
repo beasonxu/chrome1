@@ -1,0 +1,17 @@
+org/chromium/chrome/browser/lens/LensIntentParams$Builder.class
+  <-  org/chromium/chrome/browser/lens/LensIntentParams.class
+org/chromium/chrome/browser/lens/LensIntentParams.class
+  <-  org/chromium/chrome/browser/lens/LensIntentParams$Builder.class
+org/chromium/chrome/browser/lens/LensMetrics$LensSupportStatus.class
+  <-  org/chromium/chrome/browser/lens/LensMetrics.class
+org/chromium/chrome/browser/lens/LensMetrics.class
+  <-  org/chromium/chrome/browser/lens/LensMetrics$LensSupportStatus.class
+org/chromium/chrome/browser/lens/LensQueryParams$Builder.class
+  <-  org/chromium/chrome/browser/lens/LensQueryParams.class
+org/chromium/chrome/browser/lens/LensQueryParams.class
+  <-  org/chromium/chrome/browser/lens/LensQueryParams$Builder.class
+org/chromium/chrome/browser/lens/LensQueryResult$Builder.class
+  <-  org/chromium/chrome/browser/lens/LensQueryResult.class
+org/chromium/chrome/browser/lens/LensQueryResult.class
+  <-  org/chromium/chrome/browser/lens/LensQueryResult$Builder.class
+

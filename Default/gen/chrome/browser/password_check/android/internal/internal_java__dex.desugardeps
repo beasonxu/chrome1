@@ -1,0 +1,82 @@
+obj/chrome/browser/password_check/android/public_java.turbine.jar:org/chromium/chrome/browser/password_check/PasswordCheck.class
+  <-  obj/chrome/browser/password_check/android/public_ui_java.turbine.jar:org/chromium/chrome/browser/password_check/PasswordCheckComponentUi$Delegate.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/password_check/PasswordCheckBridge$Natives.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge.class
+org/chromium/chrome/browser/password_check/PasswordCheckBridge$PasswordCheckObserver.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge.class
+org/chromium/chrome/browser/password_check/PasswordCheckBridge.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge$Natives.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge$PasswordCheckObserver.class
+org/chromium/chrome/browser/password_check/PasswordCheckBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridgeJni.class
+org/chromium/chrome/browser/password_check/PasswordCheckBridgeJni.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge$Natives.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridgeJni$1.class
+org/chromium/chrome/browser/password_check/PasswordCheckCoordinator$CredentialEventHandler.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckCoordinator.class
+org/chromium/chrome/browser/password_check/PasswordCheckCoordinator.class
+  <-  obj/chrome/browser/password_check/android/public_ui_java.turbine.jar:org/chromium/chrome/browser/password_check/PasswordCheckComponentUi.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleObserver.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckCoordinator$CredentialEventHandler.class
+org/chromium/chrome/browser/password_check/PasswordCheckDeletionDialogFragment.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment.class
+org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment$Handler.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment.class
+org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/DialogFragment.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment$Handler.class
+org/chromium/chrome/browser/password_check/PasswordCheckImpl.class
+  <-  obj/chrome/browser/password_check/android/public_java.turbine.jar:org/chromium/chrome/browser/password_check/PasswordCheck.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckBridge$PasswordCheckObserver.class
+org/chromium/chrome/browser/password_check/PasswordCheckMediator$1.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment$Handler.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckMediator.class
+org/chromium/chrome/browser/password_check/PasswordCheckMediator$2.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment$Handler.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckMediator.class
+org/chromium/chrome/browser/password_check/PasswordCheckMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/password_check/android/public_java.turbine.jar:org/chromium/chrome/browser/password_check/PasswordCheck$Observer.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckCoordinator$CredentialEventHandler.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckMediator$1.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckMediator$2.class
+org/chromium/chrome/browser/password_check/PasswordCheckProperties$CompromisedCredentialProperties.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties.class
+org/chromium/chrome/browser/password_check/PasswordCheckProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties.class
+org/chromium/chrome/browser/password_check/PasswordCheckProperties$ItemType.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties.class
+org/chromium/chrome/browser/password_check/PasswordCheckProperties.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties$CompromisedCredentialProperties.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckProperties$ItemType.class
+org/chromium/chrome/browser/password_check/PasswordCheckViewBinder.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenu$Delegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenuButtonDelegate.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/RecyclerViewAdapter$ViewHolderFactory.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewMcp$ViewBinder.class
+  <-  obj/ui/android/ui_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/SimpleRecyclerViewMcpBase$ItemViewTypeCallback.class
+org/chromium/chrome/browser/password_check/PasswordCheckViewDialogFragment.class
+  <-  org/chromium/chrome/browser/password_check/PasswordCheckDialogFragment.class
+org/chromium/chrome/browser/password_check/PasswordCheckViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+org/chromium/chrome/browser/password_check/helper/PasswordCheckIconHelper$FaviconOrFallback.class
+  <-  org/chromium/chrome/browser/password_check/helper/PasswordCheckIconHelper.class
+org/chromium/chrome/browser/password_check/helper/PasswordCheckIconHelper.class
+  <-  obj/components/favicon/android/java.turbine.jar:org/chromium/components/favicon/LargeIconBridge$LargeIconCallback.class
+  <-  org/chromium/chrome/browser/password_check/helper/PasswordCheckIconHelper$FaviconOrFallback.class
+

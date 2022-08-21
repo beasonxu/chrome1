@@ -1,0 +1,15 @@
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppListCoordinator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppListMediator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuCoordinator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuHeaderProperties.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuHeaderViewBinder.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuPermissionsCoordinator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuPermissionsMediator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuPermissionsProperties.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuPermissionsView.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/AppManagementMenuPermissionsViewBinder.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/LaunchpadCoordinator.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/LaunchpadItem.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/LaunchpadPage.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/ShortcutItemProperties.java
+../../chrome/browser/android/webapps/launchpad/java/src/org/chromium/chrome/browser/webapps/launchpad/ShortcutItemViewBinder.java

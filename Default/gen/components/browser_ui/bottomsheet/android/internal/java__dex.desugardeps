@@ -1,0 +1,50 @@
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerProvider$Unowned.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UnownedUserData.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetController.class
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+obj/components/browser_ui/bottomsheet/android/manager_java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/ManagedBottomSheetController.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetController.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerProvider$Unowned.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$1.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$2.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$3.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/animation/CancelAwareAnimatorListener.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$4.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$5.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet$ShadowLayerView.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheet.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent$ContentSizeListener.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$1.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$2.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$3.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$4.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$5.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheet$ShadowLayerView.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector$SwipeableBottomSheet.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl$1.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/gesture/BackPressHandler.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl$2.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/bottomsheet/android/manager_java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/ManagedBottomSheetController.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl$1.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetControllerImpl$2.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector$SwipeGestureListener.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector$SwipeableBottomSheet.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector.class
+org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector$SwipeGestureListener.class
+  <-  org/chromium/components/browser_ui/bottomsheet/BottomSheetSwipeDetector$SwipeableBottomSheet.class
+

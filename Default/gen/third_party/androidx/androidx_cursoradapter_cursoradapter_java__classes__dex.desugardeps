@@ -1,0 +1,7 @@
+obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/CursorAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/CursorFilter$CursorFilterClient.class
+obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/ResourceCursorAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/CursorAdapter.class
+obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/SimpleCursorAdapter.class
+  <-  obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/classes.jar:androidx/cursoradapter/widget/ResourceCursorAdapter.class
+

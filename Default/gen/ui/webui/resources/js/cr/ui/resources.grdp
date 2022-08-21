@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grit-part>
+      <include name="IDR_WEBUI_JS_CR_UI_FOCUS_OUTLINE_MANAGER_M_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/cr/ui/focus_outline_manager.m.js" resource_path="js/cr/ui/focus_outline_manager.m.js" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_JS_CR_UI_FOCUS_ROW_M_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/cr/ui/focus_row.m.js" resource_path="js/cr/ui/focus_row.m.js" use_base_dir="false" type="chrome_html" />
+      <include name="IDR_WEBUI_JS_CR_UI_KEYBOARD_SHORTCUT_LIST_JS" file="${root_gen_dir}/ui/webui/resources/preprocessed/js/cr/ui/keyboard_shortcut_list.js" resource_path="js/cr/ui/keyboard_shortcut_list.js" use_base_dir="false" type="chrome_html" />
+</grit-part>

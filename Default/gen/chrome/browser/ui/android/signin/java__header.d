@@ -1,0 +1,37 @@
+obj/chrome/browser/ui/android/signin/java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/base/base_java.turbine.jar \
+ obj/chrome/android/features/start_surface/public_java.turbine.jar \
+ obj/chrome/browser/consent_auditor/android/java.turbine.jar \
+ obj/chrome/browser/first_run/android/java.turbine.jar \
+ obj/chrome/browser/flags/java.turbine.jar \
+ obj/chrome/browser/preferences/java.turbine.jar \
+ obj/chrome/browser/privacy/java.turbine.jar \
+ obj/chrome/browser/profiles/android/java.turbine.jar \
+ obj/chrome/browser/signin/services/android/java.turbine.jar \
+ obj/chrome/browser/sync/android/java.turbine.jar \
+ obj/chrome/browser/tab/java.turbine.jar \
+ obj/chrome/browser/version/java.turbine.jar \
+ obj/components/browser_ui/bottomsheet/android/java.turbine.jar \
+ obj/components/browser_ui/modaldialog/android/java.turbine.jar \
+ obj/components/browser_ui/settings/android/java.turbine.jar \
+ obj/components/browser_ui/widget/android/java.turbine.jar \
+ obj/components/embedder_support/android/util_java.turbine.jar \
+ obj/components/externalauth/android/java.turbine.jar \
+ obj/components/prefs/android/java.turbine.jar \
+ obj/components/signin/core/browser/signin_enums_java.turbine.jar \
+ obj/components/signin/public/android/java.turbine.jar \
+ obj/components/sync/android/sync_java.turbine.jar \
+ obj/components/user_prefs/android/java.turbine.jar \
+ obj/content/public/android/content_full_java.turbine.jar \
+ obj/content/public/android/content_main_dex_java.turbine.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar \
+ obj/third_party/androidx/androidx_appcompat_appcompat_resources_java.ijar.jar \
+ obj/third_party/androidx/androidx_core_core_java.ijar.jar \
+ obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar \
+ obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar \
+ obj/ui/android/ui_no_recycler_view_java.turbine.jar \
+ obj/ui/android/ui_recycler_view_java.turbine.jar \
+ obj/ui/android/ui_utils_java.turbine.jar \
+ gen/chrome/browser/ui/android/signin/java__assetres.srcjar

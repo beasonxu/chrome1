@@ -1,0 +1,115 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/base/jni_java.build_config.json",
+      "gen/build/android/build_java.build_config.json",
+      "gen/third_party/androidx/androidx_annotation_annotation_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/components/prefs/android/java.processed.jar",
+    "dex_path": "obj/components/prefs/android/java.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//components/prefs/android:java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/components/prefs/android/java.jar",
+    "interface_jar_path": "obj/components/prefs/android/java.turbine.jar",
+    "is_prebuilt": false,
+    "java_sources_file": "gen/components/prefs/android/java.sources",
+    "javac_full_classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib/kotlin-stdlib-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib_common/kotlin-stdlib-common-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_annotations/annotations-13.0.jar",
+      "obj/base/jni_java.processed.jar",
+      "obj/build/android/build_java.javac.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/androidx:androidx_annotation_annotation_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_common_java",
+      "//third_party/android_deps:org_jetbrains_annotations_java",
+      "//base:jni_java",
+      "//build/android:build_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar",
+      "obj/base/jni_java.turbine.jar",
+      "obj/build/android/build_java.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/base/jni_java.sources",
+        "gen/build/android/build_java.sources",
+        "gen/components/prefs/android/java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "java.build_config.json",
+    "path": "gen/components/prefs/android/java.build_config.json",
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/components/prefs/android/java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [
+      "gen/base/jni_java.build_config.json",
+      "gen/build/android/build_java.build_config.json"
+    ],
+    "dependent_prebuilt_jars": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "obj/base/jni_java.processed.jar",
+      "obj/build/android/build_java.javac.jar"
+    ],
+    "interface_classpath": [
+      "obj/base/jni_java.turbine.jar",
+      "obj/build/android/build_java.turbine.jar",
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar"
+    ],
+    "processor_classes": [
+      "org.chromium.jni_generator.JniProcessor"
+    ],
+    "processor_classpath": [
+      "lib.java/base/android/jni_generator/jni_processor.jar",
+      "lib.java/build/android/build_java.jar",
+      "lib.java/base/jni_java.jar",
+      "lib.java/third_party/android_deps/com_google_auto_service_auto_service_annotations.jar",
+      "lib.java/third_party/android_deps/com_google_code_findbugs_jsr305.jar",
+      "lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotations.jar",
+      "lib.java/third_party/android_deps/com_google_guava_failureaccess.jar",
+      "lib.java/third_party/android_deps/com_google_guava_listenablefuture.jar",
+      "lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.jar",
+      "lib.java/third_party/android_deps/org_checkerframework_checker_qual.jar",
+      "lib.java/third_party/android_deps/com_google_guava_guava.jar",
+      "lib.java/third_party/android_deps/com_squareup_javapoet.jar"
+    ]
+  }
+}

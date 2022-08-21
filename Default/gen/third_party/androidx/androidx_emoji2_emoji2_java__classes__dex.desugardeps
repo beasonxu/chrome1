@@ -1,0 +1,39 @@
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API19.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API28.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/DefaultEmojiCompatConfig$DefaultEmojiCompatConfigHelper_API19.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/DefaultGlyphChecker.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$GlyphChecker.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$CompatInternal19$1.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$CompatInternal19.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$CompatInternal.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompatInitializer$1.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/DefaultLifecycleObserver.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultConfig.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$Config.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader$1.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$MetadataRepoLoaderCallback.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompatInitializer$BackgroundDefaultLoader.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$MetadataRepoLoader.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompatInitializer.class
+  <-  obj/third_party/androidx/androidx_startup_startup_runtime_java.ijar.jar:androidx/startup/Initializer.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/FontRequestEmojiCompatConfig$ExponentialBackoffRetryPolicy.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/FontRequestEmojiCompatConfig$RetryPolicy.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/FontRequestEmojiCompatConfig$FontRequestMetadataLoader.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$MetadataRepoLoader.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/FontRequestEmojiCompatConfig.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiCompat$Config.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/MetadataListReader$ByteBufferReader.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/MetadataListReader$OpenTypeReader.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/MetadataListReader$InputStreamOpenTypeReader.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/MetadataListReader$OpenTypeReader.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/TypefaceEmojiSpan.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/EmojiSpan.class
+obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/UnprecomputeTextOnModificationSpannable$PrecomputedTextDetector_28.class
+  <-  obj/third_party/androidx/androidx_emoji2_emoji2_java/classes.jar:androidx/emoji2/text/UnprecomputeTextOnModificationSpannable$PrecomputedTextDetector.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/DefaultLifecycleObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/FullLifecycleObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/FullLifecycleObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleObserver.class
+

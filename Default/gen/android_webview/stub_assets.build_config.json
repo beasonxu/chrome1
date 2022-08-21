@@ -1,0 +1,22 @@
+{
+  "deps_info": {
+    "assets": {
+      "outputs": [
+        "webview_licenses.notice"
+      ],
+      "sources": [
+        "gen/components/resources/about_credits.html"
+      ]
+    },
+    "chromium_code": true,
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "gn_target": "//android_webview:stub_assets",
+    "name": "stub_assets.build_config.json",
+    "path": "gen/android_webview/stub_assets.build_config.json",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_assets"
+  },
+  "gradle": {}
+}

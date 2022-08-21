@@ -1,0 +1,62 @@
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionBottomSheetContent.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridge$Natives.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridge.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridge.class
+  <-  obj/chrome/browser/ui/android/webid/public_java.turbine.jar:org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent$Delegate.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridge$Natives.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridgeJni.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridgeJni.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridge$Natives.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionBridgeJni$1.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  obj/chrome/browser/ui/android/webid/public_java.turbine.jar:org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/MVCListAdapter$ViewBuilder.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator$1.class
+  <-  obj/ui/android/ui_utils_java.turbine.jar:org/chromium/ui/KeyboardVisibilityDelegate$KeyboardVisibilityListener.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator$2.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator$1.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionMediator$2.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AccountProperties$Avatar.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AccountProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AutoSignInCancelButtonProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$ContinueButtonProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$DataSharingConsentProperties$Properties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$DataSharingConsentProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$HeaderProperties$HeaderType.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$ItemProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AccountProperties$Avatar.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AccountProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$AutoSignInCancelButtonProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$ContinueButtonProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$DataSharingConsentProperties$Properties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$DataSharingConsentProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$HeaderProperties$HeaderType.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$HeaderProperties.class
+  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionProperties$ItemProperties.class
+org/chromium/chrome/browser/ui/android/webid/AccountSelectionViewBinder.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+

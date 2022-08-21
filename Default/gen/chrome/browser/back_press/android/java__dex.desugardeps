@@ -1,0 +1,23 @@
+obj/chrome/browser/tabmodel/java.turbine.jar:org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver.class
+  <-  obj/chrome/browser/tabmodel/java.turbine.jar:org/chromium/chrome/browser/tabmodel/TabModelObserver.class
+org/chromium/chrome/browser/back_press/BackPressManager$1.class
+  <-  org/chromium/chrome/browser/back_press/BackPressManager.class
+org/chromium/chrome/browser/back_press/BackPressManager$2.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/OnBackPressedCallback.class
+  <-  org/chromium/chrome/browser/back_press/BackPressManager.class
+org/chromium/chrome/browser/back_press/BackPressManager.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/back_press/BackPressManager$1.class
+  <-  org/chromium/chrome/browser/back_press/BackPressManager$2.class
+org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler$1.class
+  <-  obj/chrome/browser/tabmodel/java.turbine.jar:org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver.class
+  <-  org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler.class
+org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler$MinimizeAppAndCloseTabType.class
+  <-  org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler.class
+org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/lifetime/Destroyable.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/gesture/BackPressHandler.class
+  <-  org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler$1.class
+  <-  org/chromium/chrome/browser/back_press/MinimizeAppAndCloseTabBackPressHandler$MinimizeAppAndCloseTabType.class
+

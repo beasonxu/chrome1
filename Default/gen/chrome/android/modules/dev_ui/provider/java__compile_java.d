@@ -1,0 +1,35 @@
+obj/chrome/android/modules/dev_ui/provider/java.javac.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/chrome/android/modules/dev_ui/provider/java.turbine.jar \
+ obj/chrome/android/features/dev_ui/public/java.turbine.jar \
+ obj/components/module_installer/android/module_interface_java.turbine.jar \
+ obj/components/module_installer/android/module_installer_java.turbine.jar \
+ obj/third_party/android_deps/com_google_android_play_core_java.ijar.jar \
+ obj/components/crash/android/java.turbine.jar \
+ obj/components/version_info/android/version_constants_java.turbine.jar \
+ obj/components/minidump_uploader/minidump_uploader_java.turbine.jar \
+ obj/net/android/net_java.turbine.jar \
+ obj/net/android/net_thread_stats_uid_java.turbine.jar \
+ obj/components/crash/android/anr_collector_java.turbine.jar \
+ obj/components/crash/android/anr_data_proto_java.turbine.jar \
+ obj/third_party/android_deps/com_google_protobuf_protobuf_javalite.ijar.jar \
+ obj/base/base_java.turbine.jar \
+ obj/third_party/androidx/androidx_multidex_multidex_java.ijar.jar \
+ obj/third_party/androidx/androidx_core_core_java.ijar.jar \
+ obj/third_party/android_deps/local_modifications/preconditions/androidx_stub_preconditions_java.turbine.jar \
+ obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java.ijar.jar \
+ obj/third_party/androidx/androidx_lifecycle_lifecycle_runtime_java.ijar.jar \
+ obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar \
+ obj/third_party/androidx/androidx_arch_core_core_runtime_java.ijar.jar \
+ obj/third_party/androidx/androidx_arch_core_core_common.ijar.jar \
+ obj/third_party/androidx/androidx_concurrent_concurrent_futures.ijar.jar \
+ obj/third_party/android_deps/com_google_guava_listenablefuture.ijar.jar \
+ obj/third_party/androidx/androidx_collection_collection_jvm.ijar.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/third_party/androidx/androidx_annotation_annotation_experimental_java.ijar.jar \
+ obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar \
+ obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar \
+ obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar \
+ obj/third_party/android_deps/com_google_code_findbugs_jsr305.ijar.jar \
+ obj/base/jni_java.turbine.jar \
+ obj/build/android/build_java.turbine.jar

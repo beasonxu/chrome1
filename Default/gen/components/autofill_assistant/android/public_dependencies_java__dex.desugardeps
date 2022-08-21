@@ -1,0 +1,33 @@
+org/chromium/components/autofill_assistant/AssistantAutofillCreditCard$1.class
+  <-  org/chromium/components/autofill_assistant/AssistantAutofillCreditCard.class
+org/chromium/components/autofill_assistant/AssistantAutofillCreditCard.class
+  <-  org/chromium/components/autofill_assistant/AssistantAutofillCreditCard$1.class
+org/chromium/components/autofill_assistant/AssistantBrowserControls$Observer.class
+  <-  org/chromium/components/autofill_assistant/AssistantBrowserControls.class
+org/chromium/components/autofill_assistant/AssistantBrowserControls.class
+  <-  org/chromium/components/autofill_assistant/AssistantBrowserControls$Observer.class
+org/chromium/components/autofill_assistant/AssistantEditor$AssistantAddressEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor.class
+org/chromium/components/autofill_assistant/AssistantEditor$AssistantContactEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor.class
+org/chromium/components/autofill_assistant/AssistantEditor$AssistantPaymentInstrumentEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor.class
+org/chromium/components/autofill_assistant/AssistantEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor$AssistantAddressEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor$AssistantContactEditor.class
+  <-  org/chromium/components/autofill_assistant/AssistantEditor$AssistantPaymentInstrumentEditor.class
+org/chromium/components/autofill_assistant/AssistantOptionModel$AddressModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel.class
+org/chromium/components/autofill_assistant/AssistantOptionModel$ContactModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel.class
+org/chromium/components/autofill_assistant/AssistantOptionModel$PaymentInstrumentModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel.class
+org/chromium/components/autofill_assistant/AssistantOptionModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel$AddressModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel$ContactModel.class
+  <-  org/chromium/components/autofill_assistant/AssistantOptionModel$PaymentInstrumentModel.class
+org/chromium/components/autofill_assistant/AssistantProfileImageUtil$Observer.class
+  <-  org/chromium/components/autofill_assistant/AssistantProfileImageUtil.class
+org/chromium/components/autofill_assistant/AssistantProfileImageUtil.class
+  <-  org/chromium/components/autofill_assistant/AssistantProfileImageUtil$Observer.class
+

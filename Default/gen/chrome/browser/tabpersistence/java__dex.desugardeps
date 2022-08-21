@@ -1,0 +1,5 @@
+org/chromium/chrome/browser/tabpersistence/TabStateDirectory$BaseStateDirectoryHolder.class
+  <-  org/chromium/chrome/browser/tabpersistence/TabStateDirectory.class
+org/chromium/chrome/browser/tabpersistence/TabStateDirectory.class
+  <-  org/chromium/chrome/browser/tabpersistence/TabStateDirectory$BaseStateDirectoryHolder.class
+

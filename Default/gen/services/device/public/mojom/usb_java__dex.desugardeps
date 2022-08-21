@@ -1,0 +1,530 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiverWithResponder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+org/chromium/device/mojom/UsbAlternateInterfaceInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbClaimInterfaceResult$EnumType.class
+  <-  org/chromium/device/mojom/UsbClaimInterfaceResult.class
+org/chromium/device/mojom/UsbClaimInterfaceResult.class
+  <-  org/chromium/device/mojom/UsbClaimInterfaceResult$EnumType.class
+org/chromium/device/mojom/UsbConfigurationInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbControlTransferParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbControlTransferRecipient$EnumType.class
+  <-  org/chromium/device/mojom/UsbControlTransferRecipient.class
+org/chromium/device/mojom/UsbControlTransferRecipient.class
+  <-  org/chromium/device/mojom/UsbControlTransferRecipient$EnumType.class
+org/chromium/device/mojom/UsbControlTransferType$EnumType.class
+  <-  org/chromium/device/mojom/UsbControlTransferType.class
+org/chromium/device/mojom/UsbControlTransferType.class
+  <-  org/chromium/device/mojom/UsbControlTransferType$EnumType.class
+org/chromium/device/mojom/UsbDevice$ClaimInterface_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$ClearHalt_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$Close_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback0.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$ControlTransferIn_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback2.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$ControlTransferOut_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$GenericTransferIn_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback2.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$GenericTransferOut_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$IsochronousTransferIn_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback2.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$IsochronousTransferOut_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$Open_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$ReleaseInterface_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$Reset_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$SetConfiguration_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice$SetInterfaceAlternateSetting_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDevice.class
+org/chromium/device/mojom/UsbDevice.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/UsbDevice$ClaimInterface_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$ClearHalt_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$Close_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$ControlTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$ControlTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$GenericTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$GenericTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$IsochronousTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$IsochronousTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$Open_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$Proxy.class
+  <-  org/chromium/device/mojom/UsbDevice$ReleaseInterface_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$Reset_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$SetConfiguration_Response.class
+  <-  org/chromium/device/mojom/UsbDevice$SetInterfaceAlternateSetting_Response.class
+org/chromium/device/mojom/UsbDeviceClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceClient.class
+org/chromium/device/mojom/UsbDeviceClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/UsbDeviceClient$Proxy.class
+org/chromium/device/mojom/UsbDeviceClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal.class
+org/chromium/device/mojom/UsbDeviceClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/UsbDeviceClient$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal.class
+org/chromium/device/mojom/UsbDeviceClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal.class
+org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceClosedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal.class
+org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceOpenedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal.class
+org/chromium/device/mojom/UsbDeviceClient_Internal.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal$1.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceClosedParams.class
+  <-  org/chromium/device/mojom/UsbDeviceClient_Internal$UsbDeviceClientOnDeviceOpenedParams.class
+org/chromium/device/mojom/UsbDeviceFilter.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbDeviceInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbDeviceManager$EnumerateDevicesAndSetClient_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDeviceManager.class
+org/chromium/device/mojom/UsbDeviceManager$GetDevices_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDeviceManager.class
+org/chromium/device/mojom/UsbDeviceManager$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManager.class
+org/chromium/device/mojom/UsbDeviceManager$RefreshDeviceInfo_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+  <-  org/chromium/device/mojom/UsbDeviceManager.class
+org/chromium/device/mojom/UsbDeviceManager.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$EnumerateDevicesAndSetClient_Response.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$GetDevices_Response.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$RefreshDeviceInfo_Response.class
+org/chromium/device/mojom/UsbDeviceManagerClient$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient.class
+org/chromium/device/mojom/UsbDeviceManagerClient.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient$Proxy.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceAddedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceRemovedParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+org/chromium/device/mojom/UsbDeviceManagerClient_Internal.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal$1.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceAddedParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManagerClient_Internal$UsbDeviceManagerClientOnDeviceRemovedParams.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$EnumerateDevicesAndSetClient_Response.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDeviceParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$GetDevices_Response.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetSecurityKeyDeviceParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager$RefreshDeviceInfo_Response.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerSetClientParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal.class
+org/chromium/device/mojom/UsbDeviceManager_Internal.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$1.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$Proxy.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$Stub.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerEnumerateDevicesAndSetClientResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDeviceParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetDevicesResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerGetSecurityKeyDeviceParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParams.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerRefreshDeviceInfoResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDeviceManager_Internal$UsbDeviceManagerSetClientParams.class
+org/chromium/device/mojom/UsbDevice_Internal$1.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Manager.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$Proxy.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$AbstractProxy.class
+  <-  org/chromium/device/mojom/UsbDevice$Proxy.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$Stub.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface$Stub.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$ClaimInterface_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$ClearHalt_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$Close_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$ControlTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$ControlTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$GenericTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$GenericTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$IsochronousTransferIn_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$IsochronousTransferOut_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$Open_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$ReleaseInterface_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$Reset_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$SetConfiguration_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParams.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsForwardToCallback.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/MessageReceiver.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/SideEffectFreeCloseable.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice$SetInterfaceAlternateSetting_Response.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal.class
+org/chromium/device/mojom/UsbDevice_Internal.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$1.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$Proxy.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$Stub.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClaimInterfaceResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceClearHaltResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceCloseResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceControlTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceGenericTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferInResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceIsochronousTransferOutResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceOpenResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceReleaseInterfaceResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceResetResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetConfigurationResponseParamsProxyToResponder.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParams.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsForwardToCallback.class
+  <-  org/chromium/device/mojom/UsbDevice_Internal$UsbDeviceSetInterfaceAlternateSettingResponseParamsProxyToResponder.class
+org/chromium/device/mojom/UsbEndpointInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbEnumerationOptions.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbInterfaceInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbIsochronousPacket.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/device/mojom/UsbOpenDeviceError$EnumType.class
+  <-  org/chromium/device/mojom/UsbOpenDeviceError.class
+org/chromium/device/mojom/UsbOpenDeviceError.class
+  <-  org/chromium/device/mojom/UsbOpenDeviceError$EnumType.class
+org/chromium/device/mojom/UsbSynchronizationType$EnumType.class
+  <-  org/chromium/device/mojom/UsbSynchronizationType.class
+org/chromium/device/mojom/UsbSynchronizationType.class
+  <-  org/chromium/device/mojom/UsbSynchronizationType$EnumType.class
+org/chromium/device/mojom/UsbTransferDirection$EnumType.class
+  <-  org/chromium/device/mojom/UsbTransferDirection.class
+org/chromium/device/mojom/UsbTransferDirection.class
+  <-  org/chromium/device/mojom/UsbTransferDirection$EnumType.class
+org/chromium/device/mojom/UsbTransferStatus$EnumType.class
+  <-  org/chromium/device/mojom/UsbTransferStatus.class
+org/chromium/device/mojom/UsbTransferStatus.class
+  <-  org/chromium/device/mojom/UsbTransferStatus$EnumType.class
+org/chromium/device/mojom/UsbTransferType$EnumType.class
+  <-  org/chromium/device/mojom/UsbTransferType.class
+org/chromium/device/mojom/UsbTransferType.class
+  <-  org/chromium/device/mojom/UsbTransferType$EnumType.class
+org/chromium/device/mojom/UsbUsageType$EnumType.class
+  <-  org/chromium/device/mojom/UsbUsageType.class
+org/chromium/device/mojom/UsbUsageType.class
+  <-  org/chromium/device/mojom/UsbUsageType$EnumType.class
+

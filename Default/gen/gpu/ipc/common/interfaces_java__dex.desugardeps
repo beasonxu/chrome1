@@ -1,0 +1,71 @@
+org/chromium/gpu/mojom/Capabilities.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/CommandBufferNamespace$EnumType.class
+  <-  org/chromium/gpu/mojom/CommandBufferNamespace.class
+org/chromium/gpu/mojom/CommandBufferNamespace.class
+  <-  org/chromium/gpu/mojom/CommandBufferNamespace$EnumType.class
+org/chromium/gpu/mojom/ContextResult$EnumType.class
+  <-  org/chromium/gpu/mojom/ContextResult.class
+org/chromium/gpu/mojom/ContextResult.class
+  <-  org/chromium/gpu/mojom/ContextResult$EnumType.class
+org/chromium/gpu/mojom/DevicePerfInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/Direct3DFeatureLevel$EnumType.class
+  <-  org/chromium/gpu/mojom/Direct3DFeatureLevel.class
+org/chromium/gpu/mojom/Direct3DFeatureLevel.class
+  <-  org/chromium/gpu/mojom/Direct3DFeatureLevel$EnumType.class
+org/chromium/gpu/mojom/DxDiagNode.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/GpuDevice.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/GpuFeatureInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/GpuFeatureStatus$EnumType.class
+  <-  org/chromium/gpu/mojom/GpuFeatureStatus.class
+org/chromium/gpu/mojom/GpuFeatureStatus.class
+  <-  org/chromium/gpu/mojom/GpuFeatureStatus$EnumType.class
+org/chromium/gpu/mojom/GpuInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/GpuPeakMemoryAllocationSource$EnumType.class
+  <-  org/chromium/gpu/mojom/GpuPeakMemoryAllocationSource.class
+org/chromium/gpu/mojom/GpuPeakMemoryAllocationSource.class
+  <-  org/chromium/gpu/mojom/GpuPeakMemoryAllocationSource$EnumType.class
+org/chromium/gpu/mojom/HasDiscreteGpu$EnumType.class
+  <-  org/chromium/gpu/mojom/HasDiscreteGpu.class
+org/chromium/gpu/mojom/HasDiscreteGpu.class
+  <-  org/chromium/gpu/mojom/HasDiscreteGpu$EnumType.class
+org/chromium/gpu/mojom/ImageDecodeAcceleratorSubsampling$EnumType.class
+  <-  org/chromium/gpu/mojom/ImageDecodeAcceleratorSubsampling.class
+org/chromium/gpu/mojom/ImageDecodeAcceleratorSubsampling.class
+  <-  org/chromium/gpu/mojom/ImageDecodeAcceleratorSubsampling$EnumType.class
+org/chromium/gpu/mojom/ImageDecodeAcceleratorSupportedProfile.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/ImageDecodeAcceleratorType$EnumType.class
+  <-  org/chromium/gpu/mojom/ImageDecodeAcceleratorType.class
+org/chromium/gpu/mojom/ImageDecodeAcceleratorType.class
+  <-  org/chromium/gpu/mojom/ImageDecodeAcceleratorType$EnumType.class
+org/chromium/gpu/mojom/Mailbox.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/MailboxHolder.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/SurfaceHandle.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/SyncToken.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VideoCodecProfile$EnumType.class
+  <-  org/chromium/gpu/mojom/VideoCodecProfile.class
+org/chromium/gpu/mojom/VideoCodecProfile.class
+  <-  org/chromium/gpu/mojom/VideoCodecProfile$EnumType.class
+org/chromium/gpu/mojom/VideoDecodeAcceleratorCapabilities.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VideoDecodeAcceleratorSupportedProfile.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VideoEncodeAcceleratorSupportedProfile.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VideoMemoryProcessStats.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VideoMemoryUsageStats.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/gpu/mojom/VulkanYCbCrInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

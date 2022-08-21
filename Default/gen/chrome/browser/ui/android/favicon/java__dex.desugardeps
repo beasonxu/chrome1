@@ -1,0 +1,17 @@
+org/chromium/chrome/browser/ui/favicon/FaviconHelper$DefaultFaviconHelper.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper.class
+org/chromium/chrome/browser/ui/favicon/FaviconHelper$FaviconImageCallback.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper.class
+org/chromium/chrome/browser/ui/favicon/FaviconHelper$Natives.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper.class
+org/chromium/chrome/browser/ui/favicon/FaviconHelper.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper$DefaultFaviconHelper.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper$FaviconImageCallback.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper$Natives.class
+org/chromium/chrome/browser/ui/favicon/FaviconHelperJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelperJni.class
+org/chromium/chrome/browser/ui/favicon/FaviconHelperJni.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelper$Natives.class
+  <-  org/chromium/chrome/browser/ui/favicon/FaviconHelperJni$1.class
+

@@ -1,0 +1,20 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/services/service_manager/public/mojom/mojom_java.turbine.jar:org/chromium/service_manager/mojom/Connector$BindInterface_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback2.class
+obj/services/service_manager/public/mojom/mojom_java.turbine.jar:org/chromium/service_manager/mojom/InterfaceProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+org/chromium/services/service_manager/Connector$ConnectorBindInterfaceResponseImpl.class
+  <-  obj/services/service_manager/public/mojom/mojom_java.turbine.jar:org/chromium/service_manager/mojom/Connector$BindInterface_Response.class
+  <-  org/chromium/services/service_manager/Connector.class
+org/chromium/services/service_manager/Connector.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+  <-  org/chromium/services/service_manager/Connector$ConnectorBindInterfaceResponseImpl.class
+org/chromium/services/service_manager/InterfaceProvider.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+org/chromium/services/service_manager/InterfaceRegistry$InterfaceBinder.class
+  <-  org/chromium/services/service_manager/InterfaceRegistry.class
+org/chromium/services/service_manager/InterfaceRegistry.class
+  <-  obj/services/service_manager/public/mojom/mojom_java.turbine.jar:org/chromium/service_manager/mojom/InterfaceProvider.class
+  <-  org/chromium/services/service_manager/InterfaceRegistry$InterfaceBinder.class
+

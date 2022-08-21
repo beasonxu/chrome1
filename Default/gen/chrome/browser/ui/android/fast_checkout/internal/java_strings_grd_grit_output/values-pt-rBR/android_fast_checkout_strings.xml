@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Lista de opções de pagamento e endereços a serem preenchidos durante os fluxos de finalização de compra."</string>
+<string name="fast_checkout_sheet_half_height">"A lista de opções de pagamento e endereços a serem preenchidos durante os fluxos de finalização de compra está aberta na metade da altura."</string>
+<string name="fast_checkout_sheet_full_height">"A lista de opções de pagamento e endereços a serem preenchidos durante os fluxos de finalização de compra está aberta no tamanho máximo."</string>
+<string name="fast_checkout_sheet_closed">"A lista de opções de pagamento e endereços a serem preenchidos durante os fluxos de finalização de compra está fechada."</string>
+</resources>

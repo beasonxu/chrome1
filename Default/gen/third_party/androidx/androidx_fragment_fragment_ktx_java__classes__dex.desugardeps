@@ -1,0 +1,66 @@
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentKt.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/FragmentResultListener.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$2.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$3.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$4.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$5.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$activityViewModels$6.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$2.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$createViewModelLazy$factoryPromise$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$2.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$3.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$4.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$5.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$6.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$7.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$8.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$2.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_fragment_fragment_ktx_java/classes.jar:androidx/fragment/app/FragmentViewModelLazyKt$viewModels$owner$4.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+

@@ -1,0 +1,34 @@
+obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/ConfigurationChangedObserver.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/LifecycleObserver.class
+obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/StartStopWithNativeObserver.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/LifecycleObserver.class
+obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatImageView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/TintableBackgroundView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/widget/TintableImageSourceView.class
+obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/ChromeImageView.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/AppCompatImageView.class
+org/chromium/chrome/browser/ui/appmenu/AppMenu$1.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenu.class
+org/chromium/chrome/browser/ui/appmenu/AppMenu.class
+  <-  obj/chrome/browser/ui/android/appmenu/java.turbine.jar:org/chromium/chrome/browser/ui/appmenu/AppMenuClickHandler.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenu$1.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuButtonHelperImpl.class
+  <-  obj/chrome/browser/ui/android/appmenu/java.turbine.jar:org/chromium/chrome/browser/ui/appmenu/AppMenuButtonHelper.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuCoordinatorImpl$AppMenuHandlerFactory.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenuCoordinatorImpl.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuCoordinatorImpl.class
+  <-  obj/chrome/browser/ui/android/appmenu/java.turbine.jar:org/chromium/chrome/browser/ui/appmenu/AppMenuCoordinator.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenuCoordinatorImpl$AppMenuHandlerFactory.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuDragHelper$ItemAction.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenuDragHelper.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuDragHelper.class
+  <-  org/chromium/chrome/browser/ui/appmenu/AppMenuDragHelper$ItemAction.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuHandlerImpl.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/ConfigurationChangedObserver.class
+  <-  obj/chrome/browser/android/lifecycle/java.turbine.jar:org/chromium/chrome/browser/lifecycle/StartStopWithNativeObserver.class
+  <-  obj/chrome/browser/ui/android/appmenu/java.turbine.jar:org/chromium/chrome/browser/ui/appmenu/AppMenuHandler.class
+  <-  obj/chrome/browser/ui/android/appmenu/java.turbine.jar:org/chromium/chrome/browser/ui/appmenu/AppMenuPropertiesDelegate$CustomItemViewTypeProvider.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+org/chromium/chrome/browser/ui/appmenu/AppMenuItemIcon.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/widget/ChromeImageView.class
+

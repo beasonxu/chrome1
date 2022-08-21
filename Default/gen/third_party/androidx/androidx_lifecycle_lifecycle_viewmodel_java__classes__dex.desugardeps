@@ -1,0 +1,28 @@
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Function.class
+obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/FunctionBase.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/AndroidViewModel.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModel.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelLazy$1.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/functions/Function0.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/jvm/internal/Lambda.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelLazy.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar:kotlin/Lazy.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$AndroidViewModelFactory$Companion$ApplicationKeyImpl.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/CreationExtras$Key.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$AndroidViewModelFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$NewInstanceFactory.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$NewInstanceFactory$Companion$ViewModelKeyImpl.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/CreationExtras$Key.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$NewInstanceFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$Factory.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/CreationExtras$Empty.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/CreationExtras.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/InitializerViewModelFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/ViewModelProvider$Factory.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/MutableCreationExtras.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java/classes.jar:androidx/lifecycle/viewmodel/CreationExtras.class
+

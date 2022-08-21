@@ -1,0 +1,4 @@
+../../chrome/browser/video_tutorials/internal/android/java/src/org/chromium/chrome/browser/video_tutorials/iph/VideoIPHTest.java
+../../chrome/browser/video_tutorials/internal/android/java/src/org/chromium/chrome/browser/video_tutorials/languages/LanguagePickerTest.java
+../../chrome/browser/video_tutorials/internal/android/java/src/org/chromium/chrome/browser/video_tutorials/list/TutorialListCoordinatorTest.java
+../../chrome/browser/video_tutorials/internal/android/java/src/org/chromium/chrome/browser/video_tutorials/player/VideoPlayerViewBinderTest.java

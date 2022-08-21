@@ -1,0 +1,93 @@
+obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/TabObserver.class
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetContent.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetCoordinator$1.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetCoordinator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetCoordinator$1.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator$1.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/WebContentsObserver.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator$2.class
+  <-  obj/components/embedder_support/android/web_contents_delegate_java.turbine.jar:org/chromium/components/embedder_support/delegate/WebContentsDelegateAndroid.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator.class
+  <-  obj/chrome/browser/ui/android/favicon/java.turbine.jar:org/chromium/chrome/browser/ui/favicon/FaviconHelper$FaviconImageCallback.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator$1.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustBottomSheetMediator$2.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageActionsHandler.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageDescriptionUI.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageTitleUI.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageActionsHandler.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageDescriptionUI.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageTitleUI.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics$BottomSheetOpenedSource.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics$MessageClearReason.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics$BottomSheetOpenedSource.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMetrics$MessageClearReason.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinator$OmniboxIconController.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinator.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustMessageViewModel$MessageActionsHandler.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsCoordinator$OmniboxIconController.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator$MerchantTrustSignalsCallback.class
+  <-  org/chromium/chrome/browser/merchant_viewer/PageInfoStoreInfoController$StoreInfoActionHandler.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsDataProvider.class
+  <-  obj/components/commerce/core/android/core_java.turbine.jar:org/chromium/components/commerce/core/ShoppingService$MerchantInfoCallback.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorage$Natives.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorage.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorage.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorage$Natives.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorageJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorageJni.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorageJni.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorage$Natives.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsEventStorageJni$1.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator$1.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator$MerchantTrustSignalsCallback.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator$1.class
+  <-  org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsMediator$MerchantTrustSignalsCallback.class
+org/chromium/chrome/browser/merchant_viewer/MerchantTrustSignalsStorageFactory.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+org/chromium/chrome/browser/merchant_viewer/PageInfoStoreInfoController$StoreInfoActionHandler.class
+  <-  org/chromium/chrome/browser/merchant_viewer/PageInfoStoreInfoController.class
+org/chromium/chrome/browser/merchant_viewer/PageInfoStoreInfoController.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/page_info/android/java.turbine.jar:org/chromium/components/page_info/PageInfoSubpageController.class
+  <-  org/chromium/chrome/browser/merchant_viewer/PageInfoStoreInfoController$StoreInfoActionHandler.class
+org/chromium/chrome/browser/merchant_viewer/RatingStarSpan$RatingStarType.class
+  <-  org/chromium/chrome/browser/merchant_viewer/RatingStarSpan.class
+org/chromium/chrome/browser/merchant_viewer/RatingStarSpan.class
+  <-  org/chromium/chrome/browser/merchant_viewer/RatingStarSpan$RatingStarType.class
+org/chromium/chrome/browser/merchant_viewer/WebContentsHelpers$Natives.class
+  <-  org/chromium/chrome/browser/merchant_viewer/WebContentsHelpers.class
+org/chromium/chrome/browser/merchant_viewer/WebContentsHelpers.class
+  <-  org/chromium/chrome/browser/merchant_viewer/WebContentsHelpers$Natives.class
+org/chromium/chrome/browser/merchant_viewer/WebContentsHelpersJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/merchant_viewer/WebContentsHelpersJni.class
+org/chromium/chrome/browser/merchant_viewer/WebContentsHelpersJni.class
+  <-  org/chromium/chrome/browser/merchant_viewer/WebContentsHelpers$Natives.class
+  <-  org/chromium/chrome/browser/merchant_viewer/WebContentsHelpersJni$1.class
+

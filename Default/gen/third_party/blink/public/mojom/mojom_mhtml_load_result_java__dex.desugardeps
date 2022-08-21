@@ -1,0 +1,5 @@
+org/chromium/blink/mojom/MhtmlLoadResult$EnumType.class
+  <-  org/chromium/blink/mojom/MhtmlLoadResult.class
+org/chromium/blink/mojom/MhtmlLoadResult.class
+  <-  org/chromium/blink/mojom/MhtmlLoadResult$EnumType.class
+

@@ -1,0 +1,73 @@
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplier.class
+obj/base/base_java.turbine.jar:org/chromium/base/supplier/UnownedUserDataSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UnownedUserData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/lifetime/Destroyable.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/ObservableSupplierImpl.class
+obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/TabObserver.class
+org/chromium/chrome/browser/tabmodel/AsyncTabCreationParams.class
+  <-  org/chromium/chrome/browser/tabmodel/AsyncTabParams.class
+org/chromium/chrome/browser/tabmodel/AsyncTabCreator.class
+  <-  org/chromium/chrome/browser/tabmodel/TabCreator.class
+org/chromium/chrome/browser/tabmodel/EmptyTabModel$LazyHolder.class
+  <-  org/chromium/chrome/browser/tabmodel/EmptyTabModel.class
+org/chromium/chrome/browser/tabmodel/EmptyTabModel.class
+  <-  org/chromium/chrome/browser/tabmodel/EmptyTabModel$LazyHolder.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModel.class
+org/chromium/chrome/browser/tabmodel/EmptyTabModelFilter.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelFilter.class
+org/chromium/chrome/browser/tabmodel/IncognitoStateProvider$1.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoStateProvider.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorObserver.class
+org/chromium/chrome/browser/tabmodel/IncognitoStateProvider$IncognitoStateObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoStateProvider.class
+org/chromium/chrome/browser/tabmodel/IncognitoStateProvider.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoStateProvider$1.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoStateProvider$IncognitoStateObserver.class
+org/chromium/chrome/browser/tabmodel/IncognitoTabModel.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModel.class
+org/chromium/chrome/browser/tabmodel/IncognitoTabModelImpl$IncognitoTabModelDelegate.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoTabModelImpl.class
+org/chromium/chrome/browser/tabmodel/IncognitoTabModelImpl.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoTabModel.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoTabModelImpl$IncognitoTabModelDelegate.class
+org/chromium/chrome/browser/tabmodel/IncognitoTabModelObserver$IncognitoReauthDialogDelegate.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoTabModelObserver.class
+org/chromium/chrome/browser/tabmodel/IncognitoTabModelObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/IncognitoTabModelObserver$IncognitoReauthDialogDelegate.class
+org/chromium/chrome/browser/tabmodel/NextTabPolicy$NextTabPolicySupplier.class
+  <-  org/chromium/chrome/browser/tabmodel/NextTabPolicy.class
+org/chromium/chrome/browser/tabmodel/NextTabPolicy.class
+  <-  org/chromium/chrome/browser/tabmodel/NextTabPolicy$NextTabPolicySupplier.class
+org/chromium/chrome/browser/tabmodel/TabCreatorManagerSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/UnownedUserDataSupplier.class
+org/chromium/chrome/browser/tabmodel/TabModel.class
+  <-  org/chromium/chrome/browser/tabmodel/TabList.class
+org/chromium/chrome/browser/tabmodel/TabModelFilter.class
+  <-  org/chromium/chrome/browser/tabmodel/TabList.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelObserver.class
+org/chromium/chrome/browser/tabmodel/TabModelFilterProvider.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorObserver.class
+org/chromium/chrome/browser/tabmodel/TabModelOrderControllerImpl.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelOrderController.class
+org/chromium/chrome/browser/tabmodel/TabModelSelectorSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/UnownedUserDataSupplier.class
+org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver$1.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver.class
+org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver$1.class
+org/chromium/chrome/browser/tabmodel/TabModelSelectorTabObserver$1.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorTabModelObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorTabObserver.class
+org/chromium/chrome/browser/tabmodel/TabModelSelectorTabObserver.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  obj/chrome/browser/tab/java.turbine.jar:org/chromium/chrome/browser/tab/state/CriticalPersistedTabDataObserver.class
+  <-  org/chromium/chrome/browser/tabmodel/TabModelSelectorTabObserver$1.class
+org/chromium/chrome/browser/tabmodel/TabReparentingParams.class
+  <-  org/chromium/chrome/browser/tabmodel/AsyncTabParams.class
+

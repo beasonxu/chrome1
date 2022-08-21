@@ -1,0 +1,7 @@
+org/chromium/chrome/browser/fullscreen/FullscreenBackPressHandler.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/gesture/BackPressHandler.class
+org/chromium/chrome/browser/fullscreen/FullscreenManager$Observer.class
+  <-  org/chromium/chrome/browser/fullscreen/FullscreenManager.class
+org/chromium/chrome/browser/fullscreen/FullscreenManager.class
+  <-  org/chromium/chrome/browser/fullscreen/FullscreenManager$Observer.class
+

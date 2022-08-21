@@ -1,0 +1,4 @@
+../../components/webxr/android/java/src/org/chromium/components/webxr/ArCoreInstallUtils.java
+../../components/webxr/android/java/src/org/chromium/components/webxr/ArCoreJavaUtils.java
+../../components/webxr/android/java/src/org/chromium/components/webxr/ArCoreShim.java
+../../components/webxr/android/java/src/org/chromium/components/webxr/ArImmersiveOverlay.java

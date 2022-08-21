@@ -1,0 +1,37 @@
+obj/third_party/android_deps/com_google_android_play_core_java.ijar.jar:com/google/android/play/core/splitinstall/SplitInstallStateUpdatedListener.class
+  <-  obj/third_party/android_deps/com_google_android_play_core_java.ijar.jar:com/google/android/play/core/listener/StateUpdatedListener.class
+org/chromium/components/module_installer/builder/Module$1.class
+  <-  org/chromium/components/module_installer/builder/Module.class
+  <-  org/chromium/components/module_installer/builder/ModuleDescriptor.class
+org/chromium/components/module_installer/builder/Module$Natives.class
+  <-  org/chromium/components/module_installer/builder/Module.class
+org/chromium/components/module_installer/builder/Module.class
+  <-  org/chromium/components/module_installer/builder/Module$1.class
+  <-  org/chromium/components/module_installer/builder/Module$Natives.class
+org/chromium/components/module_installer/builder/ModuleEngine.class
+  <-  org/chromium/components/module_installer/engine/InstallEngine.class
+org/chromium/components/module_installer/builder/ModuleJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/module_installer/builder/ModuleJni.class
+org/chromium/components/module_installer/builder/ModuleJni.class
+  <-  org/chromium/components/module_installer/builder/Module$Natives.class
+  <-  org/chromium/components/module_installer/builder/ModuleJni$1.class
+org/chromium/components/module_installer/engine/ApkEngine.class
+  <-  org/chromium/components/module_installer/engine/InstallEngine.class
+org/chromium/components/module_installer/engine/SplitCompatEngine$1.class
+  <-  org/chromium/components/module_installer/engine/SplitCompatEngine.class
+org/chromium/components/module_installer/engine/SplitCompatEngine.class
+  <-  obj/third_party/android_deps/com_google_android_play_core_java.ijar.jar:com/google/android/play/core/splitinstall/SplitInstallStateUpdatedListener.class
+  <-  obj/third_party/android_deps/com_google_android_play_core_java.ijar.jar:com/google/android/play/core/tasks/OnFailureListener.class
+  <-  org/chromium/components/module_installer/engine/InstallEngine.class
+  <-  org/chromium/components/module_installer/engine/SplitCompatEngine$1.class
+org/chromium/components/module_installer/logger/PlayCoreLogger.class
+  <-  org/chromium/components/module_installer/logger/Logger.class
+org/chromium/components/module_installer/logger/SplitAvailabilityLogger$InstallTimes.class
+  <-  org/chromium/components/module_installer/logger/SplitAvailabilityLogger.class
+org/chromium/components/module_installer/logger/SplitAvailabilityLogger.class
+  <-  org/chromium/components/module_installer/logger/SplitAvailabilityLogger$InstallTimes.class
+org/chromium/components/module_installer/observer/ActivityObserver.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/ApplicationStatus$ActivityStateListener.class
+  <-  org/chromium/components/module_installer/observer/InstallerObserver.class
+

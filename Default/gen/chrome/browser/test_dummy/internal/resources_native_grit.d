@@ -1,0 +1,1 @@
+gen/chrome/browser/test_dummy/internal/resources_native_grit.d.stamp: ./../../chrome/browser/test_dummy/internal/android/resources/test_resource.txt ./gen/tools/gritsettings/default_resource_ids

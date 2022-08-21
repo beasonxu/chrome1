@@ -1,0 +1,3 @@
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_ktx_java/classes.jar:androidx/lifecycle/CloseableCoroutineScope.class
+  <-  obj/third_party/android_deps/org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm.ijar.jar:kotlinx/coroutines/CoroutineScope.class
+

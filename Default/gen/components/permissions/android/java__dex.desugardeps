@@ -1,0 +1,112 @@
+org/chromium/components/permissions/AndroidPermissionRequester$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Consumer.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/permissions/PermissionCallback.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester.class
+org/chromium/components/permissions/AndroidPermissionRequester$2.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester.class
+org/chromium/components/permissions/AndroidPermissionRequester$RequestDelegate.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester.class
+org/chromium/components/permissions/AndroidPermissionRequester.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester$1.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester$2.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester$RequestDelegate.class
+org/chromium/components/permissions/BluetoothChooserDialog$1.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog.class
+org/chromium/components/permissions/BluetoothChooserDialog$DiscoveryMode.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog.class
+org/chromium/components/permissions/BluetoothChooserDialog$LinkType.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog.class
+org/chromium/components/permissions/BluetoothChooserDialog$Natives.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog.class
+org/chromium/components/permissions/BluetoothChooserDialog.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/permissions/PermissionCallback.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog$1.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog$DiscoveryMode.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog$LinkType.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog$Natives.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$ItemSelectedCallback.class
+org/chromium/components/permissions/BluetoothChooserDialogJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialogJni.class
+org/chromium/components/permissions/BluetoothChooserDialogJni.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialog$Natives.class
+  <-  org/chromium/components/permissions/BluetoothChooserDialogJni$1.class
+org/chromium/components/permissions/BluetoothScanningPermissionDialog$1.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialog.class
+org/chromium/components/permissions/BluetoothScanningPermissionDialog$Natives.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialog.class
+org/chromium/components/permissions/BluetoothScanningPermissionDialog.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialog$1.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialog$Natives.class
+org/chromium/components/permissions/BluetoothScanningPermissionDialogJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialogJni.class
+org/chromium/components/permissions/BluetoothScanningPermissionDialogJni.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialog$Natives.class
+  <-  org/chromium/components/permissions/BluetoothScanningPermissionDialogJni$1.class
+org/chromium/components/permissions/DeviceItemAdapter$Observer.class
+  <-  org/chromium/components/permissions/DeviceItemAdapter.class
+org/chromium/components/permissions/DeviceItemAdapter$ViewHolder.class
+  <-  org/chromium/components/permissions/DeviceItemAdapter.class
+org/chromium/components/permissions/DeviceItemAdapter.class
+  <-  org/chromium/components/permissions/DeviceItemAdapter$Observer.class
+  <-  org/chromium/components/permissions/DeviceItemAdapter$ViewHolder.class
+org/chromium/components/permissions/ItemChooserDialog$1.class
+  <-  org/chromium/components/permissions/ItemChooserDialog.class
+org/chromium/components/permissions/ItemChooserDialog$2.class
+  <-  org/chromium/components/permissions/ItemChooserDialog.class
+org/chromium/components/permissions/ItemChooserDialog$ItemChooserLabels.class
+  <-  org/chromium/components/permissions/ItemChooserDialog.class
+org/chromium/components/permissions/ItemChooserDialog$ItemSelectedCallback.class
+  <-  org/chromium/components/permissions/ItemChooserDialog.class
+org/chromium/components/permissions/ItemChooserDialog$State.class
+  <-  org/chromium/components/permissions/ItemChooserDialog.class
+org/chromium/components/permissions/ItemChooserDialog.class
+  <-  org/chromium/components/permissions/DeviceItemAdapter$Observer.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$1.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$2.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$ItemChooserLabels.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$ItemSelectedCallback.class
+  <-  org/chromium/components/permissions/ItemChooserDialog$State.class
+org/chromium/components/permissions/PermissionDialogController$Holder.class
+  <-  org/chromium/components/permissions/PermissionDialogController.class
+org/chromium/components/permissions/PermissionDialogController$Observer.class
+  <-  org/chromium/components/permissions/PermissionDialogController.class
+org/chromium/components/permissions/PermissionDialogController$State.class
+  <-  org/chromium/components/permissions/PermissionDialogController.class
+org/chromium/components/permissions/PermissionDialogController.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/permissions/AndroidPermissionRequester$RequestDelegate.class
+  <-  org/chromium/components/permissions/PermissionDialogController$Holder.class
+  <-  org/chromium/components/permissions/PermissionDialogController$Observer.class
+  <-  org/chromium/components/permissions/PermissionDialogController$State.class
+org/chromium/components/permissions/PermissionDialogDelegate$Natives.class
+  <-  org/chromium/components/permissions/PermissionDialogDelegate.class
+org/chromium/components/permissions/PermissionDialogDelegate.class
+  <-  org/chromium/components/permissions/PermissionDialogDelegate$Natives.class
+org/chromium/components/permissions/PermissionDialogDelegateJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/permissions/PermissionDialogDelegateJni.class
+org/chromium/components/permissions/PermissionDialogDelegateJni.class
+  <-  org/chromium/components/permissions/PermissionDialogDelegate$Natives.class
+  <-  org/chromium/components/permissions/PermissionDialogDelegateJni$1.class
+org/chromium/components/permissions/nfc/NfcSystemLevelPrompt$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/base/WindowAndroid$IntentCallback.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelPrompt.class
+org/chromium/components/permissions/nfc/NfcSystemLevelPrompt.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelPrompt$1.class
+org/chromium/components/permissions/nfc/NfcSystemLevelSetting$Natives.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelSetting.class
+org/chromium/components/permissions/nfc/NfcSystemLevelSetting.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelSetting$Natives.class
+org/chromium/components/permissions/nfc/NfcSystemLevelSettingJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelSettingJni.class
+org/chromium/components/permissions/nfc/NfcSystemLevelSettingJni.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelSetting$Natives.class
+  <-  org/chromium/components/permissions/nfc/NfcSystemLevelSettingJni$1.class
+

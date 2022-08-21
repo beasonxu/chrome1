@@ -1,0 +1,169 @@
+org/chromium/ax/mojom/Action$EnumType.class
+  <-  org/chromium/ax/mojom/Action.class
+org/chromium/ax/mojom/Action.class
+  <-  org/chromium/ax/mojom/Action$EnumType.class
+org/chromium/ax/mojom/ActionFlags$EnumType.class
+  <-  org/chromium/ax/mojom/ActionFlags.class
+org/chromium/ax/mojom/ActionFlags.class
+  <-  org/chromium/ax/mojom/ActionFlags$EnumType.class
+org/chromium/ax/mojom/AriaCurrentState$EnumType.class
+  <-  org/chromium/ax/mojom/AriaCurrentState.class
+org/chromium/ax/mojom/AriaCurrentState.class
+  <-  org/chromium/ax/mojom/AriaCurrentState$EnumType.class
+org/chromium/ax/mojom/AxTreeIdType$EnumType.class
+  <-  org/chromium/ax/mojom/AxTreeIdType.class
+org/chromium/ax/mojom/AxTreeIdType.class
+  <-  org/chromium/ax/mojom/AxTreeIdType$EnumType.class
+org/chromium/ax/mojom/BoolAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/BoolAttribute.class
+org/chromium/ax/mojom/BoolAttribute.class
+  <-  org/chromium/ax/mojom/BoolAttribute$EnumType.class
+org/chromium/ax/mojom/CheckedState$EnumType.class
+  <-  org/chromium/ax/mojom/CheckedState.class
+org/chromium/ax/mojom/CheckedState.class
+  <-  org/chromium/ax/mojom/CheckedState$EnumType.class
+org/chromium/ax/mojom/Command$EnumType.class
+  <-  org/chromium/ax/mojom/Command.class
+org/chromium/ax/mojom/Command.class
+  <-  org/chromium/ax/mojom/Command$EnumType.class
+org/chromium/ax/mojom/DefaultActionVerb$EnumType.class
+  <-  org/chromium/ax/mojom/DefaultActionVerb.class
+org/chromium/ax/mojom/DefaultActionVerb.class
+  <-  org/chromium/ax/mojom/DefaultActionVerb$EnumType.class
+org/chromium/ax/mojom/DescriptionFrom$EnumType.class
+  <-  org/chromium/ax/mojom/DescriptionFrom.class
+org/chromium/ax/mojom/DescriptionFrom.class
+  <-  org/chromium/ax/mojom/DescriptionFrom$EnumType.class
+org/chromium/ax/mojom/Dropeffect$EnumType.class
+  <-  org/chromium/ax/mojom/Dropeffect.class
+org/chromium/ax/mojom/Dropeffect.class
+  <-  org/chromium/ax/mojom/Dropeffect$EnumType.class
+org/chromium/ax/mojom/Event$EnumType.class
+  <-  org/chromium/ax/mojom/Event.class
+org/chromium/ax/mojom/Event.class
+  <-  org/chromium/ax/mojom/Event$EnumType.class
+org/chromium/ax/mojom/EventFrom$EnumType.class
+  <-  org/chromium/ax/mojom/EventFrom.class
+org/chromium/ax/mojom/EventFrom.class
+  <-  org/chromium/ax/mojom/EventFrom$EnumType.class
+org/chromium/ax/mojom/FloatAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/FloatAttribute.class
+org/chromium/ax/mojom/FloatAttribute.class
+  <-  org/chromium/ax/mojom/FloatAttribute$EnumType.class
+org/chromium/ax/mojom/Gesture$EnumType.class
+  <-  org/chromium/ax/mojom/Gesture.class
+org/chromium/ax/mojom/Gesture.class
+  <-  org/chromium/ax/mojom/Gesture$EnumType.class
+org/chromium/ax/mojom/HasPopup$EnumType.class
+  <-  org/chromium/ax/mojom/HasPopup.class
+org/chromium/ax/mojom/HasPopup.class
+  <-  org/chromium/ax/mojom/HasPopup$EnumType.class
+org/chromium/ax/mojom/HighlightType$EnumType.class
+  <-  org/chromium/ax/mojom/HighlightType.class
+org/chromium/ax/mojom/HighlightType.class
+  <-  org/chromium/ax/mojom/HighlightType$EnumType.class
+org/chromium/ax/mojom/ImageAnnotationStatus$EnumType.class
+  <-  org/chromium/ax/mojom/ImageAnnotationStatus.class
+org/chromium/ax/mojom/ImageAnnotationStatus.class
+  <-  org/chromium/ax/mojom/ImageAnnotationStatus$EnumType.class
+org/chromium/ax/mojom/InputEventType$EnumType.class
+  <-  org/chromium/ax/mojom/InputEventType.class
+org/chromium/ax/mojom/InputEventType.class
+  <-  org/chromium/ax/mojom/InputEventType$EnumType.class
+org/chromium/ax/mojom/IntAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/IntAttribute.class
+org/chromium/ax/mojom/IntAttribute.class
+  <-  org/chromium/ax/mojom/IntAttribute$EnumType.class
+org/chromium/ax/mojom/IntListAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/IntListAttribute.class
+org/chromium/ax/mojom/IntListAttribute.class
+  <-  org/chromium/ax/mojom/IntListAttribute$EnumType.class
+org/chromium/ax/mojom/InvalidState$EnumType.class
+  <-  org/chromium/ax/mojom/InvalidState.class
+org/chromium/ax/mojom/InvalidState.class
+  <-  org/chromium/ax/mojom/InvalidState$EnumType.class
+org/chromium/ax/mojom/ListStyle$EnumType.class
+  <-  org/chromium/ax/mojom/ListStyle.class
+org/chromium/ax/mojom/ListStyle.class
+  <-  org/chromium/ax/mojom/ListStyle$EnumType.class
+org/chromium/ax/mojom/MarkerType$EnumType.class
+  <-  org/chromium/ax/mojom/MarkerType.class
+org/chromium/ax/mojom/MarkerType.class
+  <-  org/chromium/ax/mojom/MarkerType$EnumType.class
+org/chromium/ax/mojom/MoveDirection$EnumType.class
+  <-  org/chromium/ax/mojom/MoveDirection.class
+org/chromium/ax/mojom/MoveDirection.class
+  <-  org/chromium/ax/mojom/MoveDirection$EnumType.class
+org/chromium/ax/mojom/Mutation$EnumType.class
+  <-  org/chromium/ax/mojom/Mutation.class
+org/chromium/ax/mojom/Mutation.class
+  <-  org/chromium/ax/mojom/Mutation$EnumType.class
+org/chromium/ax/mojom/NameFrom$EnumType.class
+  <-  org/chromium/ax/mojom/NameFrom.class
+org/chromium/ax/mojom/NameFrom.class
+  <-  org/chromium/ax/mojom/NameFrom$EnumType.class
+org/chromium/ax/mojom/Restriction$EnumType.class
+  <-  org/chromium/ax/mojom/Restriction.class
+org/chromium/ax/mojom/Restriction.class
+  <-  org/chromium/ax/mojom/Restriction$EnumType.class
+org/chromium/ax/mojom/Role$EnumType.class
+  <-  org/chromium/ax/mojom/Role.class
+org/chromium/ax/mojom/Role.class
+  <-  org/chromium/ax/mojom/Role$EnumType.class
+org/chromium/ax/mojom/ScrollAlignment$EnumType.class
+  <-  org/chromium/ax/mojom/ScrollAlignment.class
+org/chromium/ax/mojom/ScrollAlignment.class
+  <-  org/chromium/ax/mojom/ScrollAlignment$EnumType.class
+org/chromium/ax/mojom/ScrollBehavior$EnumType.class
+  <-  org/chromium/ax/mojom/ScrollBehavior.class
+org/chromium/ax/mojom/ScrollBehavior.class
+  <-  org/chromium/ax/mojom/ScrollBehavior$EnumType.class
+org/chromium/ax/mojom/SortDirection$EnumType.class
+  <-  org/chromium/ax/mojom/SortDirection.class
+org/chromium/ax/mojom/SortDirection.class
+  <-  org/chromium/ax/mojom/SortDirection$EnumType.class
+org/chromium/ax/mojom/State$EnumType.class
+  <-  org/chromium/ax/mojom/State.class
+org/chromium/ax/mojom/State.class
+  <-  org/chromium/ax/mojom/State$EnumType.class
+org/chromium/ax/mojom/StringAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/StringAttribute.class
+org/chromium/ax/mojom/StringAttribute.class
+  <-  org/chromium/ax/mojom/StringAttribute$EnumType.class
+org/chromium/ax/mojom/StringListAttribute$EnumType.class
+  <-  org/chromium/ax/mojom/StringListAttribute.class
+org/chromium/ax/mojom/StringListAttribute.class
+  <-  org/chromium/ax/mojom/StringListAttribute$EnumType.class
+org/chromium/ax/mojom/TextAffinity$EnumType.class
+  <-  org/chromium/ax/mojom/TextAffinity.class
+org/chromium/ax/mojom/TextAffinity.class
+  <-  org/chromium/ax/mojom/TextAffinity$EnumType.class
+org/chromium/ax/mojom/TextAlign$EnumType.class
+  <-  org/chromium/ax/mojom/TextAlign.class
+org/chromium/ax/mojom/TextAlign.class
+  <-  org/chromium/ax/mojom/TextAlign$EnumType.class
+org/chromium/ax/mojom/TextBoundary$EnumType.class
+  <-  org/chromium/ax/mojom/TextBoundary.class
+org/chromium/ax/mojom/TextBoundary.class
+  <-  org/chromium/ax/mojom/TextBoundary$EnumType.class
+org/chromium/ax/mojom/TextDecorationStyle$EnumType.class
+  <-  org/chromium/ax/mojom/TextDecorationStyle.class
+org/chromium/ax/mojom/TextDecorationStyle.class
+  <-  org/chromium/ax/mojom/TextDecorationStyle$EnumType.class
+org/chromium/ax/mojom/TextPosition$EnumType.class
+  <-  org/chromium/ax/mojom/TextPosition.class
+org/chromium/ax/mojom/TextPosition.class
+  <-  org/chromium/ax/mojom/TextPosition$EnumType.class
+org/chromium/ax/mojom/TextStyle$EnumType.class
+  <-  org/chromium/ax/mojom/TextStyle.class
+org/chromium/ax/mojom/TextStyle.class
+  <-  org/chromium/ax/mojom/TextStyle$EnumType.class
+org/chromium/ax/mojom/TreeOrder$EnumType.class
+  <-  org/chromium/ax/mojom/TreeOrder.class
+org/chromium/ax/mojom/TreeOrder.class
+  <-  org/chromium/ax/mojom/TreeOrder$EnumType.class
+org/chromium/ax/mojom/WritingDirection$EnumType.class
+  <-  org/chromium/ax/mojom/WritingDirection.class
+org/chromium/ax/mojom/WritingDirection.class
+  <-  org/chromium/ax/mojom/WritingDirection$EnumType.class
+

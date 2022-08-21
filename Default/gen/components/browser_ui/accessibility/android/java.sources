@@ -1,0 +1,10 @@
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/AccessibilitySettings.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/AccessibilitySettingsDelegate.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/FontSizePrefs.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomCoordinator.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomMediator.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomPreference.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomProperties.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomUtils.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/PageZoomViewBinder.java
+../../components/browser_ui/accessibility/android/java/src/org/chromium/components/browser_ui/accessibility/TextScalePreference.java

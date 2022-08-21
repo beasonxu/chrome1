@@ -1,0 +1,33 @@
+org/chromium/skia/mojom/AlphaType$EnumType.class
+  <-  org/chromium/skia/mojom/AlphaType.class
+org/chromium/skia/mojom/AlphaType.class
+  <-  org/chromium/skia/mojom/AlphaType$EnumType.class
+org/chromium/skia/mojom/BitmapMappedFromTrustedProcess.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/BitmapN32.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/BitmapN32ImageInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/BitmapWithArbitraryBpp.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/ColorType$EnumType.class
+  <-  org/chromium/skia/mojom/ColorType.class
+org/chromium/skia/mojom/ColorType.class
+  <-  org/chromium/skia/mojom/ColorType$EnumType.class
+org/chromium/skia/mojom/ImageInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/InlineBitmap.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/SkColor.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/SkColor4f.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/skia/mojom/SurfaceOrigin$EnumType.class
+  <-  org/chromium/skia/mojom/SurfaceOrigin.class
+org/chromium/skia/mojom/SurfaceOrigin.class
+  <-  org/chromium/skia/mojom/SurfaceOrigin$EnumType.class
+org/chromium/skia/mojom/TileMode$EnumType.class
+  <-  org/chromium/skia/mojom/TileMode.class
+org/chromium/skia/mojom/TileMode.class
+  <-  org/chromium/skia/mojom/TileMode$EnumType.class
+

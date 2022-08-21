@@ -1,0 +1,11 @@
+org/chromium/ui/mojom/LatencyComponentType$EnumType.class
+  <-  org/chromium/ui/mojom/LatencyComponentType.class
+org/chromium/ui/mojom/LatencyComponentType.class
+  <-  org/chromium/ui/mojom/LatencyComponentType$EnumType.class
+org/chromium/ui/mojom/LatencyInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ui/mojom/SourceEventType$EnumType.class
+  <-  org/chromium/ui/mojom/SourceEventType.class
+org/chromium/ui/mojom/SourceEventType.class
+  <-  org/chromium/ui/mojom/SourceEventType$EnumType.class
+

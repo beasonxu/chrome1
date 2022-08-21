@@ -1,0 +1,169 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "assets": [],
+  "deps_info": {
+    "android_manifest": "../../chrome/android/modules/stack_unwinder/internal/java/AndroidManifest.xml",
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [
+      "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__compile_resources.srcjar"
+    ],
+    "chromium_code": true,
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.build_config.json",
+      "gen/chrome/android/modules/stack_unwinder/internal/java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_classpath": [
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.processed.jar",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.processed.jar",
+      "obj/chrome/android/modules/stack_unwinder/internal/java.processed.jar"
+    ],
+    "device_jar_path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.processed.jar",
+    "dex_path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//chrome/android:chrome_modern_public_bundle__stack_unwinder_bundle_module__java",
+    "interface_jar_path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.turbine.jar",
+    "is_base_module": false,
+    "javac_full_classpath": [
+      "obj/chrome/android/modules/stack_unwinder/internal/java.javac.jar",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.javac.jar",
+      "obj/chrome/android/chrome_modern_public_base_bundle_module.processed.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//chrome/android/modules/stack_unwinder/internal:java",
+      "//chrome/android:chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java",
+      "//chrome/android:chrome_modern_public_base_bundle_module__java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/chrome/android/modules/stack_unwinder/internal/java.turbine.jar",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.turbine.jar",
+      "obj/chrome/android/chrome_modern_public_base_bundle_module.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/chrome/android/modules/stack_unwinder/internal/java.sources"
+      ]
+    },
+    "lint_aars": [
+      "../../third_party/android_deps/libs/com_google_android_play_core/core-1.10.0.aar",
+      "../../third_party/androidx/libs/androidx_annotation_annotation_experimental/annotation-experimental-1.3.0-SNAPSHOT.aar",
+      "../../third_party/androidx/libs/androidx_arch_core_core_runtime/core-runtime-2.2.0-SNAPSHOT.aar",
+      "../../third_party/androidx/libs/androidx_core_core/core-1.9.0-SNAPSHOT.aar",
+      "../../third_party/androidx/libs/androidx_lifecycle_lifecycle_runtime/lifecycle-runtime-2.6.0-SNAPSHOT.aar",
+      "../../third_party/androidx/libs/androidx_multidex_multidex/multidex-2.0.0.aar",
+      "../../third_party/androidx/libs/androidx_versionedparcelable_versionedparcelable/versionedparcelable-1.2.0-SNAPSHOT.aar"
+    ],
+    "lint_extra_android_manifests": [],
+    "lint_java_sources": [
+      "gen/base/base_java.sources",
+      "gen/chrome/android/modules/stack_unwinder/internal/java.sources",
+      "gen/chrome/android/modules/stack_unwinder/public/java.sources",
+      "gen/components/crash/android/anr_collector_java.sources",
+      "gen/components/crash/android/java.sources",
+      "gen/components/minidump_uploader/minidump_uploader_java.sources",
+      "gen/components/module_installer/android/module_installer_java.sources",
+      "gen/components/version_info/android/version_constants_java.sources",
+      "gen/net/android/net_java.sources",
+      "gen/net/android/net_thread_stats_uid_java.sources"
+    ],
+    "lint_resource_sources": [],
+    "lint_resource_zips": [],
+    "lint_srcjars": [
+      "gen/base/base_android_java_enums_srcjar.srcjar",
+      "gen/base/base_java_aidl.srcjar",
+      "gen/base/java_features_srcjar.srcjar",
+      "gen/base/java_switches_srcjar.srcjar",
+      "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__compile_resources.srcjar",
+      "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java__srcjar.srcjar",
+      "gen/components/crash/android/anr_skipped_reason_enum.srcjar",
+      "gen/components/crash/android/java_enums_srcjar.srcjar",
+      "gen/components/version_info/android/channel_enum_srcjar.srcjar",
+      "gen/net/android/net_android_java_enums_srcjar.srcjar",
+      "gen/net/android/net_errors_java.srcjar"
+    ],
+    "locales_java_list": "{}",
+    "merged_android_manifest": "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module/AndroidManifest.merged.xml",
+    "module_pathmap_path": "",
+    "name": "chrome_modern_public_bundle__stack_unwinder_bundle_module.build_config.json",
+    "package_name": "",
+    "path": "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.build_config.json",
+    "proguard_all_configs": [
+      "../../build/android/dcheck_is_off.flags",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module/chrome_modern_public_bundle__stack_unwinder_bundle_module.resources.proguard.txt",
+      "obj/third_party/android_deps/com_google_android_play_core_java/proguard.txt",
+      "obj/third_party/androidx/androidx_versionedparcelable_versionedparcelable_java/proguard.txt"
+    ],
+    "proguard_classpath_jars": [],
+    "proguard_configs": [
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module/chrome_modern_public_bundle__stack_unwinder_bundle_module.resources.proguard.txt",
+      "../../build/android/dcheck_is_off.flags"
+    ],
+    "proguard_enabled": true,
+    "proto_resources_path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.proto.ap_",
+    "r_text_path": "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__compile_resources_R.txt",
+    "requires_android": true,
+    "res_size_info": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.ap_.info",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "android_app_bundle_module",
+    "unprocessed_jar_path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.processed.jar",
+    "version_code": "524100210",
+    "version_name": "106.0.5241.2"
+  },
+  "extra_android_manifests": [],
+  "final_dex": {
+    "all_dex_files": [
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.dex.jar",
+      "obj/chrome/android/modules/stack_unwinder/internal/java.dex.jar",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module.dex.jar"
+    ],
+    "path": "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module/chrome_modern_public_bundle__stack_unwinder_bundle_module.r8dex.jar"
+  },
+  "gradle": {
+    "dependent_android_projects": [
+      "gen/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.build_config.json",
+      "gen/chrome/android/modules/stack_unwinder/internal/java.build_config.json"
+    ],
+    "dependent_java_projects": []
+  },
+  "java_resources_jars": [],
+  "javac": {
+    "classpath": [
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.javac.jar",
+      "obj/chrome/android/modules/stack_unwinder/internal/java.javac.jar"
+    ],
+    "interface_classpath": [
+      "obj/chrome/android/chrome_modern_public_base_bundle_module.turbine.jar",
+      "obj/chrome/android/chrome_modern_public_bundle__stack_unwinder_bundle_module__module_desc_java.turbine.jar",
+      "obj/chrome/android/modules/stack_unwinder/internal/java.turbine.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  },
+  "native": {
+    "java_libraries_list": "{\"chrome_stack_unwinder_partition\"}",
+    "libraries": [
+      "libchrome_stack_unwinder_partition.so"
+    ],
+    "library_always_compress": null,
+    "library_renames": [],
+    "loadable_modules": [],
+    "native_library_placeholders": [],
+    "secondary_abi_libraries": [],
+    "secondary_abi_loadable_modules": [],
+    "secondary_native_library_placeholders": [],
+    "uncompress_shared_libraries": true
+  },
+  "uncompressed_assets": []
+}

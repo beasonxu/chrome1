@@ -1,0 +1,2 @@
+../../chrome/browser/device_reauth/android/java/src/org/chromium/chrome/browser/device_reauth/BiometricAuthenticatorBridge.java
+../../chrome/browser/device_reauth/android/java/src/org/chromium/chrome/browser/device_reauth/ReauthenticatorBridge.java

@@ -1,0 +1,2 @@
+obj/third_party/androidx/androidx_swiperefreshlayout_swiperefreshlayout_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_swiperefreshlayout_swiperefreshlayout_java/res/values/values.xml

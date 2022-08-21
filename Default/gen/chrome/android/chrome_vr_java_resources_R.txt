@@ -1,0 +1,3 @@
+int string gvr_vr_mode_component 0x7f010001
+int style Theme_Chromium_TabbedMode 0x7f010001
+int style VrActivityTheme 0x7f010001

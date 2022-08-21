@@ -1,0 +1,2 @@
+obj/third_party/androidx/androidx_drawerlayout_drawerlayout_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_drawerlayout_drawerlayout_java/res/values/values.xml

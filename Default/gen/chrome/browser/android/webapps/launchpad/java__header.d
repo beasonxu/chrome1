@@ -1,0 +1,20 @@
+obj/chrome/browser/android/webapps/launchpad/java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/base/base_java.turbine.jar \
+ obj/chrome/android/webapk/libs/client/client_java.turbine.jar \
+ obj/chrome/browser/android/browserservices/intents/java.turbine.jar \
+ obj/chrome/browser/notifications/java.turbine.jar \
+ obj/chrome/browser/profiles/android/java.turbine.jar \
+ obj/chrome/browser/ui/android/native_page/java.turbine.jar \
+ obj/components/browser_ui/settings/android/java.turbine.jar \
+ obj/components/browser_ui/site_settings/android/java.turbine.jar \
+ obj/components/browser_ui/widget/android/java.turbine.jar \
+ obj/components/content_settings/android/content_settings_enums_java.turbine.jar \
+ obj/components/embedder_support/android/util_java.turbine.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar \
+ obj/third_party/androidx/androidx_appcompat_appcompat_resources_java.ijar.jar \
+ obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar \
+ obj/ui/android/ui_no_recycler_view_java.turbine.jar \
+ obj/ui/android/ui_recycler_view_java.turbine.jar \
+ gen/chrome/browser/android/webapps/launchpad/java__assetres.srcjar

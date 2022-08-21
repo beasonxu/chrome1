@@ -1,0 +1,110 @@
+org/chromium/components/external_intents/ExternalIntentsFeatures$Natives.class
+  <-  org/chromium/components/external_intents/ExternalIntentsFeatures.class
+org/chromium/components/external_intents/ExternalIntentsFeatures.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Features.class
+  <-  org/chromium/components/external_intents/ExternalIntentsFeatures$Natives.class
+org/chromium/components/external_intents/ExternalIntentsFeaturesJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/external_intents/ExternalIntentsFeaturesJni.class
+org/chromium/components/external_intents/ExternalIntentsFeaturesJni.class
+  <-  org/chromium/components/external_intents/ExternalIntentsFeatures$Natives.class
+  <-  org/chromium/components/external_intents/ExternalIntentsFeaturesJni$1.class
+org/chromium/components/external_intents/ExternalNavigationDelegate$IntentToAutofillAllowingAppResult.class
+  <-  org/chromium/components/external_intents/ExternalNavigationDelegate.class
+org/chromium/components/external_intents/ExternalNavigationDelegate.class
+  <-  org/chromium/components/external_intents/ExternalNavigationDelegate$IntentToAutofillAllowingAppResult.class
+org/chromium/components/external_intents/ExternalNavigationHandler$1.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/permissions/PermissionCallback.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$2.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$3.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$4.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$5.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$6.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/base/WindowAndroid$IntentCallback.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$AiaIntent.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$IntentBasedSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$LazySupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$LazySupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$MutableBoolean.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingAsyncActionType.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingResult.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingResultType.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$QueryIntentActivitiesSupplier$QueryNonDefaultSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$LazySupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$QueryIntentActivitiesSupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$IntentBasedSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler$ResolveActivitySupplier.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$IntentBasedSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler.class
+org/chromium/components/external_intents/ExternalNavigationHandler.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Function.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$1.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$2.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$3.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$4.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$5.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$6.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$AiaIntent.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$IntentBasedSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$LazySupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$MutableBoolean.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingAsyncActionType.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingResult.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$OverrideUrlLoadingResultType.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$QueryIntentActivitiesSupplier$QueryNonDefaultSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$QueryIntentActivitiesSupplier.class
+  <-  org/chromium/components/external_intents/ExternalNavigationHandler$ResolveActivitySupplier.class
+org/chromium/components/external_intents/ExternalNavigationParams$AsyncActionTakenParams.class
+  <-  org/chromium/components/external_intents/ExternalNavigationParams.class
+org/chromium/components/external_intents/ExternalNavigationParams$Builder.class
+  <-  org/chromium/components/external_intents/ExternalNavigationParams.class
+org/chromium/components/external_intents/ExternalNavigationParams.class
+  <-  org/chromium/components/external_intents/ExternalNavigationParams$AsyncActionTakenParams.class
+  <-  org/chromium/components/external_intents/ExternalNavigationParams$Builder.class
+org/chromium/components/external_intents/InterceptNavigationDelegateImpl$1.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImpl.class
+org/chromium/components/external_intents/InterceptNavigationDelegateImpl$Natives.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImpl.class
+org/chromium/components/external_intents/InterceptNavigationDelegateImpl.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/navigation_interception/android/navigation_interception_java.turbine.jar:org/chromium/components/navigation_interception/InterceptNavigationDelegate.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImpl$1.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImpl$Natives.class
+org/chromium/components/external_intents/InterceptNavigationDelegateImplJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImplJni.class
+org/chromium/components/external_intents/InterceptNavigationDelegateImplJni.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImpl$Natives.class
+  <-  org/chromium/components/external_intents/InterceptNavigationDelegateImplJni$1.class
+org/chromium/components/external_intents/RedirectHandler$InitialNavigationState.class
+  <-  org/chromium/components/external_intents/RedirectHandler.class
+org/chromium/components/external_intents/RedirectHandler$IntentState.class
+  <-  org/chromium/components/external_intents/RedirectHandler.class
+org/chromium/components/external_intents/RedirectHandler$NavigationChainState.class
+  <-  org/chromium/components/external_intents/RedirectHandler.class
+org/chromium/components/external_intents/RedirectHandler.class
+  <-  org/chromium/components/external_intents/RedirectHandler$InitialNavigationState.class
+  <-  org/chromium/components/external_intents/RedirectHandler$IntentState.class
+  <-  org/chromium/components/external_intents/RedirectHandler$NavigationChainState.class
+

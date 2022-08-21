@@ -1,0 +1,4 @@
+int string fast_checkout_content_description 0x7f010001
+int string fast_checkout_sheet_closed 0x7f010001
+int string fast_checkout_sheet_full_height 0x7f010001
+int string fast_checkout_sheet_half_height 0x7f010001

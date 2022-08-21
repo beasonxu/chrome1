@@ -1,0 +1,83 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/third_party/androidx/androidx_annotation_annotation_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/chrome/android/features/tab_ui/public/java.processed.jar",
+    "dex_path": "obj/chrome/android/features/tab_ui/public/java.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//chrome/android/features/tab_ui/public:java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/chrome/android/features/tab_ui/public/java.jar",
+    "interface_jar_path": "obj/chrome/android/features/tab_ui/public/java.turbine.jar",
+    "is_prebuilt": false,
+    "java_sources_file": "gen/chrome/android/features/tab_ui/public/java.sources",
+    "javac_full_classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib/kotlin-stdlib-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib_common/kotlin-stdlib-common-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_annotations/annotations-13.0.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/androidx:androidx_annotation_annotation_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_common_java",
+      "//third_party/android_deps:org_jetbrains_annotations_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/chrome/android/features/tab_ui/public/java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "java.build_config.json",
+    "path": "gen/chrome/android/features/tab_ui/public/java.build_config.json",
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/chrome/android/features/tab_ui/public/java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar"
+    ],
+    "interface_classpath": [
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

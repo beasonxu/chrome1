@@ -1,0 +1,42 @@
+org/chromium/chrome/browser/browserservices/metrics/OriginVerifierMetricsRecorder$VerificationResult.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/OriginVerifierMetricsRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/OriginVerifierMetricsRecorder.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/OriginVerifierMetricsRecorder$VerificationResult.class
+org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$DeferredTaskHandler.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$DelegatedNotificationSmallIconFallback.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$PermissionChanged.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$ShareRequestMethod.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$DeferredTaskHandler.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$DelegatedNotificationSmallIconFallback.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$PermissionChanged.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/TrustedWebActivityUmaRecorder$ShareRequestMethod.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorder$Natives.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorder.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorder$Natives.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorderJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorderJni.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorderJni.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorder$Natives.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUkmRecorderJni$1.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$GooglePlayInstallResult.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$UpdateRequestQueued.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$UpdateRequestSent.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder.class
+org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$1.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$GooglePlayInstallResult.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$UpdateRequestQueued.class
+  <-  org/chromium/chrome/browser/browserservices/metrics/WebApkUmaRecorder$UpdateRequestSent.class
+

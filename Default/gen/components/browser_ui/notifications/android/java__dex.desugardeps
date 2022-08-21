@@ -1,0 +1,28 @@
+org/chromium/components/browser_ui/notifications/ForegroundServiceUtils$LazyHolder.class
+  <-  org/chromium/components/browser_ui/notifications/ForegroundServiceUtils.class
+org/chromium/components/browser_ui/notifications/ForegroundServiceUtils.class
+  <-  org/chromium/components/browser_ui/notifications/ForegroundServiceUtils$LazyHolder.class
+org/chromium/components/browser_ui/notifications/NotificationManagerProxyImpl.class
+  <-  org/chromium/components/browser_ui/notifications/NotificationManagerProxy.class
+org/chromium/components/browser_ui/notifications/NotificationWrapperCompatBuilder.class
+  <-  org/chromium/components/browser_ui/notifications/NotificationWrapperBuilder.class
+org/chromium/components/browser_ui/notifications/NotificationWrapperStandardBuilder.class
+  <-  org/chromium/components/browser_ui/notifications/NotificationWrapperBuilder.class
+org/chromium/components/browser_ui/notifications/PendingNotificationTask$Priority.class
+  <-  org/chromium/components/browser_ui/notifications/PendingNotificationTask.class
+org/chromium/components/browser_ui/notifications/PendingNotificationTask.class
+  <-  org/chromium/components/browser_ui/notifications/PendingNotificationTask$Priority.class
+org/chromium/components/browser_ui/notifications/ThrottlingNotificationScheduler$LazyHolder.class
+  <-  org/chromium/components/browser_ui/notifications/ThrottlingNotificationScheduler.class
+org/chromium/components/browser_ui/notifications/ThrottlingNotificationScheduler.class
+  <-  org/chromium/components/browser_ui/notifications/ThrottlingNotificationScheduler$LazyHolder.class
+org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions$PredefinedChannel.class
+  <-  org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions.class
+org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions$PredefinedChannelGroup.class
+  <-  org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions.class
+org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions.class
+  <-  org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions$PredefinedChannel.class
+  <-  org/chromium/components/browser_ui/notifications/channels/ChannelDefinitions$PredefinedChannelGroup.class
+org/chromium/components/browser_ui/notifications/channels/ChannelsInitializer.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+

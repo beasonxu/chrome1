@@ -1,0 +1,146 @@
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild.class
+obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AdapterHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/OpReorderer$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AdapterListUpdateCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ListUpdateCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AsyncListDiffer$1$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/DiffUtil$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AsyncListUtil$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ThreadUtil$MainThreadCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AsyncListUtil$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ThreadUtil$BackgroundCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/BatchingListUpdateCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ListUpdateCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ConcatAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ConcatAdapterController.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/NestedAdapterWrapper$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/DefaultItemAnimator.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SimpleItemAnimator.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/DividerItemDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/FastScroller$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/FastScroller.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnItemTouchListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/GapWorker$LayoutPrefetchRegistryImpl.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager$LayoutPrefetchRegistry.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/GridLayoutManager$DefaultSpanSizeLookup.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/GridLayoutManager$SpanSizeLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/GridLayoutManager$LayoutParams.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutParams.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/GridLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnItemTouchListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$3.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$RecoverAnimation.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$5.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ChildDrawingOrderCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$SimpleCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemDecoration.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnChildAttachStateChangeListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchUIUtilImpl.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchUIUtil.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ItemTouchHelper$ViewDropHandler.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller$ScrollVectorProvider.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearSmoothScroller.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearSnapHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SnapHelper.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ListAdapter$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AsyncListDiffer$ListListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ListAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/MessageThreadUtil$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ThreadUtil$MainThreadCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/MessageThreadUtil$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ThreadUtil$BackgroundCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/MessageThreadUtil.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ThreadUtil.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/NestedAdapterWrapper$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/OrientationHelper$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/OrientationHelper.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/OrientationHelper$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/OrientationHelper.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/PagerSnapHelper$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearSmoothScroller.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/PagerSnapHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SnapHelper.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$4.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewInfoStore$ProcessCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$5.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ChildHelper$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$6.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/AdapterHelper$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemAnimatorRestoreListener.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemAnimatorListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewBoundsCheck$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewBoundsCheck$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$RecyclerViewDataObserver.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$AdapterDataObserver.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$SavedState.class
+  <-  obj/third_party/androidx/androidx_customview_customview_java.ijar.jar:androidx/customview/view/AbsSavedState.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$SimpleOnItemTouchListener.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnItemTouchListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$StretchEdgeEffectFactory.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$EdgeEffectFactory.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild2.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/NestedScrollingChild3.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/ScrollingView.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerViewAccessibilityDelegate$ItemDelegate.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerViewAccessibilityDelegate.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/view/AccessibilityDelegateCompat.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SimpleItemAnimator.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$ItemAnimator.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SnapHelper$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SnapHelper$2.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/LinearSmoothScroller.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SnapHelper.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$OnFlingListener.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SortedList$BatchedCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SortedList$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SortedList$Callback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ListUpdateCallback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SortedListAdapterCallback.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/SortedList$Callback.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage$WrapperStableIdLookup.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$StableIdLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$IsolatedStableIdStorage.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$NoStableIdStorage$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$StableIdLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$NoStableIdStorage.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$SharedPoolStableIdStorage$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$StableIdLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage$SharedPoolStableIdStorage.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StableIdStorage.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StaggeredGridLayoutManager$LayoutParams.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutParams.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/StaggeredGridLayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$LayoutManager.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/RecyclerView$SmoothScroller$ScrollVectorProvider.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage$WrapperViewTypeLookup.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$ViewTypeLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$IsolatedViewTypeStorage.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage$WrapperViewTypeLookup.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$ViewTypeLookup.class
+obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage$SharedIdRangeViewTypeStorage.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java/classes.jar:androidx/recyclerview/widget/ViewTypeStorage.class
+

@@ -1,0 +1,6 @@
+gen/build/config/android/test/proto/relative_root_proto_java.build_config.json: \
+ gen/build/config/android/test/proto/absolute_dep_proto_java.build_config.json \
+ gen/build/config/android/test/proto/relative_dep_proto_java.build_config.json \
+ gen/third_party/android_deps/com_google_protobuf_protobuf_javalite_java.build_config.json \
+ gen/third_party/android_deps/protobuf_lite_runtime_java.build_config.json \
+ gen/third_party/android_sdk/android_sdk_java.build_config.json

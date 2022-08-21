@@ -1,0 +1,2 @@
+../../components/embedder_support/android/metrics/java/src/org/chromium/components/metrics/AndroidMetricsLogUploader.java
+../../components/embedder_support/android/metrics/java/src/org/chromium/components/metrics/AndroidMetricsServiceClient.java

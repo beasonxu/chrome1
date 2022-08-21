@@ -1,0 +1,24 @@
+{
+  "deps_info": {
+    "assets": {
+      "disable_compression": true,
+      "outputs": [
+        "stored-locales/weblayer/en-US.pak"
+      ],
+      "sources": [
+        "weblayer/locales/en-US.pak"
+      ],
+      "treat_as_locale_paks": true
+    },
+    "chromium_code": true,
+    "deps_configs": [],
+    "extra_main_r_text_files": [],
+    "gn_target": "//weblayer:locale_pak_assets",
+    "name": "locale_pak_assets.build_config.json",
+    "path": "gen/weblayer/locale_pak_assets.build_config.json",
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "type": "android_assets"
+  },
+  "gradle": {}
+}

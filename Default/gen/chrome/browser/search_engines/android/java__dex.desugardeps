@@ -1,0 +1,66 @@
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/AlwaysDismissedDialog.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/ApplicationStatus$ActivityStateListener.class
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/PromoDialog.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/AlwaysDismissedDialog.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/ListFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/search_engines/DefaultSearchEngineDialogHelper$Delegate.class
+  <-  org/chromium/chrome/browser/search_engines/DefaultSearchEngineDialogHelper.class
+org/chromium/chrome/browser/search_engines/DefaultSearchEngineDialogHelper.class
+  <-  org/chromium/chrome/browser/search_engines/DefaultSearchEngineDialogHelper$Delegate.class
+org/chromium/chrome/browser/search_engines/DefaultSearchEnginePromoDialog$DefaultSearchEnginePromoDialogObserver.class
+  <-  org/chromium/chrome/browser/search_engines/DefaultSearchEnginePromoDialog.class
+org/chromium/chrome/browser/search_engines/DefaultSearchEnginePromoDialog.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/PromoDialog.class
+  <-  org/chromium/chrome/browser/search_engines/DefaultSearchEnginePromoDialog$DefaultSearchEnginePromoDialogObserver.class
+org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics$Events.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics.class
+org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics$EventsV2.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics.class
+org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics$Events.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceMetrics$EventsV2.class
+org/chromium/chrome/browser/search_engines/SearchEngineChoiceNotification$NotificationSnackbarController.class
+  <-  obj/chrome/browser/ui/messages/android/java.turbine.jar:org/chromium/chrome/browser/ui/messages/snackbar/SnackbarManager$SnackbarController.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceNotification.class
+org/chromium/chrome/browser/search_engines/SearchEngineChoiceNotification.class
+  <-  org/chromium/chrome/browser/search_engines/SearchEngineChoiceNotification$NotificationSnackbarController.class
+org/chromium/chrome/browser/search_engines/SogouPromoDialog$UserChoice.class
+  <-  org/chromium/chrome/browser/search_engines/SogouPromoDialog.class
+org/chromium/chrome/browser/search_engines/SogouPromoDialog.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/PromoDialog.class
+  <-  org/chromium/chrome/browser/search_engines/SogouPromoDialog$UserChoice.class
+org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactory.class
+org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactory.class
+  <-  org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactory$Natives.class
+org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactoryJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactoryJni.class
+org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactoryJni.class
+  <-  org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactory$Natives.class
+  <-  org/chromium/chrome/browser/search_engines/TemplateUrlServiceFactoryJni$1.class
+org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$1.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter.class
+org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$2.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter.class
+org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$TemplateUrlSourceType.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter.class
+org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter.class
+  <-  obj/components/search_engines/android/java.turbine.jar:org/chromium/components/search_engines/TemplateUrlService$LoadListener.class
+  <-  obj/components/search_engines/android/java.turbine.jar:org/chromium/components/search_engines/TemplateUrlService$TemplateUrlServiceObserver.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$1.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$2.class
+  <-  org/chromium/chrome/browser/search_engines/settings/SearchEngineAdapter$TemplateUrlSourceType.class
+org/chromium/chrome/browser/search_engines/settings/SearchEngineSettings.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/ListFragment.class
+

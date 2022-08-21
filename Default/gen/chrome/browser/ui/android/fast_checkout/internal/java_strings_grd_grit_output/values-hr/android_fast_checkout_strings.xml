@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Popis adresa i opcija plaćanja koje treba popuniti tijekom procesa naplate."</string>
+<string name="fast_checkout_sheet_half_height">"Popis adresa i opcija plaćanja koje treba popuniti tijekom procesa naplate polovično je otvoren."</string>
+<string name="fast_checkout_sheet_full_height">"Popis adresa i opcija plaćanja koje treba popuniti tijekom procesa naplate otvoren je u punoj visini."</string>
+<string name="fast_checkout_sheet_closed">"Zatvoren je popis adresa i opcija plaćanja koje treba popuniti tijekom procesa naplate."</string>
+</resources>

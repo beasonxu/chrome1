@@ -1,0 +1,138 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "aar_path": "../../third_party/androidx/libs/androidx_test_rules/rules-1.2.0.aar",
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": false,
+    "dependency_r_txt_files": [
+      "gen/third_party/android_sdk/android_test_base_java__resources_R.txt",
+      "gen/third_party/android_sdk/android_test_mock_java__resources_R.txt",
+      "gen/third_party/android_sdk/android_test_runner_java__resources_R.txt"
+    ],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [
+      "obj/third_party/android_sdk/android_test_base_java__resources.resources.zip",
+      "obj/third_party/android_sdk/android_test_mock_java__resources.resources.zip",
+      "obj/third_party/android_sdk/android_test_runner_java__resources.resources.zip"
+    ],
+    "deps_configs": [
+      "gen/third_party/androidx/androidx_test_runner_java__classes.build_config.json",
+      "gen/third_party/androidx/androidx_test_runner_java.build_config.json",
+      "gen/third_party/android_sdk/android_test_base_java__resources.build_config.json",
+      "gen/third_party/android_sdk/android_test_base_java.build_config.json",
+      "gen/third_party/android_sdk/android_test_mock_java__resources.build_config.json",
+      "gen/third_party/android_sdk/android_test_mock_java.build_config.json",
+      "gen/third_party/android_sdk/android_test_runner_java__resources.build_config.json",
+      "gen/third_party/android_sdk/android_test_runner_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/third_party/androidx/androidx_test_rules_java/classes.jar",
+    "dex_path": "obj/third_party/androidx/androidx_test_rules_java__classes.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [
+      "com.android.test_base",
+      "com.android.test_mock",
+      "com.android.test_runner"
+    ],
+    "gn_target": "androidx_test_rules_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/androidx/androidx_test_rules_java.jar",
+    "interface_jar_path": "obj/third_party/androidx/androidx_test_rules_java.ijar.jar",
+    "is_prebuilt": true,
+    "javac_full_classpath": [
+      "obj/third_party/androidx/androidx_test_runner_java/classes.jar",
+      "obj/third_party/junit/junit.javac.jar",
+      "../../third_party/hamcrest/lib/hamcrest-library.jar",
+      "../../third_party/hamcrest/lib/hamcrest-core.jar",
+      "../../third_party/android_deps/libs/net_sf_kxml_kxml2/kxml2-2.3.0.jar",
+      "obj/third_party/androidx/androidx_test_monitor_java/classes.jar",
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib/kotlin-stdlib-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib_common/kotlin-stdlib-common-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_annotations/annotations-13.0.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.mock.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "androidx_test_runner_java",
+      "//third_party/junit:junit",
+      "//third_party/hamcrest:hamcrest_library_java",
+      "//third_party/hamcrest:hamcrest_core_java",
+      "//third_party/android_deps:net_sf_kxml_kxml2_java",
+      "androidx_test_monitor_java",
+      "//third_party/androidx:androidx_annotation_annotation_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_common_java",
+      "//third_party/android_deps:org_jetbrains_annotations_java",
+      "//third_party/android_sdk:android_test_base_java",
+      "//third_party/android_sdk:android_test_runner_java",
+      "//third_party/android_sdk:android_test_mock_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/third_party/androidx/androidx_test_runner_java.ijar.jar",
+      "obj/third_party/junit/junit.turbine.jar",
+      "obj/third_party/hamcrest/hamcrest-library.ijar.jar",
+      "obj/third_party/hamcrest/hamcrest-core.ijar.jar",
+      "obj/third_party/android_deps/net_sf_kxml_kxml2.ijar.jar",
+      "obj/third_party/androidx/androidx_test_monitor_java.ijar.jar",
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.mock.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/third_party/junit/junit.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "androidx_test_rules_java__classes.build_config.json",
+    "path": "gen/third_party/androidx/androidx_test_rules_java__classes.build_config.json",
+    "proguard_configs": [
+      "obj/third_party/androidx/androidx_test_rules_java/proguard.txt"
+    ],
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/third_party/androidx/androidx_test_rules_java/classes.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "obj/third_party/androidx/androidx_test_runner_java/classes.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.mock.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar",
+      "obj/third_party/androidx/androidx_test_runner_java/classes.jar"
+    ],
+    "interface_classpath": [
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.base.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.mock.jar",
+      "../../third_party/android_sdk/public/platforms/android-33/optional/android.test.runner.jar",
+      "obj/third_party/androidx/androidx_test_runner_java.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

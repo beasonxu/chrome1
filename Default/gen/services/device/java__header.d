@@ -1,0 +1,19 @@
+obj/services/device/java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/base/jni_java.turbine.jar \
+ obj/mojo/public/java/bindings_java.turbine.jar \
+ obj/mojo/public/java/system/system_impl_java.turbine.jar \
+ obj/mojo/public/java/system_java.turbine.jar \
+ obj/services/device/battery/android/battery_monitor_java.turbine.jar \
+ obj/services/device/generic_sensor/java.turbine.jar \
+ obj/services/device/geolocation/geolocation_java.turbine.jar \
+ obj/services/device/nfc/android/java.turbine.jar \
+ obj/services/device/public/java/nfc_java.turbine.jar \
+ obj/services/device/public/mojom/mojom_java.turbine.jar \
+ obj/services/device/screen_orientation/java.turbine.jar \
+ obj/services/device/time_zone_monitor/java.turbine.jar \
+ obj/services/device/usb/java.turbine.jar \
+ obj/services/device/vibration/android/vibration_manager_java.turbine.jar \
+ obj/services/device/wake_lock/power_save_blocker/java.turbine.jar \
+ obj/services/service_manager/public/java/service_manager_java.turbine.jar \
+ obj/services/service_manager/public/mojom/mojom_java.turbine.jar

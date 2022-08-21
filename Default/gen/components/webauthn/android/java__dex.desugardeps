@@ -1,0 +1,110 @@
+obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/ConnectionErrorHandler.class
+obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$AbstractClientBuilder.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$BaseClientBuilder.class
+obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$Client.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$AnyClient.class
+obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/GoogleApi.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/HasApiKey.class
+obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/internal/GmsClient.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$Client.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/internal/zaj.class
+  <-  obj/third_party/android_deps/google_play_services_basement_java.ijar.jar:com/google/android/gms/common/internal/BaseGmsClient.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$GetAssertion_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback3.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$IsUserVerifyingPlatformAuthenticatorAvailable_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback1.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$MakeCredential_Response.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Callbacks$Callback3.class
+obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Interface.class
+org/chromium/components/webauthn/AuthenticatorFactory.class
+  <-  obj/services/service_manager/public/java/service_manager_java.turbine.jar:org/chromium/services/service_manager/InterfaceFactory.class
+org/chromium/components/webauthn/AuthenticatorImpl$WindowIntentSender$CallbackWrapper.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/base/WindowAndroid$IntentCallback.class
+  <-  org/chromium/components/webauthn/AuthenticatorImpl.class
+org/chromium/components/webauthn/AuthenticatorImpl$WindowIntentSender.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/WebAuthenticationDelegate$IntentSender.class
+  <-  org/chromium/components/webauthn/AuthenticatorImpl.class
+org/chromium/components/webauthn/AuthenticatorImpl.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$IsUserVerifyingPlatformAuthenticatorAvailable_Response.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator.class
+  <-  org/chromium/components/webauthn/AuthenticatorImpl$WindowIntentSender$CallbackWrapper.class
+  <-  org/chromium/components/webauthn/AuthenticatorImpl$WindowIntentSender.class
+  <-  org/chromium/components/webauthn/FidoErrorResponseCallback.class
+  <-  org/chromium/components/webauthn/GetAssertionResponseCallback.class
+  <-  org/chromium/components/webauthn/IsUvpaaResponseCallback.class
+  <-  org/chromium/components/webauthn/MakeCredentialResponseCallback.class
+org/chromium/components/webauthn/Fido2Api$AttestationObjectParts.class
+  <-  org/chromium/components/webauthn/Fido2Api.class
+org/chromium/components/webauthn/Fido2Api$Extensions.class
+  <-  org/chromium/components/webauthn/Fido2Api.class
+org/chromium/components/webauthn/Fido2Api$Natives.class
+  <-  org/chromium/components/webauthn/Fido2Api.class
+org/chromium/components/webauthn/Fido2Api.class
+  <-  org/chromium/components/webauthn/Fido2Api$AttestationObjectParts.class
+  <-  org/chromium/components/webauthn/Fido2Api$Extensions.class
+  <-  org/chromium/components/webauthn/Fido2Api$Natives.class
+org/chromium/components/webauthn/Fido2ApiCall$BooleanResult.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$Callback.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$Callback.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$FidoClient$Builder.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/Api$AbstractClientBuilder.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$FidoClient.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/internal/GmsClient.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$Interface.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$PendingIntentResult.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$Callback.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall$WebAuthnCredentialDetailsListResult.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$Callback.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall.class
+org/chromium/components/webauthn/Fido2ApiCall.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/GoogleApi.class
+  <-  obj/third_party/android_deps/google_play_services_base_java.ijar.jar:com/google/android/gms/common/api/internal/RemoteCall.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$BooleanResult.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$Callback.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$FidoClient$Builder.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$FidoClient.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$Interface.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$PendingIntentResult.class
+  <-  org/chromium/components/webauthn/Fido2ApiCall$WebAuthnCredentialDetailsListResult.class
+org/chromium/components/webauthn/Fido2ApiJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/webauthn/Fido2ApiJni.class
+org/chromium/components/webauthn/Fido2ApiJni.class
+  <-  org/chromium/components/webauthn/Fido2Api$Natives.class
+  <-  org/chromium/components/webauthn/Fido2ApiJni$1.class
+org/chromium/components/webauthn/Fido2CredentialRequest.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/third_party/android_deps/google_play_services_tasks_java.ijar.jar:com/google/android/gms/tasks/OnFailureListener.class
+  <-  obj/third_party/android_deps/google_play_services_tasks_java.ijar.jar:com/google/android/gms/tasks/OnSuccessListener.class
+org/chromium/components/webauthn/InternalAuthenticator$Natives.class
+  <-  org/chromium/components/webauthn/InternalAuthenticator.class
+org/chromium/components/webauthn/InternalAuthenticator.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$GetAssertion_Response.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$IsUserVerifyingPlatformAuthenticatorAvailable_Response.class
+  <-  obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar:org/chromium/blink/mojom/Authenticator$MakeCredential_Response.class
+  <-  org/chromium/components/webauthn/InternalAuthenticator$Natives.class
+org/chromium/components/webauthn/InternalAuthenticatorJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/webauthn/InternalAuthenticatorJni.class
+org/chromium/components/webauthn/InternalAuthenticatorJni.class
+  <-  org/chromium/components/webauthn/InternalAuthenticator$Natives.class
+  <-  org/chromium/components/webauthn/InternalAuthenticatorJni$1.class
+org/chromium/components/webauthn/WebAuthnBrowserBridge$Natives.class
+  <-  org/chromium/components/webauthn/WebAuthnBrowserBridge.class
+org/chromium/components/webauthn/WebAuthnBrowserBridge.class
+  <-  org/chromium/components/webauthn/WebAuthnBrowserBridge$Natives.class
+org/chromium/components/webauthn/WebAuthnBrowserBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/webauthn/WebAuthnBrowserBridgeJni.class
+org/chromium/components/webauthn/WebAuthnBrowserBridgeJni.class
+  <-  org/chromium/components/webauthn/WebAuthnBrowserBridge$Natives.class
+  <-  org/chromium/components/webauthn/WebAuthnBrowserBridgeJni$1.class
+

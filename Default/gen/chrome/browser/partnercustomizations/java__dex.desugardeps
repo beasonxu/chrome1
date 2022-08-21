@@ -1,0 +1,17 @@
+org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations.class
+org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$PartnerHomepageListener.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations.class
+org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$Provider.class
+  <-  obj/chrome/browser/partnercustomizations/delegate_java.turbine.jar:org/chromium/chrome/browser/partnercustomizations/CustomizationProviderDelegate.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations.class
+org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$ProviderPackage.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$Provider.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations.class
+org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$1.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$PartnerHomepageListener.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$Provider.class
+  <-  org/chromium/chrome/browser/partnercustomizations/PartnerBrowserCustomizations$ProviderPackage.class
+

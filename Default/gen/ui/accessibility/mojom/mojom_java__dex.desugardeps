@@ -1,0 +1,20 @@
+org/chromium/ax/mojom/AxActionData.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/AxEvent.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/AxNodeData.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/AxRelativeBounds.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/AxTreeData.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/AxTreeId$Tag.class
+  <-  org/chromium/ax/mojom/AxTreeId.class
+org/chromium/ax/mojom/AxTreeId.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
+  <-  org/chromium/ax/mojom/AxTreeId$Tag.class
+org/chromium/ax/mojom/AxTreeUpdate.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/ax/mojom/EventIntent.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

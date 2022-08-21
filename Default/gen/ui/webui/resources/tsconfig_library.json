@@ -1,0 +1,96 @@
+{
+  "extends": "../../../../../../ui/webui/resources/tsconfig_base.json",
+  "compilerOptions": {
+    "rootDir": "preprocessed",
+    "outDir": "preprocessed",
+    "composite": true,
+    "declaration": true,
+    "tsBuildInfoFile": "tsconfig_library.tsbuildinfo",
+    "paths": {
+      "chrome://resources/*": [
+        "./preprocessed/*"
+      ],
+      "//resources/*": [
+        "./preprocessed/*"
+      ],
+      "chrome://resources/polymer/v3_0/*": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "//resources/polymer/v3_0/*": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/*"
+      ],
+      "chrome://resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "//resources/polymer/v3_0/polymer/polymer_bundled.min.js": [
+        "./../../../../../../third_party/polymer/v3_0/components-chromium/polymer/polymer.d.ts"
+      ],
+      "/tools/typescript/definitions/*": [
+        "./../../../../../../tools/typescript/definitions/*"
+      ]
+    }
+  },
+  "files": [
+    "preprocessed/cr_elements/cr_tab_box/cr_tab_box.ts",
+    "preprocessed/cr_elements/cr_tree/cr_tree.ts",
+    "preprocessed/cr_elements/cr_tree/cr_tree_item.ts",
+    "preprocessed/cr_elements/cr_tab_box/cr_tab_box.html.ts",
+    "preprocessed/cr_elements/cr_tree/cr_tree.html.ts",
+    "preprocessed/cr_elements/cr_tree/cr_tree_item.html.ts",
+    "preprocessed/cr_elements/cr_lazy_render/cr_lazy_render.ts",
+    "preprocessed/cr_elements/cr_splitter/cr_splitter.ts",
+    "preprocessed/cr_elements/cr_tree/cr_tree_base.ts",
+    "preprocessed/js/assert_ts.ts",
+    "preprocessed/js/custom_element.ts",
+    "preprocessed/js/cr/ui/focus_grid.ts",
+    "preprocessed/js/cr/ui/drag_wrapper.ts",
+    "preprocessed/js/cr/ui/store_ts.ts",
+    "../../../../../../tools/typescript/definitions/bluetooth_private.d.ts",
+    "../../../../../../tools/typescript/definitions/bluetooth.d.ts",
+    "../../../../../../tools/typescript/definitions/chrome_send.d.ts",
+    "../../../../../../tools/typescript/definitions/pending.d.ts",
+    "../../../../../../tools/typescript/definitions/settings_private.d.ts",
+    "preprocessed/cr_elements/cr_button/cr_button.m.d.ts",
+    "preprocessed/cr_elements/cr_checkbox/cr_checkbox.d.ts",
+    "preprocessed/cr_elements/cr_container_shadow_behavior.m.d.ts",
+    "preprocessed/cr_elements/cr_dialog/cr_dialog.d.ts",
+    "preprocessed/cr_elements/cr_icon_button/cr_icon_button.d.ts",
+    "preprocessed/cr_elements/cr_input/cr_input.m.d.ts",
+    "preprocessed/cr_elements/cr_lottie/cr_lottie.m.d.ts",
+    "preprocessed/cr_elements/cr_radio_button/cr_card_radio_button.m.d.ts",
+    "preprocessed/cr_elements/cr_radio_button/cr_radio_button_behavior.m.d.ts",
+    "preprocessed/cr_elements/cr_radio_button/cr_radio_button.m.d.ts",
+    "preprocessed/cr_elements/cr_scrollable_behavior.m.d.ts",
+    "preprocessed/cr_elements/cr_toggle/cr_toggle.m.d.ts",
+    "preprocessed/cr_elements/find_shortcut_behavior.d.ts",
+    "preprocessed/cr_elements/policy/cr_policy_indicator_behavior.m.d.ts",
+    "preprocessed/cr_elements/policy/cr_policy_indicator.m.d.ts",
+    "preprocessed/cr_elements/policy/cr_policy_pref_indicator.m.d.ts",
+    "preprocessed/cr_elements/policy/cr_tooltip_icon.m.d.ts",
+    "preprocessed/js/cr/ui/focus_row_behavior.m.d.ts",
+    "preprocessed/js/i18n_behavior.m.d.ts",
+    "preprocessed/js/parse_html_subset.m.d.ts",
+    "preprocessed/js/promise_resolver.m.d.ts",
+    "preprocessed/js/static_types.d.ts",
+    "preprocessed/js/web_ui_listener_behavior.m.d.ts",
+    "preprocessed/js/action_link.d.ts",
+    "preprocessed/js/assert.m.d.ts",
+    "preprocessed/js/color_utils.d.ts",
+    "preprocessed/js/cr/event_target.m.d.ts",
+    "preprocessed/js/cr.m.d.ts",
+    "preprocessed/js/cr/ui.m.d.ts",
+    "preprocessed/js/cr/ui/focus_outline_manager.m.d.ts",
+    "preprocessed/js/cr/ui/focus_row.m.d.ts",
+    "preprocessed/js/cr/ui/keyboard_shortcut_list.d.ts",
+    "preprocessed/js/event_tracker.m.d.ts",
+    "preprocessed/js/load_time_data.m.d.ts",
+    "preprocessed/js/plural_string_proxy.d.ts",
+    "preprocessed/js/icon.d.ts",
+    "preprocessed/js/util.m.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../../../third_party/polymer/v3_0/tsconfig_library.json"
+    }
+  ]
+}

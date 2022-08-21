@@ -1,0 +1,9 @@
+IDR_BROKENCANVAS,33480,../../third_party/blink/public/blink_image_resources.grd
+IDR_BROKENIMAGE,33481,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL,33482,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_PRESSED,33483,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_DARK_MODE,33484,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_PRESSED_DARK_MODE,33485,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_HC_LIGHT_MODE,33486,../../third_party/blink/public/blink_image_resources.grd
+IDR_SEARCH_CANCEL_PRESSED_HC_LIGHT_MODE,33487,../../third_party/blink/public/blink_image_resources.grd
+IDR_PLACEHOLDER_ICON,33488,../../third_party/blink/public/blink_image_resources.grd

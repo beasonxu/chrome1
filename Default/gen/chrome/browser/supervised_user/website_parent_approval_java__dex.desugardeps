@@ -1,0 +1,23 @@
+org/chromium/chrome/browser/supervised_user/WebsiteParentApproval$1.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApproval.class
+  <-  org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator$CompletionCallback.class
+org/chromium/chrome/browser/supervised_user/WebsiteParentApproval$Natives.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApproval.class
+org/chromium/chrome/browser/supervised_user/WebsiteParentApproval.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApproval$1.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApproval$Natives.class
+org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalJni.class
+org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalJni.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApproval$Natives.class
+  <-  org/chromium/chrome/browser/supervised_user/WebsiteParentApprovalJni$1.class
+org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator$CompletionCallback.class
+  <-  org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator.class
+org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyModelChangeProcessor$ViewBinder.class
+  <-  org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalCoordinator$CompletionCallback.class
+org/chromium/chrome/browser/supervised_user/website_approval/WebsiteApprovalSheetContent.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+

@@ -1,0 +1,14 @@
+org/chromium/media/mojom/MailboxBufferHandleSet.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/media/mojom/ReadyBuffer.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/media/mojom/SharedMemoryViaRawFileDescriptor.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+org/chromium/media/mojom/VideoBufferHandle$Tag.class
+  <-  org/chromium/media/mojom/VideoBufferHandle.class
+org/chromium/media/mojom/VideoBufferHandle.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Union.class
+  <-  org/chromium/media/mojom/VideoBufferHandle$Tag.class
+org/chromium/media/mojom/VideoFrameInfo.class
+  <-  obj/mojo/public/java/bindings_java.turbine.jar:org/chromium/mojo/bindings/Struct.class
+

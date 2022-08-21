@@ -1,0 +1,2 @@
+gen/third_party/android_deps/com_googlecode_java_diff_utils_diffutils_java.build_config.json: \
+ gen/third_party/android_sdk/android_sdk_java.build_config.json

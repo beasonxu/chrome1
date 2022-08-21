@@ -1,0 +1,2 @@
+obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_ktx_java__resources.resources.zip: \
+ obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_ktx_java/res/values/values.xml

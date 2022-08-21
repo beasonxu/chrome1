@@ -1,0 +1,2 @@
+int drawable audio_playing 0x7f010001
+int drawable audio_playing_square 0x7f010001

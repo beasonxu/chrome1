@@ -1,0 +1,141 @@
+{
+  "android": {
+    "sdk_interface_jars": [
+      "obj/third_party/android_sdk/android.ijar.jar"
+    ],
+    "sdk_jars": [
+      "../../third_party/android_sdk/public/platforms/android-33/android.jar"
+    ]
+  },
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [
+      "gen/mojo/public/interfaces/bindings/tests/test_interfaces_java_sources.srcjar"
+    ],
+    "chromium_code": false,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [
+      "gen/mojo/public/java/bindings_java.build_config.json",
+      "gen/mojo/public/java/system_java.build_config.json",
+      "gen/third_party/androidx/androidx_annotation_annotation_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/echo_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_mojom_import_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.build_config.json",
+      "gen/mojo/public/mojom/base/base_java.build_config.json",
+      "gen/third_party/android_sdk/android_sdk_java.build_config.json"
+    ],
+    "device_jar_path": "obj/mojo/public/interfaces/bindings/tests/test_interfaces_java.processed.jar",
+    "dex_path": "obj/mojo/public/interfaces/bindings/tests/test_interfaces_java.dex.jar",
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//mojo/public/interfaces/bindings/tests:test_interfaces_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/mojo/public/interfaces/bindings/tests/test_interfaces_java.jar",
+    "interface_jar_path": "obj/mojo/public/interfaces/bindings/tests/test_interfaces_java.turbine.jar",
+    "is_prebuilt": false,
+    "javac_full_classpath": [
+      "obj/mojo/public/mojom/base/base_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_wrapper_wrapper_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_wrapper_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/echo_java.javac.jar",
+      "obj/mojo/public/java/bindings_java.javac.jar",
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib/kotlin-stdlib-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_kotlin_kotlin_stdlib_common/kotlin-stdlib-common-1.7.10.jar",
+      "../../third_party/android_deps/libs/org_jetbrains_annotations/annotations-13.0.jar",
+      "obj/mojo/public/java/system_java.javac.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//mojo/public/mojom/base:base_java",
+      "//mojo/public/interfaces/bindings/tests:test_mojom_import2_java",
+      "//mojo/public/interfaces/bindings/tests:test_mojom_import_wrapper_wrapper_java",
+      "//mojo/public/interfaces/bindings/tests:test_mojom_import_wrapper_java",
+      "//mojo/public/interfaces/bindings/tests:test_mojom_import_java",
+      "//mojo/public/interfaces/bindings/tests:test_deserializer_interface_java",
+      "//mojo/public/interfaces/bindings/tests:echo_java",
+      "//mojo/public/java:bindings_java",
+      "//third_party/androidx:androidx_annotation_annotation_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_java",
+      "//third_party/android_deps:org_jetbrains_kotlin_kotlin_stdlib_common_java",
+      "//third_party/android_deps:org_jetbrains_annotations_java",
+      "//mojo/public/java:system_java"
+    ],
+    "javac_full_interface_classpath": [
+      "obj/mojo/public/mojom/base/base_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_wrapper_wrapper_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_wrapper_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/echo_java.turbine.jar",
+      "obj/mojo/public/java/bindings_java.turbine.jar",
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_kotlin_kotlin_stdlib_common.ijar.jar",
+      "obj/third_party/android_deps/org_jetbrains_annotations.ijar.jar",
+      "obj/mojo/public/java/system_java.turbine.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/mojo/public/java/bindings_java.sources",
+        "gen/mojo/public/java/system_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "test_interfaces_java.build_config.json",
+    "path": "gen/mojo/public/interfaces/bindings/tests/test_interfaces_java.build_config.json",
+    "requires_android": true,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": true,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/mojo/public/interfaces/bindings/tests/test_interfaces_java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [
+      "gen/mojo/public/java/bindings_java.build_config.json",
+      "gen/mojo/public/java/system_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/echo_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_mojom_import_java.build_config.json",
+      "gen/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.build_config.json",
+      "gen/mojo/public/mojom/base/base_java.build_config.json"
+    ],
+    "dependent_java_projects": [],
+    "dependent_prebuilt_jars": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar"
+    ]
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/androidx/libs/androidx_annotation_annotation/annotation-1.4.0-SNAPSHOT.jar",
+      "obj/mojo/public/interfaces/bindings/tests/echo_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.javac.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_java.javac.jar",
+      "obj/mojo/public/java/bindings_java.javac.jar",
+      "obj/mojo/public/java/system_java.javac.jar",
+      "obj/mojo/public/mojom/base/base_java.javac.jar"
+    ],
+    "interface_classpath": [
+      "obj/mojo/public/interfaces/bindings/tests/echo_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_deserializer_interface_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import2_java.turbine.jar",
+      "obj/mojo/public/interfaces/bindings/tests/test_mojom_import_java.turbine.jar",
+      "obj/mojo/public/java/bindings_java.turbine.jar",
+      "obj/mojo/public/java/system_java.turbine.jar",
+      "obj/mojo/public/mojom/base/base_java.turbine.jar",
+      "obj/third_party/androidx/androidx_annotation_annotation.ijar.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

@@ -1,0 +1,32 @@
+obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetObserver.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridge$Natives.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridge.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridge.class
+  <-  obj/chrome/browser/ui/android/fast_checkout/java.turbine.jar:org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutComponent$Delegate.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridge$Natives.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridgeJni.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridgeJni.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridge$Natives.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutBridgeJni$1.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutCoordinator.class
+  <-  obj/chrome/browser/ui/android/fast_checkout/java.turbine.jar:org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutComponent.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modelutil/PropertyObservable$PropertyObserver.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator$1.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator$2.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/EmptyBottomSheetObserver.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator$1.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutMediator$2.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutModel$ScreenType.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutModel.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutModel.class
+  <-  org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutModel$ScreenType.class
+org/chromium/chrome/browser/ui/fast_checkout/FastCheckoutSheetContent.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+

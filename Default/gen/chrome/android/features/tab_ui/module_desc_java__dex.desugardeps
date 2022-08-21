@@ -1,0 +1,3 @@
+org/chromium/components/module_installer/builder/ModuleDescriptor_tab_management.class
+  <-  obj/components/module_installer/android/module_installer_java.turbine.jar:org/chromium/components/module_installer/builder/ModuleDescriptor.class
+

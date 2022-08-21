@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Danh sách địa chỉ và tuỳ chọn thanh toán sẽ được điền trong quy trình thanh toán."</string>
+<string name="fast_checkout_sheet_half_height">"Danh sách địa chỉ và tuỳ chọn thanh toán sẽ được điền trong quy trình thanh toán mở ở nửa dưới của màn hình."</string>
+<string name="fast_checkout_sheet_full_height">"Danh sách địa chỉ và tuỳ chọn thanh toán sẽ được điền trong quy trình thanh toán mở trên toàn màn hình."</string>
+<string name="fast_checkout_sheet_closed">"Danh sách địa chỉ và tuỳ chọn thanh toán sẽ được điền trong quy trình thanh toán đã bị đóng."</string>
+</resources>

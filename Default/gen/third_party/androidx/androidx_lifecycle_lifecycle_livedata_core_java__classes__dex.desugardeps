@@ -1,0 +1,10 @@
+obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleObserver.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/LiveData$AlwaysActiveObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/LiveData$ObserverWrapper.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/LiveData$LifecycleBoundObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleEventObserver.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/LiveData$ObserverWrapper.class
+obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/MutableLiveData.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java/classes.jar:androidx/lifecycle/LiveData.class
+

@@ -1,0 +1,35 @@
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuideBottomSheetView.class
+  <-  obj/components/browser_ui/bottomsheet/android/java.turbine.jar:org/chromium/components/browser_ui/bottomsheet/BottomSheetContent.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuideFragment.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$CookiesViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$MSBBViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$SafeBrowsingViewHolder.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/RadioButtonWithDescriptionAndAuxButton$OnAuxButtonClickedListener.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$SyncViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$ViewType.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$CookiesViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$MSBBViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$SafeBrowsingViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$SyncViewHolder.class
+  <-  org/chromium/chrome/browser/privacy_guide/PrivacyGuidePagerAdapter$ViewType.class
+

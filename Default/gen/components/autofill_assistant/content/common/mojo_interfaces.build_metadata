@@ -1,0 +1,10 @@
+{
+  "deps": [
+    "mojo_types.build_metadata",
+    "../../../../mojo/public/mojom/base/base.build_metadata"
+  ],
+  "sources": [
+    "../../../../../../../components/autofill_assistant/content/common/autofill_assistant_agent.mojom",
+    "../../../../../../../components/autofill_assistant/content/common/autofill_assistant_driver.mojom"
+  ]
+}

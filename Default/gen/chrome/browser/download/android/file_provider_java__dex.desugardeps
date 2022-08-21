@@ -1,0 +1,28 @@
+org/chromium/chrome/browser/download/DirectoryOption$DownloadLocationDirectoryType.class
+  <-  org/chromium/chrome/browser/download/DirectoryOption.class
+org/chromium/chrome/browser/download/DirectoryOption.class
+  <-  org/chromium/chrome/browser/download/DirectoryOption$DownloadLocationDirectoryType.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$AllDirectoriesTask.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$Delegate.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$DownloadDirectoryProviderDelegate.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$Delegate.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$ExternalSDCardReceiver.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$LazyHolder.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider$SecondaryStorageInfo.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+org/chromium/chrome/browser/download/DownloadDirectoryProvider.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$AllDirectoriesTask.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$Delegate.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$DownloadDirectoryProviderDelegate.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$ExternalSDCardReceiver.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$LazyHolder.class
+  <-  org/chromium/chrome/browser/download/DownloadDirectoryProvider$SecondaryStorageInfo.class
+org/chromium/chrome/browser/download/DownloadFileProvider.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/content/FileProvider.class
+

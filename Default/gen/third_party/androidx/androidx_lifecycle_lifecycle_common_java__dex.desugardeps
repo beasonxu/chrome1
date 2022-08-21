@@ -1,0 +1,15 @@
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/CompositeGeneratedAdaptersObserver.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/FullLifecycleObserverAdapter.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/GenericLifecycleObserver.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/Lifecycling$1.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/GenericLifecycleObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/ReflectiveGenericLifecycleObserver.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/SingleGeneratedAdapterObserver.class
+  <-  ../../third_party/androidx/libs/androidx_lifecycle_lifecycle_common/lifecycle-common-2.6.0-SNAPSHOT.jar:androidx/lifecycle/LifecycleEventObserver.class
+

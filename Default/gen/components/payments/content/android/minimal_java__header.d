@@ -1,0 +1,31 @@
+obj/components/payments/content/android/minimal_java.turbine.jar: \
+ obj/third_party/android_sdk/android.ijar.jar \
+ obj/base/base_java.turbine.jar \
+ obj/base/jni_java.turbine.jar \
+ obj/build/android/build_java.turbine.jar \
+ obj/components/autofill/android/payments_autofill_java.turbine.jar \
+ obj/components/payments/content/android/service_java.turbine.jar \
+ obj/components/payments/mojom/mojom_java.turbine.jar \
+ obj/content/public/android/content_full_java.turbine.jar \
+ obj/content/public/android/content_main_dex_java.turbine.jar \
+ obj/mojo/public/java/bindings_java.turbine.jar \
+ obj/third_party/androidx/androidx_annotation_annotation.ijar.jar \
+ obj/third_party/androidx/androidx_collection_collection_jvm.ijar.jar \
+ obj/third_party/blink/public/mojom/android_mojo_bindings_java.turbine.jar \
+ obj/url/origin_java.turbine.jar \
+ lib.java/base/android/jni_generator/jni_processor.jar \
+ lib.java/build/android/build_java.jar \
+ lib.java/base/jni_java.jar \
+ lib.java/third_party/android_deps/com_google_auto_service_auto_service_annotations.jar \
+ lib.java/third_party/android_deps/com_google_code_findbugs_jsr305.jar \
+ lib.java/third_party/android_deps/com_google_errorprone_error_prone_annotations.jar \
+ lib.java/third_party/android_deps/com_google_guava_failureaccess.jar \
+ lib.java/third_party/android_deps/com_google_guava_listenablefuture.jar \
+ lib.java/third_party/android_deps/com_google_j2objc_j2objc_annotations.jar \
+ lib.java/third_party/android_deps/org_checkerframework_checker_qual.jar \
+ lib.java/third_party/android_deps/com_google_guava_guava.jar \
+ lib.java/third_party/android_deps/com_squareup_javapoet.jar \
+ gen/components/payments/content/android/app_creation_failure_reason_generated_enum.srcjar \
+ gen/components/payments/content/android/method_strings_generated_srcjar.srcjar \
+ gen/components/payments/content/android/payment_app_type_generated_enum.srcjar \
+ gen/components/payments/content/android/minimal_java__assetres.srcjar

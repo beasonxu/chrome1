@@ -1,0 +1,210 @@
+obj/chrome/browser/settings/java.turbine.jar:org/chromium/chrome/browser/settings/ChromeManagedPreferenceDelegate.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/ManagedPreferenceDelegate.class
+obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/ChromeBasePreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference.class
+obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/dragreorder/DragReorderableListAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_activity_activity_java.ijar.jar:androidx/activity/result/ActivityResultCaller.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/HasDefaultViewModelProviderFactory.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_viewmodel_java.ijar.jar:androidx/lifecycle/ViewModelStoreOwner.class
+  <-  obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/DialogPreference$TargetFragment.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnDisplayPreferenceDialogListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnNavigateToScreenListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceManager$OnPreferenceTreeClickListener.class
+obj/third_party/androidx/androidx_savedstate_savedstate_java.ijar.jar:androidx/savedstate/SavedStateRegistryOwner.class
+  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$1.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$ActionType.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$AppLanguagePromptRowViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$ItemType.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$LanguageItemAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$MoreLanguagesRowViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$RestartAction.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$SeparatorViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog$TopULPMatchType.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+org/chromium/chrome/browser/language/AppLanguagePromoDialog.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/language/android/base_module_java.turbine.jar:org/chromium/chrome/browser/language/LanguageSplitInstaller$InstallListener.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$1.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$ActionType.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$AppLanguagePromptRowViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$ItemType.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$LanguageItemAdapter.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$MoreLanguagesRowViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$RestartAction.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$SeparatorViewHolder.class
+  <-  org/chromium/chrome/browser/language/AppLanguagePromoDialog$TopULPMatchType.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$1.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageAskPromptRowViewHolder$1.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageAskPromptRowViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageItemAdapter.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$Adapter.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$ListScrollListener.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$OnScrollListener.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt$SeparatorViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt.class
+org/chromium/chrome/browser/language/LanguageAskPrompt.class
+  <-  obj/ui/android/ui_no_recycler_view_java.turbine.jar:org/chromium/ui/modaldialog/ModalDialogProperties$Controller.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$1.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageAskPromptRowViewHolder$1.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageAskPromptRowViewHolder.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$LanguageItemAdapter.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$ListScrollListener.class
+  <-  org/chromium/chrome/browser/language/LanguageAskPrompt$SeparatorViewHolder.class
+org/chromium/chrome/browser/language/LanguageBridge$Natives.class
+  <-  org/chromium/chrome/browser/language/LanguageBridge.class
+org/chromium/chrome/browser/language/LanguageBridge.class
+  <-  org/chromium/chrome/browser/language/LanguageBridge$Natives.class
+org/chromium/chrome/browser/language/LanguageBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/language/LanguageBridgeJni.class
+org/chromium/chrome/browser/language/LanguageBridgeJni.class
+  <-  org/chromium/chrome/browser/language/LanguageBridge$Natives.class
+  <-  org/chromium/chrome/browser/language/LanguageBridgeJni$1.class
+org/chromium/chrome/browser/language/settings/AlwaysTranslateListFragment$ListDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/AlwaysTranslateListFragment.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListDelegate.class
+org/chromium/chrome/browser/language/settings/AlwaysTranslateListFragment.class
+  <-  org/chromium/chrome/browser/language/settings/AlwaysTranslateListFragment$ListDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment.class
+org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate$RestartAction.class
+  <-  org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate.class
+org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate$SuccessSnackbarControllerImpl.class
+  <-  obj/chrome/browser/ui/messages/android/java.turbine.jar:org/chromium/chrome/browser/ui/messages/snackbar/SnackbarManager$SnackbarController.class
+  <-  org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate.class
+org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate.class
+  <-  obj/chrome/browser/language/android/base_module_java.turbine.jar:org/chromium/chrome/browser/language/LanguageSplitInstaller$InstallListener.class
+  <-  org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate$RestartAction.class
+  <-  org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate$SuccessSnackbarControllerImpl.class
+org/chromium/chrome/browser/language/settings/ContentLanguagesPreference$LanguageListAdapter.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenu$Delegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenuButtonDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/ContentLanguagesPreference.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager$AcceptLanguageObserver.class
+org/chromium/chrome/browser/language/settings/ContentLanguagesPreference.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference.class
+  <-  org/chromium/chrome/browser/language/settings/ContentLanguagesPreference$LanguageListAdapter.class
+org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListAdapter.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenu$Delegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenuButtonDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment.class
+org/chromium/chrome/browser/language/settings/LanguageItemListFragment.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/FragmentSettingsLauncher.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListDelegate.class
+org/chromium/chrome/browser/language/settings/LanguageItemListPreference.class
+  <-  obj/chrome/browser/preferences/java.turbine.jar:org/chromium/chrome/browser/preferences/PrefChangeRegistrar$PrefObserver.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/ChromeBasePreference.class
+org/chromium/chrome/browser/language/settings/LanguageItemPickerPreference.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/ChromeBasePreference.class
+org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$ItemClickListener.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$LanguageDragStateDelegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/dragreorder/DragStateDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$LanguageRowViewHolder.class
+  <-  obj/third_party/androidx/androidx_recyclerview_recyclerview_java.ijar.jar:androidx/recyclerview/widget/RecyclerView$ViewHolder.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/dragreorder/DragReorderableListAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$ItemClickListener.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$LanguageDragStateDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$LanguageRowViewHolder.class
+org/chromium/chrome/browser/language/settings/LanguageSettings$1.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceChangeListener.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings.class
+org/chromium/chrome/browser/language/settings/LanguageSettings$2.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceChangeListener.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings.class
+org/chromium/chrome/browser/language/settings/LanguageSettings$3.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceClickListener.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings.class
+org/chromium/chrome/browser/language/settings/LanguageSettings.class
+  <-  obj/chrome/browser/preferences/java.turbine.jar:org/chromium/chrome/browser/preferences/PrefChangeRegistrar$PrefObserver.class
+  <-  obj/chrome/browser/settings/java.turbine.jar:org/chromium/chrome/browser/settings/ChromeManagedPreferenceDelegate.class
+  <-  obj/components/browser_ui/settings/android/java.turbine.jar:org/chromium/components/browser_ui/settings/FragmentSettingsLauncher.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/Preference$OnPreferenceClickListener.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceFragmentCompat.class
+  <-  obj/third_party/androidx/androidx_preference_preference_java.ijar.jar:androidx/preference/PreferenceGroup$OnExpandButtonClickListener.class
+  <-  org/chromium/chrome/browser/language/settings/AppLanguagePreferenceDelegate$RestartAction.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings$1.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings$2.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageSettings$3.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment$Launcher.class
+org/chromium/chrome/browser/language/settings/LanguagesManager$AcceptLanguageObserver.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager.class
+org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageListType.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager.class
+org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageSettingsActionType.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager.class
+org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageSettingsPageType.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager.class
+org/chromium/chrome/browser/language/settings/LanguagesManager.class
+  <-  obj/third_party/androidx/androidx_core_core_java.ijar.jar:androidx/core/util/Predicate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager$AcceptLanguageObserver.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageListType.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageSettingsActionType.class
+  <-  org/chromium/chrome/browser/language/settings/LanguagesManager$LanguageSettingsPageType.class
+org/chromium/chrome/browser/language/settings/NeverTranslateListFragment$ListDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment$ListDelegate.class
+  <-  org/chromium/chrome/browser/language/settings/NeverTranslateListFragment.class
+org/chromium/chrome/browser/language/settings/NeverTranslateListFragment.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageItemListFragment.class
+  <-  org/chromium/chrome/browser/language/settings/NeverTranslateListFragment$ListDelegate.class
+org/chromium/chrome/browser/language/settings/SelectLanguageFragment$1.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/SearchView$OnQueryTextListener.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment.class
+org/chromium/chrome/browser/language/settings/SelectLanguageFragment$LanguageSearchListAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment.class
+org/chromium/chrome/browser/language/settings/SelectLanguageFragment$Launcher.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment.class
+org/chromium/chrome/browser/language/settings/SelectLanguageFragment.class
+  <-  obj/third_party/androidx/androidx_appcompat_appcompat_java.ijar.jar:androidx/appcompat/widget/SearchView$OnCloseListener.class
+  <-  obj/third_party/androidx/androidx_fragment_fragment_java.ijar.jar:androidx/fragment/app/Fragment.class
+  <-  org/chromium/chrome/browser/language/settings/LanguageListBaseAdapter$ItemClickListener.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment$1.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment$LanguageSearchListAdapter.class
+  <-  org/chromium/chrome/browser/language/settings/SelectLanguageFragment$Launcher.class
+org/chromium/chrome/browser/translate/TranslateBridge$Natives.class
+  <-  org/chromium/chrome/browser/translate/TranslateBridge.class
+org/chromium/chrome/browser/translate/TranslateBridge.class
+  <-  org/chromium/chrome/browser/translate/TranslateBridge$Natives.class
+org/chromium/chrome/browser/translate/TranslateBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/translate/TranslateBridgeJni.class
+org/chromium/chrome/browser/translate/TranslateBridgeJni.class
+  <-  org/chromium/chrome/browser/translate/TranslateBridge$Natives.class
+  <-  org/chromium/chrome/browser/translate/TranslateBridgeJni$1.class
+

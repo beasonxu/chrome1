@@ -1,0 +1,247 @@
+org/chromium/chrome/browser/tab/CurrentTabObserver.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/TabObserver.class
+org/chromium/chrome/browser/tab/SadTab$1.class
+  <-  org/chromium/chrome/browser/tab/SadTab.class
+org/chromium/chrome/browser/tab/SadTab.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+  <-  org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/SadTab$1.class
+  <-  org/chromium/chrome/browser/tab/TabViewProvider.class
+org/chromium/chrome/browser/tab/Tab$TabLoadStatus.class
+  <-  org/chromium/chrome/browser/tab/Tab.class
+org/chromium/chrome/browser/tab/Tab.class
+  <-  org/chromium/chrome/browser/tab/Tab$TabLoadStatus.class
+org/chromium/chrome/browser/tab/TabAssociatedApp$1.class
+  <-  org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/TabAssociatedApp.class
+org/chromium/chrome/browser/tab/TabAssociatedApp.class
+  <-  obj/content/public/android/content_full_java.turbine.jar:org/chromium/content_public/browser/ImeEventObserver.class
+  <-  org/chromium/chrome/browser/tab/TabAssociatedApp$1.class
+  <-  org/chromium/chrome/browser/tab/TabWebContentsUserData.class
+org/chromium/chrome/browser/tab/TabAttributes.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+org/chromium/chrome/browser/tab/TabStateAttributes.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+org/chromium/chrome/browser/tab/TabViewProvider$Type.class
+  <-  org/chromium/chrome/browser/tab/TabViewProvider.class
+org/chromium/chrome/browser/tab/TabViewProvider.class
+  <-  org/chromium/chrome/browser/tab/TabViewProvider$Type.class
+org/chromium/chrome/browser/tab/TabWebContentsDelegateAndroid.class
+  <-  obj/components/embedder_support/android/web_contents_delegate_java.turbine.jar:org/chromium/components/embedder_support/delegate/WebContentsDelegateAndroid.class
+org/chromium/chrome/browser/tab/TabWebContentsUserData$1.class
+  <-  org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/TabWebContentsUserData.class
+org/chromium/chrome/browser/tab/TabWebContentsUserData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+  <-  org/chromium/chrome/browser/tab/TabWebContentsUserData$1.class
+org/chromium/chrome/browser/tab/TrustedCdn$Natives.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdn.class
+org/chromium/chrome/browser/tab/TrustedCdn$PublisherUrlVisibility.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdn.class
+org/chromium/chrome/browser/tab/TrustedCdn.class
+  <-  org/chromium/chrome/browser/tab/TabWebContentsUserData.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdn$Natives.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdn$PublisherUrlVisibility.class
+org/chromium/chrome/browser/tab/TrustedCdnJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdnJni.class
+org/chromium/chrome/browser/tab/TrustedCdnJni.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdn$Natives.class
+  <-  org/chromium/chrome/browser/tab/TrustedCdnJni$1.class
+org/chromium/chrome/browser/tab/WebContentsStateBridge$Natives.class
+  <-  org/chromium/chrome/browser/tab/WebContentsStateBridge.class
+org/chromium/chrome/browser/tab/WebContentsStateBridge.class
+  <-  org/chromium/chrome/browser/tab/WebContentsStateBridge$Natives.class
+org/chromium/chrome/browser/tab/WebContentsStateBridgeJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/tab/WebContentsStateBridgeJni.class
+org/chromium/chrome/browser/tab/WebContentsStateBridgeJni.class
+  <-  org/chromium/chrome/browser/tab/WebContentsStateBridge$Natives.class
+  <-  org/chromium/chrome/browser/tab/WebContentsStateBridgeJni$1.class
+org/chromium/chrome/browser/tab/state/CouponPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData.class
+org/chromium/chrome/browser/tab/state/CouponPersistedTabData$2.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData.class
+org/chromium/chrome/browser/tab/state/CouponPersistedTabData$Coupon$DiscountType.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData.class
+org/chromium/chrome/browser/tab/state/CouponPersistedTabData$Coupon.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData.class
+org/chromium/chrome/browser/tab/state/CouponPersistedTabData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData$2.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData$Coupon$DiscountType.class
+  <-  org/chromium/chrome/browser/tab/state/CouponPersistedTabData$Coupon.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataFactory.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+org/chromium/chrome/browser/tab/state/CriticalPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/state/CriticalPersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataMapper.class
+org/chromium/chrome/browser/tab/state/CriticalPersistedTabData$2.class
+  <-  org/chromium/chrome/browser/tab/state/CriticalPersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+org/chromium/chrome/browser/tab/state/CriticalPersistedTabData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/chrome/browser/tab/state/CriticalPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/state/CriticalPersistedTabData$2.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataFactory.class
+org/chromium/chrome/browser/tab/state/EmptyByteBufferPersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileRestoreAndMapRequest.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreAndMapRequest.class
+org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileRestoreRequest.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreRequest.class
+org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileSaveRequest.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileSaveRequest.class
+org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileRestoreAndMapRequest.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileRestoreRequest.class
+  <-  org/chromium/chrome/browser/tab/state/EncryptedFilePersistedTabDataStorage$EncryptedFileSaveRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$BaseStorageDirectoryHolder.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileDeleteRequest$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileDeleteRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreAndMapRequest$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreAndMapRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreRequest$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileSaveRequest$1.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/task/AsyncTask.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileSaveRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequestType.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$1.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$BaseStorageDirectoryHolder.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileDeleteRequest$1.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileDeleteRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreAndMapRequest$1.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreAndMapRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreRequest$1.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileRestoreRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileSaveRequest$1.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$FileSaveRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequest.class
+  <-  org/chromium/chrome/browser/tab/state/FilePersistedTabDataStorage$StorageRequestType.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorage$Natives.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorage.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorage$Natives.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedDataStorage.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorageJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorageJni.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorageJni.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorage$Natives.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedDataStorageJni$1.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedTabDataStorage.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedTabDataStorageFactory$1.class
+  <-  obj/chrome/browser/profiles/android/java.turbine.jar:org/chromium/chrome/browser/profiles/ProfileManager$Observer.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedTabDataStorageFactory.class
+org/chromium/chrome/browser/tab/state/LevelDBPersistedTabDataStorageFactory.class
+  <-  org/chromium/chrome/browser/tab/state/LevelDBPersistedTabDataStorageFactory$1.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorageFactory.class
+org/chromium/chrome/browser/tab/state/MockPersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataFactory.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+org/chromium/chrome/browser/tab/state/MockPersistedTabDataStorage.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorage.class
+org/chromium/chrome/browser/tab/state/PersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/UserData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData$1.class
+org/chromium/chrome/browser/tab/state/PersistedTabDataConfiguration.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataStorageFactory.class
+org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger$MetricsResult.class
+  <-  org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger.class
+org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger$TabUsageStatus.class
+  <-  org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger.class
+org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger.class
+  <-  org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger$MetricsResult.class
+  <-  org/chromium/chrome/browser/tab/state/PriceDropMetricsLogger$TabUsageStatus.class
+org/chromium/chrome/browser/tab/state/SerializedCriticalPersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataResult.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/EmptyTabObserver.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$DelayedInitMethod.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$FoundBuyableProduct.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$FoundBuyableProductAnnotation.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$OptimizationGuideBridgeFactoryHolder.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDataSnapshot.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDrop.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDropData.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDropMethod.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$ShoppingDataRequest.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/chrome/browser/optimization_guide/android/java.turbine.jar:org/chromium/chrome/browser/optimization_guide/OptimizationGuideBridge$OptimizationGuideCallback.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataFactory.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$1.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$DelayedInitMethod.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$FoundBuyableProduct.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$FoundBuyableProductAnnotation.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$OptimizationGuideBridgeFactoryHolder.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDataSnapshot.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDrop.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDropData.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$PriceDropMethod.class
+  <-  org/chromium/chrome/browser/tab/state/ShoppingPersistedTabData$ShoppingDataRequest.class
+org/chromium/chrome/browser/tab/state/StorePersistedTabData$StoreHours.class
+  <-  org/chromium/chrome/browser/tab/state/StorePersistedTabData.class
+org/chromium/chrome/browser/tab/state/StorePersistedTabData.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabData.class
+  <-  org/chromium/chrome/browser/tab/state/PersistedTabDataFactory.class
+  <-  org/chromium/chrome/browser/tab/state/Serializer.class
+  <-  org/chromium/chrome/browser/tab/state/StorePersistedTabData$StoreHours.class
+

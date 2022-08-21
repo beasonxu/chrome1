@@ -1,0 +1,7 @@
+IDR_BLOCKED_PLUGIN_HTML,20290,../../chrome/renderer/resources/renderer_resources.grd
+IDR_DISABLED_PLUGIN_HTML,20291,../../chrome/renderer/resources/renderer_resources.grd
+IDR_PDF_PLUGIN_HTML,20292,../../chrome/renderer/resources/renderer_resources.grd
+IDR_CART_PRODUCT_EXTRACTION_JS,20293,../../chrome/renderer/resources/renderer_resources.grd
+IDR_CART_DOMAIN_PRODUCT_ID_REGEX_JSON,20294,../../chrome/renderer/resources/renderer_resources.grd
+IDR_SKIP_ADD_TO_CART_REQUEST_DOMAIN_MAPPING_JSON,20295,../../chrome/renderer/resources/renderer_resources.grd
+IDR_PURCHASE_URL_REGEX_DOMAIN_MAPPING_JSON,20296,../../chrome/renderer/resources/renderer_resources.grd

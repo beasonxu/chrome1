@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<string name="fast_checkout_content_description">"Elenco di indirizzi e opzioni di pagamento da compilare durante i flussi di pagamento."</string>
+<string name="fast_checkout_sheet_half_height">"Elenco di indirizzi e opzioni di pagamento da compilare durante i flussi di pagamento aperti nella parte inferiore dello schermo."</string>
+<string name="fast_checkout_sheet_full_height">"Elenco di indirizzi e opzioni di pagamento da compilare durante i flussi di pagamento aperti a schermo intero."</string>
+<string name="fast_checkout_sheet_closed">"L\'elenco di indirizzi e opzioni di pagamento da compilare durante i flussi di pagamento è chiuso."</string>
+</resources>

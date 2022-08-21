@@ -1,0 +1,61 @@
+{
+  "deps_info": {
+    "base_allowlist_rtxt_path": "",
+    "bundled_srcjars": [],
+    "chromium_code": true,
+    "dependency_r_txt_files": [],
+    "dependency_zip_overlays": [],
+    "dependency_zips": [],
+    "deps_configs": [],
+    "extra_classpath_jars": [
+      "../../third_party/android_build_tools/lint/lint.jar"
+    ],
+    "extra_main_r_text_files": [],
+    "extra_package_names": [],
+    "gn_target": "//third_party/android_build_tools/lint:custom_lint_java",
+    "gradle_treat_as_prebuilt": null,
+    "host_jar_path": "lib.java/third_party/android_build_tools/lint/custom_lint_java.jar",
+    "interface_jar_path": "obj/third_party/android_build_tools/lint/custom_lint_java.turbine.jar",
+    "is_prebuilt": false,
+    "java_sources_file": "gen/third_party/android_build_tools/lint/custom_lint_java.sources",
+    "javac_full_classpath": [
+      "../../third_party/android_build_tools/lint/lint.jar"
+    ],
+    "javac_full_classpath_targets": [
+      "//third_party/android_build_tools/lint:custom_lint_java"
+    ],
+    "javac_full_interface_classpath": [
+      "../../third_party/android_build_tools/lint/lint.jar"
+    ],
+    "jni": {
+      "all_source": [
+        "gen/third_party/android_build_tools/lint/custom_lint_java.sources"
+      ]
+    },
+    "module_pathmap_path": "",
+    "name": "custom_lint_java.build_config.json",
+    "path": "gen/third_party/android_build_tools/lint/custom_lint_java.build_config.json",
+    "requires_android": false,
+    "static_library_dependent_classpath_configs": {},
+    "static_library_proguard_mapping_output_paths": [],
+    "supports_android": false,
+    "type": "java_library",
+    "unprocessed_jar_path": "obj/third_party/android_build_tools/lint/custom_lint_java.javac.jar",
+    "version_code": null,
+    "version_name": null
+  },
+  "gradle": {
+    "dependent_android_projects": [],
+    "dependent_java_projects": []
+  },
+  "javac": {
+    "classpath": [
+      "../../third_party/android_build_tools/lint/lint.jar"
+    ],
+    "interface_classpath": [
+      "../../third_party/android_build_tools/lint/lint.jar"
+    ],
+    "processor_classes": [],
+    "processor_classpath": []
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "composite": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "inlineSources": true,
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable"
+    ],
+    "module": "esnext",
+    "noEmitOnError": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "outDir": ".",
+    "rootDir": "../../../../../../../third_party/devtools-frontend/src/inspector_overlay",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "target": "esnext",
+    "tsBuildInfoFile": "inspector_overlay-tsconfig.json.tsbuildinfo",
+    "typeRoots": [],
+    "useUnknownInCatchVariables": false
+  },
+  "files": [
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/common.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/css_grid_label_helpers.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/drag_resize_handler.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_common.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_container_query.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_flex_common.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_grid_common.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_isolated_element.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/highlight_scroll_snap.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/main.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_distances.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_highlight.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_paused.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_persistent.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_screenshot.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_source_order.ts",
+    "../../../../../../../third_party/devtools-frontend/src/inspector_overlay/tool_viewport_size.ts",
+    "../../../../../../../third_party/devtools-frontend/src/front_end/legacy/legacy-defs.d.ts",
+    "../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/global_defs.d.ts",
+    "../../../../../../../third_party/devtools-frontend/src/front_end/global_typings/request_idle_callback.d.ts",
+    "../../../../../../../third_party/devtools-frontend/src/node_modules/@types/filesystem/index.d.ts"
+  ],
+  "references": [
+    {
+      "path": "../front_end/core/common/ColorUtils-tsconfig.json"
+    }
+  ]
+}

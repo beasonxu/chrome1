@@ -1,0 +1,63 @@
+org/chromium/components/translate/TranslateFeatureList$Natives.class
+  <-  org/chromium/components/translate/TranslateFeatureList.class
+org/chromium/components/translate/TranslateFeatureList.class
+  <-  org/chromium/components/translate/TranslateFeatureList$Natives.class
+org/chromium/components/translate/TranslateFeatureListJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/translate/TranslateFeatureListJni.class
+org/chromium/components/translate/TranslateFeatureListJni.class
+  <-  org/chromium/components/translate/TranslateFeatureList$Natives.class
+  <-  org/chromium/components/translate/TranslateFeatureListJni$1.class
+org/chromium/components/translate/TranslateMenu$MenuItem.class
+  <-  org/chromium/components/translate/TranslateMenu.class
+org/chromium/components/translate/TranslateMenu.class
+  <-  org/chromium/components/translate/TranslateMenu$MenuItem.class
+org/chromium/components/translate/TranslateMenuHelper$TranslateMenuAdapter.class
+  <-  org/chromium/components/translate/TranslateMenuHelper.class
+org/chromium/components/translate/TranslateMenuHelper$TranslateMenuListener.class
+  <-  org/chromium/components/translate/TranslateMenuHelper.class
+org/chromium/components/translate/TranslateMenuHelper.class
+  <-  org/chromium/components/translate/TranslateMenuHelper$TranslateMenuAdapter.class
+  <-  org/chromium/components/translate/TranslateMenuHelper$TranslateMenuListener.class
+org/chromium/components/translate/TranslateMessage$MenuItem.class
+  <-  org/chromium/components/translate/TranslateMessage.class
+org/chromium/components/translate/TranslateMessage$Natives.class
+  <-  org/chromium/components/translate/TranslateMessage.class
+org/chromium/components/translate/TranslateMessage$SecondaryMenuButtonDelegate.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenuButtonDelegate.class
+  <-  org/chromium/components/translate/TranslateMessage.class
+org/chromium/components/translate/TranslateMessage.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/Callback.class
+  <-  obj/base/base_java.turbine.jar:org/chromium/base/supplier/Supplier.class
+  <-  org/chromium/components/translate/TranslateMessage$MenuItem.class
+  <-  org/chromium/components/translate/TranslateMessage$Natives.class
+  <-  org/chromium/components/translate/TranslateMessage$SecondaryMenuButtonDelegate.class
+  <-  org/chromium/components/translate/TranslateMessageSecondaryMenu$Handler.class
+org/chromium/components/translate/TranslateMessageJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/translate/TranslateMessageJni.class
+org/chromium/components/translate/TranslateMessageJni.class
+  <-  org/chromium/components/translate/TranslateMessage$Natives.class
+  <-  org/chromium/components/translate/TranslateMessageJni$1.class
+org/chromium/components/translate/TranslateMessageSecondaryMenu$Handler.class
+  <-  org/chromium/components/translate/TranslateMessageSecondaryMenu.class
+org/chromium/components/translate/TranslateMessageSecondaryMenu.class
+  <-  obj/components/browser_ui/widget/android/java.turbine.jar:org/chromium/components/browser_ui/widget/listmenu/ListMenu.class
+  <-  org/chromium/components/translate/TranslateMessageSecondaryMenu$Handler.class
+org/chromium/components/translate/TranslateMessageSecondaryMenuAdapter$ViewType.class
+  <-  org/chromium/components/translate/TranslateMessageSecondaryMenuAdapter.class
+org/chromium/components/translate/TranslateMessageSecondaryMenuAdapter.class
+  <-  org/chromium/components/translate/TranslateMessageSecondaryMenuAdapter$ViewType.class
+org/chromium/components/translate/TranslateOptions$TranslateLanguageData.class
+  <-  org/chromium/components/translate/TranslateOptions.class
+org/chromium/components/translate/TranslateOptions$Type.class
+  <-  org/chromium/components/translate/TranslateOptions.class
+org/chromium/components/translate/TranslateOptions.class
+  <-  org/chromium/components/translate/TranslateOptions$TranslateLanguageData.class
+  <-  org/chromium/components/translate/TranslateOptions$Type.class
+org/chromium/components/translate/TranslateTabLayout$1.class
+  <-  org/chromium/components/translate/TranslateTabLayout.class
+org/chromium/components/translate/TranslateTabLayout.class
+  <-  obj/third_party/android_deps/com_google_android_material_material_java.ijar.jar:com/google/android/material/tabs/TabLayout.class
+  <-  org/chromium/components/translate/TranslateTabLayout$1.class
+

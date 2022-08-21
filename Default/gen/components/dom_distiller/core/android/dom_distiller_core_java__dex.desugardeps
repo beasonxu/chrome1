@@ -1,0 +1,37 @@
+org/chromium/components/dom_distiller/core/DistilledPagePrefs$DistilledPagePrefsObserverWrapper.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs.class
+org/chromium/components/dom_distiller/core/DistilledPagePrefs$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs.class
+org/chromium/components/dom_distiller/core/DistilledPagePrefs$Observer.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs.class
+org/chromium/components/dom_distiller/core/DistilledPagePrefs.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs$DistilledPagePrefsObserverWrapper.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs$Observer.class
+org/chromium/components/dom_distiller/core/DistilledPagePrefsJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefsJni.class
+org/chromium/components/dom_distiller/core/DistilledPagePrefsJni.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefs$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DistilledPagePrefsJni$1.class
+org/chromium/components/dom_distiller/core/DomDistillerService$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerService.class
+org/chromium/components/dom_distiller/core/DomDistillerService.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerService$Natives.class
+org/chromium/components/dom_distiller/core/DomDistillerServiceJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerServiceJni.class
+org/chromium/components/dom_distiller/core/DomDistillerServiceJni.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerService$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerServiceJni$1.class
+org/chromium/components/dom_distiller/core/DomDistillerUrlUtils$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerUrlUtils.class
+org/chromium/components/dom_distiller/core/DomDistillerUrlUtils.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerUrlUtils$Natives.class
+org/chromium/components/dom_distiller/core/DomDistillerUrlUtilsJni$1.class
+  <-  obj/base/jni_java.turbine.jar:org/chromium/base/JniStaticTestMocker.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerUrlUtilsJni.class
+org/chromium/components/dom_distiller/core/DomDistillerUrlUtilsJni.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerUrlUtils$Natives.class
+  <-  org/chromium/components/dom_distiller/core/DomDistillerUrlUtilsJni$1.class
+
