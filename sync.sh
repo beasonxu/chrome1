@@ -93,6 +93,10 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/ui/base/cursor/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/base/dragdrop/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/base/ime/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+
+  cp -r ${RELEASE_DIR}/gen/ui/base/feature_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/ui/base/feature_list_java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/ui/events/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/gfx/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/gfx/mojom/native_handle_types_java/generated_java/input_srcjars/* ${src_dir}
@@ -286,6 +290,8 @@ sync_chrome() {
   cp -r ${BASE_DIR}/chrome/browser/notifications/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/modules/image_editor/provider/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/browser_ui/contacts_picker/android/java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/digital_goods/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/components/dom_distiller/core/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/components/media_router/browser/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/endpoint_fetcher/java/src/* ${src_dir}
@@ -500,7 +506,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/services/device/usb/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_impl_common_base_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/services/device/wake_lock/power_save_blocker/android/java/src/* ${src_dir}
-  cp ${RELEASE_DIR}/gen/chrome/android/chrome_public_apk/generated_java/input_srcjars/org/chromium/base/natives/GEN_JNI.java ${src_dir}/org/chromium/base/natives/
+
   cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_jni_registration_java/generated_java/input_srcjars/* ${src_dir}
 
 #tools/metrics/histograms/enums.xml
@@ -509,6 +515,7 @@ sync_chrome() {
 #    cp -r ${RELEASE_DIR}/gen/components/version_info/android/java/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/media/capture/mojom/video_capture_types_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/media/capture/mojom/video_capture_buffer_java/generated_java/input_srcjars/* ${src_dir}
+  cp ${RELEASE_DIR}/gen/chrome/android/chrome_public_apk/generated_java/input_srcjars/org/chromium/base/natives/GEN_JNI.java ${src_dir}/org/chromium/base/natives/
 
 #    cp -r ${RELEASE_DIR}/gen/services/device/public/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
 #    cp -r ${RELEASE_DIR}/gen/third_party/blink/public/mojom/web_feature_mojo_bindings_java/generated_java/input_srcjars/* ${src_dir}
