@@ -94,7 +94,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/ui/base/dragdrop/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/base/ime/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
 
-  cp -r ${RELEASE_DIR}/gen/ui/base/feature_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/ui/base/features_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/base/feature_list_java/generated_java/input_srcjars/* ${src_dir}
 
   cp -r ${RELEASE_DIR}/gen/ui/events/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
