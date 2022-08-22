@@ -59,6 +59,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/embedder_support/android/util_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/components/webapk/android/libs/client/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_proxy_config_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/mojo/public/java/system/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/mojo/public/java/bindings_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/mojo/public/java/base/src/* ${src_dir}
@@ -473,7 +474,11 @@ sync_chrome() {
   cp -r ${BASE_DIR}/services/device/generic_sensor/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/services/device/usb/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/components/cronet/android/java/src/* ${src_dir}
+  cp -r ${BASE_DIR}/build/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/device/public/mojom/generic_sensor_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/ui/acessibility/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+
+  cp -r ${RELEASE_DIR}/gen/ui/acessibility/ax_enums_mojo_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/components/cronet/android/api/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/modules/stack_unwinder/internal/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/modules/stack_unwinder/public/java/src/* ${src_dir}
@@ -496,12 +501,15 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_impl_common_base_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/services/device/wake_lock/power_save_blocker/android/java/src/* ${src_dir}
   cp ${RELEASE_DIR}/gen/chrome/android/chrome_public_apk/generated_java/input_srcjars/org/chromium/base/natives/GEN_JNI.java ${src_dir}/org/chromium/base/natives/
+  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_jni_registration_java/generated_java/input_srcjars/* ${src_dir}
 
 #tools/metrics/histograms/enums.xml
 #    cp -r ${RELEASE_DIR}/gen/chrome/browser/version/templates/* ${src_dir}
 #    cp -r ${RELEASE_DIR}/gen/components/cronet/android/templates/* ${src_dir}
 #    cp -r ${RELEASE_DIR}/gen/components/version_info/android/java/* ${src_dir}
-#    cp -r ${RELEASE_DIR}/gen/media/capture/mojom/video_capture_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/media/capture/mojom/video_capture_types_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/media/capture/mojom/video_capture_buffer_java/generated_java/input_srcjars/* ${src_dir}
+
 #    cp -r ${RELEASE_DIR}/gen/services/device/public/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
 #    cp -r ${RELEASE_DIR}/gen/third_party/blink/public/mojom/web_feature_mojo_bindings_java/generated_java/input_srcjars/* ${src_dir}
 #    cp -r ${RELEASE_DIR}/gen/third_party/metrics_proto/metrics_proto_java/generated_java/input_srcjars/* ${src_dir}
