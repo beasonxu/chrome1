@@ -327,6 +327,8 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/payments/content/android/service_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/download/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/feed/core/proto/proto_java_v2/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/components/feed/core/v2/feedv2_core_java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/components/policy/android/policy_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/service_manager/public/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   #cp -r ${RELEASE_DIR}/gen/chrome/android/partner_location_descriptor_proto_java/generated_java/input_srcjars/* ${src_dir}
