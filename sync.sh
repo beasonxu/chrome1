@@ -476,9 +476,9 @@ sync_chrome() {
   cp -r ${BASE_DIR}/components/cronet/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/build/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/device/public/mojom/generic_sensor_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/ui/acessibility/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/ui/accessibility/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
 
-  cp -r ${RELEASE_DIR}/gen/ui/acessibility/ax_enums_mojo_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/ui/accessibility/ax_enums_mojo_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/components/cronet/android/api/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/modules/stack_unwinder/internal/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/modules/stack_unwinder/public/java/src/* ${src_dir}
