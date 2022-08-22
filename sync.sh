@@ -19,8 +19,8 @@ sync_chrome() {
   cp -r ${BASE_DIR}/chrome/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/base/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/base/base_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/third_party/blink/public/mojom/mojom_platform_java/generated_java/input_srcjars/* ${src_dir}
 
+ # cp -r ${BASE_DIR}/chrome/browser/version/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/version/templates/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/settings/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/preferences/android/java/src/* ${src_dir}
@@ -1019,7 +1019,7 @@ do_sync() {
   sync_chrome_vr
   #sync_third_party_res
   sync_media
-	clean_project
+#	clean_project
 	# NativeLibraries
 
 }
