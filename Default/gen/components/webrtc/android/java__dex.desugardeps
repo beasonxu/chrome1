@@ -1,5 +1,0 @@
-org/chromium/components/webrtc/MediaCaptureNotificationUtil$MediaType.class
-  <-  org/chromium/components/webrtc/MediaCaptureNotificationUtil.class
-org/chromium/components/webrtc/MediaCaptureNotificationUtil.class
-  <-  org/chromium/components/webrtc/MediaCaptureNotificationUtil$MediaType.class
-

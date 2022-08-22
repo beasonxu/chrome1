@@ -1,3 +1,0 @@
-org/chromium/chrome/browser/locale/LocaleManagerDelegateImpl.class
-  <-  obj/chrome/browser/locale/delegate_java.turbine.jar:org/chromium/chrome/browser/locale/LocaleManagerDelegate.class
-

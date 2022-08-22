@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Liste des adresses et options de paiement à renseigner dans les flux de paiement."</string>
-<string name="fast_checkout_sheet_half_height">"La liste des adresses et options de paiement à renseigner dans les flux de paiement est ouverte à mi-hauteur."</string>
-<string name="fast_checkout_sheet_full_height">"La liste des adresses et options de paiement à renseigner dans les flux de paiement est ouverte à pleine hauteur."</string>
-<string name="fast_checkout_sheet_closed">"La liste des adresses et options de paiement à renseigner dans les flux de paiement est fermée."</string>
-</resources>

@@ -1,5 +1,0 @@
-org/chromium/media/DisplayCompat$ModeCompat.class
-  <-  org/chromium/media/DisplayCompat.class
-org/chromium/media/DisplayCompat.class
-  <-  org/chromium/media/DisplayCompat$ModeCompat.class
-

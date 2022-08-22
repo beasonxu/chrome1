@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Lys adresse en betalingopsies wat tydens betaalpuntvloei ingevul moet word."</string>
-<string name="fast_checkout_sheet_half_height">"Blad met lys adresse en betalingopsies wat tydens betaalpuntvloei ingevul moet word, is halfpad oop."</string>
-<string name="fast_checkout_sheet_full_height">"Blad met lys adresse en betalingopsies wat tydens betaalpuntvloei ingevul moet word, is heeltemal oop."</string>
-<string name="fast_checkout_sheet_closed">"Blad met lys adresse en betalingopsies wat tydens betaalpuntvloei ingevul moet word, is toe."</string>
-</resources>

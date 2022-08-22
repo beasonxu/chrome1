@@ -1,5 +1,0 @@
-obj/third_party/androidx/androidx_lifecycle_lifecycle_runtime_java/classes.jar:androidx/lifecycle/LifecycleRegistry.class
-  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/Lifecycle.class
-obj/third_party/androidx/androidx_lifecycle_lifecycle_runtime_java/classes.jar:androidx/lifecycle/LifecycleRegistryOwner.class
-  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_common.ijar.jar:androidx/lifecycle/LifecycleOwner.class
-

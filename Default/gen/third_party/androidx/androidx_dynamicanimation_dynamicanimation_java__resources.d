@@ -1,2 +1,0 @@
-obj/third_party/androidx/androidx_dynamicanimation_dynamicanimation_java__resources.resources.zip: \
- obj/third_party/androidx/androidx_dynamicanimation_dynamicanimation_java/res/values/values.xml

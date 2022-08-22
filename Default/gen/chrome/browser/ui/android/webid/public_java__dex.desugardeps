@@ -1,5 +1,0 @@
-org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent$Delegate.class
-  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent.class
-org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent.class
-  <-  org/chromium/chrome/browser/ui/android/webid/AccountSelectionComponent$Delegate.class
-

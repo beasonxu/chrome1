@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"購入手続きの際に指定する必要がある住所とお支払い方法のリスト。"</string>
-<string name="fast_checkout_sheet_half_height">"購入手続きの際に指定する必要がある住所とお支払い方法のリストが画面の下半分に表示されています。"</string>
-<string name="fast_checkout_sheet_full_height">"購入手続きの際に指定する必要がある住所とお支払い方法のリストが画面全体に表示されています。"</string>
-<string name="fast_checkout_sheet_closed">"購入手続きの際に指定する必要がある住所とお支払い方法のリストが閉じています。"</string>
-</resources>

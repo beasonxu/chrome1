@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"चेकआउट फ्लोदरम्यान भरावयाची पत्त्यांची सूची आणि पेमेंट पर्याय."</string>
-<string name="fast_checkout_sheet_half_height">"चेकआउट फ्लोदरम्यान भरावयाची पत्त्यांची सूची आणि पेमेंट पर्याय अर्ध्या उंचीवर उघडले."</string>
-<string name="fast_checkout_sheet_full_height">"चेकआउट फ्लोदरम्यान भरावयाची पत्त्यांची सूची आणि पेमेंट पर्याय पूर्ण उंचीवर उघडले."</string>
-<string name="fast_checkout_sheet_closed">"चेकआउट फ्लोदरम्यान भरावयाची पत्त्यांची सूची आणि पेमेंट पर्याय बंद आहेत."</string>
-</resources>

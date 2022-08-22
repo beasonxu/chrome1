@@ -1,9 +1,0 @@
-org/chromium/blink/mojom/CssSampleId$EnumType.class
-  <-  org/chromium/blink/mojom/CssSampleId.class
-org/chromium/blink/mojom/CssSampleId.class
-  <-  org/chromium/blink/mojom/CssSampleId$EnumType.class
-org/chromium/blink/mojom/WebFeature$EnumType.class
-  <-  org/chromium/blink/mojom/WebFeature.class
-org/chromium/blink/mojom/WebFeature.class
-  <-  org/chromium/blink/mojom/WebFeature$EnumType.class
-

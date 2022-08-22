@@ -1,1 +1,0 @@
-int id subresource_filter_infobar_toggle 0x7f010001

@@ -1,1 +1,0 @@
-gen/chrome/browser/resources/webapks/resources_grit.d.stamp: ./../../chrome/browser/resources/webapks/about_webapks.css ./../../chrome/browser/resources/webapks/about_webapks.html ./gen/chrome/browser/resources/webapks/tsc/about_webapks.js ./gen/tools/gritsettings/default_resource_ids

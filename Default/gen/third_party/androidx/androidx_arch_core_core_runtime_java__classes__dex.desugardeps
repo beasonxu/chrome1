@@ -1,5 +1,0 @@
-obj/third_party/androidx/androidx_arch_core_core_runtime_java/classes.jar:androidx/arch/core/executor/ArchTaskExecutor.class
-  <-  obj/third_party/androidx/androidx_arch_core_core_runtime_java/classes.jar:androidx/arch/core/executor/TaskExecutor.class
-obj/third_party/androidx/androidx_arch_core_core_runtime_java/classes.jar:androidx/arch/core/executor/DefaultTaskExecutor.class
-  <-  obj/third_party/androidx/androidx_arch_core_core_runtime_java/classes.jar:androidx/arch/core/executor/TaskExecutor.class
-

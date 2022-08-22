@@ -1,5 +1,0 @@
-org/chromium/components/language/LanguageProfileDelegateImpl.class
-  <-  obj/components/language/android/ulp_delegate_java.turbine.jar:org/chromium/components/language/LanguageProfileDelegate.class
-org/chromium/components/language/LocaleManagerDelegateImpl.class
-  <-  obj/components/language/android/ulp_delegate_java.turbine.jar:org/chromium/components/language/LocaleManagerDelegate.class
-

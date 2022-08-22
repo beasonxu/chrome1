@@ -1,5 +1,0 @@
-int string copy_to_clipboard_failure_message 0x7f010001
-int string link_copied 0x7f010001
-int string low_memory_error 0x7f010001
-int string opening_android_media_picker 0x7f010001
-int string opening_file_error 0x7f010001

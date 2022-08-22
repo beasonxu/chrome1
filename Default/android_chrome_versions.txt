@@ -1,8 +1,0 @@
-VersionName: 106.0.5241.2
-Chrome: 524100200
-ChromeModern: 524100210
-Monochrome: 524100220
-TrichromeChrome: 524100230
-AndroidWebviewStable: 524100200
-AndroidWebviewBeta: 524100210
-AndroidWebviewDev: 524100220

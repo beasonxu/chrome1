@@ -1,3 +1,0 @@
-org/chromium/chrome/browser/policy/CloudManagementAndroidConnectionDelegateImpl.class
-  <-  obj/chrome/browser/policy/android/delegate_java.turbine.jar:org/chromium/chrome/browser/policy/CloudManagementAndroidConnectionDelegate.class
-

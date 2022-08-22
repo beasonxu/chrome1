@@ -1,3 +1,0 @@
-gen/components/autofill_assistant/android/autofill_assistant_public_impl_java__assetres.srcjar: \
- gen/components/autofill_assistant/android/animated_poodle_resources_R.txt \
- gen/third_party/androidx/androidx_appcompat_appcompat_resources_java__resources_R.txt

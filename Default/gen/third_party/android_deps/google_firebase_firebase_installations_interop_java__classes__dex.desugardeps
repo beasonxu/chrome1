@@ -1,5 +1,0 @@
-obj/third_party/android_deps/google_firebase_firebase_installations_interop_java/classes.jar:com/google/firebase/installations/AutoValue_InstallationTokenResult$Builder.class
-  <-  obj/third_party/android_deps/google_firebase_firebase_installations_interop_java/classes.jar:com/google/firebase/installations/InstallationTokenResult$Builder.class
-obj/third_party/android_deps/google_firebase_firebase_installations_interop_java/classes.jar:com/google/firebase/installations/AutoValue_InstallationTokenResult.class
-  <-  obj/third_party/android_deps/google_firebase_firebase_installations_interop_java/classes.jar:com/google/firebase/installations/InstallationTokenResult.class
-

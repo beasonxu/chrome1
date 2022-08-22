@@ -1,9 +1,0 @@
-jp/tomorrowkey/android/gifplayer/BaseGifDrawable$DecoderThread.class
-  <-  jp/tomorrowkey/android/gifplayer/BaseGifDrawable.class
-jp/tomorrowkey/android/gifplayer/BaseGifDrawable.class
-  <-  jp/tomorrowkey/android/gifplayer/BaseGifDrawable$DecoderThread.class
-jp/tomorrowkey/android/gifplayer/BaseGifImage$GifHeaderStream.class
-  <-  jp/tomorrowkey/android/gifplayer/BaseGifImage.class
-jp/tomorrowkey/android/gifplayer/BaseGifImage.class
-  <-  jp/tomorrowkey/android/gifplayer/BaseGifImage$GifHeaderStream.class
-

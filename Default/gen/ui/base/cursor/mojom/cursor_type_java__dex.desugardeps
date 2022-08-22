@@ -1,5 +1,0 @@
-org/chromium/ui/mojom/CursorType$EnumType.class
-  <-  org/chromium/ui/mojom/CursorType.class
-org/chromium/ui/mojom/CursorType.class
-  <-  org/chromium/ui/mojom/CursorType$EnumType.class
-

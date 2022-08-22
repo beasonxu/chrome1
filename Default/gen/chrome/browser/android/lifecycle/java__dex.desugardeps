@@ -1,5 +1,0 @@
-org/chromium/chrome/browser/lifecycle/ActivityLifecycleDispatcher$ActivityState.class
-  <-  org/chromium/chrome/browser/lifecycle/ActivityLifecycleDispatcher.class
-org/chromium/chrome/browser/lifecycle/ActivityLifecycleDispatcher.class
-  <-  org/chromium/chrome/browser/lifecycle/ActivityLifecycleDispatcher$ActivityState.class
-

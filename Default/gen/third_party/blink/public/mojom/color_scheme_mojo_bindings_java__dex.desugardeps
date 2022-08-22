@@ -1,5 +1,0 @@
-org/chromium/blink/mojom/ColorScheme$EnumType.class
-  <-  org/chromium/blink/mojom/ColorScheme.class
-org/chromium/blink/mojom/ColorScheme.class
-  <-  org/chromium/blink/mojom/ColorScheme$EnumType.class
-

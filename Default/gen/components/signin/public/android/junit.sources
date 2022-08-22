@@ -1,7 +1,0 @@
-../../components/signin/public/android/junit/src/org/chromium/components/signin/AccountManagerFacadeImplTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/AccountRenameCheckerTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/AccountUtilsTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/PatternMatcherTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/base/AccountCapabilitiesTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/identitymanager/AccountInfoServiceImplTest.java
-../../components/signin/public/android/junit/src/org/chromium/components/signin/identitymanager/AccountTrackerServiceTest.java

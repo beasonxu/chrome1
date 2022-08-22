@@ -1,2 +1,0 @@
-obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java__resources.resources.zip: \
- obj/third_party/androidx/androidx_cursoradapter_cursoradapter_java/res/values/values.xml

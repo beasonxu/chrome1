@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"List of addresses and payment options to be filled during checkout flows."</string>
-<string name="fast_checkout_sheet_half_height">"List of addresses and payment options to be filled during checkout flows opened at half height."</string>
-<string name="fast_checkout_sheet_full_height">"List of addresses and payment options to be filled during checkout flows opened at full height."</string>
-<string name="fast_checkout_sheet_closed">"List of addresses and payment options to be filled during checkout flows is closed."</string>
-</resources>

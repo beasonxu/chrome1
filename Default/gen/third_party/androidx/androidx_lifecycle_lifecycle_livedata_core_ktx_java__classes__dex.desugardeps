@@ -1,3 +1,0 @@
-obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_ktx_java/classes.jar:androidx/lifecycle/LiveDataKt$observe$wrappedObserver$1.class
-  <-  obj/third_party/androidx/androidx_lifecycle_lifecycle_livedata_core_java.ijar.jar:androidx/lifecycle/Observer.class
-

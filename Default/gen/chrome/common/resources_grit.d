@@ -1,1 +1,0 @@
-gen/chrome/common/resources_grit.d.stamp: ./../../chrome/common/apps/platform_apps/api/_api_features.json ./../../chrome/common/extensions/api/_api_features.json ./gen/tools/gritsettings/default_resource_ids

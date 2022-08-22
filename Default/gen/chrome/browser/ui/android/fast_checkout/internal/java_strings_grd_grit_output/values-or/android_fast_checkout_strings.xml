@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"ଚେକଆଉଟ ଫ୍ଲୋ ସମୟରେ ପୂରଣ ହେବାକୁ ଥିବା ଠିକଣା ଏବଂ ପେମେଣ୍ଟ ବିକଳ୍ପର ତାଲିକା।"</string>
-<string name="fast_checkout_sheet_half_height">"ଚେକଆଉଟ ଫ୍ଲୋ ସମୟରେ ପୂରଣ ହେବାକୁ ଥିବା ଠିକଣା ଏବଂ ପେମେଣ୍ଟ ବିକଳ୍ପର ତାଲିକା ଅଧା ଖୋଲାଯାଇଛି।"</string>
-<string name="fast_checkout_sheet_full_height">"ଚେକଆଉଟ ଫ୍ଲୋ ସମୟରେ ପୂରଣ ହେବାକୁ ଥିବା ଠିକଣା ଏବଂ ପେମେଣ୍ଟ ବିକଳ୍ପର ତାଲିକା ସମ୍ପୂର୍ଣ୍ଣ ଭାବେ ଖୋଲାଯାଇଛି।"</string>
-<string name="fast_checkout_sheet_closed">"ଚେକଆଉଟ ଫ୍ଲୋ ସମୟରେ ପୂରଣ ହେବାକୁ ଥିବା ଠିକଣା ଏବଂ ପେମେଣ୍ଟ ବିକଳ୍ପର ତାଲିକା ବନ୍ଦ ଅଛି।"</string>
-</resources>

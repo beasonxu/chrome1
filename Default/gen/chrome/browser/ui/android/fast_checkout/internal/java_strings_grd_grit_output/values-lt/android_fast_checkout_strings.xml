@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Adresų ir mokėjimo parinkčių, kuriuos reikia pateikti atsiskaitant, sąrašas."</string>
-<string name="fast_checkout_sheet_half_height">"Adresų ir mokėjimo parinkčių, kuriuos reikia pateikti atsiskaitant, sąrašas atidarytas iki pusės ekrano aukščio."</string>
-<string name="fast_checkout_sheet_full_height">"Adresų ir mokėjimo parinkčių, kuriuos reikia pateikti atsiskaitant, sąrašas atidarytas per visą ekrano aukštį."</string>
-<string name="fast_checkout_sheet_closed">"Adresų ir mokėjimo parinkčių, kuriuos reikia pateikti atsiskaitant, sąrašas uždarytas."</string>
-</resources>

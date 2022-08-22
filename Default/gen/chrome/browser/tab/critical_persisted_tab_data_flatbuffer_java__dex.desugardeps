@@ -1,7 +1,0 @@
-org/chromium/chrome/browser/tab/flatbuffer/CriticalPersistedTabDataFlatBuffer$Vector.class
-  <-  obj/third_party/android_deps/com_google_flatbuffers_flatbuffers_java.ijar.jar:com/google/flatbuffers/BaseVector.class
-  <-  org/chromium/chrome/browser/tab/flatbuffer/CriticalPersistedTabDataFlatBuffer.class
-org/chromium/chrome/browser/tab/flatbuffer/CriticalPersistedTabDataFlatBuffer.class
-  <-  obj/third_party/android_deps/com_google_flatbuffers_flatbuffers_java.ijar.jar:com/google/flatbuffers/Table.class
-  <-  org/chromium/chrome/browser/tab/flatbuffer/CriticalPersistedTabDataFlatBuffer$Vector.class
-

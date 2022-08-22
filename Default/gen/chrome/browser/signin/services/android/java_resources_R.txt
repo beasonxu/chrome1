@@ -1,5 +1,0 @@
-int dimen badge_border_size 0x7f010001
-int dimen badge_position_x 0x7f010001
-int dimen badge_position_y 0x7f010001
-int dimen badge_size 0x7f010001
-int dimen user_picture_size 0x7f010001

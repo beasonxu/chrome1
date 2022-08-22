@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="low_memory_error">"No se ha podido completar la operación anterior por falta de memoria"</string>
-<string name="opening_file_error">"Error abrir archivo seleccionado"</string>
-<string name="opening_android_media_picker">"No se puede abrir el selector de fotos"</string>
-<string name="copy_to_clipboard_failure_message">"Error al copiar en el portapapeles"</string>
-<string name="link_copied">"Enlace copiado"</string>
-</resources>

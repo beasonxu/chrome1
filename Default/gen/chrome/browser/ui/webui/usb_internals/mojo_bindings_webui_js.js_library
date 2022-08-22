@@ -1,9 +1,0 @@
-sources:
-gen/mojom-webui/chrome/browser/ui/webui/usb_internals/usb_internals.mojom-webui.js
-deps:
-gen/mojo/public/js/bindings_uncompiled.js_library
-gen/services/device/public/mojom/usb_webui_js.js_library
-gen/services/device/public/mojom/usb_test_webui_js.js_library
-externs:
-../../third_party/closure_compiler/externs/mojo_core.js
-../../third_party/closure_compiler/externs/pending.js

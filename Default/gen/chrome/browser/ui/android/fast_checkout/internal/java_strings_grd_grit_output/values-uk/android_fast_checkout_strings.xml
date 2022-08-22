@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
-<string name="fast_checkout_content_description">"Список адрес і способів оплати, які відображаються під час оформлення покупки."</string>
-<string name="fast_checkout_sheet_half_height">"Список адрес і способів оплати, які відображаються під час оформлення покупки, відкрито на половину висоти."</string>
-<string name="fast_checkout_sheet_full_height">"Список адрес і способів оплати, які відображаються під час оформлення покупки, відкрито на всю висоту."</string>
-<string name="fast_checkout_sheet_closed">"Список адрес і способів оплати, які відображаються під час оформлення покупки, закрито."</string>
-</resources>

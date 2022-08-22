@@ -1,5 +1,0 @@
-org/chromium/components/location/LocationUtils$Factory.class
-  <-  org/chromium/components/location/LocationUtils.class
-org/chromium/components/location/LocationUtils.class
-  <-  org/chromium/components/location/LocationUtils$Factory.class
-
