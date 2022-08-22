@@ -967,7 +967,7 @@ clean_project() {
 	# 	xargs -0 rm -f
 
   #.*Test.*\.java|.*test.*\.java|.*Test\.java|.*test\.java|"
-	local del_files="|DEPS|DIR_METADATA|LAYOUT_OWNERS|README|OWNERS|COPYING|BUILD|LICENSE|README.chromium|*\.template|*\.tmpl|R\.java|.*\.stamp|.*stamp\.d|.*\.py|.*\.flags|.*\.gn|.*Test.*\.java|.*test.*\.java|.*Test\.java|.*test\.java|"
+	local del_files="|DEPS|DIR_METADATA|LAYOUT_OWNERS|README|OWNERS|COPYING|BUILD|LICENSE|README.chromium|*\.template|*\.tmpl|R\.java|.*\.stamp|.*stamp\.d|.*\.py|.*\.flags|.*\.gn|.*Test\.java|.*test\.java|"
 	find "$PRO_DIR" -not \( -name 'JniStaticTestMocker.java' -or -name 'MockedInTests.java' -or -name 'EditorObserverForTest.java' \
 	  -or -name 'PaymentUiServiceTestInterface.java' -or -name 'FlushForTesting.java' -or -name 'NetworkServiceTest.java' -or -name 'HitTestRegionList.java' \
 	  -or -name 'HitTestRegion.java' -or -name 'AttestationConveyancePreference.java' -or -name 'NetworkServiceTest_Internal.java' \) \
@@ -1019,7 +1019,7 @@ do_sync() {
   sync_chrome_vr
   #sync_third_party_res
   sync_media
-#	clean_project
+	clean_project
 	# NativeLibraries
 
 }
