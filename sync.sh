@@ -70,7 +70,6 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/url_loader_base_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/url/mojom/url_mojom_origin_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/cookies_mojom_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_ip_address_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/websocket_mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/proxy_resolver/public/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/media/mojo/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
@@ -102,6 +101,9 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/ui/gfx/mojom/native_handle_types_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/gfx/range/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/ui/latency/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_first_party_sets_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_ip_address_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_first_party_sets_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_network_param_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/payments/mojom/mojom_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/schema_org/common/mojom_java/generated_java/input_srcjars/* ${src_dir}
