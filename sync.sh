@@ -32,8 +32,8 @@ sync_chrome() {
   cp -r ${BASE_DIR}/chrome/browser/flags/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/features/tab_ui/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/features/tab_ui/public/android/java/src/* ${src_dir}
-  cp -r ${BASE_DIR}/browser/android/feature_engagement/java/src/* ${src_dir}
-
+  cp -r ${BASE_DIR}/chrome/browser/feature_engagement/java/src/* ${src_dir}
+  
   cp -r ${BASE_DIR}/chrome/browser/ui/android/night_mode/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/native_page/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/layouts/java/src/* ${src_dir}
