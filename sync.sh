@@ -22,6 +22,8 @@ sync_chrome() {
 
  # cp -r ${BASE_DIR}/chrome/browser/version/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/version/templates/* ${src_dir}
+    cp -r ${BASE_DIR}/chrome/browser/search_engines/android/java/src/* ${src_dir}
+
   cp -r ${BASE_DIR}/chrome/browser/settings/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/preferences/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/image_descriptions/android/java/src/* ${src_dir}
@@ -29,6 +31,10 @@ sync_chrome() {
   cp -r ${BASE_DIR}/chrome/browser/browser_controls/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/flags/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/features/tab_ui/java/src/* ${src_dir}
+  cp -r ${BASE_DIR}/chrome/android/features/tab_ui/public/java/src/* ${src_dir}
+  cp -r ${BASE_DIR}/chrome/android/feature_engagement/java/src/* ${src_dir}
+
+
   cp -r ${BASE_DIR}/chrome/browser/ui/android/night_mode/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/native_page/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/layouts/java/src/* ${src_dir}
@@ -261,6 +267,9 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/android/chrome_public_apk/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/components/strictmode/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/performance_hints/android/java/src/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/crash/android/anr_collector_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/crash/android/anr_data_proto_java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/components/crash/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/version_info/android/version_constants_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/enterprise/util/android/java/src/* ${src_dir}
@@ -361,7 +370,21 @@ sync_chrome() {
   cp -r ${BASE_DIR}/third_party/android_media/java/src/* ${src_dir}
   #cp -r ${BASE_DIR}/components/signin/core/browser/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/components/thin_webview/internal/java/src/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/content/public/common/trust_tokens_mojo_bindings_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/content/public/common/common_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/content/public/common/common_java/generated_java/input_srcjars/* ${src_dir}
+
+  cp -r ${RELEASE_DIR}/gen/third_party/blink/public/common/common_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/payments/content/android/feature_list_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/payments/content/android/full_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/payments/content/android/minimal_java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/payments/content/android/pr_purchase_query_enum_java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/payments/content/android/service_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/payments/mojom/android/service_java/generated_java/input_srcjars/* ${src_dir}
+
+
+
+
+
   cp -r ${RELEASE_DIR}/gen/gpu/ipc/common/vulkan_interface_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/network/public/mojom/mojom_network_isolation_key_java/generated_java/input_srcjars/* ${src_dir}
  # cp -r ${RELEASE_DIR}/gen/chrome/browser/continuous_search/internal/java/generated_java/input_srcjars/* ${src_dir}
@@ -404,6 +427,8 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/component_updater/android/background_task_update_scheduler_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/dom_distiller/content/browser/android/dom_distiller_content_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/download/internal/android/java/src/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/chrome/browser/feature_guide/notification/java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/chrome/browser/feedback/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/image_descriptions/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/internal/java/generated_java/input_srcjars/* ${src_dir}
@@ -423,6 +448,9 @@ sync_chrome() {
   cp -r ${BASE_DIR}/services/device/geolocation/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/webxr/android/ar_java_base/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/variations/android/variations_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/variations/proto/proto_java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/components/variations/variations_java/generated_java/input_srcjars/* ${src_dir}
+
   cp -r ${RELEASE_DIR}/gen/components/user_prefs/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/translate/content/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/thin_webview/internal/internal_java/generated_java/input_srcjars/* ${src_dir}
@@ -467,11 +495,14 @@ sync_chrome() {
   cp -r ${BASE_DIR}/services/data_decoder/public/cpp/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/services/data_decoder/public/cpp/android/safe_json_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/engagement/android/java/src/* ${src_dir}
+  cp -r ${BASE_DIR}/chrome/browser/lens/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/first_run/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/touch_to_fill/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/touch_to_fill/android/internal/java/src/* ${src_dir}
 
   cp -r ${BASE_DIR}/chrome/android/features/dev_ui/public/java/src/* ${src_dir}
+    cp -r ${BASE_DIR}/components/browser_ui/accessibility/android/java/src/* ${src_dir}
+
   cp -r ${BASE_DIR}/components/browser_ui/client_certificate/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/components/javascript_dialogs/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/components/security_interstitials/content/android/java/src/* ${src_dir}
