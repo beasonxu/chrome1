@@ -428,7 +428,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/component_updater/android/background_task_update_scheduler_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/dom_distiller/content/browser/android/dom_distiller_content_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/download/internal/android/java/src/* ${src_dir}
-    cp -r ${RELEASE_DIR}/gen/chrome/browser/feature_guide/notification/java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/gen/chrome/browser/feature_guide/notifications/java/generated_java/input_srcjars/* ${src_dir}
 
   cp -r ${RELEASE_DIR}/gen/chrome/browser/feedback/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/image_descriptions/java/generated_java/input_srcjars/* ${src_dir}
