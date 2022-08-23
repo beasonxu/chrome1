@@ -33,7 +33,7 @@ sync_chrome() {
   cp -r ${BASE_DIR}/chrome/android/features/tab_ui/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/android/features/tab_ui/public/android/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/feature_engagement/java/src/* ${src_dir}
-  
+
   cp -r ${BASE_DIR}/chrome/browser/ui/android/night_mode/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/native_page/java/src/* ${src_dir}
   cp -r ${BASE_DIR}/chrome/browser/ui/android/layouts/java/src/* ${src_dir}
@@ -375,12 +375,12 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/content/public/common/common_java/generated_java/input_srcjars/* ${src_dir}
 
   cp -r ${RELEASE_DIR}/gen/third_party/blink/public/common/common_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/payments/content/android/feature_list_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/payments/content/android/full_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/payments/content/android/minimal_java/generated_java/input_srcjars/* ${src_dir}
-    cp -r ${RELEASE_DIR}/gen/payments/content/android/pr_purchase_query_enum_java/generated_java/input_srcjars/* ${src_dir}
-    cp -r ${RELEASE_DIR}/gen/payments/content/android/service_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/payments/mojom/android/service_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/payments/content/android/feature_list_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/payments/content/android/full_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/components/payments/content/android/minimal_java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/components/gen/payments/content/android/pr_purchase_query_enum_java/generated_java/input_srcjars/* ${src_dir}
+    cp -r ${RELEASE_DIR}/components/gen/payments/content/android/service_java/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/components/gen/payments/mojom/android/service_java/generated_java/input_srcjars/* ${src_dir}
 
 
 
