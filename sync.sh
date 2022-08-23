@@ -380,7 +380,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/payments/content/android/minimal_java/generated_java/input_srcjars/* ${src_dir}
     cp -r ${RELEASE_DIR}/gen/components/payments/content/android/pre_purchase_query_enum_java/generated_java/input_srcjars/* ${src_dir}
     cp -r ${RELEASE_DIR}/gen/components/payments/content/android/service_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/components/payments/mojom/android/service_java/generated_java/input_srcjars/* ${src_dir}
+  #cp -r ${RELEASE_DIR}/gen/components/payments/mojom/android/service_java/generated_java/input_srcjars/* ${src_dir}
 
 
 
