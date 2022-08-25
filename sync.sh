@@ -720,7 +720,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/lens/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/lens/util_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/loading_modal/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/loading_modal/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/loading_modal/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/locale/delegate_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/locale/delegate_public_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/locale/java/generated_java/input_srcjars/* ${src_dir}
@@ -728,23 +728,23 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/metrics_settings/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/chime/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/notifications/junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/offline_pages/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/omaha/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/optimization_guide/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/optimization_guide/android/javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/optimization_guide/android/native_java_unittests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/optimization_guide/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/optimization_guide/android/native_java_unittests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/page_annotations/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/page_annotations/test/android/javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/paint_preview/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/paint_preview/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/page_annotations/test/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/paint_preview/android/java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/paint_preview/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/partnerbookmarks/delegate_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/partnerbookmarks/delegate_public_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/delegate_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/delegate_public_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/javatests/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/chrome/browser/partnercustomizations/test_support_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/internal/internal_factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/internal/internal_java/generated_java/input_srcjars/* ${src_dir}
@@ -754,25 +754,25 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/internal/public_ui_factory_java/chrome/browser/password_check/android/internal/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/internal/public_ui_factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/password_check_java_enums/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/password_check_junit_tests/generated_java/input_srcjars/* ${src_dir}
+  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/pass?word_check_junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/public_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/public_ui_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/test_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_check/android/test_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_edit_dialog/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_edit_dialog/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_edit_dialog/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/factory_java/chrome/browser/password_entry_edit/android/internal/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/internal/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/internal/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/internal/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_entry_edit/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/android_backend_java_enums/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/backend_interface_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/password_manager_junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/password_manager_junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/password_manager_resource_provider_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/public_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/password_manager/android/settings_interface_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/payments/android/junit_test_support/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/payments/android/junit_test_support/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/performance_hints/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/policy/android/delegate_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/policy/android/delegate_public_impl_java/generated_java/input_srcjars/* ${src_dir}
@@ -780,29 +780,29 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/policy/android/util_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/power_bookmarks/proto_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/preferences/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/preferences/preferences_junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/preferences/preferences_junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/prefetch/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/prefetch/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/prefetch/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/privacy/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/privacy_review/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/privacy_sandbox/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/privacy_sandbox/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/privacy_sandbox/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/profiles/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/safe_browsing/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/safe_browsing/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/safe_browsing/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/safety_check/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/safety_check/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/safety_check/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/search_engines/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/segmentation_platform/factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/selection/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/settings/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/settings/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/settings/javatests/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/chrome/browser/settings/test_support_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/share/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/signin/services/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/signin/services/android/javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/subresource_filter/subresource_filter_java_test_support/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/subresource_filter/subresource_filter_javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/signin/services/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/subresource_filter/subresource_filter_java_test_support/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/subresource_filter/subresource_filter_javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/sync/android/java/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/chrome/browser/sync/test/android/test_support_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/tab/critical_persisted_tab_data_flatbuffer_java/generated_java/input_srcjars/* ${src_dir}
@@ -814,21 +814,21 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/tabmodel/internal/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/tabmodel/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/tabpersistence/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/test_dummy/internal/base_module_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/test_dummy/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/generator_java_test_support/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/test_dummy/internal/base_module_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/test_dummy/java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/generator_java_test_support/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/thumbnail/generator/proto_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/internal/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/internal/resource_provider_public_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/public_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/test_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/touch_to_fill_junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/test_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/touch_to_fill/android/touch_to_fill_junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/factory_java/chrome/browser/ui/android/appmenu/internal/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/internal/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/internal/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/internal/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/java/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/appmenu/test/test_support_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/autofill/internal/java/generated_java/input_srcjars/* ${src_dir}
@@ -836,55 +836,55 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/favicon/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/layouts/glue/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/layouts/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/layouts/test/java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/layouts/test/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/layouts/third_party/float_property/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/logo/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/logo/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/logo/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/management/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/multiwindow/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/multiwindow/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/multiwindow/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/native_page/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/night_mode/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/night_mode/javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/night_mode/night_mode_java_test_support/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/night_mode/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/night_mode/night_mode_java_test_support/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/omnibox/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/omnibox/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/omnibox/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/omnibox/partner_location_descriptor_proto_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/omnibox/util_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/page_info/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/quickactionsearchwidget/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/quickactionsearchwidget/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/quickactionsearchwidget/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/searchactivityutils/constants_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/searchactivityutils/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/searchactivityutils/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/searchactivityutils/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/signin/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/signin/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/signin/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/theme/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/toolbar/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/toolbar/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/toolbar/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/webid/internal/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/webid/internal/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/webid/internal/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/android/webid/public_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/messages/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/messages/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/ui/messages/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/uid/android/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/uid/android/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/uid/android/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/usb/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/user_education/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/user_education/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/user_education/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/util/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/util/junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/util/junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/version/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/version/templates/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/factory_java/chrome/browser/video_tutorials/internal/android/java/src/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/factory_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/internal/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/internal/javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/internal/javatests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/java/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/chrome/browser/video_tutorials/test_support_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_common_perftests__apk/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_common_unittests__apk/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_pixeltests__apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_common_perftests__apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_common_unittests__apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/chrome/browser/vr/vr_pixeltests__apk/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/webapps/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/webauthn/android/java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/chrome/browser/xsurface/java/generated_java/input_srcjars/* ${src_dir}
@@ -1007,7 +1007,7 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_sample_apk/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_sample_apk_java/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_sample_test_apk__test_apk/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_smoketests_missing_native_library_instrumentation_apk__test_apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_smoketests_missing_native_library_instrumentation_apk__test_apk/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_smoketests_platform_only_instrumentation_apk__test_apk/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_test_apk_java/generated_java/input_srcjars/* ${src_dir}
 #  cp -r ${RELEASE_DIR}/gen/components/cronet/android/cronet_test_instrumentation_apk__test_apk/generated_java/input_srcjars/* ${src_dir}
@@ -1498,21 +1498,21 @@ sync_chrome() {
   cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/gms_bridge_upstream_impl_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/interfaces_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/junit_test_support/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/test_interfaces_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/test_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/weblayer_junit_tests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/junit_test_support/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/test_interfaces_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/test_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/browser/java/weblayer_junit_tests/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/public/java/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/public/java/java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/public/javatests/weblayer_public_javatests/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/public/javatestutil/test_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/public/javatests/weblayer_public_javatests/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/public/javatestutil/test_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/shell/android/weblayer_shell_apk/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/shell/android/weblayer_shell_java/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/shell/android/weblayer_shell_system_webview_apk/generated_java/input_srcjars/* ${src_dir}
   cp -r ${RELEASE_DIR}/gen/weblayer/shell/android/weblayer_support_apk/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_browsertests__apk/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_browsertests_java/generated_java/input_srcjars/* ${src_dir}
-  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_unittests__apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_browsertests__apk/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_browsertests_java/generated_java/input_srcjars/* ${src_dir}
+#  cp -r ${RELEASE_DIR}/gen/weblayer/test/weblayer_unittests__apk/generated_java/input_srcjars/* ${src_dir}
 
 
   cp -r ${BASE_DIR}//chrome/android/java/res_base \
