@@ -2,11 +2,11 @@
 
 set -e
 
-PRO_DIR="/home/sxh/chromiumcopy22"
-BASE_DIR="/home/sxh/chromium/src"
-RELEASE_DIR="${BASE_DIR}/out/arm66"
+PRO_DIR="/home/sxh/Downloads/temp/chrome1/chromiumcopy22"
+BASE_DIR="/home/sxh/Downloads/temp/source/kiwi/src"
+RELEASE_DIR="${BASE_DIR}/out/default"
 APP_DIR="${PRO_DIR}/app"
-LIB_DIR="${BASE_DIR}/out/arm66/lib.java"
+LIB_DIR="${BASE_DIR}/out/default/lib.java"
 MODULES_DIR="${PRO_DIR}"
 
 sync_chrome() {
