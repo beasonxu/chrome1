@@ -2,8 +2,8 @@
 
 set -e
 
-PRO_DIR="/Users/shuxinghu/Desktop/chromeTemp1"
-BASE_DIR="/Users/shuxinghu/Desktop/chromium/src"
+PRO_DIR="home/sxh/Downloads/temp/chrome1/chromeTemp1"
+BASE_DIR="/home/sxh/Downloads/temp/source/kiwi/src"
 RELEASE_DIR="${BASE_DIR}/out/Default"
 APP_DIR="${PRO_DIR}/app"
 LIB_DIR="${BASE_DIR}/out/Default/lib.java"
